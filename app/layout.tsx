@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Instrument_Serif, Work_Sans } from "next/font/google";
 
-import { GA_MEASUREMENT_ID, SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
+import { GA_MEASUREMENT_ID, OG_IMAGE, SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
 
 import "./globals.css";
 
@@ -31,9 +31,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Frontier Rounds",
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "Frontier Rounds — the money behind frontier AI, one round at a time.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    images: [OG_IMAGE],
   },
   robots: {
     index: true,
