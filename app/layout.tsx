@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Instrument_Serif, Work_Sans } from "next/font/google";
 
-import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
+import { GA_MEASUREMENT_ID, SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
 
 import "./globals.css";
 
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${workSans.variable} ${instrumentSerif.variable}`}>
       <body>{children}</body>
+      <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
     </html>
   );
 }
