@@ -16,9 +16,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
-      - run: npm ci
+      # 用 npm install（非 ci）：package.json 已在 Windows 生成过 lock，
+      # Linux runner 上改由 npm 解析本平台依赖后安装
+      - run: npm install --no-audit --no-fund
 
       # OpenNext 构建 + wrangler 部署到 Cloudflare Workers
       - name: Build & deploy to Cloudflare

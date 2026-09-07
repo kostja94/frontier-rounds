@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/package-lock.json   # Windows 生成的 lock 与 Linux CI 不兼容，由 CI 内 npm install 解析
 
 # next.js
 /.next/
