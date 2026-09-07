@@ -1,0 +1,117 @@
+import type { InvestorProfile } from "./types";
+import { angelLogos, angelPortraits } from "./angelLogos";
+
+export const natFriedman: InvestorProfile = {
+  slug: "nat-friedman",
+  name: "Nat Friedman",
+  kind: "person",
+  portrait: angelPortraits.natFriedman,
+  tagline: "Former GitHub CEO backing AI-native products with Daniel Gross",
+  website: "https://nat.org/",
+  websiteLabel: "nat.org",
+  summary:
+    "Nat Friedman co-founded Xamarin, sold it to Microsoft, and ran GitHub as CEO from 2018 to 2021 through the Copilot era. He then invested as one half of NFDG alongside Daniel Gross, a two-person partnership that wrote some of the earliest cheques into voice, image, music and coding AI companies. In 2025 both partners moved to Meta to help lead its superintelligence effort, which has slowed NFDG's new deal pace; the positions below are the disclosed ones from the partnership's active period.",
+  facts: [
+    { label: "Role", value: "Investor, NFDG; ex-CEO of GitHub" },
+    { label: "Based", value: "San Francisco Bay Area, CA" },
+    { label: "Background", value: "Xamarin co-founder; GitHub CEO 2018–2021" },
+    { label: "Partner", value: "Daniel Gross" },
+    { label: "Stage", value: "Seed and Series A" },
+    { label: "Focus", value: "AI-native products and infrastructure" },
+  ],
+  thesisHeading: "How NFDG approaches AI investing",
+  thesis: [
+    {
+      heading: "Two people, one decision",
+      body: "NFDG operated as a partnership of two operators rather than a fund with an investment process. Founders got a decision from the people who would actually help them, usually within a week.",
+    },
+    {
+      heading: "Product taste over market maps",
+      body: "The pattern across ElevenLabs, Ideogram, Suno and Cursor is the same: a product good enough that users adopt it before any enterprise sales motion exists.",
+    },
+    {
+      heading: "Developer tooling as home turf",
+      body: "Having shipped Copilot at GitHub, Friedman moved early on AI coding tools and on the inference and infrastructure layer they depend on.",
+    },
+    {
+      heading: "Access to research labs",
+      body: "Credibility with researchers gave the pair allocation in labs that were not raising broadly, including Safe Superintelligence's seed financing.",
+    },
+  ],
+  portfolioGroups: [
+    {
+      heading: "AI portfolio",
+      blurb:
+        "Disclosed NFDG investments across generative media, AI coding tools, search and frontier research labs.",
+      companies: [
+        {
+          name: "ElevenLabs",
+          logo: angelLogos.elevenlabs,
+          sector: "Voice AI",
+          note: "Text-to-speech and voice cloning models that became the default voice layer for AI products.",
+        },
+        {
+          name: "Perplexity",
+          logo: angelLogos.perplexity,
+          sector: "AI Search",
+          note: "AI answer engine; one of the partnership's best-known early positions.",
+        },
+        {
+          name: "Ideogram",
+          logo: angelLogos.ideogram,
+          sector: "Image Generation",
+          note: "Image model notable for rendering legible text inside generated images.",
+        },
+        {
+          name: "Suno",
+          logo: angelLogos.suno,
+          sector: "Music Generation",
+          note: "Generative music model producing full vocal tracks from text prompts.",
+        },
+        {
+          name: "Cursor",
+          logo: angelLogos.cursor,
+          sector: "AI Coding",
+          note: "Anysphere's AI code editor, a direct extension of his GitHub Copilot thesis.",
+        },
+        {
+          name: "Character.AI",
+          logo: angelLogos.characterai,
+          sector: "Consumer AI",
+          note: "Conversational AI characters with heavy consumer engagement.",
+        },
+        {
+          name: "Safe Superintelligence",
+          sector: "Frontier Research",
+          note: "Ilya Sutskever's research lab; NFDG reportedly joined the seed financing in 2024.",
+          url: "https://ssi.inc/",
+        },
+        {
+          name: "Figma",
+          logo: angelLogos.figma,
+          sector: "Design Software",
+          note: "Design platform now shipping generative design features across its product.",
+        },
+      ],
+    },
+    {
+      heading: "Operating background",
+      blurb:
+        "Not investments — the companies he built and ran, which explain the access and the developer-tooling focus.",
+      companies: [
+        {
+          name: "GitHub",
+          sector: "Developer Platform",
+          note: "CEO from 2018 to 2021; launched Copilot, the first mass-market AI coding product.",
+          url: "https://github.com/",
+        },
+        {
+          name: "Xamarin",
+          sector: "Developer Tools",
+          note: "Co-founder and CEO; cross-platform mobile development toolchain acquired by Microsoft in 2016.",
+        },
+      ],
+    },
+  ],
+  investorNames: ["Nat Friedman", "NFDG"],
+};

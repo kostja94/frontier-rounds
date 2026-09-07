@@ -1,0 +1,190 @@
+import type { InvestorProfile } from "./types";
+import { yCombinatorLogos, yCombinatorMarkUrl } from "./acceleratorLogos";
+
+export const yCombinator: InvestorProfile = {
+  slug: "y-combinator",
+  name: "Y Combinator",
+  kind: "accelerator",
+  mark: yCombinatorMarkUrl,
+  tagline: "The accelerator that turned AI into a batch-scale asset class",
+  website: "https://www.ycombinator.com/",
+  websiteLabel: "ycombinator.com",
+  summary:
+    "Founded in 2005 by Paul Graham, Jessica Livingston, Robert Morris and Trevor Blackwell and led today by president and CEO Garry Tan, Y Combinator is the template every other accelerator copies: two three-month batches a year in San Francisco, a standardised $500,000 deal, and a Demo Day that functions as the seed market's clearing house. Its AI position is unusual among investors — rather than concentrating capital in a handful of frontier labs, YC underwrites AI as a volume business, funding hundreds of application-layer and developer-tooling teams per year and letting the market select the winners. Since 2023 the large majority of each batch has described itself as AI-native, making YC the single widest funnel into early-stage AI.",
+  facts: [
+    { label: "Founded", value: "2005" },
+    { label: "Headquarters", value: "San Francisco" },
+    { label: "Leadership", value: "Garry Tan, president and CEO" },
+    { label: "Type", value: "Accelerator" },
+    { label: "Standard deal", value: "$500K ($125K for 7% + $375K uncapped SAFE)" },
+    { label: "Cadence", value: "Two batches a year" },
+  ],
+  thesisHeading: "How Y Combinator underwrites AI",
+  thesis: [
+    {
+      heading: "Volume over conviction",
+      body: "YC does not try to pick the one model company that wins. It writes the same cheque into hundreds of teams per year, accepts a high failure rate, and relies on batch scale plus follow-on rights to capture outliers — the opposite of the concentrated frontier bets made by growth funds.",
+    },
+    {
+      heading: "Application layer, not the model layer",
+      body: "Frontier training runs are far outside a $500K cheque. The portfolio clusters instead around products built on top of someone else's model: voice agents, coding tools, vertical copilots, and enterprise search where a small team can reach revenue inside a batch.",
+    },
+    {
+      heading: "Developer tooling as a repeat pattern",
+      body: "Speech, evaluation, memory and fine-tuning infrastructure recur batch after batch — Deepgram, AssemblyAI, Vellum, OpenPipe and Mem0 all sell picks and shovels to other AI builders, a category YC has funded for a decade.",
+    },
+    {
+      heading: "Standard terms as the real product",
+      body: "The uniform deal and Demo Day remove price negotiation from the earliest stage. For founders the value is access to 1,000+ investors on a fixed date; for YC it is the ability to originate at scale without competing on valuation.",
+    },
+  ],
+  portfolioGroups: [
+    {
+      heading: "AI portfolio",
+      blurb:
+        "A selection of YC-backed AI companies, from autonomy and data labelling to the voice, memory and evaluation tooling layers.",
+      companies: [
+        {
+          name: "Scale AI",
+          logo: yCombinatorLogos.scale,
+          sector: "Data Infrastructure",
+          url: "https://scale.com/",
+          note: "Data labelling and evaluation infrastructure for frontier labs and defence programmes; YC S16.",
+        },
+        {
+          name: "Cruise",
+          logo: yCombinatorLogos.cruise,
+          sector: "Autonomy",
+          url: "https://www.getcruise.com/",
+          note: "Self-driving vehicle developer acquired by General Motors; the batch's earliest large autonomy outcome. YC W14.",
+        },
+        {
+          name: "Deepgram",
+          logo: yCombinatorLogos.deepgram,
+          sector: "Speech AI",
+          url: "https://deepgram.com/",
+          note: "Speech-to-text and voice agent APIs sold to contact centres and voice product teams. YC W16.",
+        },
+        {
+          name: "AssemblyAI",
+          logo: yCombinatorLogos.assemblyai,
+          sector: "Speech AI",
+          url: "https://www.assemblyai.com/",
+          note: "Speech recognition and audio intelligence models delivered as a developer API. YC S17.",
+        },
+        {
+          name: "Ironclad",
+          logo: yCombinatorLogos.ironclad,
+          sector: "Legal AI",
+          url: "https://ironcladapp.com/",
+          note: "Contract lifecycle platform that added model-driven review and redlining to legal workflows. YC W15.",
+        },
+        {
+          name: "Speak",
+          logo: yCombinatorLogos.speak,
+          sector: "Consumer AI",
+          url: "https://www.speak.com/",
+          note: "AI language tutor using speech models for open-ended conversation practice. YC S16.",
+        },
+        {
+          name: "Vapi",
+          logo: yCombinatorLogos.vapi,
+          sector: "Voice Agents",
+          url: "https://vapi.ai/",
+          note: "Developer platform for building and deploying real-time voice agents.",
+        },
+        {
+          name: "Retell AI",
+          logo: yCombinatorLogos.retell,
+          sector: "Voice Agents",
+          url: "https://www.retellai.com/",
+          note: "Voice agent infrastructure for inbound and outbound phone operations.",
+        },
+        {
+          name: "Vellum",
+          logo: yCombinatorLogos.vellum,
+          sector: "AI Tooling",
+          url: "https://www.vellum.ai/",
+          note: "Prompt management, evaluation and deployment tooling for LLM applications.",
+        },
+        {
+          name: "OpenPipe",
+          logo: yCombinatorLogos.openpipe,
+          sector: "AI Tooling",
+          url: "https://openpipe.ai/",
+          note: "Fine-tuning and distillation platform that converts prompt traffic into cheaper task-specific models.",
+        },
+        {
+          name: "Mem0",
+          logo: yCombinatorLogos.mem0,
+          sector: "AI Tooling",
+          url: "https://mem0.ai/",
+          note: "Open-source memory layer giving agents persistent, retrievable user context.",
+        },
+        {
+          name: "Onyx",
+          logo: yCombinatorLogos.onyx,
+          sector: "Enterprise Search",
+          url: "https://www.onyx.app/",
+          note: "Open-source enterprise search and chat over internal company knowledge; formerly Danswer.",
+        },
+      ],
+    },
+    {
+      heading: "Selected non-AI portfolio",
+      blurb:
+        "The pre-AI outcomes that made the batch model credible — not exhaustive, but the alumni most often cited by founders applying today.",
+      companies: [
+        {
+          name: "Airbnb",
+          logo: yCombinatorLogos.airbnb,
+          sector: "Marketplace",
+          note: "Home-sharing marketplace; YC W09 and the accelerator's defining outcome.",
+        },
+        {
+          name: "Stripe",
+          logo: yCombinatorLogos.stripe,
+          sector: "Fintech",
+          note: "Payments infrastructure for internet businesses. YC S09.",
+        },
+        {
+          name: "Coinbase",
+          logo: yCombinatorLogos.coinbase,
+          sector: "Crypto",
+          note: "Listed cryptocurrency exchange. YC S12.",
+        },
+        {
+          name: "DoorDash",
+          logo: yCombinatorLogos.doordash,
+          sector: "Logistics",
+          note: "Local delivery marketplace. YC S13.",
+        },
+        {
+          name: "Instacart",
+          logo: yCombinatorLogos.instacart,
+          sector: "E-commerce",
+          note: "Grocery delivery and retail media platform. YC S12.",
+        },
+        {
+          name: "Dropbox",
+          logo: yCombinatorLogos.dropbox,
+          sector: "Software",
+          note: "File sync and storage. YC S07.",
+        },
+        {
+          name: "Reddit",
+          logo: yCombinatorLogos.reddit,
+          sector: "Consumer Internet",
+          note: "Social discussion network funded in YC's first batch in 2005.",
+        },
+        {
+          name: "Twitch",
+          logo: yCombinatorLogos.twitch,
+          sector: "Media",
+          note: "Live-streaming platform, launched out of Justin.tv. YC S07.",
+        },
+      ],
+    },
+  ],
+  investorNames: ["Y Combinator", "YC"],
+};
