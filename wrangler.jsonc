@@ -14,8 +14,8 @@
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://frontierrounds.com"
   },
-  "custom_domains": [
-    { "name": "frontierrounds.com" },
-    { "name": "www.frontierrounds.com" }
+  "routes": [
+    { "pattern": "frontierrounds.com", "custom_domain": true, "zone_name": "frontierrounds.com" },
+    { "pattern": "www.frontierrounds.com", "custom_domain": true, "zone_name": "frontierrounds.com" }
   ]
 }
