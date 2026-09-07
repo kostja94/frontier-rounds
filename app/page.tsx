@@ -5,7 +5,7 @@ import { LeadStory } from "@/components/LeadStory";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatStrip } from "@/components/StatStrip";
-import { getStats, latestRounds, leadStory } from "@/data/fundingRounds";
+import { getStats, fundingRounds, latestRounds } from "@/data/fundingRounds";
 
 export const metadata: Metadata = {
   title: "Latest AI Funding Rounds — Tracker",
@@ -16,14 +16,48 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const stats = getStats(latestRounds);
+  const leadStory = fundingRounds.length > 0 ? [...fundingRounds].sort((a, b) => b.amountUsd - a.amountUsd)[0] : undefined;
 
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main>
-        <LeadStory round={leadStory} />
-        <StatStrip stats={stats} />
-        <FundingTable rounds={latestRounds} />
+        {leadStory ? (
+          <>
+            <LeadStory round={leadStory} />
+            <StatStrip stats={stats} />
+            <FundingTable rounds={latestRounds} />
+          </>
+        ) : (
+          <section className="border-b-2 border-ink">
+            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+              <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                Frontier Rounds — funding tracker
+              </p>
+              <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+                The money behind frontier AI, one round at a time.
+              </h1>
+              <p className="mt-5 max-w-xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
+                Verified funding-round data is being compiled and will appear here as soon as it is
+                recorded. In the meantime, explore the investor atlas and the fundraising leaderboard.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href="/investors"
+                  className="border border-ink bg-ink px-5 py-2.5 text-sm font-medium text-background transition-colors hover:opacity-80"
+                >
+                  Investor Atlas
+                </a>
+                <a
+                  href="/leaderboard"
+                  className="border border-ink px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:bg-ink hover:text-background"
+                >
+                  Fundraising Leaderboard
+                </a>
+              </div>
+            </div>
+          </section>
+        )}
       </main>
       <SiteFooter />
     </div>
