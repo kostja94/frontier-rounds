@@ -24,3 +24,7 @@ npm-debug.log*
 
 # logs
 *.log
+
+# og 渲染中间产物（derive-site-icons.mjs 生成，勿入库）
+/public/og/_icon.png
+/public/og/_wordmark.png
