@@ -1,6 +1,7 @@
 import type { InvestorProfile } from "./types";
 
 import { lollapaloozaCapital } from "./lollapaloozaCapital";
+import { llamaVentures } from "./llamaVentures";
 import { shunweiCapital } from "./shunweiCapital";
 import { hongshan } from "./hongshan";
 import { sequoiaCapital } from "./sequoiaCapital";
@@ -16,6 +17,7 @@ export type { InvestorProfile, PortfolioCompany } from "./types";
 
 export const investorProfiles: InvestorProfile[] = [
   lollapaloozaCapital,
+  llamaVentures,
   shunweiCapital,
   hongshan,
   sequoiaCapital,
