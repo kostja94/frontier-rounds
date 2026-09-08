@@ -1,9 +1,7 @@
-// Canonical company-logo index (shared layer, generated 2026-09-08).
-// Principle: a logo is a company-level shared asset; investor profiles only reference it.
-// This table was emitted by the dedup migration so every company key maps to ONE asset,
-// used for: (1) reuse lookups when onboarding a new investor, (2) validate anti-fragmentation.
+// Company-logo canonical index (shared layer, regenerated 2026-09-08).
+// A logo is a company-level shared asset; profiles only reference it. Regenerated from
+// the dedup migration: each company key maps to ONE asset for reuse + anti-fragmentation.
 // Regenerate via the migration script when the directory evolves.
-
 
 export type CanonicalLogo = {
   slug: string;
@@ -24,6 +22,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/4paradigm.png",
     "names": [
       "4Paradigm"
+    ]
+  },
+  {
+    "slug": "abnormal-ai",
+    "path": "/logos/abnormal-ai.png",
+    "names": [
+      "Abnormal AI"
     ]
   },
   {
@@ -258,6 +263,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "axiom",
+    "path": "/logos/axiom.png",
+    "names": [
+      "Axiom"
+    ]
+  },
+  {
     "slug": "conviction-baseten",
     "path": "/logos/conviction-baseten.png",
     "names": [
@@ -402,6 +414,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/cerebras.png",
     "names": [
       "Cerebras"
+    ]
+  },
+  {
+    "slug": "chai-discovery",
+    "path": "/logos/chai-discovery.png",
+    "names": [
+      "Chai Discovery"
     ]
   },
   {
@@ -861,6 +880,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "fireworks",
+    "path": "/logos/fireworks.png",
+    "names": [
+      "Fireworks"
+    ]
+  },
+  {
     "slug": "radicalVentures-firsthand",
     "path": "/logos/radicalVentures-firsthand.png",
     "names": [
@@ -886,6 +912,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/an-foursquare.png",
     "names": [
       "Foursquare"
+    ]
+  },
+  {
+    "slug": "function-health",
+    "path": "/logos/function-health.png",
+    "names": [
+      "Function Health"
     ]
   },
   {
@@ -931,6 +964,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "gilead",
+    "path": "/logos/gilead.png",
+    "names": [
+      "Gilead Sciences"
+    ]
+  },
+  {
     "slug": "an-glean",
     "path": "/logos/an-glean.png",
     "names": [
@@ -938,10 +978,24 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "goodfire",
+    "path": "/logos/goodfire.png",
+    "names": [
+      "Goodfire"
+    ]
+  },
+  {
     "slug": "airStreetCapital-graphcore",
     "path": "/logos/airStreetCapital-graphcore.png",
     "names": [
       "Graphcore"
+    ]
+  },
+  {
+    "slug": "graphite",
+    "path": "/logos/graphite.png",
+    "names": [
+      "Graphite"
     ]
   },
   {
@@ -1005,6 +1059,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/airStreetCapital-hedera.png",
     "names": [
       "Hedera"
+    ]
+  },
+  {
+    "slug": "higgsfield",
+    "path": "/logos/higgsfield.png",
+    "names": [
+      "Higgsfield"
     ]
   },
   {
@@ -1281,6 +1342,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "legora",
+    "path": "/logos/legora.png",
+    "names": [
+      "Legora"
+    ]
+  },
+  {
     "slug": "liauto",
     "path": "/logos/liauto.png",
     "names": [
@@ -1477,6 +1545,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "modal",
+    "path": "/logos/modal.png",
+    "names": [
+      "Modal"
+    ]
+  },
+  {
     "slug": "airStreetCapital-modern_intelligence",
     "path": "/logos/airStreetCapital-modern_intelligence.png",
     "names": [
@@ -1579,6 +1654,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/airStreetCapital-ndea.png",
     "names": [
       "Ndea"
+    ]
+  },
+  {
+    "slug": "neon",
+    "path": "/logos/neon.png",
+    "names": [
+      "Neon"
     ]
   },
   {
@@ -1701,6 +1783,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "openhands-ai",
+    "path": "/logos/openhands-ai.png",
+    "names": [
+      "OpenHands AI"
+    ]
+  },
+  {
     "slug": "gradient-openly",
     "path": "/logos/gradient-openly.png",
     "names": [
@@ -1712,6 +1801,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/yc-openpipe.png",
     "names": [
       "OpenPipe"
+    ]
+  },
+  {
+    "slug": "openrouter",
+    "path": "/logos/openrouter.png",
+    "names": [
+      "OpenRouter"
     ]
   },
   {
@@ -1761,6 +1857,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     "path": "/logos/llama-pamir_ai.png",
     "names": [
       "Pamir AI"
+    ]
+  },
+  {
+    "slug": "pangram",
+    "path": "/logos/pangram.png",
+    "names": [
+      "Pangram"
     ]
   },
   {
@@ -2233,6 +2336,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "siri",
+    "path": "/logos/siri.png",
+    "names": [
+      "Siri"
+    ]
+  },
+  {
     "slug": "az-skild",
     "path": "/logos/az-skild.png",
     "names": [
@@ -2702,6 +2812,13 @@ export const canonicalLogos: CanonicalLogo[] = [
     ]
   },
   {
+    "slug": "warby-parker",
+    "path": "/logos/warby-parker.png",
+    "names": [
+      "Warby Parker"
+    ]
+  },
+  {
     "slug": "waterdrop",
     "path": "/logos/waterdrop.png",
     "names": [
@@ -2904,12 +3021,10 @@ function normalizeName(name: string): string {
 }
 
 const BY_KEY = new Map(canonicalLogos.map((c) => [normalizeName(c.names[0] ?? ""), c]));
-// Alias names for the same company also index to the same entry.
-
+// 别名（同一公司的异名写法）也建索引
 for (const c of canonicalLogos) for (const n of c.names) BY_KEY.set(normalizeName(n), c);
 
-/** Lookup helper for onboarding new investor portfolios: company name -> existing canonical asset (reuse if hit; download + register when missing). */
-
+/** 转录新机构组合时调用：公司名 → 现有规范资产（命中即复用，未命中需下载并登记） */
 export function resolveCompanyLogo(name: string): { slug: string; path: string } | undefined {
   const c = BY_KEY.get(normalizeName(name));
   return c ? { slug: c.slug, path: c.path } : undefined;

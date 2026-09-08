@@ -1,0 +1,296 @@
+{
+  "slug": "menlo-ventures",
+  "name": "Menlo Ventures",
+  "kind": "firm",
+  "mark": "/logos/menlo-mark.png",
+  "tagline": "The 50-year-old firm that went all in on AI after betting the firm on Anthropic",
+  "website": "https://menlovc.com/",
+  "websiteLabel": "menlovc.com",
+  "summary": "Founded in 1976 by H. DuBose Montgomery and headquartered in Menlo Park, Menlo Ventures is one of Silicon Valley's oldest venture firms. Its AI era is anchored by Anthropic: Menlo made its first investment in 2023 when the lab was pre-product and pre-revenue, led its Series D in 2024 with a bet-the-firm check of more than US$500M, and has invested in every round since — a position now worth roughly US$14B (per Newcomer/Bloomberg, July 2026). In July 2024 it launched the Menlo Anthology Fund with Anthropic, a ~US$100M initiative whose deployed capital has grown toward US$250M across 60+ early-stage AI companies. At its 50-year mark in June 2026 the firm raised US$3B across two new funds (Menlo Ventures XVII for seed and Series A, Menlo Inflection IV for growth), the largest raise in its history, explicitly to go 'ALL IN on AI' — backing AI leaders from infrastructure and frontier models to AI-native applications across enterprise, healthcare and consumer markets, while operating across its self-described 'Three Stages of Early' (Inception, Venture, Inflection).",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1976"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Menlo Park, California (offices in Menlo Park & San Francisco)"
+    },
+    {
+      "label": "Founder",
+      "value": "H. DuBose Montgomery (now Partner Emeritus)"
+    },
+    {
+      "label": "Type",
+      "value": "Early-stage venture capital ('Three Stages of Early': Inception / Venture / Inflection)"
+    },
+    {
+      "label": "AUM",
+      "value": "US$7.6B+ per menlovc.com; ~US$8.5B cited in post-raise coverage (figures conflict)"
+    },
+    {
+      "label": "Latest raise",
+      "value": "US$3B across Menlo Ventures XVII (seed–A) & Menlo Inflection IV (growth), June 2026 — largest in 50-yr history"
+    },
+    {
+      "label": "Anthology Fund",
+      "value": "~US$100M launched July 2024 with Anthropic; ~US$250M deployed across 60+ companies"
+    },
+    {
+      "label": "Anthropic position",
+      "value": "Invested every round since 2023; stake worth ~US$14B (per Newcomer/Bloomberg, Jul 2026)"
+    },
+    {
+      "label": "AI-focused partners",
+      "value": "Matt Murphy, Tim Tully, Venky Ganesan, Deedy Das, Matt Kraning, Joff Redfern"
+    },
+    {
+      "label": "Track record",
+      "value": "85+ public companies, 170+ M&A exits (menlovc.com/about)"
+    }
+  ],
+  "thesisHeading": "How Menlo Ventures is playing the AI cycle",
+  "thesis": [
+    {
+      "heading": "The Anthropic flag-planting moment",
+      "body": "Menlo's first Anthropic investment came in 2023, pre-product and pre-revenue. A year later it led the lab's Series D — a bet-the-firm check of more than US$500M, the largest in Menlo's history, structured largely through an SPV — and has invested in every round since. Menlo calls this its 'flag-planting moment: Menlo was going ALL IN on AI.'"
+    },
+    {
+      "heading": "Seed to scale, in every round that follows",
+      "body": "Menlo operates its self-described 'Three Stages of Early': Inception, Venture and the Inflection growth stage. Its June 2026 US$3B raise pairs Menlo Ventures XVII (seed to Series A) with Menlo Inflection IV (Series B and beyond), letting the firm back founders from first institutional check through every later round — as it did with Lovable (co-led the US$330M Series B, led the US$400M Series C) and Wispr (led Series A then a US$280M Series B)."
+    },
+    {
+      "heading": "The Anthology window into frontier startups",
+      "body": "Launched with Anthropic in July 2024, the ~US$100M Menlo Anthology Fund has grown to ~US$250M deployed across 60+ early-stage AI companies, giving the firm early access to frontier talent and credits for Claude. Early exits include Graphite (acquired by Cursor), Astrix Security (Cisco) and Fintool (Microsoft)."
+    },
+    {
+      "heading": "From infrastructure and frontier models to AI-native applications",
+      "body": "Menlo frames its AI mandate across the full stack: infrastructure and frontier models plus AI-native applications across enterprise, healthcare and consumer markets. Its AI-era book spans model-adjacent research (Ndea, Axiom), inference and serverless compute (Fireworks, Modal, Neon, Pinecone), and breakout applications in coding (Lovable, Graphite), music (Suno), voice input (Wispr Flow) and healthcare AI (OpenEvidence, Chai Discovery, Function Health)."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Menlo Ventures' disclosed AI-era positions — its own 'ALL IN on AI' book spanning frontier-adjacent research, AI infrastructure, and AI-native applications across enterprise, healthcare and consumer markets. Sourced from menlovc.com/portfolio and Menlo announcements; each company verified on the firm's site.",
+      "companies": [
+        {
+          "name": "Anthropic",
+          "logo": "/logos/anthropic.png",
+          "sector": "Frontier Models",
+          "note": "Menlo's flag-planting AI bet: first invested 2023 pre-product, led the 2024 Series D with >US$500M, invested in every round since; stake worth ~US$14B.",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "name": "Ndea",
+          "logo": "/logos/airStreetCapital-ndea.png",
+          "sector": "Frontier AI Research",
+          "note": "Building frontier AI that blends intuitive pattern recognition with formal reasoning into a unified architecture.",
+          "url": "https://ndea.com/"
+        },
+        {
+          "name": "Axiom",
+          "logo": "/logos/axiom.png",
+          "sector": "AI Reasoning",
+          "note": "Building a self-improving, superintelligent reasoner, starting with an AI mathematician.",
+          "url": "https://axiommath.ai/"
+        },
+        {
+          "name": "Pinecone",
+          "logo": "/logos/az-pinecone.png",
+          "sector": "AI Infrastructure",
+          "note": "Vector database and retrieval platform powering retrieval-augmented generation for AI applications.",
+          "url": "https://www.pinecone.io/"
+        },
+        {
+          "name": "Fireworks",
+          "logo": "/logos/fireworks.png",
+          "sector": "AI Inference",
+          "note": "A global AI inference cloud enabling teams to build, tune and scale highly optimized generative AI applications.",
+          "url": "https://fireworks.ai/"
+        },
+        {
+          "name": "Modal",
+          "logo": "/logos/modal.png",
+          "sector": "Serverless AI Compute",
+          "note": "Serverless compute platform for running ML inference, fine-tuning and batch jobs.",
+          "url": "https://modal.com/"
+        },
+        {
+          "name": "Neon",
+          "logo": "/logos/neon.png",
+          "sector": "AI Data Infrastructure",
+          "note": "Multi-cloud serverless Postgres built for edge and AI workloads; acquired by Databricks.",
+          "url": "https://neon.tech/"
+        },
+        {
+          "name": "Prime Intellect",
+          "logo": "/logos/radicalVentures-prime_intellect.png",
+          "sector": "Distributed AI Training",
+          "note": "Makes global compute findable and trains state-of-the-art models through distributed training across clusters.",
+          "url": "https://www.primeintellect.ai/"
+        },
+        {
+          "name": "OpenRouter",
+          "logo": "/logos/openrouter.png",
+          "sector": "AI Infrastructure",
+          "note": "A unified gateway to hundreds of AI models from leading providers; Stripe announced plans to acquire OpenRouter.",
+          "url": "https://openrouter.ai/"
+        },
+        {
+          "name": "Lovable",
+          "logo": "/logos/aixVentures-lovable.png",
+          "sector": "AI Application Development",
+          "note": "Natural-language app-building platform; Menlo co-led the US$330M Series B and led the US$400M Series C.",
+          "url": "https://lovable.dev/"
+        },
+        {
+          "name": "Graphite",
+          "logo": "/logos/graphite.png",
+          "sector": "AI Developer Tools",
+          "note": "AI-powered developer productivity platform for creating, reviewing and merging smaller code changes; acquired by Cursor.",
+          "url": "https://graphite.dev/"
+        },
+        {
+          "name": "Suno",
+          "logo": "/logos/an-suno.png",
+          "sector": "Generative Media",
+          "note": "AI music creation platform; Menlo led Suno's US$250M Series C at a US$2.45B valuation in November 2025.",
+          "url": "https://suno.com/"
+        },
+        {
+          "name": "Wispr Flow",
+          "logo": "/logos/aixVentures-wispr_flow.png",
+          "sector": "Voice AI",
+          "note": "Voice-to-text AI that aims to replace the keyboard; Menlo led its Series A and its US$280M Series B at US$2B.",
+          "url": "https://www.wisprflow.com/"
+        },
+        {
+          "name": "OpenEvidence",
+          "logo": "/logos/openevidence.png",
+          "sector": "Healthcare AI",
+          "note": "Evidence-based clinical AI giving clinicians cited answers at the point of care.",
+          "url": "https://www.openevidence.com/"
+        },
+        {
+          "name": "Chai Discovery",
+          "logo": "/logos/chai-discovery.png",
+          "sector": "Healthcare AI",
+          "note": "Builds AI that predicts and reprograms biochemical molecular interactions to accelerate therapeutics.",
+          "url": "https://www.chaidiscovery.com/"
+        },
+        {
+          "name": "Function Health",
+          "logo": "/logos/function-health.png",
+          "sector": "Healthcare AI",
+          "note": "Membership platform pairing comprehensive lab testing with personalized AI-driven health insights.",
+          "url": "https://www.functionhealth.com/"
+        },
+        {
+          "name": "Recursion",
+          "logo": "/logos/airStreetCapital-recursion.png",
+          "sector": "Healthcare AI",
+          "note": "Industrialized drug discovery using AI across biology and chemistry at scale.",
+          "url": "https://www.recursion.com/"
+        },
+        {
+          "name": "Higgsfield",
+          "logo": "/logos/higgsfield.png",
+          "sector": "Video AI",
+          "note": "Video AI company democratizing social media content creation for everyone.",
+          "url": "https://higgsfield.ai/"
+        },
+        {
+          "name": "Legora",
+          "logo": "/logos/legora.png",
+          "sector": "Legal AI",
+          "note": "Building a collaborative AI workspace for legal professionals pairing lawyer ingenuity with machine intelligence.",
+          "url": "https://legora.com/"
+        },
+        {
+          "name": "Slingshot AI",
+          "logo": "/logos/radicalVentures-slingshot_ai.png",
+          "sector": "Mental Health AI",
+          "note": "AI research company aiming to exponentially increase global access to mental healthcare.",
+          "url": "https://www.talktoash.com/"
+        },
+        {
+          "name": "Abnormal AI",
+          "logo": "/logos/abnormal-ai.png",
+          "sector": "AI Security",
+          "note": "AI-native security platform stopping sophisticated inbound attacks and detecting compromised accounts.",
+          "url": "https://abnormal.ai/"
+        },
+        {
+          "name": "Astrix Security",
+          "sector": "AI Security",
+          "note": "Leader in non-human identity (NHI) security; acquired by Cisco. (No public logo available — shown as placeholder.)",
+          "url": "https://astrix.security/"
+        },
+        {
+          "name": "Pangram",
+          "logo": "/logos/pangram.png",
+          "sector": "AI Content Integrity",
+          "note": "AI detection for educators, publishers, law firms, HR and foundations — 'stopping AI slop on the internet.'",
+          "url": "https://www.pangram.com/"
+        },
+        {
+          "name": "Goodfire",
+          "logo": "/logos/goodfire.png",
+          "sector": "AI Interpretability",
+          "note": "AI interpretability research lab focused on understanding and intentionally designing advanced AI systems.",
+          "url": "https://www.goodfire.ai/"
+        },
+        {
+          "name": "OpenHands AI",
+          "logo": "/logos/openhands-ai.png",
+          "sector": "AI Software Engineering",
+          "note": "Open-source AI platform for autonomous software engineering development.",
+          "url": "https://openhands.dev/"
+        }
+      ]
+    },
+    {
+      "heading": "Beyond AI — a 50-year track record",
+      "blurb": "Menlo's best-known historical and non-AI positions, included for context on the firm's scale and mandate rather than as a complete list. All appear on menlovc.com.",
+      "companies": [
+        {
+          "name": "Uber",
+          "logo": "/logos/an-uber.png",
+          "sector": "Transportation",
+          "note": "Menlo cut a US$20M check in 2011 when Uber was valued at US$322M.",
+          "url": "https://www.uber.com/"
+        },
+        {
+          "name": "Roku",
+          "sector": "Streaming TV",
+          "note": "Pioneer of streaming TV; Menlo backed it before it became a household platform. (No public logo available — shown as placeholder.)",
+          "url": "https://www.roku.com/"
+        },
+        {
+          "name": "Warby Parker",
+          "logo": "/logos/warby-parker.png",
+          "sector": "Consumer E-commerce",
+          "note": "Online retailer of prescription glasses and contact lenses, conceived as an alternative to overpriced eyewear.",
+          "url": "https://www.warbyparker.com/"
+        },
+        {
+          "name": "Siri",
+          "logo": "/logos/siri.png",
+          "sector": "Voice Assistant",
+          "note": "Voice assistant company spun out of SRI International; acquired by Apple in 2010.",
+          "url": "https://www.apple.com/siri/"
+        },
+        {
+          "name": "Gilead Sciences",
+          "logo": "/logos/gilead.png",
+          "sector": "Biopharma",
+          "note": "Research-based biopharmaceutical company discovering and commercializing medicines for unmet medical needs.",
+          "url": "https://www.gilead.com/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Menlo Ventures"
+  ]
+}

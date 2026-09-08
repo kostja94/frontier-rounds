@@ -8,6 +8,7 @@ import conviction from "./profiles/conviction.json";
 import aixVentures from "./profiles/aix-ventures.json";
 import airStreetCapital from "./profiles/air-street-capital.json";
 import radicalVentures from "./profiles/radical-ventures.json";
+import menloVentures from "./profiles/menlo-ventures.json";
 import shunweiCapital from "./profiles/shunwei-capital.json";
 import hongshan from "./profiles/hongshan.json";
 import sequoiaCapital from "./profiles/sequoia-capital.json";
@@ -31,6 +32,7 @@ const rawProfiles = [
   aixVentures,
   airStreetCapital,
   radicalVentures,
+  menloVentures,
   shunweiCapital,
   hongshan,
   sequoiaCapital,
