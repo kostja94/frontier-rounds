@@ -57,21 +57,21 @@
       "companies": [
         {
           "name": "Moonshot AI",
-          "logo": "/logos/moonshot-ai.png",
+          "logo": "/logos/moonshot.png",
           "sector": "Foundation Models",
           "note": "Maker of Kimi. HongShan has backed every round since the angel financing.",
           "url": "https://www.moonshot.cn/"
         },
         {
           "name": "MiniMax",
-          "logo": "/logos/minimax-hs.png",
+          "logo": "/logos/minimax.png",
           "sector": "Foundation Models",
           "note": "Led a US$50M A+ round, then repeated follow-ons; third largest financial shareholder at 3.81% before listing.",
           "url": "https://www.minimaxi.com/"
         },
         {
           "name": "Zhipu AI",
-          "logo": "/logos/zhipu-hs.png",
+          "logo": "/logos/zhipu.png",
           "sector": "Foundation Models",
           "note": "One of the early institutional investors in the GLM model family.",
           "url": "https://www.zhipuai.cn/"
@@ -97,14 +97,14 @@
         },
         {
           "name": "Smartmore",
-          "logo": "/logos/smartmore-hs.png",
+          "logo": "/logos/smartmore.png",
           "sector": "Industrial AI Agents",
           "note": "HongShan holds 2.41% and is the sixth largest shareholder ahead of the company's IPO attempt.",
           "url": "https://www.smartmore.com/"
         },
         {
           "name": "Unitree Robotics",
-          "logo": "/logos/unitree-hs.png",
+          "logo": "/logos/unitree.png",
           "sector": "Humanoid and Quadruped Robots",
           "note": "Seed fund entered at Pre-A in December 2019 (RMB 15M at RMB 150M post-money) and added across rounds to a 7.11% stake, over RMB 2.5B on paper.",
           "url": "https://www.unitree.com/"

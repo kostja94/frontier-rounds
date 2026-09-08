@@ -77,13 +77,13 @@
         },
         {
           "name": "Cursor",
-          "logo": "/logos/an-cursor.png",
+          "logo": "/logos/cursor.png",
           "sector": "AI Coding",
           "note": "Anysphere's AI code editor; Friedman joined its OpenAI Startup Fund-led seed round in October 2023, a direct extension of his GitHub Copilot thesis."
         },
         {
           "name": "Character.AI",
-          "logo": "/logos/an-characterai.png",
+          "logo": "/logos/character-ai.png",
           "sector": "Consumer AI",
           "note": "Conversational AI characters with heavy consumer engagement."
         },

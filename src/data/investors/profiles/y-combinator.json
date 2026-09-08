@@ -59,7 +59,7 @@
       "companies": [
         {
           "name": "Scale AI",
-          "logo": "/logos/yc-scale.png",
+          "logo": "/logos/scale-ai.png",
           "sector": "Data Infrastructure",
           "url": "https://scale.com/",
           "note": "Data labelling and evaluation infrastructure for frontier labs and defence programmes; YC S16."
@@ -136,7 +136,7 @@
         },
         {
           "name": "Onyx",
-          "logo": "/logos/yc-onyx.png",
+          "logo": "/logos/onyx.png",
           "sector": "Enterprise Search",
           "url": "https://www.onyx.app/",
           "note": "Open-source enterprise search and chat over internal company knowledge; formerly Danswer."

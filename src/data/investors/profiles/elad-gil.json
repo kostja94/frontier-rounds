@@ -77,19 +77,19 @@
         },
         {
           "name": "Harvey",
-          "logo": "/logos/harvey.png",
+          "logo": "/logos/az-harvey.png",
           "sector": "Legal AI",
           "note": "Generative AI for law firms and in-house legal teams, sold to the largest global partnerships."
         },
         {
           "name": "Character.AI",
-          "logo": "/logos/an-characterai.png",
+          "logo": "/logos/character-ai.png",
           "sector": "Consumer AI",
           "note": "Conversational AI characters with one of the highest consumer engagement profiles in the sector."
         },
         {
           "name": "Mistral AI",
-          "logo": "/logos/an-mistral.png",
+          "logo": "/logos/az-mistral.png",
           "sector": "Foundation Models",
           "note": "European open-weight model lab; he participated in its early financing."
         }

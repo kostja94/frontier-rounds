@@ -179,14 +179,14 @@
         },
         {
           "name": "Chroma",
-          "logo": "/logos/aixVentures-chroma.png",
+          "logo": "/logos/chroma.png",
           "sector": "AI developer infrastructure (vector database)",
           "note": "AI-native open-source embedding database",
           "url": "https://www.trychroma.com/"
         },
         {
           "name": "Commure",
-          "logo": "/logos/aixVentures-commure.png",
+          "logo": "/logos/commure.png",
           "sector": "Healthcare AI infrastructure",
           "note": "Using AI to transform Health Systems",
           "url": "https://www.commure.com"
@@ -382,7 +382,7 @@
         },
         {
           "name": "Perplexity",
-          "logo": "/logos/aixVentures-perplexity.png",
+          "logo": "/logos/perplexity.png",
           "sector": "AI answer engine / consumer search",
           "note": "Using AI for consumer search",
           "url": "https://www.perplexity.ai"
@@ -515,7 +515,7 @@
         },
         {
           "name": "Ubenwa",
-          "logo": "/logos/aixVentures-ubenwa.png",
+          "logo": "/logos/ubenwa.png",
           "sector": "AI infant health diagnostics",
           "note": "Using AI for early detection of infant conditions using their cry sounds",
           "url": "https://www.ubenwa.ai/"
@@ -536,7 +536,7 @@
         },
         {
           "name": "Windsurf",
-          "logo": "/logos/aixVentures-windsurf.png",
+          "logo": "/logos/windsurf.png",
           "sector": "AI code editor / coding agent",
           "note": "Vibe coding made simple",
           "url": "https://windsurf.com"
@@ -564,7 +564,7 @@
         },
         {
           "name": "You.com",
-          "logo": "/logos/aixVentures-you_com.png",
+          "logo": "/logos/you-com.png",
           "sector": "Consumer AI assistant",
           "note": "Your Personalized AI Assistant.",
           "url": "https://www.you.com/"

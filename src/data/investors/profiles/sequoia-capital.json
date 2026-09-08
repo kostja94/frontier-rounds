@@ -108,7 +108,7 @@
         },
         {
           "name": "Harvey",
-          "logo": "/logos/harvey.png",
+          "logo": "/logos/az-harvey.png",
           "sector": "Legal AI",
           "note": "Backed across six rounds from Series A; co-led the US$200M G round at an US$11B valuation with roughly US$190M ARR and over 1,000 customers.",
           "url": "https://www.harvey.ai/"
@@ -134,7 +134,7 @@
         },
         {
           "name": "Sierra",
-          "logo": "/logos/sierra.png",
+          "logo": "/logos/az-sierra.png",
           "sector": "AI Customer Experience",
           "note": "Early investor in Bret Taylor's conversational agent company.",
           "url": "https://sierra.ai/"

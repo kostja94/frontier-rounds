@@ -7,9 +7,10 @@
 // 目的: 取代旧 TS 数据文件在编译期提供的部分保证（*.Logos.ts 已删），
 //       在 CI/本地作为内容闸门，数据损坏/漏文件在构建前即暴露。
 import { readFileSync, readdirSync, existsSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
+import { canonicalLogos } from "../src/data/logos";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC_LOGOS = join(ROOT, "public/logos");
@@ -222,6 +223,52 @@ for (const f of productFiles) {
   productRoundTotal += raw.rounds?.length ?? 0;
 }
 console.log(`products OK: ${productFiles.length} files, slugs ${productSlugs.join(", ")}, total rounds ${productRoundTotal}`);
+
+// ---------- 5) logo canonical 一致性 + 孤儿资产 ----------
+const normName = (name: string) =>
+  name.toLowerCase().replace(/\(.*?\)/g, "").replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
+const canByKey = new Map<string, string>();
+for (const c of canonicalLogos) for (const n of c.names) canByKey.set(normName(n), c.path);
+
+// 所有被引用资产 basename（profiles top-level + portfolio + leaderboard + products）
+const referenced = new Set<string>();
+const ref = (logo?: string) => {
+  if (logo) referenced.add(basename(logo));
+};
+for (const [i, p] of profileList.entries()) {
+  if (p === null) continue;
+  ref(p.mark); ref(p.lockup); ref(p.portrait);
+  for (const g of p.portfolioGroups ?? []) for (const c of g.companies) ref(c.logo);
+}
+for (const e of lbRaw) ref(e.logo);
+for (const f of productFiles) {
+  const raw = JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8")) as { logo?: string };
+  ref(raw.logo);
+}
+// 一致性：profile 组合公司若命中 canonical 表，须引用规范资产（防再分裂）
+for (const [i, p] of profileList.entries()) {
+  if (p === null) continue;
+  const name = profileFiles[i];
+  for (const g of p.portfolioGroups ?? []) {
+    for (const c of g.companies) {
+      const can = canByKey.get(normName(c.name));
+      if (can && c.logo && c.logo !== can) {
+        errors.push(`profile ${name}: ${c.name} 引用 ${c.logo}，应引用规范资产 ${can}（跨档案同公司须同一 logo）`);
+      }
+    }
+  }
+}
+for (const e of lbRaw) {
+  const can = canByKey.get(normName(e.name));
+  if (can && e.logo && e.logo !== can) {
+    errors.push(`leaderboard ${e.id}: ${e.name} 引用 ${e.logo}，应引用规范资产 ${can}`);
+  }
+}
+// 孤儿资产告警（非阻断）
+const orphanFiles = readdirSync(PUBLIC_LOGOS).filter((f) => !referenced.has(f));
+if (orphanFiles.length) {
+  warn.push(`orphan logos (${orphanFiles.length}): ${orphanFiles.slice(0, 12).join(", ")}${orphanFiles.length > 12 ? ", …" : ""}`);
+}
 
 // ---------- report ----------
 console.log(`profiles OK: ${validProfiles.length} files, ${slugs.length} slugs, companies ${validProfiles.reduce((a, p) => a + p.portfolioGroups.reduce((x, g) => x + g.companies.length, 0), 0)}`);

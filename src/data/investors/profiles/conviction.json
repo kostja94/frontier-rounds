@@ -98,7 +98,7 @@
         },
         {
           "name": "Harvey",
-          "logo": "/logos/conviction-harvey.png",
+          "logo": "/logos/az-harvey.png",
           "sector": "Legal AI",
           "note": "AI software for legal and professional services — contract analysis, due diligence, compliance and litigation.",
           "url": "https://www.harvey.ai/"
@@ -152,7 +152,7 @@
         },
         {
           "name": "Onyx",
-          "logo": "/logos/conviction-onyx.png",
+          "logo": "/logos/onyx.png",
           "sector": "AI Agent Security & Governance",
           "note": "Secure AI control plane that oversees how AI agents are used, keeps them secure and compliant, and measures effectiveness.",
           "url": "https://onyx.security/"
@@ -172,7 +172,7 @@
         },
         {
           "name": "Sierra",
-          "logo": "/logos/conviction-sierra.png",
+          "logo": "/logos/az-sierra.png",
           "sector": "AI Agents for Customer Experience",
           "note": "Conversational AI agents that help businesses build more human customer experiences.",
           "url": "https://sierra.ai/"

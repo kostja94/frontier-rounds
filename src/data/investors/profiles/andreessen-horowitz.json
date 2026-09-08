@@ -63,13 +63,13 @@
       "companies": [
         {
           "name": "OpenAI",
-          "logo": "/logos/az-openai.png",
+          "logo": "/logos/openai.png",
           "sector": "Foundation Models",
           "note": "Frontier lab behind GPT and Sora; a16z participated in later secondary and primary rounds."
         },
         {
           "name": "xAI",
-          "logo": "/logos/az-xai.png",
+          "logo": "/logos/xai.png",
           "sector": "Foundation Models",
           "note": "Elon Musk's frontier lab building Grok and the Colossus training cluster."
         },
@@ -87,19 +87,19 @@
         },
         {
           "name": "Character.AI",
-          "logo": "/logos/az-charactherai.png",
+          "logo": "/logos/character-ai.png",
           "sector": "Consumer AI",
           "note": "Consumer companion and roleplay platform; a16z led its US$150M Series A."
         },
         {
           "name": "Cursor (Anysphere)",
-          "logo": "/logos/az-cursor.png",
+          "logo": "/logos/cursor.png",
           "sector": "AI Coding",
           "note": "AI-native code editor and agent, one of the fastest-scaling software businesses in the portfolio."
         },
         {
           "name": "Windsurf",
-          "logo": "/logos/az-codeium.png",
+          "logo": "/logos/windsurf.png",
           "sector": "AI Coding",
           "note": "Agentic IDE and code completion platform formerly known as Codeium."
         },
@@ -111,13 +111,13 @@
         },
         {
           "name": "ElevenLabs",
-          "logo": "/logos/az-elevenlabs.png",
+          "logo": "/logos/elevenlabs.png",
           "sector": "Voice AI",
           "note": "Speech synthesis, dubbing and voice agent platform used across media and software."
         },
         {
           "name": "Black Forest Labs",
-          "logo": "/logos/az-blackforest.png",
+          "logo": "/logos/black-forest-labs.png",
           "sector": "Image Models",
           "note": "Creators of the FLUX open-weight image model family, spun out of the Stable Diffusion team."
         },
@@ -135,7 +135,7 @@
         },
         {
           "name": "World Labs",
-          "logo": "/logos/az-worldlabs.png",
+          "logo": "/logos/world-labs.png",
           "sector": "Spatial AI",
           "note": "Fei-Fei Li's large world model company generating navigable 3D scenes."
         },
@@ -177,7 +177,7 @@
         },
         {
           "name": "Hebbia",
-          "logo": "/logos/az-hebbia.png",
+          "logo": "/logos/hebbia.png",
           "sector": "Knowledge Work AI",
           "note": "Matrix-style document reasoning used by asset managers and advisory firms."
         },
@@ -219,7 +219,7 @@
         },
         {
           "name": "Waymo",
-          "logo": "/logos/az-waymo.png",
+          "logo": "/logos/waymo.png",
           "sector": "Autonomous Vehicles",
           "note": "Alphabet's robotaxi business; a16z joined its external growth rounds."
         }

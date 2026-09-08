@@ -131,7 +131,7 @@
         },
         {
           "name": "Crusoe",
-          "logo": "/logos/radicalVentures-crusoe.png",
+          "logo": "/logos/crusoe.png",
           "sector": "Infrastructure",
           "note": "Vertically integrated, energy-first AI data centers at gigawatt scale — including the 'Stargate' facility for OpenAI.",
           "url": "https://crusoe.ai/"
@@ -152,7 +152,7 @@
         },
         {
           "name": "Decart",
-          "logo": "/logos/radicalVentures-decart.png",
+          "logo": "/logos/decart.png",
           "sector": "Infrastructure, World Models",
           "note": "Real-time world models and ultra-optimized infrastructure — generative experiences that respond at the speed of reality.",
           "url": "https://decart.ai/"
@@ -180,7 +180,7 @@
         },
         {
           "name": "Etched",
-          "logo": "/logos/radicalVentures-etched.png",
+          "logo": "/logos/etched.png",
           "sector": "Hardware, Infrastructure",
           "note": "Frontier inference clusters, co-designed across the stack with Low Voltage Inference and Cluster Scale Memory for faster, cheaper AI inference.",
           "url": "https://www.etched.com/"
@@ -215,7 +215,7 @@
         },
         {
           "name": "Hebbia",
-          "logo": "/logos/radicalVentures-hebbia.png",
+          "logo": "/logos/hebbia.png",
           "sector": "Financial Services, LLMs, Search, Software",
           "note": "Neural search over unstructured, private data — instant natural-language answers and automated diligence workflows.",
           "url": "https://hebbia.ai/"
@@ -250,7 +250,7 @@
         },
         {
           "name": "Muon Space",
-          "logo": "/logos/radicalVentures-muon_space.png",
+          "logo": "/logos/muon-space.png",
           "sector": "Climate, Space",
           "note": "Earth intelligence delivered from orbit — full-stack satellite systems for real-time planetary monitoring and climate resilience.",
           "url": "https://muonspace.com/"
@@ -313,7 +313,7 @@
         },
         {
           "name": "Prepared",
-          "logo": "/logos/radicalVentures-prepared.png",
+          "logo": "/logos/prepared.png",
           "sector": "Software",
           "note": "Assistive AI for 911 call centers — real-time transcription, instant translation and intelligent dispatch support.",
           "url": "https://www.prepared911.com/"
@@ -404,7 +404,7 @@
         },
         {
           "name": "Ubenwa",
-          "logo": "/logos/radicalVentures-ubenwa.png",
+          "logo": "/logos/ubenwa.png",
           "sector": "Healthcare",
           "note": "AI-powered newborn cry analysis to detect conditions like birth asphyxia before they cause harm.",
           "url": "https://ubenwa.ai/"
@@ -432,7 +432,7 @@
         },
         {
           "name": "V7",
-          "logo": "/logos/radicalVentures-v7.png",
+          "logo": "/logos/v7.png",
           "sector": "Data, Software",
           "note": "Automates data labeling and training-data workflows so ML teams build models dramatically faster.",
           "url": "https://www.v7labs.com/"
@@ -453,14 +453,14 @@
         },
         {
           "name": "World Labs",
-          "logo": "/logos/radicalVentures-world_labs.png",
+          "logo": "/logos/world-labs.png",
           "sector": "LLMs, Software, Space",
           "note": "Founded by Fei-Fei Li; large world models that give AI spatial intelligence over the full 3D world.",
           "url": "https://worldlabs.ai/"
         },
         {
           "name": "Writer",
-          "logo": "/logos/radicalVentures-writer.png",
+          "logo": "/logos/writer.png",
           "sector": "LLMs, Software",
           "note": "Full-stack generative AI platform for the enterprise, powered by Palmyra models and graph-based retrieval.",
           "url": "https://writer.com/"
@@ -474,7 +474,7 @@
         },
         {
           "name": "You.com",
-          "logo": "/logos/radicalVentures-you_com.png",
+          "logo": "/logos/you-com.png",
           "sector": "LLMs, Search",
           "note": "AI search that answers complex questions and automates workflows across private data, live web and LLMs.",
           "url": "https://you.com/"

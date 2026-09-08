@@ -98,7 +98,7 @@
         },
         {
           "name": "Lambda",
-          "logo": "/logos/gradient-lambda.png",
+          "logo": "/logos/lambda.png",
           "sector": "AI Infrastructure (GPU Cloud)",
           "note": "GPU cloud, workstations, servers and laptops built for deep learning.",
           "url": "https://lambdalabs.com/"
@@ -126,7 +126,7 @@
         },
         {
           "name": "Prepared",
-          "logo": "/logos/gradient-prepared.png",
+          "logo": "/logos/prepared.png",
           "sector": "AI Public Safety",
           "note": "Acquired by Axon. Prepared empowers emergency operators to use real-time data from callers.",
           "url": "https://www.prepared911.com/"
@@ -175,7 +175,7 @@
         },
         {
           "name": "Writer",
-          "logo": "/logos/gradient-writer.png",
+          "logo": "/logos/writer.png",
           "sector": "Enterprise Generative AI",
           "note": "Writer is the AI writing platform for teams.",
           "url": "https://writer.com/"

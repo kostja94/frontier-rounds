@@ -109,7 +109,7 @@
         },
         {
           "name": "Black Forest Labs",
-          "logo": "/logos/airStreetCapital-black_forest_labs.png",
+          "logo": "/logos/black-forest-labs.png",
           "sector": "Frontier AI",
           "note": "Multimodal AI; open visual-intelligence models incl. FLUX (DE)",
           "url": "https://bfl.ai/"
@@ -355,7 +355,7 @@
         },
         {
           "name": "V7",
-          "logo": "/logos/airStreetCapital-v7.png",
+          "logo": "/logos/v7.png",
           "sector": "AI data infra",
           "note": "Computer-vision data platform (UK)",
           "url": "https://www.v7labs.com/"
@@ -389,7 +389,7 @@
         },
         {
           "name": "Chroma",
-          "logo": "/logos/airStreetCapital-chroma.png",
+          "logo": "/logos/chroma.png",
           "sector": "AI infrastructure",
           "note": "Open-source vector database for AI (USA)",
           "url": "https://www.trychroma.com/"
@@ -402,14 +402,14 @@
         },
         {
           "name": "Crusoe",
-          "logo": "/logos/airStreetCapital-crusoe.png",
+          "logo": "/logos/crusoe.png",
           "sector": "AI infrastructure",
           "note": "AI cloud / clean compute for frontier AI (USA)",
           "url": "https://www.crusoe.ai"
         },
         {
           "name": "ElevenLabs",
-          "logo": "/logos/airStreetCapital-elevenlabs.png",
+          "logo": "/logos/elevenlabs.png",
           "sector": "Frontier AI",
           "note": "AI audio and voice generation (USA/UK)",
           "url": "https://www.elevenlabs.io/"
@@ -428,7 +428,7 @@
         },
         {
           "name": "Lambda",
-          "logo": "/logos/airStreetCapital-lambda.png",
+          "logo": "/logos/lambda.png",
           "sector": "AI infrastructure",
           "note": "GPU cloud for AI training and inference (USA)",
           "url": "https://lambdalabs.com/"
@@ -441,7 +441,7 @@
         },
         {
           "name": "Muon Space",
-          "logo": "/logos/airStreetCapital-muon_space.png",
+          "logo": "/logos/muon-space.png",
           "sector": "Space",
           "note": "Climate & Earth-observation satellite constellations (USA)",
           "url": "https://www.muonspace.com/"
@@ -517,7 +517,7 @@
         },
         {
           "name": "Stripe",
-          "logo": "/logos/airStreetCapital-stripe.png",
+          "logo": "/logos/stripe.png",
           "sector": "Fintech",
           "note": "Online payments (USA)",
           "url": "https://www.stripe.com/"
