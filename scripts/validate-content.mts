@@ -154,6 +154,75 @@ if (itParsed.success) {
   errors.push(`investorTypes.json: ${itParsed.error.issues.map((x) => `${x.path.join(".")} ${x.message}`).join("; ")}`);
 }
 
+// ---------- 4) products（产品融资档案） ----------
+const PRODUCTS_DIR = join(ROOT, "src/data/products");
+const productFiles = readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json"));
+
+const productSchema = z.object({
+  slug: z.string().min(1),
+  name: z.string().min(1),
+  kind: z.literal("product"),
+  logo: z.string().optional(),
+  localName: z.string().optional(),
+  tagline: z.string().min(1),
+  website: z.string().min(1),
+  websiteLabel: z.string(),
+  summary: z.string().min(10),
+  facts: z.array(z.object({ label: z.string(), value: z.string() })).min(1),
+  rounds: z
+    .array(
+      z.object({
+        date: z.string().min(1),
+        label: z.string().min(1),
+        amountUsd: z.number().positive().optional(),
+        valuationUsd: z.number().positive().optional(),
+        leads: z.array(z.string().min(1)),
+        participants: z.array(z.string().min(1)),
+        note: z.string().optional(),
+        sourceUrl: z.string().startsWith("http").optional(),
+      }),
+    )
+    .min(1),
+  sections: z.array(z.object({ heading: z.string().min(1), body: z.string().min(1) })),
+});
+const productSlugs: string[] = [];
+for (const f of productFiles) {
+  const label = `products/${f}`;
+  let raw: unknown;
+  try {
+    raw = JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8"));
+  } catch (e) {
+    errors.push(`${label}: JSON parse error: ${(e as Error).message}`);
+    continue;
+  }
+  const parsed = productSchema.safeParse(raw);
+  if (!parsed.success) {
+    errors.push(`${label}: schema fail: ${parsed.error.issues.map((x) => `${x.path.join(".")} ${x.message}`).join("; ")}`);
+    continue;
+  }
+  const p = parsed.data;
+  productSlugs.push(p.slug);
+  if (p.logo) {
+    const abs = join(ROOT, "public", p.logo.replace(/^\//, ""));
+    check(existsSync(abs), `${label}: logo ${p.logo} missing on disk`);
+  }
+  // rounds 必须按日期升序（页面把最后一项渲染为 Latest）
+  for (let i = 1; i < p.rounds.length; i++) {
+    check(
+      p.rounds[i]!.date >= p.rounds[i - 1]!.date,
+      `${label}: rounds not sorted by date (${p.rounds[i - 1]!.date} → ${p.rounds[i]!.date})`,
+    );
+  }
+}
+const dupProductSlugs = productSlugs.filter((s, i) => productSlugs.indexOf(s) !== i);
+check(dupProductSlugs.length === 0, `duplicate product slugs: ${[...new Set(dupProductSlugs)].join(", ")}`);
+let productRoundTotal = 0;
+for (const f of productFiles) {
+  const raw = JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8")) as { rounds?: unknown[] };
+  productRoundTotal += raw.rounds?.length ?? 0;
+}
+console.log(`products OK: ${productFiles.length} files, slugs ${productSlugs.join(", ")}, total rounds ${productRoundTotal}`);
+
 // ---------- report ----------
 console.log(`profiles OK: ${validProfiles.length} files, ${slugs.length} slugs, companies ${validProfiles.reduce((a, p) => a + p.portfolioGroups.reduce((x, g) => x + g.companies.length, 0), 0)}`);
 for (const w of warn) console.log(`  WARN: ${w}`);

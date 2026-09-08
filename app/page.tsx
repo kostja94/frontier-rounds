@@ -54,6 +54,12 @@ export default function HomePage() {
                 >
                   Fundraising Leaderboard
                 </a>
+                <a
+                  href="/products"
+                  className="border border-ink px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:bg-ink hover:text-background"
+                >
+                  Product Histories
+                </a>
               </div>
             </div>
           </section>

@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { label: "Latest Rounds", href: "/", exact: true },
   { label: "Funding Leaderboard", href: "/leaderboard", exact: false },
   { label: "Investor Atlas", href: "/investors", exact: false },
+  { label: "Product Histories", href: "/products", exact: false },
 ];
 
 export function SiteNav() {
