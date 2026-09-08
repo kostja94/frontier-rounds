@@ -10,13 +10,13 @@ export const andreessenHorowitz: InvestorProfile = {
   website: "https://a16z.com/",
   websiteLabel: "a16z.com",
   summary:
-    "Andreessen Horowitz — universally shortened to a16z — was founded in Menlo Park in 2009 by Marc Andreessen and Ben Horowitz and has grown into a registered investment adviser managing north of US$45B across seed, venture, growth, crypto, bio and American Dynamism funds. It is a generalist firm by charter but the most concentrated AI investor by dollars: it holds positions in the largest model labs, the compute and data layers beneath them, and hundreds of AI-native applications, and it publishes the sector's most-read research through a16z Enterprise and its Top 100 GenAI Apps series. Structurally it behaves less like a partnership and more like a platform, with in-house go-to-market, talent, policy and marketing teams attached to each fund.",
+    "Andreessen Horowitz — universally shortened to a16z — was founded in Menlo Park in 2009 by Marc Andreessen and Ben Horowitz and has grown into a registered investment adviser managing roughly US$106B (March 2026 Form ADV) across seed, venture, growth, crypto, bio and American Dynamism funds. It is a generalist firm by charter but the most concentrated AI investor by dollars: it holds positions in the largest model labs, the compute and data layers beneath them, and hundreds of AI-native applications, and it publishes the sector's most-read research through a16z Enterprise and its Top 100 GenAI Apps series. Structurally it behaves less like a partnership and more like a platform, with in-house go-to-market, talent, policy and marketing teams attached to each fund.",
   facts: [
     { label: "Founded", value: "2009" },
     { label: "Headquarters", value: "Menlo Park, California" },
     { label: "Founders", value: "Marc Andreessen, Ben Horowitz" },
     { label: "Type", value: "Multi-stage venture platform (RIA)" },
-    { label: "Assets under management", value: "US$45B+" },
+    { label: "Assets under management", value: "~US$106B (Mar 2026 Form ADV)" },
     { label: "Stage", value: "Seed to growth and pre-IPO" },
     { label: "Disclosed AI portfolio", value: "25+ notable companies" },
   ],

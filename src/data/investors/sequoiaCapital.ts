@@ -9,7 +9,7 @@ export const sequoiaCapital: InvestorProfile = {
   website: "https://www.sequoiacap.com/",
   websiteLabel: "sequoiacap.com",
   summary:
-    "Founded in 1972 and headquartered in Menlo Park, Sequoia Capital now covers the United States and Europe only, following the March 2024 completion of the global partnership's three-way split — it shares a name and history with HongShan in China and Peak XV in India, but the investments listed here are its own. Roelof Botha stepped down in November 2025; Alfred Lin and Pat Grady took over as co-CEOs with Doug Leone returning as chairman. Under the new leadership the firm reversed its earlier restraint on model-layer spending and now runs a barbell strategy: very large positions in Anthropic and OpenAI alongside frontier moonshots, plus the densest 2026 deal flow in agent infrastructure.",
+    "Founded in 1972 and headquartered in Menlo Park, Sequoia Capital now covers the United States and Europe only, following the March 2024 completion of the global partnership's three-way split — it shares a name and history with HongShan in China and Peak XV in India, but the investments listed here are its own. Roelof Botha stepped down in November 2025; Alfred Lin and Pat Grady took over as co-CEOs, and in March 2026 Doug Leone returned as chairman. Under the new leadership the firm reversed its earlier restraint on model-layer spending and now runs a barbell strategy: very large positions in Anthropic and OpenAI alongside frontier moonshots, plus the densest 2026 deal flow in agent infrastructure.",
   facts: [
     { label: "Founded", value: "1972" },
     { label: "Headquarters", value: "Menlo Park, California" },
@@ -97,7 +97,7 @@ export const sequoiaCapital: InvestorProfile = {
           name: "Harvey",
           logo: sequoiaLogos["harvey"],
           sector: "Legal AI",
-          note: "Backed across six rounds from Series A; led the US$200M G round at an US$11B valuation with roughly US$190M ARR and over 1,000 customers.",
+          note: "Backed across six rounds from Series A; co-led the US$200M G round at an US$11B valuation with roughly US$190M ARR and over 1,000 customers.",
           url: "https://www.harvey.ai/",
         },
         {

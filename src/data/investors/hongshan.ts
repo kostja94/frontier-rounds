@@ -21,11 +21,11 @@ export const hongshan: InvestorProfile = {
   thesis: [
     {
       heading: "Every Chinese frontier lab, concentrated in MiniMax",
-      body: "HongShan holds positions in Moonshot AI, MiniMax, Zhipu AI, Light Years Beyond and StepFun — effectively the full field of Chinese foundation-model contenders. Its heaviest single bet is MiniMax, where it wrote a US$50M sole-investor A+ round and kept adding, ending pre-IPO as the third largest financial shareholder at 3.81%.",
+      body: "HongShan holds positions in Moonshot AI, MiniMax, Zhipu AI, Light Years Beyond and StepFun — effectively the full field of Chinese foundation-model contenders. Its heaviest single bet is MiniMax, where it led a US$50M A+ round and kept adding, ending pre-IPO as the third largest financial shareholder at 3.81%.",
     },
     {
       heading: "Back early, then add on proof",
-      body: "The firm's seed vehicle entered Unitree Robotics at Pre-A in 2020 with RMB 15M at a RMB 150M post-money valuation, then followed nearly every round to a 7.11% stake worth over RMB 2.5B on paper — the seed fund's first investment and the template for how HongShan compounds early conviction.",
+      body: "The firm's seed vehicle entered Unitree Robotics at Pre-A in December 2019 with RMB 15M at a RMB 150M post-money valuation, then followed nearly every round to a 7.11% stake worth over RMB 2.5B on paper — the seed fund's first investment and the template for how HongShan compounds early conviction.",
     },
     {
       heading: "Embodied intelligence as a jigsaw",
@@ -53,7 +53,7 @@ export const hongshan: InvestorProfile = {
           name: "MiniMax",
           logo: hongshanLogos["minimax"],
           sector: "Foundation Models",
-          note: "Sole investor of a US$50M A+ round, then repeated follow-ons; third largest financial shareholder at 3.81% before listing.",
+          note: "Led a US$50M A+ round, then repeated follow-ons; third largest financial shareholder at 3.81% before listing.",
           url: "https://www.minimaxi.com/",
         },
         {
@@ -93,7 +93,7 @@ export const hongshan: InvestorProfile = {
           name: "Unitree Robotics",
           logo: hongshanLogos["unitree"],
           sector: "Humanoid and Quadruped Robots",
-          note: "Seed fund entered at Pre-A in 2020 (RMB 15M at RMB 150M post-money) and added across rounds to a 7.11% stake, over RMB 2.5B on paper.",
+          note: "Seed fund entered at Pre-A in December 2019 (RMB 15M at RMB 150M post-money) and added across rounds to a 7.11% stake, over RMB 2.5B on paper.",
           url: "https://www.unitree.com/",
         },
         {

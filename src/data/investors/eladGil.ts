@@ -10,12 +10,12 @@ export const eladGil: InvestorProfile = {
   website: "https://eladgil.com/",
   websiteLabel: "eladgil.com",
   summary:
-    "Elad Gil is a San Francisco based solo investor, former Google product lead and Twitter VP, founder of Mixer Labs and Color Genomics, and author of High Growth Handbook. He deploys personal capital with no investment committee and no fund brand to defend, which lets him commit inside days and stay with founders through hiring, pricing and org design. Around 140 disclosed investments make him one of the most cited individual backers of the current AI cycle, with positions across model labs, AI search and vertical AI software.",
+    "Elad Gil is a San Francisco based solo investor, former Google product lead and Twitter VP, founder of Mixer Labs and Color Genomics, and author of High Growth Handbook. He deploys personal capital with no investment committee and no fund brand to defend, which lets him commit inside days and stay with founders through hiring, pricing and org design. More than 250 disclosed investments (per CB Insights and PitchBook; other trackers count fewer) make him one of the most cited individual backers of the current AI cycle, with positions across model labs, AI search and vertical AI software.",
   facts: [
     { label: "Role", value: "Solo angel and seed investor" },
     { label: "Based", value: "San Francisco, CA" },
     { label: "Background", value: "Google, Twitter VP; founded Color Genomics" },
-    { label: "Disclosed deals", value: "~140" },
+    { label: "Disclosed deals", value: "250+" },
     { label: "Stage", value: "Pre-seed to growth" },
     { label: "Process", value: "Individual decision, no committee" },
   ],
@@ -42,13 +42,19 @@ export const eladGil: InvestorProfile = {
     {
       heading: "AI portfolio",
       blurb:
-        "Disclosed AI positions reported in funding announcements and press coverage, spanning model labs, AI-native search and vertical software.",
+        "A selection of Gil's disclosed AI positions reported in funding announcements and press coverage, spanning model labs, AI-native search and vertical software.",
       companies: [
         {
           name: "Anthropic",
           logo: angelLogos.anthropic,
           sector: "Foundation Models",
-          note: "AI safety lab behind the Claude model family; an early individual position widely reported in cap-table coverage.",
+          note: "AI safety lab behind the Claude model family; a personal position confirmed on his own site and in cap-table coverage.",
+        },
+        {
+          name: "OpenAI",
+          logo: angelLogos.openai,
+          sector: "Foundation Models",
+          note: "Frontier lab behind ChatGPT; a personal position confirmed on his own site and in press coverage.",
         },
         {
           name: "Perplexity",
@@ -63,12 +69,6 @@ export const eladGil: InvestorProfile = {
           note: "Generative AI for law firms and in-house legal teams, sold to the largest global partnerships.",
         },
         {
-          name: "Glean",
-          logo: angelLogos.glean,
-          sector: "Enterprise Search",
-          note: "AI assistant and search layer over internal company knowledge and SaaS systems.",
-        },
-        {
           name: "Character.AI",
           logo: angelLogos.characterai,
           sector: "Consumer AI",
@@ -79,18 +79,6 @@ export const eladGil: InvestorProfile = {
           logo: angelLogos.mistral,
           sector: "Foundation Models",
           note: "European open-weight model lab; he participated in its early financing.",
-        },
-        {
-          name: "Cursor",
-          logo: angelLogos.cursor,
-          sector: "AI Coding",
-          note: "Anysphere's AI-native code editor, one of the fastest revenue ramps in developer tooling.",
-        },
-        {
-          name: "Runway",
-          logo: angelLogos.runway,
-          sector: "Generative Media",
-          note: "Generative video models and editing tools used in film and advertising production.",
         },
       ],
     },
