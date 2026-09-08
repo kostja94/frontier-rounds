@@ -21,6 +21,9 @@ jobs:
       # Linux runner 上改由 npm 解析本平台依赖后安装
       - run: npm install --no-audit --no-fund
 
+      # 内容 JSON 完整性闸门（slug 唯一/logo 磁盘存在/lead 关联 profile/tier 枚举）
+      - run: npm run validate:content
+
       # OpenNext 构建 + wrangler 部署到 Cloudflare Workers
       - name: Build & deploy to Cloudflare
         run: npm run deploy

@@ -1,0 +1,329 @@
+{
+  "slug": "shunwei-capital",
+  "name": "Shunwei Capital",
+  "mark": "/logos/shunwei-mark.png",
+  "tagline": "Xiaomi-affiliated venture firm betting on embodied intelligence and AI infrastructure",
+  "website": "https://www.shunwei.com/",
+  "websiteLabel": "shunwei.com",
+  "summary": "Founded in 2011 by Lei Jun, founder and chairman of Xiaomi, together with Tuck Lye Koh, Shunwei Capital is a Beijing based venture firm investing from angel through growth stage and operating as the financial arm closest to the Xiaomi ecosystem — it typically starts with a commercial partnership before taking equity. Its AI strategy avoids the frontier parameter race, concentrating instead on embodied intelligence and robotics, silicon and compute, and vertical AI applications that can be pulled into Xiaomi hardware, which has made it one of China's most concentrated backers of humanoid robotics.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "2011"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Beijing, China"
+    },
+    {
+      "label": "Founders",
+      "value": "Lei Jun — Xiaomi founder; Tuck Lye Koh"
+    },
+    {
+      "label": "Type",
+      "value": "Venture capital / ecosystem-linked fund"
+    },
+    {
+      "label": "Stage",
+      "value": "Angel to growth"
+    },
+    {
+      "label": "Disclosed AI portfolio",
+      "value": "30+ companies"
+    }
+  ],
+  "thesis": [
+    {
+      "heading": "Robotics first, models second",
+      "body": "Roughly half of Shunwei's disclosed AI activity sits in embodied intelligence: humanoid and collaborative robots, autonomous industrial vehicles, robot data pipelines and surgical robotics. The firm treats the robot as the next consumer hardware entry point rather than treating the model as the product."
+    },
+    {
+      "heading": "Ecosystem pull-through",
+      "body": "Deals frequently begin as supply-chain or product collaborations inside the Xiaomi ecosystem and convert into equity once the commercial relationship is proven. That sequencing gives portfolio companies distribution and manufacturing leverage that a purely financial investor cannot offer."
+    },
+    {
+      "heading": "Full-stack coverage",
+      "body": "Alongside robotics, Shunwei funds the layers underneath and above it — compute virtualisation, general-purpose and automotive silicon, cloud, plus vertical AI applications in construction, drug discovery, finance, recruiting and industrial inspection."
+    },
+    {
+      "heading": "Accelerating pace",
+      "body": "Disclosed AI investments moved from 2 deals in 2023 to 5 in 2024, 10 in 2025 and 19 by mid-2026, with robotics accounting for the largest share of new commitments."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed AI investments across embodied intelligence, foundation models, vertical applications, silicon and compute, and machine perception.",
+      "companies": [
+        {
+          "name": "Unitree Robotics",
+          "logo": "/logos/unitree.png",
+          "sector": "Humanoid Robotics",
+          "note": "Shunwei led the multi-million dollar Series A and followed on across later rounds; the IPO prospectus lists a 4.42% stake.",
+          "url": "https://www.unitree.com/"
+        },
+        {
+          "name": "Spirit AI",
+          "logo": "/logos/spirit-ai.png",
+          "sector": "Embodied Intelligence",
+          "note": "Follow-on investor, then co-led a RMB 1B round in April 2026 at a valuation above RMB 10B.",
+          "url": "https://www.spirit-ai.com/"
+        },
+        {
+          "name": "Pokee Robotics",
+          "sector": "Humanoid Robotics",
+          "note": "Co-led a near US$100M Pre-A round with Matrix Partners China in August 2026."
+        },
+        {
+          "name": "Shouxing Technology",
+          "sector": "Humanoid Robotics",
+          "note": "Builds expressive faces for humanoid robots; Shunwei led a new round in March 2026."
+        },
+        {
+          "name": "Fairino",
+          "logo": "/logos/fairino.png",
+          "sector": "Collaborative Robots",
+          "note": "Shunwei led the roughly US$30M Series A for this collaborative robot arm maker.",
+          "url": "https://www.fairino.com/"
+        },
+        {
+          "name": "Jianzhi Robotics",
+          "sector": "Robot Data",
+          "note": "Embodied AI data infrastructure; Shunwei is an existing shareholder that kept following on through 2026."
+        },
+        {
+          "name": "Rokae",
+          "sector": "Industrial Robotics",
+          "note": "Shunwei led the Series B; the company later raised a strategic round above RMB 500M."
+        },
+        {
+          "name": "Wanxun Technology",
+          "sector": "Service Robotics",
+          "note": "Shunwei led a near US$10M Pre-A+ round in 2022 for flexible-arm service robots."
+        },
+        {
+          "name": "VisionNav Robotics",
+          "sector": "Autonomous Logistics",
+          "note": "Shunwei led a several-hundred-million RMB Series C in 2021 for self-driving industrial vehicles."
+        },
+        {
+          "name": "Keyi Tech",
+          "logo": "/logos/keyi.png",
+          "sector": "Consumer Robotics",
+          "note": "Shunwei led a several-tens-of-millions USD Series B in 2021 for modular consumer robot kits.",
+          "url": "https://www.keyirobot.com/"
+        },
+        {
+          "name": "Zhiyu Medical",
+          "sector": "Surgical Robotics",
+          "note": "Shunwei backed this surgical robotics company, reported in 2024."
+        },
+        {
+          "name": "Huiye Tech",
+          "sector": "Digital Humans",
+          "note": "Sole investor in a several-million dollar Pre-A round in 2022 for AI-driven virtual beings."
+        },
+        {
+          "name": "Zhipu AI",
+          "logo": "/logos/zhipu.png",
+          "sector": "Foundation Models",
+          "note": "Multi-round investor in the GLM model family; one of the Shunwei-backed companies to list in 2026.",
+          "url": "https://www.zhipuai.cn/"
+        },
+        {
+          "name": "MiniMax",
+          "logo": "/logos/minimax.png",
+          "sector": "Foundation Models",
+          "note": "Listed on Shunwei's team page as a portfolio case; multimodal model lab behind Hailuo and Talkie.",
+          "url": "https://www.minimaxi.com/"
+        },
+        {
+          "name": "Liblib.ai",
+          "logo": "/logos/liblib.png",
+          "sector": "Generative Images",
+          "note": "Chinese AI image generation and model-sharing community.",
+          "url": "https://www.liblib.art/"
+        },
+        {
+          "name": "Goodeep",
+          "sector": "Enterprise AI",
+          "note": "Enterprise AI for energy and financial customers; Shunwei was sole lead of the angel round in March 2026."
+        },
+        {
+          "name": "Lola Supercompute",
+          "sector": "Agents",
+          "note": "AI agent for tax and accounting workflows; disclosed as a portfolio company in March 2026."
+        },
+        {
+          "name": "Pinlan AI",
+          "sector": "AI for AEC",
+          "note": "AlphaDraw automates architectural drawing; Shunwei led a several-tens-of-millions RMB Series A in 2021."
+        },
+        {
+          "name": "Bizseer",
+          "sector": "AIOps",
+          "note": "Shunwei led a several-tens-of-millions RMB Series A in 2019 for intelligent IT operations."
+        },
+        {
+          "name": "Avocado Tech",
+          "sector": "HR Tech",
+          "note": "AI video interviewing and recruiting; Shunwei led the Pre-A round in 2021."
+        },
+        {
+          "name": "Smartmore",
+          "logo": "/logos/smartmore.png",
+          "sector": "Industrial Vision",
+          "note": "AI visual inspection for manufacturing lines; Shunwei led the Pre-A round in 2020.",
+          "url": "https://www.smartmore.com/"
+        },
+        {
+          "name": "Terraqt",
+          "logo": "/logos/terraqt.png",
+          "sector": "Geospatial AI",
+          "note": "Digital-earth and remote sensing PaaS; Shunwei led the Series A+ in 2021.",
+          "url": "https://www.terraqt.com/"
+        },
+        {
+          "name": "XtalPi",
+          "logo": "/logos/xtalpi.png",
+          "sector": "AI for Drug Discovery",
+          "note": "Quantum-physics and AI driven drug R&D platform; Shunwei participated in the US$300M+ round in 2020.",
+          "url": "https://www.xtalpi.com/"
+        },
+        {
+          "name": "Yinghe Information",
+          "sector": "AI for Finance",
+          "note": "Asset-management technology; Shunwei led a several-tens-of-millions RMB Series A in 2021."
+        },
+        {
+          "name": "Jiuyi Medical",
+          "sector": "AI Health Hardware",
+          "note": "Sub-RMB 1,000 AI hearing aids; Shunwei led the RMB 30M angel round in 2023."
+        },
+        {
+          "name": "Momenta",
+          "logo": "/logos/momenta.png",
+          "sector": "Autonomous Driving",
+          "note": "Full-stack autonomous driving software; listed on Shunwei's team page as a portfolio case.",
+          "url": "https://www.momenta.cn/"
+        },
+        {
+          "name": "Idriverplus",
+          "logo": "/logos/idriverplus.png",
+          "sector": "Autonomous Driving",
+          "note": "Shunwei followed on in the Baidu-led Series B1 in 2018 for unmanned service vehicles.",
+          "url": "https://www.idriverplus.com/"
+        },
+        {
+          "name": "VirtAI Tech",
+          "logo": "/logos/virtai.png",
+          "sector": "GPU Virtualisation",
+          "note": "GPU resource pooling and compute virtualisation; recognised as a top AI investment case by China Venture.",
+          "url": "https://www.virtaitech.com/"
+        },
+        {
+          "name": "Cixin Technology",
+          "sector": "Semiconductors",
+          "note": "General-purpose intelligent computing chips; Shunwei led the angel++ round in 2022, ahead of a roughly RMB 1B Series B."
+        },
+        {
+          "name": "Sinitix",
+          "sector": "Automotive Compute",
+          "note": "Automotive intelligent computing platform; Shunwei led the angel+ round in 2023."
+        },
+        {
+          "name": "Hangshun Chip",
+          "sector": "MCU Chips",
+          "note": "Shunwei invested in the 2021 Series C of this MCU designer."
+        },
+        {
+          "name": "Kingsoft Cloud",
+          "logo": "/logos/kingsoft-cloud.png",
+          "sector": "Cloud and AI Compute",
+          "note": "Cloud infrastructure provider serving AI training and inference workloads.",
+          "url": "https://www.ksyun.com/"
+        },
+        {
+          "name": "ScaleFlux",
+          "logo": "/logos/scaleflux.png",
+          "sector": "Storage Acceleration",
+          "note": "Computational storage that accelerates data-heavy AI pipelines.",
+          "url": "https://scaleflux.com/"
+        },
+        {
+          "name": "Weimian Technology",
+          "sector": "Machine Vision",
+          "note": "Machine vision combined with physiological sensing; Shunwei was sole investor in the June 2026 angel round."
+        },
+        {
+          "name": "CloudWalk",
+          "logo": "/logos/cloudwalk.png",
+          "sector": "Computer Vision",
+          "note": "Computer vision and multimodal AI platform listed on Shunwei's portfolio page.",
+          "url": "https://www.cloudwalk.com/"
+        },
+        {
+          "name": "Ishumei",
+          "logo": "/logos/ishumei.png",
+          "sector": "AI Risk Control",
+          "note": "AI-based fraud detection and content risk control.",
+          "url": "https://www.ishumei.com/"
+        },
+        {
+          "name": "Manycore Tech",
+          "sector": "AI Design and Rendering",
+          "note": "Kujiale spatial design and rendering platform; one of the Shunwei-backed companies to list in 2026.",
+          "url": "https://www.kujiale.com/"
+        }
+      ]
+    },
+    {
+      "heading": "Beyond AI",
+      "blurb": "A selected, non-exhaustive sample of Shunwei's wider consumer, hardware and internet portfolio.",
+      "companies": [
+        {
+          "name": "NIO",
+          "logo": "/logos/nio.png",
+          "sector": "Electric Vehicles",
+          "note": "Early position in the premium EV maker.",
+          "url": "https://www.nio.com/"
+        },
+        {
+          "name": "XPeng",
+          "logo": "/logos/xpeng.png",
+          "sector": "Electric Vehicles",
+          "note": "Early position in the smart EV maker.",
+          "url": "https://www.xiaopeng.com/"
+        },
+        {
+          "name": "Roborock",
+          "sector": "Smart Home Hardware",
+          "note": "Robot vacuum maker built inside the Xiaomi ecosystem."
+        },
+        {
+          "name": "Ninebot",
+          "sector": "Personal Mobility",
+          "note": "Scooters and personal transporters; Segway-Ninebot."
+        },
+        {
+          "name": "ATRenew",
+          "sector": "Recommerce",
+          "note": "Second-hand consumer electronics marketplace."
+        },
+        {
+          "name": "Kuaikan Comics",
+          "sector": "Digital Content",
+          "note": "Leading Chinese webcomic platform."
+        },
+        {
+          "name": "Yimutian",
+          "sector": "Agriculture Marketplace",
+          "note": "B2B agricultural produce trading platform."
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Shunwei Capital"
+  ]
+}

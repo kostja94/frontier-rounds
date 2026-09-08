@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "validate:content": "tsx scripts/validate-content.mts",
+    "prebuild": "npm run validate:content",
     "assets:fetch": "node scripts/download-lovable-assets.mjs",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",

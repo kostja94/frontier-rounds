@@ -1,0 +1,200 @@
+{
+  "slug": "conviction",
+  "name": "Conviction",
+  "kind": "firm",
+  "mark": "/logos/conviction-mark.png",
+  "tagline": "Venture firm purpose-built for AI-native 'Software 3.0' companies",
+  "website": "https://www.conviction.com/",
+  "websiteLabel": "www.conviction.com",
+  "summary": "Conviction (Conviction Partners) is an AI-only venture firm founded in 2022 by Sarah Guo after her time as a Greylock general partner. Its thesis: we are extremely early in the translation of powerful AI models into powerful products, the AI-native 'Software 3.0' era, so it backs only companies built on frontier AI. Conviction writes US$1-25M checks from pre-seed to Series A and is often the first institutional investor. Fund I raised US$101M in 2022; Fund II closed at US$230M in January 2025, when former Sequoia partner Mike Vernal joined as General Partner. Its disclosed portfolio spans model labs, infrastructure and category-defining applications - Mistral, Harvey, Sierra, Cognition, HeyGen, Baseten, OpenEvidence and more - and it runs founder-facing programs including the No Priors podcast and the Embed grant program.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "2022"
+    },
+    {
+      "label": "Headquarters",
+      "value": "San Francisco Bay Area, California"
+    },
+    {
+      "label": "Founder",
+      "value": "Sarah Guo (ex-Greylock)"
+    },
+    {
+      "label": "Type",
+      "value": "AI-native early-stage venture firm ('Software 3.0' specialist)"
+    },
+    {
+      "label": "Funds",
+      "value": "Fund I US$101M (2022); Fund II US$230M (closed Jan 2025)"
+    },
+    {
+      "label": "Stage",
+      "value": "Pre-seed to Series A"
+    },
+    {
+      "label": "Typical check",
+      "value": "US$1-25M"
+    },
+    {
+      "label": "Disclosed portfolio",
+      "value": "19 companies on conviction.com (as of Sep 2026)"
+    }
+  ],
+  "thesisHeading": "How Conviction invests in AI",
+  "thesis": [
+    {
+      "heading": "Backing the 'Software 3.0' transition",
+      "body": "Conviction is purpose-built to serve AI-native, 'Software 3.0' companies, believing we are extremely early in the translation of powerful AI models into powerful products that transform industries. It invests only where the product itself is built on frontier AI rather than in AI bolted onto traditional software."
+    },
+    {
+      "heading": "Early, concentrated, first-money-in",
+      "body": "Conviction partners with what it calls the most important companies of tomorrow with US$1-25M checks, likes to invest early and is often the first investor a founder takes. It deliberately keeps a small, concentrated portfolio so it can be hands-on and serve founders deeply rather than spread thinly."
+    },
+    {
+      "heading": "Deep networks put to work for founders",
+      "body": "The firm says it has a wide and deep network it puts to work for portfolio companies, understands the domain, and gravitates toward technical teams that build with velocity and pragmatism. Programs such as Embed grants, the Commit fellowship, Mixture of Experts recruiting events, a portfolio jobs board, and the No Priors and Good Company podcasts feed that ecosystem."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI Portfolio",
+      "blurb": "Companies listed on conviction.com's Portfolio section (homepage, Sep 2026). The firm says it backs engineers, researchers, product folks, domain experts and dropouts, gravitating toward technical teams that build with velocity and pragmatism - plus others still in stealth.",
+      "companies": [
+        {
+          "name": "Baseten",
+          "logo": "/logos/conviction-baseten.png",
+          "sector": "AI Inference Platform",
+          "note": "Serve and scale open-source and custom AI models on a fast, reliable inference platform.",
+          "url": "https://www.baseten.co/"
+        },
+        {
+          "name": "Cartesia",
+          "logo": "/logos/conviction-cartesia.png",
+          "sector": "Real-Time Audio AI",
+          "note": "Real-time voice and audio AI — text-to-speech via Sonic-3.6 with models that learn and interact like humans.",
+          "url": "https://cartesia.ai/"
+        },
+        {
+          "name": "Cognition",
+          "logo": "/logos/conviction-cognition.png",
+          "sector": "AI Coding Agents",
+          "note": "Operates Devin, the first autonomous software engineer — planning, writing, testing and shipping production code.",
+          "url": "https://www.cognition.com/"
+        },
+        {
+          "name": "Corridor",
+          "logo": "/logos/conviction-corridor.png",
+          "sector": "AI Security",
+          "note": "Secure AI coding at the source — prevents security flaws before they are even written.",
+          "url": "https://corridor.dev/"
+        },
+        {
+          "name": "Distributed Spectrum",
+          "logo": "/logos/conviction-distributed_spectrum.png",
+          "sector": "RF Spectrum Intelligence",
+          "note": "Real-time insights from the radio spectrum using small, cheap and efficient sensors.",
+          "url": "https://www.distributedspectrum.com/"
+        },
+        {
+          "name": "Harvey",
+          "logo": "/logos/conviction-harvey.png",
+          "sector": "Legal AI",
+          "note": "AI software for legal and professional services — contract analysis, due diligence, compliance and litigation.",
+          "url": "https://www.harvey.ai/"
+        },
+        {
+          "name": "HeyGen",
+          "sector": "AI Video Generation",
+          "note": "AI video platform with lifelike avatars, text-to-video, video translation and AI studio tools.",
+          "url": "https://www.heygen.com/"
+        },
+        {
+          "name": "Instinct",
+          "logo": "/logos/conviction-instinct.png",
+          "sector": "Agentic Personal Assistant",
+          "note": "A personal assistant that understands your work and takes action across your applications and devices.",
+          "url": "https://instinct.com/"
+        },
+        {
+          "name": "Keenable",
+          "logo": "/logos/conviction-keenable.png",
+          "sector": "Web Search API for AI",
+          "note": "Independent web search infrastructure for AI — its own crawler, index and ranking that improves with agent usage.",
+          "url": "https://keenable.ai/"
+        },
+        {
+          "name": "Latent",
+          "logo": "/logos/conviction-latent.png",
+          "sector": "Healthcare AI / Pharmacy",
+          "note": "Enterprise pharmacy intelligence for leading health systems, powered by a clinical agentic engine.",
+          "url": "https://www.latenthealth.com/"
+        },
+        {
+          "name": "Listen Labs",
+          "logo": "/logos/conviction-listen_labs.png",
+          "sector": "AI Market Research",
+          "note": "Trusted AI research for leading brands — customer research conducted, analyzed and summarized by AI.",
+          "url": "https://www.listenlabs.ai/"
+        },
+        {
+          "name": "Mistral",
+          "sector": "Frontier AI Models",
+          "note": "European frontier AI lab offering LLMs, assistants, agents and an enterprise platform.",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "name": "Mithril",
+          "logo": "/logos/conviction-mithril.png",
+          "sector": "Multi-Cloud GPU Infrastructure",
+          "note": "The AI omnicloud — orchestrates multi-cloud GPUs for training and inference.",
+          "url": "https://mithril.ai/"
+        },
+        {
+          "name": "Onyx",
+          "logo": "/logos/conviction-onyx.png",
+          "sector": "AI Agent Security & Governance",
+          "note": "Secure AI control plane that oversees how AI agents are used, keeps them secure and compliant, and measures effectiveness.",
+          "url": "https://onyx.security/"
+        },
+        {
+          "name": "OpenEvidence",
+          "sector": "Clinical AI for Medicine",
+          "note": "AI medical knowledge platform, free for verified U.S. clinicians, with official content partnerships incl. NEJM and JAMA.",
+          "url": "https://www.openevidence.com/"
+        },
+        {
+          "name": "RunSybil",
+          "logo": "/logos/conviction-runsybil.png",
+          "sector": "Autonomous Security Testing",
+          "note": "Autonomous offensive security solution that finds exploitable vulnerabilities before a breach.",
+          "url": "https://www.runsybil.com/"
+        },
+        {
+          "name": "Sierra",
+          "logo": "/logos/conviction-sierra.png",
+          "sector": "AI Agents for Customer Experience",
+          "note": "Conversational AI agents that help businesses build more human customer experiences.",
+          "url": "https://sierra.ai/"
+        },
+        {
+          "name": "Sola",
+          "logo": "/logos/conviction-sola.png",
+          "sector": "Agentic Process Automation",
+          "note": "Agentic process automation — automates data entry, scraping and processing flows using LLMs and computer vision.",
+          "url": "https://www.sola-solutions.com/"
+        },
+        {
+          "name": "Sunday",
+          "logo": "/logos/conviction-sunday.png",
+          "sector": "Consumer Robotics",
+          "note": "Sunday Robotics — helpful home robots; Memo works 24/7 to lighten household chores (launching 2026).",
+          "url": "https://www.sunday.ai/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Conviction"
+  ]
+}

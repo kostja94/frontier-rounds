@@ -1,0 +1,270 @@
+{
+  "slug": "hongshan",
+  "name": "HongShan",
+  "mark": "/logos/hongshan.png",
+  "tagline": "China's most systematic AI backer — from foundation models to robot hands and brain-computer interfaces",
+  "website": "https://www.hongshan.com/",
+  "websiteLabel": "hongshan.com",
+  "summary": "HongShan is the China business formerly known as Sequoia Capital China, led by Neil Shen. Sequoia announced a three-way split of its global partnership in June 2023 and completed it in March 2024, since when HongShan has been a legally and financially separate partnership from Sequoia Capital in the US and Peak XV Partners in India and Southeast Asia — the portfolio below is HongShan's alone. Its AI programme spans every Chinese frontier model lab, the full embodied-intelligence stack from brains to hands to feet, autonomous driving and vision AI, and a brain-computer interface portfolio it began assembling in 2020.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "2005 (independent since 2024)"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Hong Kong / Beijing, China"
+    },
+    {
+      "label": "Leadership",
+      "value": "Neil Shen — founding and managing partner"
+    },
+    {
+      "label": "Type",
+      "value": "Independent venture and growth firm"
+    },
+    {
+      "label": "Stage",
+      "value": "Seed to growth"
+    },
+    {
+      "label": "Disclosed AI portfolio",
+      "value": "26+ companies"
+    }
+  ],
+  "thesis": [
+    {
+      "heading": "Every Chinese frontier lab, concentrated in MiniMax",
+      "body": "HongShan holds positions in Moonshot AI, MiniMax, Zhipu AI, Light Years Beyond and StepFun — effectively the full field of Chinese foundation-model contenders. Its heaviest single bet is MiniMax, where it led a US$50M A+ round and kept adding, ending pre-IPO as the third largest financial shareholder at 3.81%."
+    },
+    {
+      "heading": "Back early, then add on proof",
+      "body": "The firm's seed vehicle entered Unitree Robotics at Pre-A in December 2019 with RMB 15M at a RMB 150M post-money valuation, then followed nearly every round to a 7.11% stake worth over RMB 2.5B on paper — the seed fund's first investment and the template for how HongShan compounds early conviction."
+    },
+    {
+      "heading": "Embodied intelligence as a jigsaw",
+      "body": "Rather than picking one robot winner, HongShan funded each layer of the stack: the brain (AgiBot), perception (Mech-Mind), hands (LinkerBot), feet (Lingzu Tech), force-controlled arms (Agile Robots), warehouse and consumer robots (Hai Robotics, Narwal, AgileX) and rehabilitation robotics (Fourier)."
+    },
+    {
+      "heading": "Brain-computer interfaces, five years early",
+      "body": "From 2020 the firm systematically backed Neuracle, NeuroXess, Zhiran Medical and SceneRay, entering a category most institutional investors only discovered around 2025 and holding it with unusually long patience."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed HongShan AI investments across foundation models, agents and applications, embodied intelligence, autonomous driving and vision, and brain-computer interfaces.",
+      "companies": [
+        {
+          "name": "Moonshot AI",
+          "logo": "/logos/moonshot-ai.png",
+          "sector": "Foundation Models",
+          "note": "Maker of Kimi. HongShan has backed every round since the angel financing.",
+          "url": "https://www.moonshot.cn/"
+        },
+        {
+          "name": "MiniMax",
+          "logo": "/logos/minimax-hs.png",
+          "sector": "Foundation Models",
+          "note": "Led a US$50M A+ round, then repeated follow-ons; third largest financial shareholder at 3.81% before listing.",
+          "url": "https://www.minimaxi.com/"
+        },
+        {
+          "name": "Zhipu AI",
+          "logo": "/logos/zhipu-hs.png",
+          "sector": "Foundation Models",
+          "note": "One of the early institutional investors in the GLM model family.",
+          "url": "https://www.zhipuai.cn/"
+        },
+        {
+          "name": "Light Years Beyond",
+          "sector": "Foundation Models",
+          "note": "Large-model startup founded by Wang Huiwen and later acquired by Meituan; HongShan was an investor."
+        },
+        {
+          "name": "StepFun",
+          "logo": "/logos/stepfun.png",
+          "sector": "Multimodal Models",
+          "note": "One of China's multimodal model leaders; HongShan is an investor.",
+          "url": "https://www.stepfun.com/"
+        },
+        {
+          "name": "Monica (Manus)",
+          "logo": "/logos/manus.png",
+          "sector": "General AI Agents",
+          "note": "Co-led the Series A; Manus went viral in March 2025 with two million users queuing within a week.",
+          "url": "https://manus.im/"
+        },
+        {
+          "name": "Smartmore",
+          "logo": "/logos/smartmore-hs.png",
+          "sector": "Industrial AI Agents",
+          "note": "HongShan holds 2.41% and is the sixth largest shareholder ahead of the company's IPO attempt.",
+          "url": "https://www.smartmore.com/"
+        },
+        {
+          "name": "Unitree Robotics",
+          "logo": "/logos/unitree-hs.png",
+          "sector": "Humanoid and Quadruped Robots",
+          "note": "Seed fund entered at Pre-A in December 2019 (RMB 15M at RMB 150M post-money) and added across rounds to a 7.11% stake, over RMB 2.5B on paper.",
+          "url": "https://www.unitree.com/"
+        },
+        {
+          "name": "AgiBot",
+          "logo": "/logos/agibot.png",
+          "sector": "Embodied Foundation Models",
+          "note": "The 'brain' position in HongShan's embodied intelligence map.",
+          "url": "https://www.agibot.com/"
+        },
+        {
+          "name": "Mech-Mind",
+          "logo": "/logos/mech-mind.png",
+          "sector": "3D Vision for Robots",
+          "note": "The 'perception' position — AI-powered industrial 3D vision.",
+          "url": "https://www.mech-mind.com/"
+        },
+        {
+          "name": "LinkerBot",
+          "logo": "/logos/linkerbot.png",
+          "sector": "Dexterous Hands",
+          "note": "The 'hands' position — dexterous robotic hands.",
+          "url": "https://www.linkerbot.cn/"
+        },
+        {
+          "name": "Lingzu Tech",
+          "sector": "Robot Actuators",
+          "note": "The 'feet' position — leg and foot actuators for humanoid robots."
+        },
+        {
+          "name": "Hai Robotics",
+          "logo": "/logos/hai-robotics.png",
+          "sector": "Warehouse Robotics",
+          "note": "Case-handling mobile robots for automated warehouses.",
+          "url": "https://www.hairobotics.com/"
+        },
+        {
+          "name": "Agile Robots",
+          "logo": "/logos/agile-robots.png",
+          "sector": "Force-Controlled Arms",
+          "note": "Force-sensing intelligent robot arms.",
+          "url": "https://www.agile-robots.com/"
+        },
+        {
+          "name": "Segway-Ninebot",
+          "logo": "/logos/ninebot.png",
+          "sector": "Smart Mobility and Robotics",
+          "note": "Listed company spanning personal mobility and robotic lawn mowers.",
+          "url": "https://www.ninebot.com/"
+        },
+        {
+          "name": "Fourier Intelligence",
+          "logo": "/logos/fourier.png",
+          "sector": "Rehabilitation Robotics",
+          "note": "Rehabilitation and general-purpose humanoid robotics.",
+          "url": "https://www.fftai.com/"
+        },
+        {
+          "name": "Narwal",
+          "logo": "/logos/narwal.png",
+          "sector": "Consumer Robotics",
+          "note": "Premium robot floor cleaners.",
+          "url": "https://www.narwal.com/"
+        },
+        {
+          "name": "AgileX Robotics",
+          "sector": "Mobile Robot Platforms",
+          "note": "Robotic arms and mobile chassis used widely in embodied AI research."
+        },
+        {
+          "name": "Pony.ai",
+          "logo": "/logos/ponyai.png",
+          "sector": "Autonomous Driving",
+          "note": "HongShan led the company's first financing and invested in four consecutive rounds.",
+          "url": "https://www.pony.ai/"
+        },
+        {
+          "name": "Horizon Robotics",
+          "logo": "/logos/horizon-robotics.png",
+          "sector": "Automotive AI Chips",
+          "note": "Listed autonomous-driving compute platform.",
+          "url": "https://en.horizon.auto/"
+        },
+        {
+          "name": "SenseTime",
+          "sector": "Computer Vision",
+          "note": "Listed computer vision and multimodal AI group.",
+          "url": "https://www.sensetime.com/"
+        },
+        {
+          "name": "4Paradigm",
+          "logo": "/logos/4paradigm.png",
+          "sector": "Enterprise AI Platform",
+          "note": "Entered at Series A in 2015 and added across multiple later rounds.",
+          "url": "https://www.4paradigm.com/"
+        },
+        {
+          "name": "Neuracle",
+          "sector": "Brain-Computer Interface",
+          "note": "Backed from 2020, led internally by partner Yunxia Yang."
+        },
+        {
+          "name": "NeuroXess",
+          "logo": "/logos/neuroxess.png",
+          "sector": "Brain-Computer Interface",
+          "note": "Early investor in this flexible high-bandwidth BCI company.",
+          "url": "https://www.neuroxess.com/"
+        },
+        {
+          "name": "Zhiran Medical",
+          "sector": "Brain-Computer Interface",
+          "note": "Early-stage BCI investment."
+        },
+        {
+          "name": "SceneRay",
+          "sector": "Neuromodulation",
+          "note": "Early-stage investment in implantable neuromodulation and BCI devices."
+        }
+      ]
+    },
+    {
+      "heading": "Beyond AI",
+      "blurb": "A selected, non-exhaustive sample of the firm's wider internet and consumer track record.",
+      "companies": [
+        {
+          "name": "ByteDance",
+          "logo": "/logos/bytedance.png",
+          "sector": "Internet",
+          "note": "Early backer of the TikTok and Douyin parent."
+        },
+        {
+          "name": "Meituan",
+          "logo": "/logos/meituan.png",
+          "sector": "Local Services",
+          "note": "Long-held position in China's largest local commerce platform."
+        },
+        {
+          "name": "Pinduoduo",
+          "logo": "/logos/pinduoduo.png",
+          "sector": "E-commerce",
+          "note": "Early investor in the PDD Holdings marketplace."
+        },
+        {
+          "name": "JD.com",
+          "logo": "/logos/jd.png",
+          "sector": "E-commerce",
+          "note": "Early institutional investor."
+        },
+        {
+          "name": "DJI",
+          "logo": "/logos/dji.png",
+          "sector": "Consumer Drones",
+          "note": "Investor in the global drone leader."
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "HongShan",
+    "Sequoia Capital China"
+  ]
+}

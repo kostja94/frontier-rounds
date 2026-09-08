@@ -1,0 +1,542 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "logo": "/logos/openai.png",
+    "country": "United States",
+    "sector": "Foundation Models",
+    "totalRaisedUsd": 142000000000,
+    "largestRoundUsd": 122000000000,
+    "roundLabel": "Strategic",
+    "date": "2026-03-31",
+    "valuation": 852000000000,
+    "leads": [
+      {
+        "name": "SoftBank"
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "slug": "andreessen-horowitz"
+      },
+      {
+        "name": "D. E. Shaw Ventures"
+      },
+      {
+        "name": "MGX"
+      },
+      {
+        "name": "TPG"
+      },
+      {
+        "name": "T. Rowe Price"
+      }
+    ],
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "logo": "/logos/anthropic.png",
+    "country": "United States",
+    "sector": "AI Safety / Foundation Models",
+    "totalRaisedUsd": 118000000000,
+    "largestRoundUsd": 65000000000,
+    "roundLabel": "Series H",
+    "date": "2026-05-28",
+    "valuation": 965000000000,
+    "leads": [
+      {
+        "name": "Altimeter Capital"
+      },
+      {
+        "name": "Dragoneer"
+      },
+      {
+        "name": "Greenoaks"
+      },
+      {
+        "name": "Sequoia Capital",
+        "slug": "sequoia-capital"
+      }
+    ],
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/series-h",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "logo": "/logos/xai.png",
+    "country": "United States",
+    "sector": "Foundation Models / AI Infrastructure",
+    "totalRaisedUsd": 37000000000,
+    "largestRoundUsd": 20000000000,
+    "roundLabel": "Series E",
+    "date": "2026-01-06",
+    "valuation": 230000000000,
+    "leads": [
+      {
+        "name": "Valor Equity Partners"
+      },
+      {
+        "name": "Fidelity"
+      },
+      {
+        "name": "Qatar Investment Authority"
+      }
+    ],
+    "source": "xAI",
+    "sourceUrl": "https://x.ai/news/series-e",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "logo": "/logos/waymo.png",
+    "country": "United States",
+    "sector": "Autonomous Systems",
+    "totalRaisedUsd": 27100000000,
+    "largestRoundUsd": 16000000000,
+    "roundLabel": "Series D",
+    "date": "2026-02-02",
+    "valuation": 126000000000,
+    "leads": [
+      {
+        "name": "Dragoneer Investment Group"
+      },
+      {
+        "name": "DST Global"
+      },
+      {
+        "name": "Sequoia Capital",
+        "slug": "sequoia-capital"
+      }
+    ],
+    "source": "Waymo",
+    "sourceUrl": "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "logo": "/logos/az-databricks.png",
+    "country": "United States",
+    "sector": "Data & AI Platform",
+    "totalRaisedUsd": 25000000000,
+    "largestRoundUsd": 5000000000,
+    "roundLabel": "Strategic",
+    "date": "2026-08-13",
+    "valuation": 190000000000,
+    "leads": [
+      {
+        "name": "Coatue Management"
+      },
+      {
+        "name": "Blackstone"
+      },
+      {
+        "name": "MGX"
+      },
+      {
+        "name": "T. Rowe Price"
+      },
+      {
+        "name": "Sixth Street Growth"
+      }
+    ],
+    "source": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot AI",
+    "logo": "/logos/moonshot.png",
+    "country": "China",
+    "sector": "Foundation Models",
+    "totalRaisedUsd": 5000000000,
+    "largestRoundUsd": 3500000000,
+    "roundLabel": "Series F",
+    "date": "2026-07-29",
+    "valuation": 35000000000,
+    "leads": [
+      {
+        "name": "National AI Industry Investment Fund"
+      }
+    ],
+    "source": "Bloomberg",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+    "tier": "Reported"
+  },
+  {
+    "id": "safe-superintelligence",
+    "name": "Safe Superintelligence",
+    "logo": "/logos/safe-superintelligence.png",
+    "country": "United States",
+    "sector": "AI Safety Research",
+    "totalRaisedUsd": 8000000000,
+    "largestRoundUsd": 5000000000,
+    "roundLabel": "Strategic",
+    "date": "2026-07-27",
+    "leads": [
+      {
+        "name": "NVIDIA"
+      }
+    ],
+    "source": "NVIDIA / CTech",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/qy9eg5jw4",
+    "tier": "Reported"
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "logo": "/logos/scale-ai.png",
+    "country": "United States",
+    "sector": "Data Infrastructure",
+    "totalRaisedUsd": 15900000000,
+    "largestRoundUsd": 14300000000,
+    "roundLabel": "Strategic",
+    "date": "2025-06-12",
+    "valuation": 29000000000,
+    "leads": [
+      {
+        "name": "Meta"
+      }
+    ],
+    "source": "Scale AI",
+    "sourceUrl": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+    "tier": "Reported"
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "logo": "/logos/az-togetherai.png",
+    "country": "United States",
+    "sector": "AI Cloud / Inference",
+    "totalRaisedUsd": 1334000000,
+    "largestRoundUsd": 800000000,
+    "roundLabel": "Series C",
+    "date": "2026-07-01",
+    "valuation": 8300000000,
+    "leads": [
+      {
+        "name": "Aramco Ventures"
+      }
+    ],
+    "source": "Together AI",
+    "sourceUrl": "https://www.together.ai/blog/announcing-our-series-c",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "logo": "/logos/cerebras.png",
+    "country": "United States",
+    "sector": "AI Silicon",
+    "totalRaisedUsd": 2850000000,
+    "largestRoundUsd": 1000000000,
+    "roundLabel": "Series H",
+    "date": "2026-02-03",
+    "valuation": 23000000000,
+    "leads": [
+      {
+        "name": "Tiger Global"
+      }
+    ],
+    "source": "Cerebras",
+    "sourceUrl": "https://www.cerebras.ai/press-release/cerebras-systems-raises-usd1-billion-series-h",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "sierra",
+    "name": "Sierra",
+    "logo": "/logos/az-sierra.png",
+    "country": "United States",
+    "sector": "Enterprise AI Agents",
+    "totalRaisedUsd": 1585000000,
+    "largestRoundUsd": 950000000,
+    "roundLabel": "Series E",
+    "date": "2026-05-04",
+    "valuation": 15800000000,
+    "leads": [
+      {
+        "name": "Tiger Global"
+      },
+      {
+        "name": "GV"
+      }
+    ],
+    "source": "Sierra",
+    "sourceUrl": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "logo": "/logos/physical-intelligence.png",
+    "country": "United States",
+    "sector": "Robotics AI",
+    "totalRaisedUsd": 1070000000,
+    "largestRoundUsd": 600000000,
+    "roundLabel": "Series B",
+    "date": "2025-11-20",
+    "valuation": 5600000000,
+    "leads": [
+      {
+        "name": "CapitalG"
+      }
+    ],
+    "source": "Bloomberg",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2025-11-20/robotics-startup-physical-intelligence-valued-at-5-6-billion-in-new-funding",
+    "tier": "Reported"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "logo": "/logos/az-mistral.png",
+    "country": "France",
+    "sector": "Open Models",
+    "totalRaisedUsd": 4020000000,
+    "largestRoundUsd": 2000000000,
+    "roundLabel": "Series C",
+    "date": "2025-09-09",
+    "valuation": 13800000000,
+    "leads": [
+      {
+        "name": "ASML"
+      }
+    ],
+    "source": "Mistral AI",
+    "sourceUrl": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "figure",
+    "name": "Figure AI",
+    "logo": "/logos/az-figure.png",
+    "country": "United States",
+    "sector": "Humanoid Robotics",
+    "totalRaisedUsd": 1750000000,
+    "largestRoundUsd": 1000000000,
+    "roundLabel": "Series C",
+    "date": "2025-09-16",
+    "valuation": 39000000000,
+    "leads": [
+      {
+        "name": "Parkway Venture Capital"
+      },
+      {
+        "name": "NVIDIA"
+      }
+    ],
+    "source": "Figure",
+    "sourceUrl": "https://www.figure.ai/news/series-c",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "logo": "/logos/groq.png",
+    "country": "United States",
+    "sector": "AI Inference",
+    "totalRaisedUsd": 4260000000,
+    "largestRoundUsd": 350000000,
+    "roundLabel": "Series A",
+    "date": "2026-08-17",
+    "valuation": 3500000000,
+    "leads": [
+      {
+        "name": "Disruptive"
+      },
+      {
+        "name": "NVIDIA"
+      }
+    ],
+    "source": "Groq",
+    "sourceUrl": "https://groq.com/newsroom/groq-closes-usd350-million-series-a-building-the-world-s-leading-ai-inference-cloud",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "zhipu",
+    "name": "Zhipu AI",
+    "logo": "/logos/zhipu.png",
+    "country": "China",
+    "sector": "Foundation Models",
+    "totalRaisedUsd": 5800000000,
+    "largestRoundUsd": 4000000000,
+    "roundLabel": "Post-IPO Placement",
+    "date": "2026-07-09",
+    "valuation": 64000000000,
+    "leads": [],
+    "source": "STCN / Reuters",
+    "sourceUrl": "https://www.stcn.com/article/detail/4008146.html",
+    "tier": "Reported"
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "logo": "/logos/minimax.png",
+    "country": "China",
+    "sector": "Foundation Models / Agents",
+    "totalRaisedUsd": 3400000000,
+    "largestRoundUsd": 2050000000,
+    "roundLabel": "PIPE",
+    "date": "2026-07-10",
+    "leads": [
+      {
+        "name": "Global institutional backers"
+      }
+    ],
+    "source": "TMTPOST",
+    "sourceUrl": "http://en.tmtpost.com/news/8059518",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey",
+    "logo": "/logos/az-harvey.png",
+    "country": "United States",
+    "sector": "Legal AI",
+    "totalRaisedUsd": 1226000000,
+    "largestRoundUsd": 200000000,
+    "roundLabel": "Growth",
+    "date": "2026-03-25",
+    "valuation": 11000000000,
+    "leads": [
+      {
+        "name": "GIC"
+      },
+      {
+        "name": "Sequoia Capital",
+        "slug": "sequoia-capital"
+      }
+    ],
+    "source": "Harvey",
+    "sourceUrl": "https://www.harvey.ai/blog/harvey-raises-growth-round-at-dollar11-billion-valuation-co-led-by-gic-and-sequoia",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "logo": "/logos/elevenlabs.png",
+    "country": "United States / United Kingdom",
+    "sector": "Voice AI",
+    "totalRaisedUsd": 781000000,
+    "largestRoundUsd": 500000000,
+    "roundLabel": "Series D",
+    "date": "2026-02-04",
+    "valuation": 11000000000,
+    "leads": [
+      {
+        "name": "Sequoia Capital",
+        "slug": "sequoia-capital"
+      }
+    ],
+    "source": "ElevenLabs",
+    "sourceUrl": "https://elevenlabs.io/blog/series-d",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "logo": "/logos/an-glean.png",
+    "country": "United States",
+    "sector": "Enterprise Search",
+    "totalRaisedUsd": 768200000,
+    "largestRoundUsd": 150000000,
+    "roundLabel": "Series F",
+    "date": "2025-06-10",
+    "valuation": 7200000000,
+    "leads": [
+      {
+        "name": "Wellington Management"
+      }
+    ],
+    "source": "Glean",
+    "sourceUrl": "https://www.glean.com/blog/glean-series-f-announcement",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "unitree",
+    "name": "Unitree",
+    "logo": "/logos/unitree.png",
+    "country": "China",
+    "sector": "Embodied AI / Robotics",
+    "totalRaisedUsd": 1150000000,
+    "largestRoundUsd": 904000000,
+    "roundLabel": "IPO",
+    "date": "2026-08-19",
+    "valuation": 9000000000,
+    "leads": [
+      {
+        "name": "Public markets"
+      }
+    ],
+    "source": "Shanghai Stock Exchange",
+    "sourceUrl": "https://www.36kr.com/p/3943674198218376",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "sarvam",
+    "name": "Sarvam AI",
+    "logo": "/logos/pk-sarvam.png",
+    "country": "India",
+    "sector": "Sovereign AI",
+    "totalRaisedUsd": 350000000,
+    "largestRoundUsd": 300000000,
+    "roundLabel": "Series B",
+    "date": "2026-06-15",
+    "valuation": 1500000000,
+    "leads": [
+      {
+        "name": "HCLTech"
+      }
+    ],
+    "source": "HCLTech / Sarvam",
+    "sourceUrl": "https://www.hcltech.com/press-releases/sarvam-raises-234-million-first-close-300-million-series-b-15-billion-valuation",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "logo": "/logos/an-suno.png",
+    "country": "United States",
+    "sector": "Generative Media",
+    "totalRaisedUsd": 775000000,
+    "largestRoundUsd": 400000000,
+    "roundLabel": "Series D",
+    "date": "2026-06-03",
+    "valuation": 5400000000,
+    "leads": [
+      {
+        "name": "Bond Capital"
+      }
+    ],
+    "source": "Suno",
+    "sourceUrl": "https://suno.com/blog/series-d-announcement",
+    "tier": "Disclosed"
+  },
+  {
+    "id": "abridge",
+    "name": "Abridge",
+    "logo": "/logos/az-abridge.png",
+    "country": "United States",
+    "sector": "Healthcare AI",
+    "totalRaisedUsd": 830000000,
+    "largestRoundUsd": 300000000,
+    "roundLabel": "Series E",
+    "date": "2025-06-24",
+    "valuation": 5300000000,
+    "leads": [
+      {
+        "name": "Andreessen Horowitz",
+        "slug": "andreessen-horowitz"
+      }
+    ],
+    "source": "Abridge",
+    "sourceUrl": "https://www.abridge.com/blog/series-e",
+    "tier": "Disclosed"
+  }
+]
