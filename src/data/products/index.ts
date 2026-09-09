@@ -14,6 +14,8 @@ import thinkingMachinesLab from "./thinking-machines-lab.json";
 import ineffableIntelligence from "./ineffable-intelligence.json";
 import amiLabs from "./ami-labs.json";
 import worldLabs from "./world-labs.json";
+import harvey from "./harvey.json";
+import clay from "./clay.json";
 
 const rawProducts = [
   lovable,
@@ -28,6 +30,8 @@ const rawProducts = [
   ineffableIntelligence,
   amiLabs,
   worldLabs,
+  harvey,
+  clay,
 ];
 
 export const productProfiles = rawProducts.map((p) => productProfileSchema.parse(p));

@@ -1,0 +1,110 @@
+{
+  "slug": "harvey",
+  "name": "Harvey",
+  "kind": "product",
+  "logo": "/logos/az-harvey.png",
+  "tagline": "The legal-AI leader that went from law-firm copilot to most valuable company in legal AI",
+  "website": "https://www.harvey.ai/",
+  "websiteLabel": "harvey.ai",
+  "summary": "Harvey is the San Francisco-based AI platform for legal and professional services, founded in 2022 by former securities litigator Winston Weinberg and DeepMind/Google Brain alum Gabriel Pereyra. It built an AI 'copilot' for lawyers on top of frontier models, then began training its own legal-specific models — launching its first open-weight legal model, Harvey Tenet (built from Moonshot's Kimi K3 base), in 2026. Its funding arc tracks the legal-AI category: ~US$5M seed backed by OpenAI (2022), a US$21M Series A led by Sequoia (2023), US$80M at US$715M (late 2023), US$100M at US$1.5B led by GV (July 2024), a US$300M round at US$5B (mid-2025), US$200M at US$11B led by GIC/Sequoia/Kleiner Perkins (March 2026), and — announced 9 September 2026 — a US$550M round at ~US$15.6B co-led by Lightspeed and the new firm Diffusion, alongside the acquisition of AI-agent-security startup Guardrails AI (its fourth acquisition of the year). Harvey has now raised more than US$1.5B, making it the most valuable and best-funded company in legal AI.",
+  "facts": [
+    { "label": "Founded", "value": "2022" },
+    { "label": "Headquarters", "value": "San Francisco, California" },
+    { "label": "Founders", "value": "Winston Weinberg (ex-O'Melveny & Myers); Gabriel Pereyra (ex-DeepMind / Google Brain / Meta AI)" },
+    { "label": "Sector", "value": "Legal AI / AI for professional services" },
+    { "label": "Product", "value": "AI copilot + workflow for law firms; Harvey Tenet (open-weight legal model, 2026)" },
+    { "label": "Customers", "value": "80% of top US law firms (per Sep 2026 reports)" },
+    { "label": "Total raised", "value": ">US$1.5B" },
+    { "label": "Latest valuation", "value": "~US$15.6B (US$550M round, Sep 2026)" },
+    { "label": "Valuation arc", "value": "US$715M (2023) → US$1.5B (2024) → US$5B (2025) → US$11B (Mar 2026) → US$15.6B (Sep 2026)" },
+    { "label": "Status", "value": "Private; four acquisitions in 2026 incl. Guardrails AI" }
+  ],
+  "rounds": [
+    {
+      "date": "2022-11-25",
+      "label": "Seed",
+      "amountUsd": 5000000,
+      "leads": ["OpenAI Startup Fund"],
+      "participants": ["Jeff Dean", "Elad Gil"],
+      "note": "Early backing anchored by the OpenAI Startup Fund (with angel Jeff Dean and Elad Gil), before the product's public launch. Amount ~US$5M per trackers.",
+      "sourceUrl": "https://tracxn.com/d/companies/harvey/__wv3Ir3KF1kZj1Zll1_0BJ3nIHx8uKPnDrx2Z1k7aQkU/funding-and-investors"
+    },
+    {
+      "date": "2023-04-26",
+      "label": "Series A",
+      "amountUsd": 21000000,
+      "leads": ["Sequoia Capital"],
+      "participants": ["OpenAI Startup Fund", "Conviction", "SV Angel", "Elad Gil"],
+      "note": "Led by Sequoia — Harvey's first widely announced round.",
+      "sourceUrl": "https://www.harvey.ai/blog/sequoia-and-openai-back-harvey-to-redefine-professional-services-starting-with-le"
+    },
+    {
+      "date": "2023-12-21",
+      "label": "Series B",
+      "amountUsd": 80000000,
+      "valuationUsd": 715000000,
+      "leads": ["Kleiner Perkins", "Sequoia Capital"],
+      "participants": ["OpenAI Startup Fund", "Elad Gil"],
+      "note": "Kleiner Perkins and Sequoia led, valuing the two-year-old startup at US$715M.",
+      "sourceUrl": "https://tracxn.com/d/companies/harvey/__wv3Ir3KF1kZj1Zll1_0BJ3nIHx8uKPnDrx2Z1k7aQkU/funding-and-investors"
+    },
+    {
+      "date": "2024-07-23",
+      "label": "Series C",
+      "amountUsd": 100000000,
+      "valuationUsd": 1500000000,
+      "leads": ["GV (Google Ventures)"],
+      "participants": ["OpenAI", "Kleiner Perkins", "Sequoia Capital", "Elad Gil", "SV Angel"],
+      "note": "Led by GV. The Information had reported Harvey sought ~US$600M at a US$2B+ valuation to acquire legal-research service vLex; those plans fell through, producing this smaller Series C.",
+      "sourceUrl": "https://techcrunch.com/2024/07/23/openai-backed-legaltech-startup-harvey-raises-100m/"
+    },
+    {
+      "date": "2025-06-23",
+      "label": "Growth round",
+      "amountUsd": 300000000,
+      "valuationUsd": 5000000000,
+      "leads": ["Kleiner Perkins", "Coatue"],
+      "participants": ["GV (Google Ventures)", "OpenAI Startup Fund", "Sequoia Capital"],
+      "note": "Reported mid-2025 round led by Kleiner Perkins and Coatue, tripling the valuation to US$5B. (Multiple further secondary/extended rounds moved Harvey's reported valuation through ~US$8B during late 2025 — third-party tracker reports vary.)",
+      "sourceUrl": "https://tracxn.com/d/companies/harvey/__wv3Ir3KF1kZj1Zll1_0BJ3nIHx8uKPnDrx2Z1k7aQkU/funding-and-investors"
+    },
+    {
+      "date": "2026-03-25",
+      "label": "Series G",
+      "amountUsd": 200000000,
+      "valuationUsd": 11000000000,
+      "leads": ["GIC", "Sequoia Capital", "Kleiner Perkins"],
+      "participants": ["Andreessen Horowitz", "Coatue", "Conviction", "Elad Gil", "Evantic"],
+      "note": "Led by GIC with Sequoia and Kleiner Perkins, pricing Harvey at US$11B six months before the September round (matches Frontier Rounds' Funding Leaderboard snapshot).",
+      "sourceUrl": "https://tracxn.com/d/companies/harvey/__wv3Ir3KF1kZj1Zll1_0BJ3nIHx8uKPnDrx2Z1k7aQkU/funding-and-investors"
+    },
+    {
+      "date": "2026-09-09",
+      "label": "New round",
+      "amountUsd": 550000000,
+      "valuationUsd": 15600000000,
+      "leads": ["Lightspeed Venture Partners", "Diffusion"],
+      "participants": ["Sapphire Ventures", "Whale Rock Capital Management", "Sequoia", "Andreessen Horowitz", "Kleiner Perkins", "Coatue", "Conviction", "Elad Gil", "Evantic", "GIC", "Goldman Sachs Alternatives", "Verified Capital", "WNDR"],
+      "note": "Co-led by Lightspeed and Diffusion, a new firm co-founded by Kris Fredrickson (a longtime Harvey backer who previously invested via Coatue). Announced together with the acquisition of Guardrails AI (AI-agent security; Harvey's fourth acquisition of 2026). Harvey has now raised more than US$1.5B in total.",
+      "sourceUrl": "https://thenextweb.com/news/harvey-550m-round-15-6bn-guardrails-acquisition"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "From roommate demo to legal AI's biggest company",
+      "body": "Pereyra showed Weinberg OpenAI's GPT-3 and Weinberg — a former O'Melveny & Myers securities litigator — realized it could transform legal workflows. The two launched Harvey in 2022, and the startup became the category's defining vendor: by September 2026 it counted ~80% of top US law firms as customers, and its valuation has risen from US$11B (March) to US$15.6B (September), a 42% jump in six months with revenue roughly doubling over the same period."
+    },
+    {
+      "heading": "Own the model, own the category",
+      "body": "Harvey's 2026 strategy shift is toward its own models: weeks before the September round it launched Harvey Tenet, its first post-trained open-weight legal model (based on Moonshot's Kimi K3), trained specifically for legal tasks. The US$550M round is earmarked for model talent and compute — moving beyond building on top of OpenAI/Anthropic models."
+    },
+    {
+      "heading": "Four acquisitions and a platform play",
+      "body": "The Guardrails AI deal (agent-security testing, co-founders Shreya Rajpal and Zayd Simjee joining Harvey's product org) is Harvey's fourth acquisition of 2026. Founder Weinberg says more are likely, treating deals largely as acqui-hires for strong teams — a consolidation pattern that matches Lightspeed's view that legal is the second-largest addressable AI market after code."
+    },
+    {
+      "heading": "A valuation justified by market size",
+      "body": "Lightspeed estimates legal is the second-largest addressable AI market, and that market argument underpins the ~US$15.6B valuation. With >US$1.5B raised, Harvey is simultaneously the most valuable and best-funded company in legal AI — the reference point against which every legal-AI competitor (Legora, Robin AI, Spellbook, etc.) is now measured."
+    }
+  ]
+}

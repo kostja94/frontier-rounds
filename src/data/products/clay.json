@@ -1,0 +1,127 @@
+{
+  "slug": "clay",
+  "name": "Clay",
+  "kind": "product",
+  "logo": "/logos/clay.png",
+  "tagline": "The AI-powered GTM platform that made 'GTM engineering' a job title — now near US$7B",
+  "website": "https://www.clay.com/",
+  "websiteLabel": "clay.com",
+  "summary": "Clay is the New York-based AI platform for sales and marketing teams — pulling prospect data from 150+ sources and running AI research agents and automated growth workflows — founded in 2017 by Kareem Amin and Nicolae Rusan (with Varun Anand joining as co-founder in 2021). It is the defining vendor of the 'GTM engineering' category it helped create, growing from US$500K ARR (2022) to ~US$100M ARR (December 2025) with 10,000+ customers including OpenAI, Anthropic, Canva, Intercom and Rippling. Its funding path: BoxGroup pre-seed (2017), a US$2.5M First Round seed (2021), US$13.5M Series A led by Sequoia (2023), US$46M Series B at US$500M led by Meritech (June 2024), a US$40M Series B extension at US$1.25B (January 2025), employee tenders at US$1.5B (May 2025, Sequoia) and US$5B (January 2026, DST Global), and a US$100M Series C at US$3.1B led by CapitalG (August 2025). In August 2026 Axios reported Clay had inked a new round led by Wellington Management at a US$7B pre-money valuation — a deal not yet formally closed or publicly confirmed by the company as of 9 September 2026.",
+  "facts": [
+    { "label": "Founded", "value": "2017 (New York; product shipped Feb 2022)" },
+    { "label": "Headquarters", "value": "New York, NY" },
+    { "label": "Founders", "value": "Kareem Amin (CEO); Nicolae Rusan; Varun Anand (COO, joined 2021)" },
+    { "label": "Sector", "value": "AI-powered go-to-market (GTM) platform — data, AI agents, workflow automation" },
+    { "label": "Product", "value": "Claygent AI agents, Sculptor workflow builder, 150+ premium data sources, CRM enrichment" },
+    { "label": "Customers", "value": "10,000+ (OpenAI, Anthropic, Canva, Intercom, Rippling)" },
+    { "label": "ARR", "value": "US$500K (2022) → ~US$100M (Dec 2025, reported)" },
+    { "label": "Total raised", "value": "~US$204M primary equity across disclosed rounds" },
+    { "label": "Latest valuation", "value": "US$7B pre-money (reported Wellington round, Aug 2026, not yet confirmed)" },
+    { "label": "Valuation arc", "value": "US$500M (2024) → US$1.25B → US$1.5B → US$3.1B (2025) → US$5B (Jan 2026) → US$7B (reported)" }
+  ],
+  "rounds": [
+    {
+      "date": "2017-06-01",
+      "label": "Pre-seed",
+      "leads": ["BoxGroup"],
+      "participants": [],
+      "note": "Backing from NYC-based BoxGroup (David Tisch) at the company's founding.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2021-01-01",
+      "label": "Seed",
+      "amountUsd": 2500000,
+      "leads": ["First Round Capital"],
+      "participants": ["BoxGroup", "Boldstart Ventures"],
+      "note": "Led by First Round Capital.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2023-01-01",
+      "label": "Series A",
+      "amountUsd": 13500000,
+      "leads": ["Sequoia Capital"],
+      "participants": [],
+      "note": "Led by Sequoia (Alfred Lin) as Clay began building the GTM-engineering category.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2024-06-01",
+      "label": "Series B",
+      "amountUsd": 46000000,
+      "valuationUsd": 500000000,
+      "leads": ["Meritech Capital"],
+      "participants": ["Sequoia Capital", "First Round Capital", "Boldstart Ventures"],
+      "note": "Led by Meritech Capital as Clay entered its hypergrowth phase.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2025-01-01",
+      "label": "Series B extension",
+      "amountUsd": 40000000,
+      "valuationUsd": 1250000000,
+      "leads": ["Meritech Capital"],
+      "participants": [],
+      "note": "Pre-emptive extension led by Meritech Capital, lifting the price to US$1.25B seven months after the US$500M Series B.",
+      "sourceUrl": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/"
+    },
+    {
+      "date": "2025-05-01",
+      "label": "Employee tender",
+      "amountUsd": 20000000,
+      "valuationUsd": 1500000000,
+      "leads": ["Sequoia Capital"],
+      "participants": [],
+      "note": "Sequoia-led secondary tender allowing most employees to sell some shares.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2025-08-05",
+      "label": "Series C",
+      "amountUsd": 100000000,
+      "valuationUsd": 3100000000,
+      "leads": ["CapitalG"],
+      "participants": ["Meritech Capital", "Sequoia Capital", "First Round Capital", "BoxGroup", "Boldstart Ventures", "Sapphire Ventures"],
+      "note": "Led by CapitalG (Alphabet's independent growth fund); Sapphire Ventures joined as a new investor. More than doubled the valuation from the January extension. Total funding reached US$204M.",
+      "sourceUrl": "https://techcrunch.com/2025/08/05/clay-confirms-it-closed-100m-round-at-3-1b-valuation/"
+    },
+    {
+      "date": "2026-01-28",
+      "label": "Employee tender",
+      "amountUsd": 55000000,
+      "valuationUsd": 5000000000,
+      "leads": ["DST Global"],
+      "participants": [],
+      "note": "Employee tender led by DST Global at a US$5B valuation, nearly double the Series C mark seven months earlier.",
+      "sourceUrl": "https://sacra.com/c/clay/"
+    },
+    {
+      "date": "2026-08-31",
+      "label": "New round",
+      "valuationUsd": 7000000000,
+      "leads": ["Wellington Management"],
+      "participants": [],
+      "note": "Axios reported (31 August 2026) that Clay had inked a new round led by Wellington Management at a US$7B pre-money valuation. Round size undisclosed; as of 9 September 2026 neither Clay nor Wellington had formally confirmed the close — treat the figure as reported deal terms rather than a confirmed outcome.",
+      "sourceUrl": "https://valueaddvc.com/pulse/clay-7-billion-wellington-valuation-round-2026"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Inventing the GTM-engineering category",
+      "body": "Clay's founders (Amin and Rusan met at McGill studying electrical engineering, built and sold Frame, then took product roles at Dow Jones/WSJ) shipped Clay in February 2022 and effectively created two new categories: a 'claygency' services economy (160+ vetted partners) and the 'GTM Engineer' job title — 3,000+ open roles by January 2026 at a US$127K median salary. Customers like OpenAI, Anthropic, Canva, Intercom and Rippling use it to run outbound on the highest-quality data foundation."
+    },
+    {
+      "heading": "Revenue hypergrowth without touching the bank",
+      "body": "Clay grew from US$500K ARR in 2022 to ~US$100M ARR by December 2025, with >200% NRR among enterprise accounts. After the August 2025 Series C, founder Amin told the press the company 'hasn't touched' the last round — the definitional capital-efficiency story of the AI GTM wave, and a reason Wellington's reported US$7B pre-money bet is on category ownership rather than current revenue."
+    },
+    {
+      "heading": "A valuation arc with no product pivot",
+      "body": "Clay's ladder — US$500M (mid-2024) → US$1.25B → US$1.5B → US$3.1B (2025) → US$5B (Jan 2026) → a reported US$7B (Aug 2026) — rerated roughly 14x in two years without any strategic pivot, pricing AI-powered sales/marketing tooling as one of the defining software categories of the current AI cycle. Wellington's reported involvement mirrors its large late-stage checks into AI-native software (e.g. Glean) rather than waiting for IPOs."
+    },
+    {
+      "heading": "The caveat on the US$7B round",
+      "body": "Unlike Harvey's September round, Clay's US$7B deal was still, as of 9 September 2026, an Axios-reported agreement in progress: round size and Wellington's stake undisclosed, and neither Clay nor Wellington had confirmed a close. Reported late-stage terms sometimes shift before finalizing, so the figure is carried here as reported rather than confirmed."
+    }
+  ]
+}
