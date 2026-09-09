@@ -223,17 +223,19 @@ export default async function ProductProfilePage({ params }: Props) {
                 Funding timeline
               </h2>
               <p className="max-w-sm text-sm leading-snug text-muted-foreground">
-                Every disclosed equity round for {profile.name}, oldest to newest, with lead and
-                participating investors where reported.
+                Every disclosed equity round for {profile.name}, newest to oldest, with lead and
+                participating investors where reported. Data is stored oldest-first; the timeline
+                is displayed latest-first.
               </p>
             </div>
 
             <ol className="mt-10 space-y-8 border-l-2 border-ink pl-8 md:pl-12">
-              {profile.rounds.map((round, i) => (
+              {/* 数据层 rounds 升序存储（validator 强制）；展示层倒序，最新一轮置顶 */}
+              {[...profile.rounds].reverse().map((round, i) => (
                 <RoundCard
                   key={round.date + round.label}
                   round={round}
-                  isLatest={i === profile.rounds.length - 1}
+                  isLatest={i === 0}
                 />
               ))}
             </ol>
