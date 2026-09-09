@@ -10,13 +10,13 @@ type Stats = {
 
 export function StatStrip({ stats }: { stats: Stats }) {
   const items: { label: string; value: string; meta?: string }[] = [
-    { label: "Capital raised this week", value: formatUsd(stats.total) },
+    { label: "Capital in recent rounds", value: formatUsd(stats.total) },
     { label: "Disclosed deals", value: String(stats.deals) },
     { label: "Median round size", value: formatUsd(stats.medianRound) },
     {
       label: "Most active lead",
       value: stats.mostActiveInvestor,
-      meta: `${stats.mostActiveInvestorDeals} deal${stats.mostActiveInvestorDeals === 1 ? "" : "s"} this week`,
+      meta: `${stats.mostActiveInvestorDeals} deal${stats.mostActiveInvestorDeals === 1 ? "" : "s"} in this batch`,
     },
   ];
 

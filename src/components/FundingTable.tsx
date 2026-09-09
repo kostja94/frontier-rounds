@@ -8,7 +8,7 @@ export function FundingTable({ rounds }: { rounds: FundingRound[] }) {
           Latest Funding Rounds
         </h2>
         <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
-          Updated daily
+          Updated as rounds are recorded
         </p>
       </div>
 

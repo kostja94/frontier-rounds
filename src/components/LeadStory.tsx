@@ -5,7 +5,7 @@ export function LeadStory({ round }: { round: FundingRound }) {
     <section className="animate-fade-up border-b border-ink">
       <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
         <p className="text-[11px] uppercase tracking-[0.24em] text-accent">
-          Round of the week — {formatDate(round.date)}
+          Latest big round — {formatDate(round.date)}
         </p>
         <div className="mt-5 grid gap-8 md:grid-cols-[1.6fr_1fr] md:gap-14">
           <div>

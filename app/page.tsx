@@ -5,6 +5,7 @@ import { LeadStory } from "@/components/LeadStory";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatStrip } from "@/components/StatStrip";
+import { WeeklyTicker } from "@/components/WeeklyTicker";
 import { getStats, fundingRounds, latestRounds } from "@/data/fundingRounds";
 
 export const metadata: Metadata = {
@@ -22,6 +23,8 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main>
+        {/* 最新融资跑马灯(真实近期轮次;无数据时自动隐藏) */}
+        <WeeklyTicker rounds={latestRounds} />
         {leadStory ? (
           <>
             <LeadStory round={leadStory} />
