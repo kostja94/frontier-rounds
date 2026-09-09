@@ -19,6 +19,10 @@ import miraclePlus from "./profiles/miracleplus.json";
 import eladGil from "./profiles/elad-gil.json";
 import navalRavikant from "./profiles/naval-ravikant.json";
 import natFriedman from "./profiles/nat-friedman.json";
+import lightspeedVenturePartners from "./profiles/lightspeed-venture-partners.json";
+import generalCatalyst from "./profiles/general-catalyst.json";
+import indexVentures from "./profiles/index-ventures.json";
+import ericSchmidt from "./profiles/eric-schmidt.json";
 
 export type { InvestorProfile, PortfolioCompany } from "./schema";
 
@@ -43,6 +47,10 @@ const rawProfiles = [
   eladGil,
   navalRavikant,
   natFriedman,
+  lightspeedVenturePartners,
+  generalCatalyst,
+  indexVentures,
+  ericSchmidt,
 ];
 
 export const investorProfiles = investorProfileListSchema.parse(rawProfiles);

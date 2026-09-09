@@ -1,0 +1,215 @@
+{
+  "slug": "index-ventures",
+  "name": "Index Ventures",
+  "kind": "firm",
+  "mark": "/logos/indexventures-mark.png",
+  "tagline": "The Geneva-born transatlantic firm that bankrolled Europe's AI champions from the first cheque",
+  "website": "https://www.indexventures.com/",
+  "websiteLabel": "indexventures.com",
+  "summary": "Index Ventures is a transatlantic multi-stage venture and growth firm founded in 1996 in Geneva by Neil Rimer, David Rimer and Giuseppe Zocco, with its operational headquarters in London and additional offices in San Francisco, New York and Jersey. It has backed more than 1,100 companies and raised over US$15B since inception, with roughly US$11.7–13B under management across venture, growth and its Origin seed fund (most recent closings: Index XII US$800M and Growth VII US$1.5B, 2024). Index is the most successful transatlantic venture firm of its generation — Slack, Figma, Revolut, Wiz, Adyen, Datadog, Scale AI — and in the AI cycle it has become the most consistent institutional backer of Europe's flagship lab: it wrote Mistral's first institutional cheque before the company was incorporated and has participated in every round from Seed (2023) through the record €3B Series D (2026). On the US side it holds Scale AI across five rounds, plus Anthropic, Fireworks AI, Cohere and Perplexity.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "1996 (Geneva)"
+    },
+    {
+      "label": "Headquarters",
+      "value": "London (management HQ); San Francisco; New York; Geneva; Jersey"
+    },
+    {
+      "label": "Founders",
+      "value": "Neil Rimer; David Rimer; Giuseppe Zocco"
+    },
+    {
+      "label": "Type",
+      "value": "Transatlantic multi-stage venture + growth firm"
+    },
+    {
+      "label": "Assets under management",
+      "value": "~US$11.7–13B (undisclosed officially; GP Intel €11.7B / Dealroom US$13B)"
+    },
+    {
+      "label": "Capital raised",
+      "value": ">US$15B since inception"
+    },
+    {
+      "label": "Stage",
+      "value": "Seed (Index Origin) to growth and pre-IPO"
+    },
+    {
+      "label": "Backed",
+      "value": "1,100+ companies; 100+ unicorns"
+    },
+    {
+      "label": "Key AI positions",
+      "value": "Mistral (Seed→D), Scale AI, Anthropic, Fireworks AI, Cohere, Perplexity, Harvey, Hippocratic AI"
+    }
+  ],
+  "thesisHeading": "How Index is playing the AI cycle",
+  "thesis": [
+    {
+      "heading": "People-first, conviction-driven, cross-Atlantic",
+      "body": "Index describes itself as investing 'in who you are, not just what you do,' maintaining deep long-term founder relationships rather than transactional allocations. That conviction model is what let Julia Andre write Mistral's first cheque before incorporation and keep following on through the largest European round ever raised."
+    },
+    {
+      "heading": "Europe's AI champions as a core mandate",
+      "body": "Index is the rare top-tier fund with genuine roots on both sides of the Atlantic. Its European franchise — Mistral from seed, Scale AI's European founder Alexandr Wang, plus Cohere and Hippocratic AI in adjacent markets — makes it the default institutional partner for founders building sovereign or enterprise AI from Europe."
+    },
+    {
+      "heading": "Full-stack AI exposure",
+      "body": "The AI book spans frontier and open-weight labs (Anthropic, Mistral, Cohere), model-serving infrastructure (Fireworks AI, Lightning AI), AI search and applications (Perplexity, Harvey, Hebbia, ArthurAI), and physical AI (Physical Intelligence) — mirroring its multi-stage platform."
+    },
+    {
+      "heading": "From seed to the biggest rounds",
+      "body": "Its fund architecture (Origin seed + venture + Growth VII) lets Index stay in companies from a €105M Mistral seed to a €3B Series D — the same reason it could lead Scale AI's Series B in 2018 and still participate in its 2025 rounds."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed Index positions across frontier labs, AI infrastructure and AI-native applications, from indexventures.com and funding announcements.",
+      "companies": [
+        {
+          "name": "Mistral AI",
+          "logo": "/logos/az-mistral.png",
+          "sector": "Open-Weight Models",
+          "note": "First institutional cheque pre-incorporation (2023); in every round Seed→D including the €3B Series D (2026) — Julia Andre leads the relationship.",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "name": "Scale AI",
+          "logo": "/logos/scale-ai.png",
+          "sector": "AI Data / Infrastructure",
+          "note": "Backed Series B (2018) through Series G (2025) — among its longest AI holds; valued US$29B.",
+          "url": "https://scale.ai/"
+        },
+        {
+          "name": "Anthropic",
+          "logo": "/logos/anthropic.png",
+          "sector": "Frontier AI",
+          "note": "Investor in the Claude-maker through Series H (US$965B, 2026).",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "name": "Fireworks AI",
+          "logo": "/logos/fireworks.png",
+          "sector": "AI Inference",
+          "note": "Fast inference platform; led its Series D (US$17.5B, 2026).",
+          "url": "https://fireworks.ai/"
+        },
+        {
+          "name": "Cohere",
+          "logo": "/logos/radicalVentures-cohere.png",
+          "sector": "Enterprise AI",
+          "note": "Canadian enterprise LLM lab; Index is an investor.",
+          "url": "https://cohere.com/"
+        },
+        {
+          "name": "Perplexity",
+          "logo": "/logos/perplexity.png",
+          "sector": "AI Search",
+          "note": "AI answer engine; backed successive rounds.",
+          "url": "https://www.perplexity.ai/"
+        },
+        {
+          "name": "Harvey",
+          "logo": "/logos/az-harvey.png",
+          "sector": "Legal AI",
+          "note": "Generative AI for law firms; Index investor (valued US$11B).",
+          "url": "https://www.harvey.ai/"
+        },
+        {
+          "name": "Hippocratic AI",
+          "sector": "Healthcare AI",
+          "note": "Safety-first medical LLM; Index investor.",
+          "url": "https://www.hippocraticai.com/"
+        },
+        {
+          "name": "Hebbia",
+          "logo": "/logos/hebbia.png",
+          "sector": "Knowledge Work AI",
+          "note": "Matrix-style document reasoning; Index investor.",
+          "url": "https://www.hebbia.ai/"
+        },
+        {
+          "name": "Physical Intelligence",
+          "logo": "/logos/physical-intelligence.png",
+          "sector": "Embodied AI",
+          "note": "Robotics foundation models (π); Index investor.",
+          "url": "https://www.physicalintelligence.company/"
+        },
+        {
+          "name": "ArthurAI",
+          "sector": "AI Observability",
+          "note": "Model monitoring and evaluation; Index investor.",
+          "url": "https://www.arthur.ai/"
+        },
+        {
+          "name": "Lightning AI",
+          "sector": "AI Development",
+          "note": "PyTorch training platform (PyTorch Lightning); Index investor.",
+          "url": "https://lightning.ai/"
+        },
+        {
+          "name": "Adaptive ML",
+          "sector": "LLM Customization",
+          "note": "Fine-tuning and adaptation layer for production LLMs; Index investor.",
+          "url": "https://www.adaptiveml.com/"
+        }
+      ]
+    },
+    {
+      "heading": "Selected flagship legacy bets",
+      "blurb": "Companies that built Index's franchise and whose platforms now carry AI.",
+      "companies": [
+        {
+          "name": "Figma",
+          "logo": "/logos/figma.png",
+          "sector": "Design Software",
+          "note": "Design platform shipping generative features; Index led early.",
+          "url": "https://www.figma.com/"
+        },
+        {
+          "name": "Revolut",
+          "sector": "Fintech",
+          "note": "Europe's most valuable private company (US$115B).",
+          "url": "https://www.revolut.com/"
+        },
+        {
+          "name": "Wiz",
+          "sector": "Cloud Security",
+          "note": "Cybersecurity leader; Index is an investor.",
+          "url": "https://www.wiz.io/"
+        },
+        {
+          "name": "Adyen",
+          "sector": "Payments",
+          "note": "Payments platform; IPO 2018.",
+          "url": "https://www.adyen.com/"
+        },
+        {
+          "name": "Slack",
+          "sector": "Collaboration",
+          "note": "Backed pre-acquisition (Salesforce, 2021).",
+          "url": "https://slack.com/"
+        },
+        {
+          "name": "Roblox",
+          "sector": "Consumer",
+          "note": "Consumer platform with AI-native roadmap.",
+          "url": "https://www.roblox.com/"
+        },
+        {
+          "name": "Discord",
+          "sector": "Consumer",
+          "note": "Consumer platform with AI-native roadmap.",
+          "url": "https://discord.com/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Index Ventures",
+    "Index"
+  ]
+}

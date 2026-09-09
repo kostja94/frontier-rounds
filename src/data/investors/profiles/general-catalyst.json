@@ -1,0 +1,189 @@
+{
+  "slug": "general-catalyst",
+  "name": "General Catalyst",
+  "kind": "firm",
+  "mark": "/logos/generalcatalyst-mark.png",
+  "tagline": "The health-care-born generalist that turned AI into a thesis of its own",
+  "website": "https://www.generalcatalyst.com/",
+  "websiteLabel": "generalcatalyst.com",
+  "summary": "General Catalyst (GC) is a global venture and 'transformation' firm founded in 2000 in Cambridge, Massachusetts by Joel Cutler and David Fialkow, now led by CEO Hemant Taneja with Ken Chenault as chairman. It reports roughly US$43–45.5B in assets (US$43B+ Dec 2024 per Wikipedia; US$45.5B regulatory AUM on its July 2026 Form ADV) and has backed 800+ companies from seed to growth, including Airbnb, Stripe, Snap, HubSpot, Samsara, Gusto, Anduril and Ramp. GC is a generalist by charter — its deepest roots are in healthcare (its Health Assurance thesis) and durable category leaders — but it has become one of the most aggressive AI deployers among the big platforms: it was the lead investor in Mistral's €600M Series B (2024), entered Anthropic's cap table (2025), led the record US$1.1B round in River AI (2026, with AMP PBC) on an 'American open-weight leadership' thesis, and backs Anduril, Applied Intuition, Helsing and Hippocratic AI. Its 2024 Fund XII set aside ~US$1.5B for a 'Creation' strategy that builds AI-native companies in-house rather than only funding them.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "2000"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Cambridge, Massachusetts (offices in SF, NYC, London, Berlin, Bangalore, Washington DC)"
+    },
+    {
+      "label": "Founders",
+      "value": "Joel Cutler; David Fialkow"
+    },
+    {
+      "label": "Type",
+      "value": "Global multi-stage venture + transformation firm (RIA)"
+    },
+    {
+      "label": "Assets under management",
+      "value": "US$43–45.5B (Wikipedia Dec 2024; Form ADV Jul 2026)"
+    },
+    {
+      "label": "Stage",
+      "value": "Seed to growth and beyond"
+    },
+    {
+      "label": "Key people",
+      "value": "Hemant Taneja (CEO); Ken Chenault (Chairman); Jeannette zu Fürstenberg (President)"
+    },
+    {
+      "label": "Backed",
+      "value": "800+ companies"
+    },
+    {
+      "label": "AI anchor",
+      "value": "Anthropic (2025), Mistral (Series B lead), River AI (US$1.1B lead), Anduril, Applied Intuition, Hippocratic AI"
+    }
+  ],
+  "thesisHeading": "How General Catalyst is playing the AI cycle",
+  "thesis": [
+    {
+      "heading": "AI as a national-resilience and system-change thesis",
+      "body": "GC under Taneja frames AI in system terms — 'American leadership in AI urgently requires leadership in open-weight models' (on River AI) — pairing applied-AI bets with a policy voice that most financial VCs avoid. It is an argument the firm is willing to put money behind at the frontier of open weights."
+    },
+    {
+      "heading": "Healthcare AI as home turf",
+      "body": "GC's Health Assurance heritage gives it a differentiated lane: Hippocratic AI (safety-first medical LLM, backed since 2023), Formation Bio, Commure and Applied Intuition (autonomy) sit alongside its traditional health portfolio — an AI angle most generalist funds cannot claim."
+    },
+    {
+      "heading": "Creation: build, don't only back",
+      "body": "Fund XII reserved ~US$1.5B for 'Creation,' a strategy that incubates AI-native companies with GC operating partners rather than waiting for external founders — an unusual structure that makes GC part founder, part fund."
+    },
+    {
+      "heading": "The platform-generalist caveat",
+      "body": "Unlike AI-only funds, GC spreads across healthcare, defense, fintech and consumer; AI is its fastest-growing mandate but not its whole book. Its value to AI founders is scale capital, government-adjacent networks and the ability to lead US$1B+ rounds few others can."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed GC positions in AI and AI-adjacent companies, from generalcatalyst.com company pages and funding announcements.",
+      "companies": [
+        {
+          "name": "Anthropic",
+          "logo": "/logos/anthropic.png",
+          "sector": "Frontier AI",
+          "note": "Entered the Claude-maker's cap table (backed since 2025; Hemant Taneja / Christopher Kauffman lead the relationship).",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "name": "Mistral AI",
+          "logo": "/logos/az-mistral.png",
+          "sector": "Open-Weight Models",
+          "note": "Backed since 2023; led its €600M Series B (2024) and followed into C and the €3B Series D (2026).",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "name": "River AI",
+          "sector": "Open-Weight Infrastructure",
+          "note": "Co-led the record US$1.1B round (2026, with AMP PBC; NVIDIA/AMD strategic) for Igor Babuschkin's open-weight training company — an 'American resilience' bet.",
+          "url": "https://www.river.ai/"
+        },
+        {
+          "name": "Anduril",
+          "logo": "/logos/az-anduril.png",
+          "sector": "Defense AI",
+          "note": "Backed since 2017; autonomous defense systems.",
+          "url": "https://www.anduril.com/"
+        },
+        {
+          "name": "Applied Intuition",
+          "sector": "Autonomous Systems",
+          "note": "Simulation and software for autonomy; GC investor.",
+          "url": "https://www.appliedintuition.com/"
+        },
+        {
+          "name": "Helsing",
+          "sector": "Defense AI",
+          "note": "European defense AI; GC investor (Europe franchise via La Famiglia).",
+          "url": "https://helsing.ai/"
+        },
+        {
+          "name": "Hippocratic AI",
+          "sector": "Healthcare AI",
+          "note": "Safety-first medical LLM; backed since 2023 (Taneja / Alexandre Momeni).",
+          "url": "https://www.hippocraticai.com/"
+        },
+        {
+          "name": "Glean",
+          "logo": "/logos/an-glean.png",
+          "sector": "Enterprise AI Search",
+          "note": "Work AI; among GC's top AI companies (per portfolio trackers).",
+          "url": "https://www.glean.com/"
+        },
+        {
+          "name": "Abnormal Security",
+          "logo": "/logos/abnormal-ai.png",
+          "sector": "AI Security",
+          "note": "AI-native email security; GC investor.",
+          "url": "https://www.abnormalsecurity.com/"
+        },
+        {
+          "name": "Mercor",
+          "sector": "AI Talent",
+          "note": "AI-powered talent marketplace; GC-backed.",
+          "url": "https://mercor.com/"
+        }
+      ]
+    },
+    {
+      "heading": "Selected flagship legacy bets",
+      "blurb": "Companies that built GC's franchise.",
+      "companies": [
+        {
+          "name": "Stripe",
+          "logo": "/logos/stripe.png",
+          "sector": "Payments",
+          "note": "Among GC's best-known holdings.",
+          "url": "https://stripe.com/"
+        },
+        {
+          "name": "Airbnb",
+          "logo": "/logos/airbnb.png",
+          "sector": "Marketplace",
+          "note": "Backed from early days through IPO.",
+          "url": "https://www.airbnb.com/"
+        },
+        {
+          "name": "Snap",
+          "sector": "Consumer",
+          "note": "Social media; GC investor.",
+          "url": "https://snap.com/"
+        },
+        {
+          "name": "HubSpot",
+          "sector": "SaaS",
+          "note": "CRM/marketing platform; GC investor.",
+          "url": "https://www.hubspot.com/"
+        },
+        {
+          "name": "Samsara",
+          "sector": "IoT / AI",
+          "note": "Connected operations with AI; GC investor.",
+          "url": "https://www.samsara.com/"
+        },
+        {
+          "name": "Gusto",
+          "logo": "/logos/an-gusto.png",
+          "sector": "HR Tech",
+          "note": "Payroll and benefits platform; Taneja-led investment.",
+          "url": "https://gusto.com/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "General Catalyst",
+    "GC"
+  ]
+}

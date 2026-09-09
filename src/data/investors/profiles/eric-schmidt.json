@@ -1,0 +1,178 @@
+{
+  "slug": "eric-schmidt",
+  "name": "Eric Schmidt",
+  "kind": "person",
+  "tagline": "The former Google CEO who turned his family office into a frontier-AI and defense-tech vehicle",
+  "website": "https://en.wikipedia.org/wiki/Eric_Schmidt",
+  "websiteLabel": "en.wikipedia.org/wiki/Eric_Schmidt",
+  "summary": "Eric Schmidt ran Google from 2001 to 2011, served as executive chairman until 2019, and has since become one of the most active individual backers of frontier AI. He invests through two vehicles: Hillspire, his family office, and Innovation Endeavors, the early-stage firm he co-founded with Dror Berman in 2010. His AI activity is concentrated and deliberate — Hillspire has made 22 investments in private AI companies since 2019, and in 2022 alone 13 of his 17 startup investments (more than three-quarters) went to AI, per data shared with CNBC by Fintrx. His positions skew toward frontier labs and capability companies (Anthropic, Mistral, Reflection AI, World Labs, General Intuition), applied deep tech he chairs or advises (SandboxAQ), and defense-adjacent autonomy — a portfolio shaped by his decade chairing the US National Security Commission on Artificial Intelligence. In 2025 he took over as CEO of Relativity Space after acquiring a controlling stake.",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "Angel investor; ex-CEO and executive chairman of Google"
+    },
+    {
+      "label": "Based",
+      "value": "San Francisco Bay Area, CA / Washington, DC"
+    },
+    {
+      "label": "Background",
+      "value": "Google CEO 2001–2011; Executive Chairman to 2019"
+    },
+    {
+      "label": "Vehicles",
+      "value": "Hillspire (family office); Innovation Endeavors (co-founded 2010)"
+    },
+    {
+      "label": "Disclosed AI deals",
+      "value": "22 private AI companies since 2019 (Hillspire, per Fintrx/CNBC)"
+    },
+    {
+      "label": "Stage",
+      "value": "Seed to growth; personal and family-office checks"
+    },
+    {
+      "label": "Focus",
+      "value": "Frontier labs, AI safety & capability, applied deep tech, defense AI"
+    }
+  ],
+  "thesisHeading": "How Eric Schmidt picks AI companies",
+  "thesis": [
+    {
+      "heading": "Frontier capability and AI safety as one bet",
+      "body": "His largest known positions are frontier labs — he joined Anthropic's Series A in May 2021 and is a seed shareholder in Mistral — pairing an AI-safety ethos with a bet that capability concentration still wins."
+    },
+    {
+      "heading": "Own the hard science layer",
+      "body": "Through SandboxAQ (quantum + AI, which he chairs), World Labs (spatial AI) and Goodfire (interpretability), Schmidt funds the research-grade layers of the stack rather than thin wrappers."
+    },
+    {
+      "heading": "Defense and national security as an AI category",
+      "body": "Unusual among angels, he is a prolific backer of defense technology — Rebellion Defense, White Stork and Istari — informed by his government advisory roles, treating military AI as strategically aligned with frontier capability."
+    },
+    {
+      "heading": "Deploy through two gears",
+      "body": "Hillspire writes family-office checks of any size into later rounds; Innovation Endeavors does classic early-stage venture. Both report to the same thesis, which is why Schmidt can appear at a Mistral seed and an Anthropic growth round."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed positions reported in funding announcements and press coverage, spanning frontier labs, applied deep tech and defense AI.",
+      "companies": [
+        {
+          "name": "Anthropic",
+          "logo": "/logos/anthropic.png",
+          "sector": "Frontier AI",
+          "note": "Backed since its Series A (May 2021, US$124.62M round); a signature Hillspire/angel position through Series H (valued US$965B, 2026).",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "name": "Mistral AI",
+          "logo": "/logos/az-mistral.png",
+          "sector": "Open-Weight Models",
+          "note": "Seed shareholder (2023); one of the few non-VC names on the European champion's cap table.",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "name": "SandboxAQ",
+          "sector": "Quantum + AI",
+          "note": "Schmidt is chairman; backed from its 2022 Google spin-out through Series F (valued US$13.9B, 2026).",
+          "url": "https://sandboxaq.com/"
+        },
+        {
+          "name": "Reflection AI",
+          "logo": "/logos/aixVentures-reflection.png",
+          "sector": "Frontier AI",
+          "note": "Post-Transformer coding lab; participated in its US$2B NVIDIA-led Series B (2025-10, US$8B) and Series C.",
+          "url": "https://www.reflection.ai/"
+        },
+        {
+          "name": "World Labs",
+          "logo": "/logos/world-labs.png",
+          "sector": "Spatial AI",
+          "note": "Fei-Fei Li's large world model company; investor through Series E (US$5B, 2026).",
+          "url": "https://www.worldlabs.ai/"
+        },
+        {
+          "name": "General Intuition",
+          "sector": "Frontier AI",
+          "note": "Backed the startup's Series A (US$2.3B valuation, 2026).",
+          "url": "https://www.generalintuition.com/"
+        },
+        {
+          "name": "Goodfire",
+          "logo": "/logos/goodfire.png",
+          "sector": "AI Interpretability",
+          "note": "Mechanistic interpretability startup; Series B (US$1.3B, 2026).",
+          "url": "https://www.goodfire.ai/"
+        },
+        {
+          "name": "Stability AI",
+          "sector": "Image Models",
+          "note": "Participated in the open-model company's 2024 recapitalization / new investment (~US$80M).",
+          "url": "https://stability.ai/"
+        },
+        {
+          "name": "Rogo",
+          "sector": "Enterprise AI",
+          "note": "AI for financial services research; Series A (2024) through Series D (US$2B, 2026).",
+          "url": "https://www.rogo.com/"
+        },
+        {
+          "name": "Inflection AI",
+          "sector": "Consumer AI",
+          "note": "Participated in the US$1.3B round alongside Microsoft and NVIDIA (2023).",
+          "url": "https://inflection.ai/"
+        },
+        {
+          "name": "H",
+          "sector": "Frontier AI",
+          "note": "Backed the French lab (formerly Holistic AI) in its US$220M seed round (2024).",
+          "url": "https://hcompany.ai/"
+        },
+        {
+          "name": "Inworld AI",
+          "sector": "AI Characters",
+          "note": "Character and NPC AI platform; early investor.",
+          "url": "https://www.inworld.ai/"
+        },
+        {
+          "name": "Altera",
+          "sector": "Agentic AI",
+          "note": "Autonomous AI agents; among Hillspire's disclosed bets.",
+          "url": "https://www.altera.al/"
+        }
+      ]
+    },
+    {
+      "heading": "Selected earlier bets and operating roles",
+      "blurb": "Positions and roles that predate or flank the AI portfolio.",
+      "companies": [
+        {
+          "name": "Relativity Space",
+          "sector": "Aerospace",
+          "note": "Acquired a controlling stake and became CEO (2025); aerospace manufacturing with AI-heavy software.",
+          "url": "https://www.relativityspace.com/"
+        },
+        {
+          "name": "Innovation Endeavors",
+          "sector": "Early-stage VC",
+          "note": "Co-founded with Dror Berman (2010); portfolio across robotics, biotech, data and climate tech.",
+          "url": "https://www.innovationendeavors.com/"
+        },
+        {
+          "name": "Kong",
+          "sector": "API Infrastructure",
+          "note": "Backed since ~2019 through Series E (US$2B, 2024).",
+          "url": "https://konghq.com/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Eric Schmidt",
+    "Eric E. Schmidt",
+    "Hillspire"
+  ]
+}

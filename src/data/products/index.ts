@@ -3,8 +3,9 @@
 import { productProfileSchema } from "./schema";
 
 import lovable from "./lovable.json";
+import mistral from "./mistral.json";
 
-const rawProducts = [lovable];
+const rawProducts = [lovable, mistral];
 
 export const productProfiles = rawProducts.map((p) => productProfileSchema.parse(p));
 

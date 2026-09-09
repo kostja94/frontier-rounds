@@ -1,0 +1,192 @@
+{
+  "slug": "lightspeed-venture-partners",
+  "name": "Lightspeed Venture Partners",
+  "kind": "firm",
+  "tagline": "The $40B+ multi-stage firm that rebuilt its franchise around AI capital intensity",
+  "website": "https://lsvp.com/",
+  "websiteLabel": "lsvp.com",
+  "summary": "Lightspeed Venture Partners is a global multi-stage venture firm founded in 2000 and headquartered in Menlo Park, managing more than US$40B (Wikipedia lists US$50B). It operates as a federated set of regionally anchored entities — Lightspeed Management Company across the US, Europe and Israel, and Lightspeed India/SEA separately — with offices spanning Menlo Park, San Francisco, New York, Tel Aviv, London, Paris, Berlin, India and Singapore. Lightspeed began investing in AI in 2012 and says it has since backed 165 AI-native companies with more than US$5.5B committed. In December 2025 it closed more than US$9B across six vehicles — its largest fundraise ever — explicitly structured to fund capital-intensive AI: a US$3.3B Opportunity Fund III for late-stage follow-ons, US$1.8B Select VI, two early-stage funds (US$2.18B combined), a US$600M co-investment vehicle and US$1.25B in single-investor mandates. Its signature AI position is Anthropic — it led the US$3.5B Series E in 2025 and backed Series D and F — and it has written one of the largest reported VC cheques in the sector (~US$1B to Anthropic). It is also Mistral's seed lead and an every-round backer of the European champion.",
+  "facts": [
+    {
+      "label": "Founded",
+      "value": "2000"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Menlo Park, California (global offices across US, EU, Israel, India, SEA)"
+    },
+    {
+      "label": "Founders",
+      "value": "Barry Eggers; Christopher Schaepe; Ravi Mhatre; Peter Nieh"
+    },
+    {
+      "label": "Type",
+      "value": "Global multi-stage venture firm (federated structure)"
+    },
+    {
+      "label": "Assets under management",
+      "value": ">US$40B (US$50B per Wikipedia); largest raise US$9B across six funds (Dec 2025)"
+    },
+    {
+      "label": "Stage",
+      "value": "Seed to late-stage growth (Series F and beyond)"
+    },
+    {
+      "label": "AI track record",
+      "value": "165 AI-native companies; >US$5.5B committed since 2012"
+    },
+    {
+      "label": "Key AI positions",
+      "value": "Anthropic (Series E lead), OpenAI, xAI, Mistral, Databricks, Glean, Abridge, Skild AI, Reflection AI"
+    }
+  ],
+  "thesisHeading": "How Lightspeed is playing the AI cycle",
+  "thesis": [
+    {
+      "heading": "AI as a capital-intensity game, played with segmented funds",
+      "body": "Lightspeed's thesis is that AI value concentrates in companies that need sustained, enormous capital for talent, compute and infrastructure — so it raised a record US$9B across vehicles that separate early-stage risk from growth-stage follow-on. Opportunity Fund III (US$3.3B) exists to keep backing winners from Series C through E+ instead of losing them to later-stage funds."
+    },
+    {
+      "heading": "From the first cheque to the largest cheque",
+      "body": "The firm prides itself on staying with founders from Seed to Series F and beyond. Its Anthropic arc is the clearest example: engagement before public product, Series D in early 2024, leading the US$3.5B Series E in 2025, Series F — then seeking ~US$600M more via a Project Mercury continuation vehicle (2026) to extend ownership of OpenAI and four other assets while adding fresh Anthropic exposure."
+    },
+    {
+      "heading": "Depth over breadth, regionally anchored",
+      "body": "Rather than a single global platform, Lightspeed runs local-first partnerships (US/EU/Israel as LSVP; India/SEA as LSIP) that act as 'first investor and early backer' in each region — a structure that lets it be the seed lead for Mistral in Paris and a growth lead for Indian and Israeli AI companies at the same time."
+    },
+    {
+      "heading": "Applications and foundations both",
+      "body": "Its portfolio spans frontier labs (Anthropic, OpenAI, xAI, Mistral, Reflection AI), infrastructure and data (Databricks, Glean), and vertical applications (Abridge, Skild AI, Verkada, Rippling) — with consumer, healthcare and fintech teams realigned around AI-native opportunities."
+    }
+  ],
+  "portfolioGroups": [
+    {
+      "heading": "AI portfolio",
+      "blurb": "Disclosed Lightspeed positions across frontier labs, AI infrastructure and AI-native applications, from funding announcements, lsvp.com and press coverage.",
+      "companies": [
+        {
+          "name": "Anthropic",
+          "logo": "/logos/anthropic.png",
+          "sector": "Frontier AI",
+          "note": "Lightspeed's flagship AI position — Series D (2024), led the US$3.5B Series E (2025), Series F; ~US$1B reported cheque; valued US$965B (Series H, 2026).",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "name": "OpenAI",
+          "logo": "/logos/openai.png",
+          "sector": "Frontier AI",
+          "note": "Anchor asset in the Project Mercury secondary vehicle (2026), extending ownership alongside Anthropic exposure.",
+          "url": "https://openai.com/"
+        },
+        {
+          "name": "xAI",
+          "logo": "/logos/xai.png",
+          "sector": "Frontier AI",
+          "note": "Backer of Elon Musk's lab (Grok / Colossus).",
+          "url": "https://x.ai/"
+        },
+        {
+          "name": "Mistral AI",
+          "logo": "/logos/az-mistral.png",
+          "sector": "Open-Weight Models",
+          "note": "Seed lead (2023) and backer in Series A/B/C/D — the longest continuous run of any Mistral investor.",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "name": "Databricks",
+          "logo": "/logos/az-databricks.png",
+          "sector": "AI Data Platform",
+          "note": "Data and AI infrastructure leader; Lightspeed is an investor.",
+          "url": "https://www.databricks.com/"
+        },
+        {
+          "name": "Glean",
+          "logo": "/logos/an-glean.png",
+          "sector": "Enterprise AI Search",
+          "note": "Work AI / enterprise search; part of the Project Mercury portfolio (Series F US$150M, 2025).",
+          "url": "https://www.glean.com/"
+        },
+        {
+          "name": "Reflection AI",
+          "logo": "/logos/aixVentures-reflection.png",
+          "sector": "AI Coding",
+          "note": "Post-Transformer coding lab; in the Project Mercury vehicle alongside OpenAI.",
+          "url": "https://www.reflection.ai/"
+        },
+        {
+          "name": "Abridge",
+          "logo": "/logos/az-abridge.png",
+          "sector": "Healthcare AI",
+          "note": "Ambient clinical documentation; among Lightspeed's named AI bets.",
+          "url": "https://www.abridge.com/"
+        },
+        {
+          "name": "Skild AI",
+          "logo": "/logos/az-skild.png",
+          "sector": "Robotics Foundation Models",
+          "note": "General-purpose robot brain; Lightspeed backed its scale-up.",
+          "url": "https://www.skild.ai/"
+        },
+        {
+          "name": "Verkada",
+          "sector": "AI Physical Security",
+          "note": "AI video security; Series E US$200M (2025), US$5.8B (2025); in Project Mercury.",
+          "url": "https://www.verkada.com/"
+        },
+        {
+          "name": "Rippling",
+          "sector": "Workforce AI",
+          "note": "Workforce management platform with AI across HR/IT; Series G US$450M (2025); in Project Mercury.",
+          "url": "https://www.rippling.com/"
+        },
+        {
+          "name": "Wiz",
+          "sector": "AI Security",
+          "note": "Cloud security platform; Lightspeed is an investor (also a notable non-AI-lab win).",
+          "url": "https://www.wiz.io/"
+        }
+      ]
+    },
+    {
+      "heading": "Selected flagship legacy bets",
+      "blurb": "Companies that built Lightspeed's franchise and whose platforms now carry AI.",
+      "companies": [
+        {
+          "name": "Snap",
+          "sector": "Consumer",
+          "note": "Backed pre-IPO; consumer internet flagship.",
+          "url": "https://snap.com/"
+        },
+        {
+          "name": "Affirm",
+          "sector": "Fintech",
+          "note": "Buy-now-pay-later; strong post-IPO performance.",
+          "url": "https://www.affirm.com/"
+        },
+        {
+          "name": "Rubrik",
+          "sector": "Data Security",
+          "note": "IPO'd 2024; example of Lightspeed's enterprise data franchise.",
+          "url": "https://www.rubrik.com/"
+        },
+        {
+          "name": "Netskope",
+          "sector": "Security",
+          "note": "Cloud security leader.",
+          "url": "https://www.netskope.com/"
+        },
+        {
+          "name": "Nutanix",
+          "sector": "Infrastructure",
+          "note": "Early enterprise bet.",
+          "url": "https://www.nutanix.com/"
+        }
+      ]
+    }
+  ],
+  "investorNames": [
+    "Lightspeed Venture Partners",
+    "Lightspeed",
+    "LSVP"
+  ]
+}
