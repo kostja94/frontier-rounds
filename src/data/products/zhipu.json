@@ -1,0 +1,102 @@
+{
+  "slug": "zhipu",
+  "name": "Zhipu AI",
+  "kind": "product",
+  "logo": "/logos/zhipu.png",
+  "tagline": "China's 'global first listed large-model stock' — from Tsinghua lab to HKEX and beyond",
+  "website": "https://z.ai/",
+  "websiteLabel": "z.ai / zhipuai.cn",
+  "summary": "Zhipu AI (智谱, Zhipu Huazhang) is a Beijing-based AI company spun out of Tsinghua University's lab system, builder of the GLM foundation-model family, the ChatGLM/Zhipu Qingyan assistant and an enterprise MaaS platform. It completed eight pre-IPO funding rounds totalling over RMB 8.3B with 50+ institutional shareholders — VC backers (Legend Capital as largest external, Qiming, Sequoia China, Hillhouse, Shunwei), strategic giants (Meituan, Ant, Alibaba, Tencent, Xiaomi, Kingsoft, Boss Zhipin) and multiple local government funds — before listing on the Hong Kong Stock Exchange on 8 January 2026 (2513.HK) as the world's first publicly listed large-model company, raising ~HK$4.35B (US$560M) at a ~HK$51B market cap. Revenue doubled annually 2022–2024 (RMB 57.4M → 124.5M → 312.4M). A post-IPO placement was reported in July 2026 at a US$4B raise and ~US$64B valuation (Frontier Rounds leaderboard basis, Reported). Zhipu then proposed an A-share STAR Market listing to raise RMB 15B.",
+  "facts": [
+    { "label": "Founded", "value": "2019 (Tsinghua University spin-out; Beijing Zhipu Huazhang)" },
+    { "label": "Headquarters", "value": "Beijing, China (Haidian District)" },
+    { "label": "Origin", "value": "Tsinghua / Beijing Academy of AI (智源) ecosystem" },
+    { "label": "Sector", "value": "Foundation models (GLM family) + enterprise AI / MaaS" },
+    { "label": "Products", "value": "GLM models; ChatGLM / Zhipu Qingyan; Z.ai; enterprise platform" },
+    { "label": "Pre-IPO funding", "value": "8 rounds, >RMB 8.3B cumulative; 50+ investors" },
+    { "label": "IPO", "value": "HKEX 2513.HK, 2026-01-08, ~HK$4.35B raised (US$560M), ~HK$51B market cap" },
+    { "label": "Revenue", "value": "RMB 57.4M (2022) → 124.5M (2023) → 312.4M (2024); RMB 190M H1 2025" },
+    { "label": "Largest round", "value": "US$4B post-IPO placement (Jul 2026, Reported)" },
+    { "label": "Latest valuation", "value": "~US$64B (post-IPO placement, Reported)" },
+    { "label": "Status", "value": "Listed 2513.HK; proposed A-share STAR listing (RMB 15B)" }
+  ],
+  "rounds": [
+    {
+      "date": "2019-01-01",
+      "label": "Angel",
+      "amountUsd": 5600000,
+      "leads": ["China Science & Technology Innovation (中科创星)"],
+      "participants": ["Tsinghua tech-transfer vehicles"],
+      "note": "Earliest known funding: RMB 40M (≈US$5.6M) from 中科创星 and Tsinghua-related vehicles.",
+      "sourceUrl": "https://news.qq.com/rain/a/20260108A03U1O00"
+    },
+    {
+      "date": "2021-04-01",
+      "label": "Series A",
+      "amountUsd": 21000000,
+      "valuationUsd": 118000000,
+      "leads": ["达晨财智"],
+      "participants": ["华控基金", "将门创投", "智源研究院 (IP contribution)"],
+      "note": "RMB 152M (≈US$21M) at an RMB 850M (≈US$118M) valuation; a 智源研究院 angel tranche via 北京创新智源 preceded the priced A round in the same month.",
+      "sourceUrl": "https://www.stcn.com/article/detail/3577855.html"
+    },
+    {
+      "date": "2022-06-01",
+      "label": "Series B",
+      "amountUsd": 29000000,
+      "valuationUsd": 293000000,
+      "leads": ["Legend Capital (君联资本)", "Qiming Venture Partners (启明创投)"],
+      "participants": [],
+      "note": "Legend Capital and Qiming led the B1 tranche with ~RMB 210M (≈US$29M) at an RMB 2.11B (≈US$293M) post-money valuation.",
+      "sourceUrl": "https://www.stcn.com/article/detail/3577855.html"
+    },
+    {
+      "date": "2025-05-01",
+      "label": "Pre-IPO round",
+      "amountUsd": 278000000,
+      "valuationUsd": 3400000000,
+      "leads": ["Local government funds (multiple)"],
+      "participants": ["中关村科学城", "大兴投资", "杭州城创", "珠海华发", "成都高新新经济创投"],
+      "note": "Final private round before the HKEX IPO, dominated by local government funds contributing RMB 2B+ (≈US$278M) at an RMB 24.38B (≈US$3.4B) valuation; brought cumulative pre-IPO funding past RMB 8.3B across 8 rounds and 50+ shareholders.",
+      "sourceUrl": "https://www.stcn.com/article/detail/3577855.html"
+    },
+    {
+      "date": "2026-01-08",
+      "label": "HKEX IPO",
+      "amountUsd": 560000000,
+      "valuationUsd": 6500000000,
+      "leads": [],
+      "participants": ["Public offering + international placement"],
+      "note": "Zhipu listed on the Hong Kong Stock Exchange (2513.HK) at HK$116.20/share as the world's first publicly listed large-model company, raising ~HK$4.35B (≈US$560M) at a ~HK$51B (≈US$6.5B) issue market cap; opened above issue price to ~HK$55B. Greenshoe fully exercised 2026-02-04 adding ~HK$633M.",
+      "sourceUrl": "https://www.hibor.com.cn/repinfodetail_4825139.html"
+    },
+    {
+      "date": "2026-07-09",
+      "label": "Post-IPO placement",
+      "amountUsd": 4000000000,
+      "valuationUsd": 64000000000,
+      "leads": [],
+      "participants": [],
+      "note": "Reported post-IPO capital raise at a ~US$64B valuation (Frontier Rounds leaderboard basis; Reported tier). Zhipu separately proposed an A-share STAR Market listing to raise RMB 15B for GLM R&D and platform buildout.",
+      "sourceUrl": "https://frontierrounds.com/leaderboard"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "From Tsinghua lab to the world's first listed large-model stock",
+      "body": "Zhipu grew out of the Tsinghua/智源 research ecosystem (GLM lineage), raised early RMB rounds in 2019–2021, and rode the ChatGPT-era boom — more than 90% of its cumulative funding came after December 2022 — to a 2026-01-08 HKEX listing that made it the first large-model company to go public anywhere."
+    },
+    {
+      "heading": "A Chinese cap table unlike any Western lab",
+      "body": "Its 50+ pre-IPO shareholders span the full spectrum of Chinese capital: university tech-transfer vehicles, VCs (Legend Capital — the largest external holder via its social-security fund vehicle — Qiming, Sequoia China, Hillhouse, Shunwei), strategic giants (Meituan, Ant, Alibaba, Tencent, Xiaomi, Kingsoft, Boss Zhipin), and local government funds from Beijing, Shanghai, Chengdu, Tianjin, Hangzhou and Zhuhai whose investments carried concrete industrial orders (e.g. Zhuhai's city-level GLM space, Sichuan's provincial foundation model)."
+    },
+    {
+      "heading": "Revenue doubling on an enterprise MaaS model",
+      "body": "Unlike consumer-first rivals (MiniMax, Moonshot), Zhipu monetized through private deployment, MaaS and developer tools for government and enterprise — revenue roughly doubled every year 2022–2024, and by September 2025 it served 12,000+ enterprise customers, 80M+ terminal devices and 45M+ developers."
+    },
+    {
+      "heading": "The public-market turn",
+      "body": "The 2026 HKEX IPO (US$560M, ~HK$51B cap) and the reported July 2026 placement (~US$64B) moved Zhipu's financing story from private rounds to public markets, with an A-share STAR listing proposed to raise RMB 15B for GLM research. Its position shifted from 'one of the six tigers' of Chinese model startups to a listed platform with government enterprise channels as its moat."
+    }
+  ]
+}

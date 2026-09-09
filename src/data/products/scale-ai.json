@@ -1,0 +1,119 @@
+{
+  "slug": "scale-ai",
+  "name": "Scale AI",
+  "kind": "product",
+  "logo": "/logos/scale-ai.png",
+  "tagline": "The data infrastructure layer of the AI boom — until Meta bought 49% of it",
+  "website": "https://scale.ai/",
+  "websiteLabel": "scale.ai",
+  "summary": "Scale AI is the San Francisco-based AI data infrastructure company that provides data labeling, model evaluation and software for enterprises, governments and AI labs, founded in 2016 by Alexandr Wang and Lucy Guo (Y Combinator). It rode the AI boom from a US$120K seed to a US$13.8B Series F (May 2024) — then took a defining ~US$14.3B investment from Meta in June 2025 for a ~49% non-voting stake at a ~US$29B valuation, with founder-CEO Alexandr Wang leaving to lead Meta's superintelligence division (remaining on Scale's board) and Jason Droege installed as interim CEO. Cumulative disclosed funding is ~US$15.9B across 8 rounds (Accel led Series A and F; Index is a five-round holder). The Meta deal triggered customer flight — Google, OpenAI and Microsoft cut or reduced ties.",
+  "facts": [
+    { "label": "Founded", "value": "2016" },
+    { "label": "Headquarters", "value": "San Francisco, California" },
+    { "label": "Founders", "value": "Alexandr Wang; Lucy Guo" },
+    { "label": "Sector", "value": "AI data infrastructure (labeling, model evaluation, software)" },
+    { "label": "Revenue", "value": "~US$870M (2024); ~US$2B projected (2025, unaudited)" },
+    { "label": "Total raised", "value": "~US$15.9B across 8 rounds" },
+    { "label": "Largest round", "value": "~US$14.3B Series G from Meta (Jun 2025)" },
+    { "label": "Latest valuation", "value": "~US$29B (Meta strategic, Jun 2025)" },
+    { "label": "Meta stake", "value": "~49% non-voting (~US$14.3B)" },
+    { "label": "Status", "value": "Independent (Meta has no voting control); CEO Jason Droege (interim)" }
+  ],
+  "rounds": [
+    {
+      "date": "2016-08-01",
+      "label": "Seed",
+      "amountUsd": 120000,
+      "leads": ["Y Combinator"],
+      "participants": [],
+      "note": "Y Combinator backing at the company's founding.",
+      "sourceUrl": "https://fundbat.com/company/scale-ai/"
+    },
+    {
+      "date": "2017-05-24",
+      "label": "Series A",
+      "amountUsd": 5000000,
+      "leads": ["Accel"],
+      "participants": [],
+      "note": "Accel's first check — the beginning of its lead relationship.",
+      "sourceUrl": "https://fundbat.com/company/scale-ai/"
+    },
+    {
+      "date": "2018-08-07",
+      "label": "Series B",
+      "amountUsd": 18000000,
+      "leads": [],
+      "participants": ["Index Ventures"],
+      "note": "Growth round as government and enterprise data contracts scaled.",
+      "sourceUrl": "https://fundbat.com/company/scale-ai/"
+    },
+    {
+      "date": "2019-08-05",
+      "label": "Series C",
+      "amountUsd": 100000000,
+      "valuationUsd": 1000000000,
+      "leads": [],
+      "participants": ["Index Ventures"],
+      "note": "Crossed unicorn valuation.",
+      "sourceUrl": "https://fundbat.com/company/scale-ai/"
+    },
+    {
+      "date": "2020-12-01",
+      "label": "Series D",
+      "amountUsd": 155000000,
+      "valuationUsd": 3500000000,
+      "leads": ["Index Ventures"],
+      "participants": [],
+      "note": "",
+      "sourceUrl": "https://fundbat.com/company/scale-ai/"
+    },
+    {
+      "date": "2021-04-13",
+      "label": "Series E",
+      "amountUsd": 325000000,
+      "valuationUsd": 7300000000,
+      "leads": [],
+      "participants": ["Tiger Global", "Accel", "Index Ventures"],
+      "note": "Doubled the Series D valuation in four months amid the 2021 AI funding surge.",
+      "sourceUrl": "https://techcrunch.com/2024/05/21/data-labeling-startup-scale-ai-raises-1b-as-valuation-doubles-to-13-8b/"
+    },
+    {
+      "date": "2024-05-21",
+      "label": "Series F",
+      "amountUsd": 1000000000,
+      "valuationUsd": 13800000000,
+      "leads": ["Accel"],
+      "participants": ["Amazon", "Meta", "Index Ventures", "Cisco Investments", "ServiceNow Ventures"],
+      "note": "Accel led; Amazon and Meta participated. Doubled the Series E valuation after a 20% layoff year.",
+      "sourceUrl": "https://techcrunch.com/2024/05/21/data-labeling-startup-scale-ai-raises-1b-as-valuation-doubles-to-13-8b/"
+    },
+    {
+      "date": "2025-06-12",
+      "label": "Series G (Meta strategic)",
+      "amountUsd": 14300000000,
+      "valuationUsd": 29000000000,
+      "leads": ["Meta Platforms"],
+      "participants": [],
+      "note": "Meta invested ~US$14.3B for a ~49% non-voting stake at a ~US$29B implied valuation — one of Meta's largest deals since WhatsApp, structured to avoid regulatory scrutiny. Founder-CEO Alexandr Wang joined Meta to lead its superintelligence division (remaining on Scale's board); Jason Droege became interim CEO. The deal triggered customer flight: Google (~US$150M in 2024 spend), OpenAI and Microsoft cut ties, with xAI exploring alternatives.",
+      "sourceUrl": "https://valueaddvc.com/company/scale-ai"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The picks-and-shovels company of the AI era",
+      "body": "Scale turned data labeling — the unglamorous work of teaching models what the world looks like — into a mission-critical business for every frontier lab, from autonomous vehicles to foundation models. Its customers included OpenAI, Google, Microsoft and Meta, making it the shared data layer beneath the competing model stacks."
+    },
+    {
+      "heading": "From YC seed to the AI boom's biggest strategic check",
+      "body": "A US$120K YC seed in 2016 became a US$13.8B Series F in 2024 and a ~US$29B valuation by 2025. The valuation ladder — US$1B (2019), US$3.5B (2020), US$7.3B (2021), US$13.8B (2024), ~US$29B (2025) — tracks the AI boom almost exactly."
+    },
+    {
+      "heading": "The Meta deal that rewired the business",
+      "body": "Meta's June 2025 investment of ~US$14.3B for ~49% non-voting control was a strategic masterstroke and a commercial earthquake: it removed the conflict of one AI giant owning a stake in the shared data layer, and it sent Scale's other hyperscaler customers to competitors. Wang's departure to Meta — while retaining his board seat — blurred the line between Scale and its largest investor."
+    },
+    {
+      "heading": "Independence in name",
+      "body": "Scale insists it remains independent — Meta holds no voting power, and Droege's interim CEO appointment kept an operating executive in charge. But with its founder at Meta, ~49% of the company owned by Meta, and its former customers building in-house alternatives, the ~US$29B valuation is a bet on Scale's continued neutrality that the 2025 churn put in question."
+    }
+  ]
+}

@@ -4,8 +4,14 @@ import { productProfileSchema } from "./schema";
 
 import lovable from "./lovable.json";
 import mistral from "./mistral.json";
+import openai from "./openai.json";
+import anthropic from "./anthropic.json";
+import xai from "./xai.json";
+import scaleAi from "./scale-ai.json";
+import safeSuperintelligence from "./safe-superintelligence.json";
+import zhipu from "./zhipu.json";
 
-const rawProducts = [lovable, mistral];
+const rawProducts = [lovable, mistral, openai, anthropic, xai, scaleAi, safeSuperintelligence, zhipu];
 
 export const productProfiles = rawProducts.map((p) => productProfileSchema.parse(p));
 

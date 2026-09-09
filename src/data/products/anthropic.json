@@ -1,0 +1,170 @@
+{
+  "slug": "anthropic",
+  "name": "Anthropic",
+  "kind": "product",
+  "logo": "/logos/anthropic.png",
+  "tagline": "The safety-first frontier lab that out-raised and out-valued every private company on earth",
+  "website": "https://www.anthropic.com/",
+  "websiteLabel": "anthropic.com",
+  "summary": "Anthropic is the San Francisco frontier AI lab behind the Claude model family, founded in 2021 by Dario Amodei and colleagues who left OpenAI over safety strategy. It pairs an AI-safety mission with the most aggressive capital accumulation in private-market history: a US$124M Series A (May 2021), US$580M Series B led by Alameda/FTX (April 2022), hyperscaler commitments from Google (~US$43B cumulative by 2026) and Amazon (US$8B), and a pricing ladder from Series E US$3.5B at US$61.5B (March 2025) to Series F US$13B at US$183B (September 2025), Series G US$30B at US$380B (February 2026) and Series H US$65B at US$965B (May 2026) — briefly the most valuable private company on earth. ARR reached ~US$47B by May 2026 with 500+ customers each spending over US$1M annually. A confidential S-1 was filed June 2026.",
+  "facts": [
+    { "label": "Founded", "value": "2021" },
+    { "label": "Headquarters", "value": "San Francisco, California" },
+    { "label": "Founders", "value": "Dario Amodei (CEO); Daniela Amodei (President)" },
+    { "label": "Sector", "value": "Frontier AI safety & research (Claude model family)" },
+    { "label": "Product", "value": "Claude (chat + API); 500+ customers >US$1M ARR" },
+    { "label": "ARR (May 2026)", "value": "~US$47B annualized (reported)" },
+    { "label": "Total raised", "value": "~US$122B across disclosed rounds incl. strategic tranches (site leaderboard snapshot: US$118B)" },
+    { "label": "Latest valuation", "value": "US$965B post-money (Series H, May 2026)" },
+    { "label": "Largest round", "value": "US$65B Series H (May 2026) — among the largest private AI rounds ever" },
+    { "label": "Strategic backers", "value": "Google (~US$43B cumulative commitment); Amazon (US$8B)" },
+    { "label": "Status", "value": "Confidential S-1 filed June 2026" }
+  ],
+  "rounds": [
+    {
+      "date": "2021-05-28",
+      "label": "Series A",
+      "amountUsd": 124000000,
+      "leads": ["Jaan Tallinn"],
+      "participants": ["Salesforce Ventures", "Google", "Dustin Moskovitz", "Eric Schmidt"],
+      "note": "Led by AI-safety investor Jaan Tallinn two months after founding.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2022-04-29",
+      "label": "Series B",
+      "amountUsd": 580000000,
+      "leads": ["Alameda Research"],
+      "participants": ["Google"],
+      "note": "~US$500M (~86%) came from Alameda Research, the FTX-affiliated trading firm; the FTX estate later sold the stake at auction to repay creditors.",
+      "sourceUrl": "https://pinggy.io/blog/openai_anthropic_funding_history/"
+    },
+    {
+      "date": "2023-02-01",
+      "label": "Google strategic",
+      "amountUsd": 300000000,
+      "leads": ["Google"],
+      "participants": [],
+      "note": "First strategic Google investment (~10% stake) alongside a cloud relationship — the first of Anthropic's dual-hyperscaler commitments.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2023-05-01",
+      "label": "Series C",
+      "amountUsd": 450000000,
+      "valuationUsd": 4100000000,
+      "leads": ["Spark Capital"],
+      "participants": [],
+      "note": "Existing and new institutional investors joined as Claude gained enterprise traction.",
+      "sourceUrl": "https://www.capitaly.vc/blog/anthropic-funding-history-visualized"
+    },
+    {
+      "date": "2023-09-25",
+      "label": "Amazon strategic I",
+      "amountUsd": 1250000000,
+      "leads": ["Amazon"],
+      "participants": [],
+      "note": "First tranche of Amazon's US$4B commitment, announced with a cloud and Trainium partnership.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2023-10-27",
+      "label": "Google strategic II",
+      "amountUsd": 500000000,
+      "leads": ["Google"],
+      "participants": [],
+      "note": "Second Google convertible commitment.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2024-02-01",
+      "label": "Series D",
+      "amountUsd": 750000000,
+      "valuationUsd": 18400000000,
+      "leads": ["Menlo Ventures"],
+      "participants": [],
+      "note": "Menlo Ventures led the round that began its bet-the-firm Anthropic relationship.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2024-03-27",
+      "label": "Amazon strategic II",
+      "amountUsd": 2750000000,
+      "leads": ["Amazon"],
+      "participants": [],
+      "note": "Second Amazon tranche toward its US$8B total commitment.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2024-11-22",
+      "label": "Amazon strategic III",
+      "amountUsd": 4000000000,
+      "leads": ["Amazon"],
+      "participants": [],
+      "note": "Amazon completed its US$8B total commitment across the 2023–2024 tranches.",
+      "sourceUrl": "https://anthropic-funding-overview.vercel.app/"
+    },
+    {
+      "date": "2025-03-03",
+      "label": "Series E",
+      "amountUsd": 3500000000,
+      "valuationUsd": 61500000000,
+      "leads": ["Lightspeed"],
+      "participants": ["Bessemer", "Cisco Investments", "Fidelity", "General Catalyst", "Jane Street", "Menlo Ventures"],
+      "note": "Lightspeed led; the start of Anthropic's 2025 valuation acceleration.",
+      "sourceUrl": "https://mungomash.com/orgs/anthropic/financials/"
+    },
+    {
+      "date": "2025-09-02",
+      "label": "Series F",
+      "amountUsd": 13000000000,
+      "valuationUsd": 183000000000,
+      "leads": ["ICONIQ", "Fidelity", "Lightspeed"],
+      "participants": ["Qatar Investment Authority"],
+      "note": "Co-led by ICONIQ, Fidelity and Lightspeed; Qatar Investment Authority participated — sovereign wealth entered the cap table at scale.",
+      "sourceUrl": "https://mungomash.com/orgs/anthropic/financials/"
+    },
+    {
+      "date": "2026-02-12",
+      "label": "Series G",
+      "amountUsd": 30000000000,
+      "valuationUsd": 380000000000,
+      "leads": ["GIC", "Coatue", "D. E. Shaw Ventures", "Dragoneer", "Founders Fund", "ICONIQ", "MGX"],
+      "participants": ["BlackRock", "Fidelity", "JPMorgan", "Morgan Stanley", "Sequoia"],
+      "note": "Co-led by GIC and Coatue with a broader co-lead group. Term sheet signed at US$350B in December 2025, closed at US$380B in February 2026.",
+      "sourceUrl": "https://mungomash.com/orgs/anthropic/financials/"
+    },
+    {
+      "date": "2026-05-28",
+      "label": "Series H",
+      "amountUsd": 65000000000,
+      "valuationUsd": 965000000000,
+      "leads": ["Altimeter", "Dragoneer", "Greenoaks", "Sequoia Capital"],
+      "participants": ["BlackRock", "Brookfield", "D. E. Shaw", "DST Global", "Fidelity", "Samsung", "SK Hynix", "Micron"],
+      "note": "The largest private AI funding round in history at close, briefly making Anthropic the most valuable private company on earth ahead of OpenAI and SpaceX. Hardware makers Samsung, SK Hynix and Micron joined as strategic investors; includes ~US$15B of previously committed hyperscaler tranches. (Some tables list only the incremental ~US$8B new equity tranche; the widely reported headline is US$65B.)",
+      "sourceUrl": "https://mungomash.com/orgs/anthropic/financials/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Built on an OpenAI split",
+      "body": "Dario and Daniela Amodei left OpenAI in 2021 with a group of researchers over disagreements on safety and commercialization, founding Anthropic around the principle of 'Constitutional AI' — models steered by principles rather than pure RLHF. The founding team's credibility produced a US$124M Series A within two months and a US$580M Series B led by FTX's Alameda Research the following year, a stake the FTX estate later sold at auction."
+    },
+    {
+      "heading": "Two hyperscalers, not one",
+      "body": "Unlike most frontier labs, Anthropic holds strategic commitments from both Google (~US$43B cumulative by 2026, with a US$10B immediate tranche announced April 2026) and Amazon (US$8B), pairing Google Cloud TPUs and Amazon Trainium/Inferentia compute with massive cloud credits. The dual structure keeps leverage over any single cloud provider and lets Anthropic auction compute across suppliers."
+    },
+    {
+      "heading": "The fifteen-month valuation ladder",
+      "body": "The defining fact of Anthropic's financing history is its pace: US$61.5B (March 2025) → US$183B (September 2025) → US$380B (February 2026) → US$965B (May 2026), a ~16x expansion in fifteen months. Each round roughly doubled or tripled the previous post-money, and Series H's US$965B briefly surpassed OpenAI (US$852B) and SpaceX to make Anthropic the most valuable private company in the world."
+    },
+    {
+      "heading": "Revenue to back the valuation",
+      "body": "By May 2026 Anthropic reported ~US$47B annualized revenue with 500+ customers each spending over US$1M a year — enterprise penetration (Claude in law, finance, healthcare and code) rather than consumer scale is the revenue engine behind the round sizes."
+    },
+    {
+      "heading": "The IPO staging ground",
+      "body": "Anthropic confidentially filed its S-1 in June 2026 at a US$965B valuation. The Series H syndicate — growth funds plus Samsung/SK Hynix/Micron — positions the company for a public debut that would test whether the most valuable private company on earth can hold its multiple in public markets."
+    }
+  ]
+}

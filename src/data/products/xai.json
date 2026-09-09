@@ -1,0 +1,115 @@
+{
+  "slug": "xai",
+  "name": "xAI",
+  "kind": "product",
+  "logo": "/logos/xai.png",
+  "tagline": "Elon Musk's frontier lab — from Colossus to a SpaceX merger at US$250B in under three years",
+  "website": "https://x.ai/",
+  "websiteLabel": "x.ai",
+  "summary": "xAI is the artificial-intelligence company founded by Elon Musk in March 2023 (incorporated in Nevada with 11 AI researchers) to 'understand the true nature of the universe,' building the Grok model family and the Colossus supercomputer — one of the world's largest AI training clusters at over 1M H100-equivalent GPUs. Its financing arc was the fastest in the frontier-lab race: ~US$135M seed (December 2023), US$6B Series B at US$24B (May 2024), US$6B Series C at US$50B (December 2024), an all-stock acquisition of X Corp in March 2025 (xAI valued at US$80B, X at US$33B), a US$10B debt-and-equity package (July 2025), a reported US$10B Series D at US$200B (September 2025), and a US$20B Series E at US$230B (January 2026) — before SpaceX acquired xAI for US$250B in an all-stock deal on 2 February 2026, making it a wholly owned subsidiary.",
+  "facts": [
+    { "label": "Founded", "value": "March 2023 (Nevada)" },
+    { "label": "Headquarters", "value": "Palo Alto / San Francisco Bay Area, California" },
+    { "label": "Founders", "value": "Elon Musk + 11 AI researchers (incl. Igor Babuschkin, departed)" },
+    { "label": "Sector", "value": "Frontier foundation models + AI infrastructure (Grok; Colossus)" },
+    { "label": "Key product", "value": "Grok assistant; Colossus training cluster (1M+ H100-equivalents)" },
+    { "label": "Total raised", "value": "~US$37B on site leaderboard (excl. reported Series D); disclosed rounds incl. Series D sum higher" },
+    { "label": "Largest round", "value": "US$20B Series E @ US$230B (Jan 2026)" },
+    { "label": "Valuation arc", "value": "US$5B (2023) → US$24B → US$50B (2024) → US$80B (X deal 2025) → US$230B (Jan 2026)" },
+    { "label": "Outcome", "value": "Acquired by SpaceX for US$250B all-stock (Feb 2026); combined ~US$1.75T after SpaceX IPO (Jun 2026)" }
+  ],
+  "rounds": [
+    {
+      "date": "2023-12-01",
+      "label": "Seed",
+      "amountUsd": 134700000,
+      "leads": [],
+      "participants": [],
+      "note": "Early outside funding reported to the SEC (Form D) in December 2023, targeting a US$1B round.",
+      "sourceUrl": "https://www.revenuememo.com/p/who-owns-xai"
+    },
+    {
+      "date": "2024-05-26",
+      "label": "Series B",
+      "amountUsd": 6000000000,
+      "valuationUsd": 24000000000,
+      "leads": ["Andreessen Horowitz", "Sequoia Capital"],
+      "participants": ["Lightspeed", "Valor Equity Partners", "Fidelity", "Qatar Investment Authority", "Nvidia", "AMD"],
+      "note": "A strategic syndicate of tier-one VCs plus sovereign wealth.",
+      "sourceUrl": "https://x.ai/"
+    },
+    {
+      "date": "2024-12-23",
+      "label": "Series C",
+      "amountUsd": 6000000000,
+      "valuationUsd": 50000000000,
+      "leads": ["MGX", "Kingdom Holding", "Valor Equity Partners"],
+      "participants": ["Fidelity", "BlackRock", "Sequoia Capital"],
+      "note": "Doubled the valuation to US$50B in seven months.",
+      "sourceUrl": "https://x.ai/"
+    },
+    {
+      "date": "2025-03-28",
+      "label": "X Corp acquisition",
+      "leads": [],
+      "participants": [],
+      "note": "xAI acquired X Corp in an all-stock deal, valuing xAI at US$80B and X at US$33B — merging the AI lab with the social platform for data and distribution.",
+      "sourceUrl": "https://www.revenuememo.com/p/who-owns-xai"
+    },
+    {
+      "date": "2025-07-01",
+      "label": "Debt & equity package",
+      "amountUsd": 10000000000,
+      "leads": ["Morgan Stanley"],
+      "participants": [],
+      "note": "US$5B debt arranged by Morgan Stanley plus ~US$5B strategic equity for the Colossus compute buildout, following a US$300M secondary at US$113B earlier in 2025.",
+      "sourceUrl": "https://sacra.com/c/xai/"
+    },
+    {
+      "date": "2025-09-19",
+      "label": "Series D",
+      "amountUsd": 10000000000,
+      "valuationUsd": 200000000000,
+      "leads": ["Valor Capital", "Kingdom Holding"],
+      "participants": ["Qatar Investment Authority"],
+      "note": "Reported by CNBC/Bloomberg at a US$200B valuation with Valor, QIA and Kingdom Holding among named participants (Musk publicly disputed the report at the time; the close was nevertheless corroborated by multiple outlets). Labeled Reported because xAI did not announce it on its own news feed under that name.",
+      "sourceUrl": "https://mungomash.com/orgs/xai/financials/"
+    },
+    {
+      "date": "2026-01-06",
+      "label": "Series E",
+      "amountUsd": 20000000000,
+      "valuationUsd": 230000000000,
+      "leads": ["Valor Equity Partners", "Nvidia"],
+      "participants": ["Fidelity", "Qatar Investment Authority", "MGX", "Cisco", "StepStone", "Baron Capital", "Tesla", "HUMAIN"],
+      "note": "Upsized from a US$15B target. Nvidia and Cisco joined as strategic investors; Tesla committed ~US$2B subject to regulatory approval; Saudi HUMAIN invested US$3B.",
+      "sourceUrl": "https://mungomash.com/orgs/xai/financials/"
+    },
+    {
+      "date": "2026-02-02",
+      "label": "SpaceX acquisition",
+      "leads": [],
+      "participants": [],
+      "note": "SpaceX acquired xAI in an all-stock transaction valuing xAI at US$250B (SpaceX at ~US$1T); xAI investors received 0.1433 SpaceX shares per xAI share. After SpaceX's June 2026 IPO the combined company was valued at roughly US$1.75T.",
+      "sourceUrl": "https://sacra.com/c/xai/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Colossus as the moat",
+      "body": "xAI's defining asset is not Grok but Colossus — a Memphis training cluster built at record speed to 1M+ H100-equivalent GPUs. The capital raises of 2024–2026 map directly to this hardware buildout: each round bought more GPUs, and the July 2025 US$10B package plus an off-balance-sheet US$20B GPU-leasing SPV (Nvidia + asset managers, October 2025) extended the model without diluting equity."
+    },
+    {
+      "heading": "Merging the lab with the platform",
+      "body": "The March 2025 all-stock acquisition of X (xAI at US$80B) gave Grok exclusive access to X's real-time data and distribution. The SpaceX merger eleven months later (US$250B) folded the lab into Musk's broader aerospace-and-compute empire, ending xAI's life as an independent company."
+    },
+    {
+      "heading": "Valuation velocity and contested rounds",
+      "body": "From US$5B (December 2023) to US$250B (February 2026) is roughly a 50x expansion in 26 months — the fastest valuation arc in the frontier-lab set. It came with unusual noise: Musk publicly called the September 2025 Series D report 'fake news' before its close was corroborated, and Tesla's US$2B Series E commitment remained subject to shareholder approval."
+    },
+    {
+      "heading": "From lab to subsidiary",
+      "body": "The February 2026 SpaceX acquisition at US$250B was effectively an exit for xAI's outside investors, who swapped into SpaceX equity. Post-SpaceX-IPO (June 2026), the combined entity's ~US$1.75T valuation made the xAI round history a prologue to the Musk capital machine rather than a standalone story."
+    }
+  ]
+}
