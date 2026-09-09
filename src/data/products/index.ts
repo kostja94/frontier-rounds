@@ -10,8 +10,25 @@ import xai from "./xai.json";
 import scaleAi from "./scale-ai.json";
 import safeSuperintelligence from "./safe-superintelligence.json";
 import zhipu from "./zhipu.json";
+import thinkingMachinesLab from "./thinking-machines-lab.json";
+import ineffableIntelligence from "./ineffable-intelligence.json";
+import amiLabs from "./ami-labs.json";
+import worldLabs from "./world-labs.json";
 
-const rawProducts = [lovable, mistral, openai, anthropic, xai, scaleAi, safeSuperintelligence, zhipu];
+const rawProducts = [
+  lovable,
+  mistral,
+  openai,
+  anthropic,
+  xai,
+  scaleAi,
+  safeSuperintelligence,
+  zhipu,
+  thinkingMachinesLab,
+  ineffableIntelligence,
+  amiLabs,
+  worldLabs,
+];
 
 export const productProfiles = rawProducts.map((p) => productProfileSchema.parse(p));
 

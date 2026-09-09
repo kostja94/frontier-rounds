@@ -1,0 +1,51 @@
+{
+  "slug": "thinking-machines-lab",
+  "name": "Thinking Machines Lab",
+  "kind": "product",
+  "logo": "/logos/thinkingmachines-mark.png",
+  "tagline": "Collaborative general intelligence, built by OpenAI's former CTO",
+  "website": "https://thinkingmachines.ai/",
+  "websiteLabel": "thinkingmachines.ai",
+  "summary": "Thinking Machines Lab is a San Francisco-based AI research company founded by Mira Murati in February 2025, months after she stepped down as OpenAI's chief technology officer. Its founding team reads like a who's-who of frontier AI — chief scientist John Schulman (OpenAI co-founder), CTO Barret Zoph (former OpenAI VP of research, departed January 2026), Lilian Weng, Luke Metz and Andrew Tulloch among the initial ~30 researchers. The lab's mission is 'collaborative general intelligence': AI systems designed to work alongside humans across science, engineering and everyday work, built to be more open, customizable and understandable than today's closed frontier models. It raised a record US$2B seed round in July 2025 led by Andreessen Horowitz at a US$12B valuation — then the largest first round in venture history — despite shipping no product. It later released Tinker, an agent product, and Inkling, an open-weight model family (975B/41B, July 2026). A planned US$50B raise collapsed amid January 2026 leadership turmoil, and as of September 2026 the lab is reported to be in talks for a new US$5–6B round at a ≥US$40B pre-money valuation.",
+  "facts": [
+    { "label": "Founded", "value": "February 2025" },
+    { "label": "Headquarters", "value": "San Francisco, California" },
+    { "label": "Founder / CEO", "value": "Mira Murati (former OpenAI CTO)" },
+    { "label": "Key people", "value": "John Schulman (Chief Scientist, OpenAI co-founder); Soumith Chintala (CTO, from 2026)" },
+    { "label": "Sector", "value": "Frontier AI research — collaborative general intelligence, open-weight models" },
+    { "label": "Products", "value": "Tinker (agent platform, 2025); Inkling & Inkling-Small (open-weight LLMs, Jul 2026)" },
+    { "label": "Team", "value": "~30 researchers at founding; ~100 employees (2026)" },
+    { "label": "Total raised", "value": "~US$2B (one closed round)" },
+    { "label": "Latest valuation", "value": "US$12B (Seed, Jul 2025; in talks at ≥US$40B pre, Sep 2026)" }
+  ],
+  "rounds": [
+    {
+      "date": "2025-07-15",
+      "label": "Seed",
+      "amountUsd": 2000000000,
+      "valuationUsd": 12000000000,
+      "leads": ["Andreessen Horowitz"],
+      "participants": ["NVIDIA", "AMD", "Accel", "ServiceNow", "Cisco", "Jane Street", "Government of Albania"],
+      "note": "The largest first round in venture history at the time — roughly 4× any previous seed — raised by a company under a year old with no disclosed product. Albania's government participated (~US$10M, ~0.08% at the $12B valuation) alongside a Silicon Valley syndicate.",
+      "sourceUrl": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "OpenAI's CTO goes her own way",
+      "body": "Mira Murati left OpenAI in late 2024 after more than six years, rising from VP of Applied AI to CTO, and founded Thinking Machines Lab in February 2025. She recruited John Schulman, an OpenAI co-founder who had briefly moved to Anthropic, as chief scientist; Barret Zoph (OpenAI VP of research) as CTO; plus Lilian Weng, Luke Metz and Andrew Tulloch. Launch coverage described a deliberate alternative to closed labs: systems built around natural collaboration with people, with research shared openly."
+    },
+    {
+      "heading": "The largest seed round in history",
+      "body": "In July 2025, just five months after founding and with no public product, Thinking Machines closed a US$2B seed led by Andreessen Horowitz at a US$12B post-money valuation — the largest first round ever recorded and about 4× any previous seed. NVIDIA, AMD, Cisco, ServiceNow, Accel and Jane Street joined; Albania's government invested ~US$10M, requiring a budget amendment. Investors were betting on team pedigree and an OpenAI-shaped roadmap rather than shipped software. A planned follow-on at a US$50B valuation collapsed in January 2026 amid leadership turmoil — the NYT reported co-founders pressing for a sale or merger before departing — and valuation expectations reset toward ~US$12B."
+    },
+    {
+      "heading": "Products: Tinker and Inkling",
+      "body": "The lab exited research mode in stages: Tinker, an agentic product line, arrived in late 2025, and in July 2026 the company released Inkling, an open-weight frontier model family (975B-parameter and 41B variants), positioning Thinking Machines among the few labs shipping open weights at scale. Product momentum matters because the failed US$50B round left the company reliant on operational revenue and a fresh negotiation at a lower step-up."
+    },
+    {
+      "heading": "The road back to the cap table",
+      "body": "By January 2026 the NYT reported deep internal conflict: co-founders unhappy with direction and release pace, talks with Meta and Anthropic explored, and a wave of departures including CTO Barret Zoph (later replaced by Soumith Chintala). As of September 2026 the lab is reported negotiating a US$5–6B round at a ≥US$40B pre-money valuation with Accel expected to lead and NVIDIA considering ~US$2.5B — not yet closed. The outcome will test whether the market still prices OpenAI-exodus pedigree at frontier-lab multiples."
+    }
+  ]
+}

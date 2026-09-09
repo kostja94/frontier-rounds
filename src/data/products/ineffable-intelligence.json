@@ -1,0 +1,51 @@
+{
+  "slug": "ineffable-intelligence",
+  "name": "Ineffable Intelligence",
+  "kind": "product",
+  "logo": "/logos/ineffable-intelligence-mark.png",
+  "tagline": "David Silver's London lab building a 'superlearner' that learns from experience, not human data",
+  "website": "https://www.ineffable.ai/",
+  "websiteLabel": "ineffable.ai",
+  "summary": "Ineffable Intelligence is a London-based frontier AI lab founded by David Silver, the former head of reinforcement learning at Google DeepMind and principal architect of the AlphaGo / AlphaZero / MuZero line. Registered in November 2025 (Silver became a director and formally left DeepMind in January 2026), the company exited stealth on 27 April 2026 with a US$1.1B (≈€937M) seed round at a ≈US$5.1B post-money valuation — the largest seed round in European history — led by Sequoia Capital and Lightspeed, with NVIDIA and Google inside the cap table. The lab is pursuing a deliberately non-LLM thesis: a 'superlearner' that learns continuously from the consequences of its own actions in simulated worlds rather than from human data — the research program Silver outlined with Richard Sutton in their 2025 essay 'Welcome to the Era of Experience.' It has no product, model or revenue as of September 2026; public progress so far consists of compute partnerships with NVIDIA and Google Cloud and the elevation of six senior hires to co-founder in September 2026.",
+  "facts": [
+    { "label": "Founded", "value": "Registered Nov 2025; Silver joined as director Jan 2026 (exited stealth Apr 2026)" },
+    { "label": "Headquarters", "value": "London, United Kingdom" },
+    { "label": "Founder / CEO", "value": "David Silver (ex-DeepMind RL lead; UCL professor)" },
+    { "label": "Co-founders", "value": "Chris Apps; Wojciech Czarnecki; Lasse Espeholt; Junhyuk Oh; Alexandre Laterre; Heather Gorham (elevated Sep 2026)" },
+    { "label": "Sector", "value": "Frontier AI research — experience-based learning / superintelligence ('superlearner')" },
+    { "label": "Thesis", "value": "No pre-training on human data; RL from an agent's own experience in simulated worlds" },
+    { "label": "Team", "value": "~10–20 employees across five countries (LinkedIn, Sep 2026)" },
+    { "label": "Total raised", "value": "~US$1.1B (one disclosed seed round)" },
+    { "label": "Latest valuation", "value": "≈US$5.1B post-money (Seed, Apr 2026)" }
+  ],
+  "rounds": [
+    {
+      "date": "2026-04-27",
+      "label": "Seed",
+      "amountUsd": 1100000000,
+      "valuationUsd": 5100000000,
+      "leads": ["Sequoia Capital", "Lightspeed Venture Partners"],
+      "participants": ["NVIDIA", "Google", "DST Global", "Index Ventures", "Flying Fish Partners", "EQT Ventures", "Evantic Capital", "Wellcome Trust", "BOND Capital", "British Business Bank", "UK Sovereign AI Fund"],
+      "note": "Europe's largest seed financing on record, per the company. The round closed in two tranches — an earlier ~US$11M first tranche at a ~US$55M pre-money valuation (per filing data reported by Forbes), followed by the ~US$1.1B tranche at a ~US$4B pre / ≈US$5.1B post — but is officially presented as a single US$1.1B seed. NVIDIA's venture arm contributed at least US$250M; the UK government co-invested via the British Business Bank (US$20M direct) and the Sovereign AI Fund.",
+      "sourceUrl": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The AlphaGo architect leaves DeepMind",
+      "body": "David Silver led the DeepMind team behind AlphaGo — the first program to beat a world champion at Go — then AlphaZero (self-play mastery of chess, shogi and Go), AlphaStar, MuZero and AlphaProof. He spent over a decade as head of DeepMind's reinforcement learning group, holds a UCL professorship and roughly 300,000 citations. Fortune first reported his departure on 30 January 2026; the company entity had been registered the previous November, and Silver's personal note dated 15 January 2026 explained his decision to build a lab aimed at 'making first contact with superintelligence.'"
+    },
+    {
+      "heading": "The Era of Experience",
+      "body": "Ineffable's core wager is that LLMs — trained to imitate human text — will plateau before superintelligence. With Richard Sutton, Silver wrote 'Welcome to the Era of Experience' (2025), arguing the next leap comes when an agent's own experience, not human data, becomes the dominant learning signal. The company is building a 'superlearner': no imitation, just continuous learning from the consequences of its own actions inside simulated worlds, rediscovering and then transcending human inventions such as language and mathematics. Critics note RL has so far triumphed mainly where rules and reward signals are explicit — nobody has shown it scaling to open-ended tasks with ambiguous rewards."
+    },
+    {
+      "heading": "Europe's sovereign-AI flagship bet",
+      "body": "The seed — co-led by US funds Sequoia and Lightspeed, with NVIDIA and Google participating — made Ineffable the UK's flagship sovereign-AI bet: the newly launched Sovereign AI Fund (£500M, opened 16 April 2026) took its second direct equity position alongside a US$20M British Business Bank investment, with the science secretary framing it as ensuring 'the UK isn't just an AI taker but an AI maker.' Within Europe it contrasts with France's open-weight champion Mistral; its closest ideological neighbours are the emerging RL labs — Sutton left to found his own lab in July 2026, and Recursive Superintelligence raised US$650M in May 2026."
+    },
+    {
+      "heading": "Team, compute, and what comes next",
+      "body": "On 7 September 2026 the company elevated six senior hires to co-founder: four ex-DeepMind researchers (Chris Apps, Wojciech Czarnecki, Lasse Espeholt, Junhyuk Oh), ex-InstaDeep research head Alexandre Laterre, and former Flying Fish partner Heather Gorham. Progress so far is infrastructure: an NVIDIA engineering collaboration to co-design large-scale RL infrastructure (May 2026) and Google Cloud as compute partner running one of the largest A5X clusters (June 2026). There is still no public product, model, paper or revenue — five months after the largest seed round Europe has ever seen."
+    }
+  ]
+}
