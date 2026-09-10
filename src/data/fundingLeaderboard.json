@@ -538,5 +538,39 @@
     "source": "Abridge",
     "sourceUrl": "https://www.abridge.com/blog/series-e",
     "tier": "Disclosed"
+  },
+  {
+    "id": "cognition",
+    "name": "Cognition",
+    "logo": "/logos/conviction-cognition.png",
+    "country": "United States",
+    "sector": "AI Coding Agents",
+    "totalRaisedUsd": 3600000000,
+    "largestRoundUsd": 2000000000,
+    "roundLabel": "Series E",
+    "date": "2026-09-08",
+    "valuation": 48000000000,
+    "leads": [
+      {
+        "name": "Andreessen Horowitz",
+        "slug": "andreessen-horowitz"
+      },
+      {
+        "name": "Accel"
+      },
+      {
+        "name": "Founders Fund"
+      },
+      {
+        "name": "General Catalyst",
+        "slug": "general-catalyst"
+      },
+      {
+        "name": "Avenir"
+      }
+    ],
+    "source": "Reuters",
+    "sourceUrl": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
+    "tier": "Disclosed"
   }
 ]
