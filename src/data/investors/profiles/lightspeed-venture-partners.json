@@ -114,6 +114,13 @@
           "url": "https://www.reflection.ai/"
         },
         {
+          "name": "Cognition",
+          "logo": "/logos/conviction-cognition.png",
+          "sector": "AI Coding",
+          "note": "Maker of Devin, the autonomous software engineer; Lightspeed participated in the US$2B Series E at a US$48B valuation (Sep 2026).",
+          "url": "https://cognition.com/"
+        },
+        {
           "name": "Abridge",
           "logo": "/logos/az-abridge.png",
           "sector": "Healthcare AI",

@@ -104,6 +104,13 @@
           "note": "Agentic IDE and code completion platform formerly known as Codeium."
         },
         {
+          "name": "Cognition",
+          "logo": "/logos/conviction-cognition.png",
+          "sector": "AI Coding",
+          "note": "Maker of Devin, the autonomous software engineer; a16z co-led its US$2B Series E at a US$48B valuation (Sep 2026).",
+          "url": "https://cognition.com/"
+        },
+        {
           "name": "Replit",
           "logo": "/logos/az-replit.png",
           "sector": "AI Development",

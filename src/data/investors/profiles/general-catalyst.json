@@ -90,6 +90,13 @@
           "url": "https://www.river.ai/"
         },
         {
+          "name": "Cognition",
+          "logo": "/logos/conviction-cognition.png",
+          "sector": "AI Coding",
+          "note": "Maker of Devin, the autonomous software engineer; GC co-led its US$1B+ Series D (May 2026) and returned in the US$2B Series E (Sep 2026).",
+          "url": "https://cognition.com/"
+        },
+        {
           "name": "Anduril",
           "logo": "/logos/az-anduril.png",
           "sector": "Defense AI",
