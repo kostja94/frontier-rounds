@@ -61,7 +61,7 @@ export default async function InvestorTypePage({ params }: Props) {
               <span className="border border-ink bg-ink px-3 py-1 text-sm font-medium uppercase tracking-[0.14em] text-background">
                 {type.abbreviation}
               </span>
-              <h1 className="font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+              <h1 className="display-xl text-ink">
                 {type.name}
               </h1>
             </div>
@@ -70,19 +70,19 @@ export default async function InvestorTypePage({ params }: Props) {
             </p>
             <dl className="mt-8 grid gap-px border border-ink bg-rule sm:grid-cols-3">
               <div className="bg-background px-5 py-4">
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Typical stage
                 </dt>
                 <dd className="mt-1.5 text-base text-ink">{type.typicalStage}</dd>
               </div>
               <div className="bg-background px-5 py-4">
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Typical check
                 </dt>
                 <dd className="mt-1.5 text-base text-ink">{type.typicalCheckSize}</dd>
               </div>
               <div className="bg-background px-5 py-4">
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Investors in atlas
                 </dt>
                 <dd className="mt-1.5 text-base text-ink">{profiles.length}</dd>
@@ -93,7 +93,7 @@ export default async function InvestorTypePage({ params }: Props) {
 
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+            <h2 className="display-lg text-ink">
               AI Relevance
             </h2>
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-foreground">
@@ -102,7 +102,7 @@ export default async function InvestorTypePage({ params }: Props) {
 
             {type.examples.length > 0 && (
               <div className="mt-6">
-                <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <p className="eyebrow">
                   Reference examples
                 </p>
                 <p className="mt-1.5 text-sm leading-relaxed text-foreground">
@@ -115,7 +115,7 @@ export default async function InvestorTypePage({ params }: Props) {
 
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+            <h2 className="display-lg text-ink">
               Investors in the Atlas
             </h2>
             {profiles.length > 0 ? (

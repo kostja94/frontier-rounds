@@ -17,13 +17,13 @@ export function CriteriaGrid() {
   return (
     <section className="border-b border-ink">
       <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-        <h2 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+        <h2 className="display-md text-ink">
           Inclusion Criteria
         </h2>
         <div className="mt-6 grid gap-px border border-ink bg-rule md:grid-cols-3">
           {criteria.map((item) => (
             <article key={item.title} className="bg-background px-6 py-6">
-              <h3 className="font-display text-xl tracking-tight text-ink">{item.title}</h3>
+              <h3 className="text-xl text-ink">{item.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-foreground">{item.body}</p>
             </article>
           ))}

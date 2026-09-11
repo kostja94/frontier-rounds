@@ -31,7 +31,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
     <section className="border-b border-ink">
       <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
         <div className="flex flex-col gap-4 border-b-2 border-ink pb-4 sm:flex-row sm:items-end sm:justify-between">
-          <h2 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+          <h2 className="display-md text-ink">
             Leaderboard
           </h2>
           <div className="flex gap-1 border border-ink">
@@ -54,7 +54,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
         {/* Desktop table */}
         <table className="hidden w-full border-collapse text-sm md:table">
           <thead>
-            <tr className="border-b border-rule text-left text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+            <tr className="border-b border-rule text-left eyebrow">
               <th className="w-12 py-3 pr-2 font-normal">Rank</th>
               <th className="py-3 pr-4 font-normal">Company</th>
               <th className="py-3 pr-4 text-right font-normal">{amountLabel}</th>

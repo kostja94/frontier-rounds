@@ -82,7 +82,7 @@ export default function LeaderboardPage() {
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
-            <h1 className="max-w-4xl font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+            <h1 className="max-w-4xl display-xl text-ink">
               The AI Companies That Raised the Most, Ranked
             </h1>
             <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
@@ -101,7 +101,7 @@ export default function LeaderboardPage() {
           <div className="mx-auto max-w-6xl px-5 py-8 md:px-10">
             <div className="grid gap-6 border border-ink bg-rule/30 px-6 py-6 md:grid-cols-4 md:px-8 md:py-8">
               <div>
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Total capital on list
                 </dt>
                 <dd className="mt-1.5 font-display text-3xl tracking-tight text-ink">
@@ -109,7 +109,7 @@ export default function LeaderboardPage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Companies ranked
                 </dt>
                 <dd className="mt-1.5 font-display text-3xl tracking-tight text-ink">
@@ -117,7 +117,7 @@ export default function LeaderboardPage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Median total raised
                 </dt>
                 <dd className="mt-1.5 font-display text-3xl tracking-tight text-ink">
@@ -125,7 +125,7 @@ export default function LeaderboardPage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <dt className="eyebrow">
                   Most active lead
                 </dt>
                 <dd className="mt-1.5 font-display text-2xl tracking-tight text-ink md:text-3xl">

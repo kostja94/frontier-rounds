@@ -21,8 +21,8 @@ export default function ProductsPage() {
       <main className="animate-fade-up">
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
-            <p className="text-[11px] uppercase tracking-[0.24em] text-accent">Reference</p>
-            <h2 className="mt-4 font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+            <p className="eyebrow-accent">Reference</p>
+            <h2 className="mt-4 display-xl text-ink">
               Product Histories
             </h2>
             <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
@@ -47,7 +47,7 @@ export default function ProductsPage() {
 
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-10">
-            <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">Profiles</p>
+            <p className="eyebrow">Profiles</p>
             <ul className="mt-4 grid gap-3 sm:grid-cols-2">
               {productProfiles.map((profile) => {
                 const latest = profile.rounds[profile.rounds.length - 1];

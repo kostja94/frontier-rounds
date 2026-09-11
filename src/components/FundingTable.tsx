@@ -4,10 +4,10 @@ export function FundingTable({ rounds }: { rounds: FundingRound[] }) {
   return (
     <section className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
       <div className="flex items-baseline justify-between border-b-2 border-ink pb-3">
-        <h2 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+        <h2 className="display-md text-ink">
           Latest Funding Rounds
         </h2>
-        <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+        <p className="eyebrow">
           Updated as rounds are recorded
         </p>
       </div>
@@ -15,7 +15,7 @@ export function FundingTable({ rounds }: { rounds: FundingRound[] }) {
       {/* Desktop table */}
       <table className="hidden w-full border-collapse text-sm md:table">
         <thead>
-          <tr className="border-b border-rule text-left text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+          <tr className="border-b border-rule text-left eyebrow">
             <th className="py-3 pr-4 font-normal">Company</th>
             <th className="py-3 pr-4 font-normal">Round</th>
             <th className="py-3 pr-4 text-right font-normal">Amount</th>

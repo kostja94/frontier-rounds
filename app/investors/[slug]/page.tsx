@@ -58,7 +58,7 @@ export default async function InvestorProfilePage({ params }: Props) {
           <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-12 md:px-10 md:py-14">
             <div className="md:col-span-7">
               <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
-                <h1 className="font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+                <h1 className="display-xl text-ink">
                   {profile.name}
                 </h1>
                 {profile.localName && (
@@ -86,7 +86,7 @@ export default async function InvestorProfilePage({ params }: Props) {
                       <p className="font-display text-2xl leading-none tracking-tight text-ink">
                         {profile.name}
                       </p>
-                      <p className="mt-1 text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                      <p className="mt-1 eyebrow">
                         Individual investor
                       </p>
                     </div>
@@ -105,7 +105,7 @@ export default async function InvestorProfilePage({ params }: Props) {
                 <dl className="grid grid-cols-2 divide-x divide-y divide-rule md:grid-cols-3">
                   {profile.facts.map((fact) => (
                     <div key={fact.label} className="px-5 py-5 md:px-6 md:py-6">
-                      <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                      <dt className="eyebrow">
                         {fact.label}
                       </dt>
                       <dd className="mt-1.5 text-base leading-snug text-ink">{fact.value}</dd>
@@ -129,7 +129,7 @@ export default async function InvestorProfilePage({ params }: Props) {
 
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+            <h2 className="display-lg text-ink">
               {profile.thesisHeading ?? `How ${profile.name} Invests in AI`}
             </h2>
 
@@ -140,7 +140,7 @@ export default async function InvestorProfilePage({ params }: Props) {
             >
               {profile.thesis.map((item) => (
                 <article key={item.heading} className="bg-background px-6 py-6 md:px-7 md:py-7">
-                  <h3 className="font-display text-2xl tracking-tight text-ink">{item.heading}</h3>
+                  <h3 className="text-2xl text-ink">{item.heading}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-foreground">{item.body}</p>
                 </article>
               ))}
@@ -151,7 +151,7 @@ export default async function InvestorProfilePage({ params }: Props) {
         {profile.longSummary && (
           <section className="border-b border-ink">
             <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-              <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+              <h2 className="display-lg text-ink">
                 In depth
               </h2>
               <p className="mt-5 max-w-3xl text-base leading-relaxed text-foreground">
@@ -166,7 +166,7 @@ export default async function InvestorProfilePage({ params }: Props) {
             <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
               <div className="flex flex-wrap items-end justify-between gap-3">
                 <div>
-                  <h3 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+                  <h3 className="display-lg text-ink">
                     {group.heading}
                   </h3>
                 </div>
@@ -175,7 +175,7 @@ export default async function InvestorProfilePage({ params }: Props) {
 
               <table className="mt-6 hidden w-full border-collapse text-left md:table">
                 <thead>
-                  <tr className="border-y border-ink text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                  <tr className="border-y border-ink eyebrow">
                     <th scope="col" className="w-32 py-2 pr-4 font-normal" aria-label="Logo" />
                     <th scope="col" className="py-2 pr-4 font-normal">Company</th>
                     <th scope="col" className="py-2 pr-4 font-normal">Sector</th>
@@ -258,7 +258,7 @@ export default async function InvestorProfilePage({ params }: Props) {
 
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+            <h2 className="display-lg text-ink">
               Related Rounds
             </h2>
 

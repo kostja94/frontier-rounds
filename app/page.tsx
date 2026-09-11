@@ -34,12 +34,12 @@ export default function HomePage() {
         ) : (
           <section className="border-b-2 border-ink">
             <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
-              <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+              <p className="eyebrow">
                 Frontier Rounds — funding tracker
               </p>
-            <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
-              The Money Behind Frontier AI, One Round at a Time
-            </h1>
+              <h1 className="mt-4 max-w-3xl display-xl text-ink">
+                The Money Behind Frontier AI, One Round at a Time
+              </h1>
               <p className="mt-5 max-w-xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
                 Verified funding-round data is being compiled and will appear here as soon as it is
                 recorded. In the meantime, explore the investor atlas and the fundraising leaderboard.

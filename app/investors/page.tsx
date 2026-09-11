@@ -28,8 +28,8 @@ export default function InvestorsPage() {
       <main className="animate-fade-up">
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
-            <p className="text-[11px] uppercase tracking-[0.24em] text-accent">Reference</p>
-            <h2 className="mt-4 font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+            <p className="eyebrow-accent">Reference</p>
+            <h2 className="mt-4 display-xl text-ink">
               Investor Atlas
             </h2>
             <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
@@ -61,7 +61,7 @@ export default function InvestorsPage() {
               { label: "Angel investors", items: angelProfiles },
             ].map((group) => (
               <div key={group.label} className="mt-8 first:mt-0">
-                <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                <p className="eyebrow">
                   {group.label}
                 </p>
                 <ul className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -104,7 +104,7 @@ export default function InvestorsPage() {
         <section className="border-b border-ink">
           <div className="mx-auto grid max-w-6xl md:grid-cols-[220px_1fr] md:divide-x md:divide-ink">
             <aside className="hidden border-b border-ink px-8 py-10 md:block md:border-b-0">
-              <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">Index</p>
+              <p className="eyebrow">Index</p>
               <ul className="mt-4 space-y-2 text-sm text-foreground">
                 {investorTypes.map((type) => (
                   <li key={type.id}>
@@ -129,7 +129,7 @@ export default function InvestorsPage() {
                   >
                     <div>
                       <div className="flex items-baseline gap-3">
-                        <h3 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+                        <h3 className="display-md text-ink">
                           <Link
                             href={`/investor-types/${type.id}`}
                             className="transition-colors hover:text-accent"
@@ -137,7 +137,7 @@ export default function InvestorsPage() {
                             {type.name}
                           </Link>
                         </h3>
-                        <span className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                        <span className="eyebrow">
                           {type.abbreviation}
                         </span>
                       </div>
@@ -145,7 +145,7 @@ export default function InvestorsPage() {
                         {type.description}
                       </p>
                       <div className="mt-4">
-                        <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                        <p className="eyebrow">
                           AI relevance
                         </p>
                         <p className="mt-1 text-sm leading-relaxed text-foreground">
@@ -153,7 +153,7 @@ export default function InvestorsPage() {
                         </p>
                       </div>
                       <div className="mt-3">
-                        <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                        <p className="eyebrow">
                           Examples
                         </p>
                         <p className="mt-1 text-sm leading-relaxed text-foreground">
@@ -163,13 +163,13 @@ export default function InvestorsPage() {
                     </div>
                     <dl className="grid grid-cols-2 gap-4 border-t border-rule pt-4 text-sm md:grid-cols-1 md:border-t-0 md:border-l md:pl-8 md:pt-0">
                       <div>
-                        <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                        <dt className="eyebrow">
                           Typical stage
                         </dt>
                         <dd className="mt-1 text-ink">{type.typicalStage}</dd>
                       </div>
                       <div>
-                        <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                        <dt className="eyebrow">
                           Typical check
                         </dt>
                         <dd className="mt-1 text-ink">{type.typicalCheckSize}</dd>

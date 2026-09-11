@@ -24,7 +24,7 @@ export function StatStrip({ stats }: { stats: Stats }) {
     <dl className="grid grid-cols-2 divide-rule border-b border-ink md:grid-cols-4 md:divide-x">
       {items.map((item) => (
         <div key={item.label} className="border-b border-rule px-5 py-6 md:border-b-0 md:px-8">
-          <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+          <dt className="eyebrow">
             {item.label}
           </dt>
           <dd className="mt-2 font-display text-3xl leading-none tabular-nums text-ink">

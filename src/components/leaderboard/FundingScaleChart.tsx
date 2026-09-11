@@ -22,7 +22,7 @@ export function FundingScaleChart({ entries }: { entries: FundingLeaderboardEntr
     <section className="border-b border-ink">
       <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
         <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+          <h2 className="display-md text-ink">
             Funding Scale (Logarithmic)
           </h2>
           <p className="text-xs text-muted-foreground">Top 20 by total raised</p>

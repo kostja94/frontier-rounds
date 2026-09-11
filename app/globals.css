@@ -189,3 +189,49 @@
     font-weight: 400;
   }
 }
+
+/*
+ * Design tokens — typography & semantic component classes (2026-09-12).
+ * 全站统一标题字体:所有 h1-h6 强制 display 字体 + ink 色 + 标题字距,
+ * 组件内不再需要逐个写 font-display tracking-tight text-ink。
+ */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.025em;
+  }
+}
+
+@layer components {
+  /* 标题阶梯(响应式字号,收敛散落的内联 utility) */
+  .display-xl {
+    @apply text-4xl leading-[0.95] md:text-6xl;
+  }
+  .display-lg {
+    @apply text-3xl md:text-4xl;
+  }
+  .display-md {
+    @apply text-2xl md:text-3xl;
+  }
+
+  /* 微标签(eyebrow)—— 收敛 text-[11px] uppercase tracking-[0.16em] text-muted-foreground */
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-[0.16em] text-muted-foreground;
+  }
+
+  /* hero eyebrow(accent 色 + 更宽字距) */
+  .eyebrow-accent {
+    @apply text-[11px] uppercase tracking-[0.24em] text-accent;
+  }
+
+  /* 页面容器 —— 收敛 mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14 */
+  .page-shell {
+    @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14;
+  }
+}

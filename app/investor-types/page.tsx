@@ -22,8 +22,8 @@ export default function InvestorTypesPage() {
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
-            <p className="text-[11px] uppercase tracking-[0.24em] text-accent">Reference</p>
-            <h1 className="mt-4 font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
+            <p className="eyebrow-accent">Reference</p>
+            <h1 className="mt-4 display-xl text-ink">
               Investor Types
             </h1>
             <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
@@ -63,7 +63,7 @@ export default function InvestorTypesPage() {
                         {t.profileCount} {t.profileCount === 1 ? "investor" : "investors"}
                       </span>
                     </div>
-                    <h2 className="mt-3 font-display text-2xl leading-none tracking-tight text-ink transition-colors group-hover:text-accent">
+                    <h2 className="mt-3 text-2xl leading-none text-ink transition-colors group-hover:text-accent">
                       {t.name}
                     </h2>
                     <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-foreground">

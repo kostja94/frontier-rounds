@@ -65,12 +65,12 @@ function RoundCard({ round, isLatest }: { round: CompanyRound; isLatest: boolean
         }`}
       />
       <div className="grid gap-3 border-b border-rule pb-8 last:border-b-0 md:grid-cols-[130px_1fr] md:gap-8">
-        <div className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+        <div className="eyebrow">
           {formatRoundDate(round.date)}
         </div>
         <div>
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-            <h3 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+            <h3 className="display-md text-ink">
               {round.label}
             </h3>
             <span className="font-display text-xl tracking-tight text-ink md:text-2xl">
@@ -161,7 +161,7 @@ export default async function ProductProfilePage({ params }: Props) {
                   Funding timeline
                 </span>
               </div>
-              <h1 className="mt-4 font-display text-5xl leading-[0.95] tracking-tight text-ink md:text-7xl">
+              <h1 className="mt-4 text-5xl leading-[0.95] text-ink md:text-7xl">
                 {profile.name}
               </h1>
               <p className="mt-4 max-w-xl text-lg leading-snug text-foreground">
@@ -193,7 +193,7 @@ export default async function ProductProfilePage({ params }: Props) {
                     },
                   ].map((fact) => (
                     <div key={fact.label} className="px-5 py-4 md:px-6 md:py-5">
-                      <dt className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
+                      <dt className="eyebrow">
                         {fact.label}
                       </dt>
                       <dd className="mt-1.5 text-sm leading-snug text-ink">{fact.value}</dd>
@@ -219,7 +219,7 @@ export default async function ProductProfilePage({ params }: Props) {
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <div className="flex flex-wrap items-end justify-between gap-3">
-              <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+              <h2 className="display-lg text-ink">
                 Funding Timeline
               </h2>
               <p className="max-w-sm text-sm leading-snug text-muted-foreground">
@@ -246,13 +246,13 @@ export default async function ProductProfilePage({ params }: Props) {
         {profile.sections.length > 0 && (
           <section className="border-b border-ink">
             <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-              <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+              <h2 className="display-lg text-ink">
                 The Story Behind the Numbers
               </h2>
               <div className="mt-8 grid gap-px border border-ink bg-rule md:grid-cols-2">
                 {profile.sections.map((section) => (
                   <article key={section.heading} className="bg-background px-6 py-6 md:px-7 md:py-7">
-                    <h3 className="font-display text-2xl tracking-tight text-ink">
+                    <h3 className="text-2xl text-ink">
                       {section.heading}
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground">{section.body}</p>
@@ -266,7 +266,7 @@ export default async function ProductProfilePage({ params }: Props) {
         {/* 交叉链接 */}
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
-            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+            <h2 className="display-lg text-ink">
               More in the Atlas
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-foreground">
