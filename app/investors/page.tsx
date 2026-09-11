@@ -108,9 +108,12 @@ export default function InvestorsPage() {
               <ul className="mt-4 space-y-2 text-sm text-foreground">
                 {investorTypes.map((type) => (
                   <li key={type.id}>
-                    <a href={`#${type.id}`} className="transition-colors hover:text-accent">
+                    <Link
+                      href={`/investor-types/${type.id}`}
+                      className="transition-colors hover:text-accent"
+                    >
                       {type.abbreviation}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -127,7 +130,12 @@ export default function InvestorsPage() {
                     <div>
                       <div className="flex items-baseline gap-3">
                         <h3 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
-                          {type.name}
+                          <Link
+                            href={`/investor-types/${type.id}`}
+                            className="transition-colors hover:text-accent"
+                          >
+                            {type.name}
+                          </Link>
                         </h3>
                         <span className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
                           {type.abbreviation}
