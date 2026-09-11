@@ -69,7 +69,7 @@ export default async function InvestorProfilePage({ params }: Props) {
                 <InvestorTypeBadges typeIds={profile.investorTypeIds} />
               </div>
               <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
-                {profile.summary}
+                {profile.shortSummary}
               </p>
             </div>
 
@@ -147,6 +147,19 @@ export default async function InvestorProfilePage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {profile.longSummary && (
+          <section className="border-b border-ink">
+            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+              <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+                In depth
+              </h2>
+              <p className="mt-5 max-w-3xl text-base leading-relaxed text-foreground">
+                {profile.longSummary}
+              </p>
+            </div>
+          </section>
+        )}
 
         {profile.portfolioGroups.map((group) => (
           <section key={group.heading} className="border-b border-ink">

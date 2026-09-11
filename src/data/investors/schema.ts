@@ -33,6 +33,8 @@ export const investorProfileSchema = z.object({
   website: z.string(),
   websiteLabel: z.string(),
   summary: z.string(),
+  shortSummary: z.string(),
+  longSummary: z.string().optional(),
   facts: z.array(z.object({ label: z.string(), value: z.string() })),
   thesisHeading: z.string().optional(),
   thesis: z.array(z.object({ heading: z.string(), body: z.string() })),

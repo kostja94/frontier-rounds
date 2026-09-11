@@ -46,6 +46,8 @@ const profileSchema = z.object({
   website: z.string().min(1),
   websiteLabel: z.string(),
   summary: z.string().min(10),
+  shortSummary: z.string().min(10),
+  longSummary: z.string().optional(),
   facts: z.array(z.object({ label: z.string(), value: z.string() })).min(1),
   thesis: z.array(z.object({ heading: z.string(), body: z.string() })).min(1),
   portfolioGroups: z
