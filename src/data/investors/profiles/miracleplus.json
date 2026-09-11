@@ -12,7 +12,7 @@
   "facts": [
     {
       "label": "Founded",
-      "value": "2019 (successor to YC China)"
+      "value": "2019"
     },
     {
       "label": "Headquarters",
@@ -20,19 +20,11 @@
     },
     {
       "label": "Leadership",
-      "value": "Lu Qi, founder and chairman"
-    },
-    {
-      "label": "Type",
-      "value": "Accelerator"
+      "value": "Lu Qi"
     },
     {
       "label": "Standard deal",
       "value": "$300K for 7% equity"
-    },
-    {
-      "label": "Portfolio",
-      "value": "612 startups across 10 batches"
     }
   ],
   "thesisHeading": "How MiraclePlus Underwrites AI",

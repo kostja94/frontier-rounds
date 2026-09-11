@@ -11,31 +11,19 @@
   "facts": [
     {
       "label": "Role",
-      "value": "Angel investor; ex-CEO and executive chairman of Google"
+      "value": "Angel investor; ex-Google CEO"
     },
     {
       "label": "Based",
-      "value": "San Francisco Bay Area, CA / Washington, DC"
-    },
-    {
-      "label": "Background",
-      "value": "Google CEO 2001–2011; Executive Chairman to 2019"
+      "value": "SF Bay Area / Washington, DC"
     },
     {
       "label": "Vehicles",
-      "value": "Hillspire (family office); Innovation Endeavors (co-founded 2010)"
+      "value": "Hillspire; Innovation Endeavors"
     },
     {
       "label": "Disclosed AI deals",
-      "value": "22 private AI companies since 2019 (Hillspire, per Fintrx/CNBC)"
-    },
-    {
-      "label": "Stage",
-      "value": "Seed to growth; personal and family-office checks"
-    },
-    {
-      "label": "Focus",
-      "value": "Frontier labs, AI safety & capability, applied deep tech, defense AI"
+      "value": "22 private AI companies"
     }
   ],
   "thesisHeading": "How Eric Schmidt Picks AI Companies",
