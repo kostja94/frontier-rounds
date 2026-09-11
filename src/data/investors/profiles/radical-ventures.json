@@ -2,6 +2,8 @@
   "slug": "radical-ventures",
   "name": "Radical Ventures",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/radicalVentures-mark.png",
   "tagline": "Partners in the intelligence era — backing AI founders from day-zero to pre-IPO.",
   "website": "https://radical.vc/",

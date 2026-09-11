@@ -2,6 +2,8 @@
   "slug": "andreessen-horowitz",
   "name": "Andreessen Horowitz",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/az-a16z.png",
   "tagline": "The largest dedicated AI capital pool in venture, deployed across models, infrastructure and applications",
   "website": "https://a16z.com/",

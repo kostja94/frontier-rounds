@@ -1,6 +1,9 @@
 {
   "slug": "hongshan",
   "name": "HongShan",
+  "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/hongshan.png",
   "tagline": "China's most systematic AI backer — from foundation models to robot hands and brain-computer interfaces",
   "website": "https://www.hongshan.com/",

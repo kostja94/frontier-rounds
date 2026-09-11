@@ -2,6 +2,8 @@
   "slug": "conviction",
   "name": "Conviction",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/conviction-mark.png",
   "tagline": "Venture firm purpose-built for AI-native 'Software 3.0' companies",
   "website": "https://www.conviction.com/",

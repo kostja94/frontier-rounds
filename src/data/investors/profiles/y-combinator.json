@@ -2,6 +2,8 @@
   "slug": "y-combinator",
   "name": "Y Combinator",
   "kind": "accelerator",
+  "investorTypeIds": ["accelerator"],
+
   "mark": "/logos/yc-ycombinator.png",
   "tagline": "The accelerator that turned AI into a batch-scale asset class",
   "website": "https://www.ycombinator.com/",

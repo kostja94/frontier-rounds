@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { InvestorTypeBadges } from "@/components/InvestorTypeBadges";
 import { fundingRounds, formatDate, formatUsd } from "@/data/fundingRounds";
 import { getInvestorProfile, investorProfiles } from "@/data/investors/profiles";
 import type { InvestorProfile } from "@/data/investors/types";
@@ -65,6 +66,7 @@ export default async function InvestorProfilePage({ params }: Props) {
                     {profile.localName}
                   </span>
                 )}
+                <InvestorTypeBadges typeIds={profile.investorTypeIds} />
               </div>
               <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
                 {profile.summary}

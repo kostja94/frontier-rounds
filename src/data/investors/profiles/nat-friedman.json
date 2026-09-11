@@ -2,6 +2,8 @@
   "slug": "nat-friedman",
   "name": "Nat Friedman",
   "kind": "person",
+  "investorTypeIds": ["angel"],
+
   "portrait": "/portraits/nat.jpg",
   "tagline": "Former GitHub CEO backing AI-native products with Daniel Gross",
   "website": "https://nat.org/",

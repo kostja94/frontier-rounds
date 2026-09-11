@@ -1,6 +1,9 @@
 {
   "slug": "sequoia-capital",
   "name": "Sequoia Capital",
+  "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/sequoia.png",
   "tagline": "The Menlo Park partnership that turned aggressive on AI after its 2025 leadership handover",
   "website": "https://www.sequoiacap.com/",

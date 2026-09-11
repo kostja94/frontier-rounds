@@ -2,6 +2,8 @@
   "slug": "gradient",
   "name": "Gradient",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/gradient-mark.png",
   "tagline": "The seed fund designed for founders in AI",
   "website": "https://www.gradient.com/",

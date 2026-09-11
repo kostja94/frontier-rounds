@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { InvestorTypeBadges } from "@/components/InvestorTypeBadges";
 import { investorTypes, investorSummary } from "@/data/investorTypes";
 import { investorProfiles } from "@/data/investors/profiles";
 
@@ -87,6 +88,7 @@ export default function InvestorsPage() {
                         <span className="font-display text-2xl tracking-tight text-ink transition-colors group-hover:text-accent">
                           {profile.name}
                         </span>
+                        <InvestorTypeBadges typeIds={profile.investorTypeIds} className="mt-1.5" />
                         <span className="mt-1 block text-sm leading-snug text-muted-foreground">
                           {profile.tagline}
                         </span>

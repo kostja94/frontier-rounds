@@ -2,6 +2,8 @@
   "slug": "naval-ravikant",
   "name": "Naval Ravikant",
   "kind": "person",
+  "investorTypeIds": ["angel"],
+
   "portrait": "/portraits/naval.jpg",
   "tagline": "AngelList founder who turned angel investing itself into a platform",
   "website": "https://nav.al/",

@@ -2,6 +2,8 @@
   "slug": "eric-schmidt",
   "name": "Eric Schmidt",
   "kind": "person",
+  "investorTypeIds": ["angel","family-office"],
+
   "tagline": "The former Google CEO who turned his family office into a frontier-AI and defense-tech vehicle",
   "website": "https://en.wikipedia.org/wiki/Eric_Schmidt",
   "websiteLabel": "en.wikipedia.org/wiki/Eric_Schmidt",

@@ -37,6 +37,7 @@ const profileSchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
   kind: z.enum(["firm", "person", "accelerator"]).optional(),
+  investorTypeIds: z.array(z.string()).default([]),
   portrait: z.string().optional(),
   localName: z.string().optional(),
   mark: z.string().optional(),
@@ -73,6 +74,12 @@ const profileList = profileFiles.map((f) => {
 });
 const validProfiles = profileList.filter((p): p is z.infer<typeof profileSchema> => p !== null);
 
+// 类型字典 id 集合(用于校验 profile.investorTypeIds 命中)
+const itIdsRaw = JSON.parse(
+  readFileSync(join(ROOT, "src/data/investorTypes.json"), "utf8"),
+) as { investorTypes: { id: string }[] };
+const typeIds = new Set(itIdsRaw.investorTypes.map((t) => t.id));
+
 for (const [i, p] of profileList.entries()) {
   if (p === null) continue;
   const name = profileFiles[i];
@@ -80,6 +87,11 @@ for (const [i, p] of profileList.entries()) {
   if (!parsed.success) {
     errors.push(`profile ${name}: schema fail: ${parsed.error.issues.map((x) => `${x.path.join(".")} ${x.message}`).join("; ")}`);
     continue;
+  }
+  // kind 必填 + investorTypeIds 命中字典
+  check(!!p.kind, `profile ${name}: missing kind (firm/person/accelerator)`);
+  for (const tid of (p.investorTypeIds as string[]) ?? []) {
+    check(typeIds.has(tid), `profile ${name}: unknown investorTypeId "${tid}"`);
   }
   // 资产存在性（portrait / mark / lockup / company logo）
   for (const key of ["portrait", "mark", "lockup"] as const) {

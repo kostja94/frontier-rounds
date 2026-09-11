@@ -1,6 +1,9 @@
 {
   "slug": "peak-xv-partners",
   "name": "Peak XV Partners",
+  "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/pk-peakxv.png",
   "tagline": "India and Southeast Asia's largest venture franchise, backing applied AI over frontier models",
   "website": "https://www.peakxv.com/",

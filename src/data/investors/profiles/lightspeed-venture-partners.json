@@ -2,6 +2,8 @@
   "slug": "lightspeed-venture-partners",
   "name": "Lightspeed Venture Partners",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "tagline": "The $40B+ multi-stage firm that rebuilt its franchise around AI capital intensity",
   "website": "https://lsvp.com/",
   "websiteLabel": "lsvp.com",

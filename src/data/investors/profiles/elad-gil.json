@@ -2,6 +2,8 @@
   "slug": "elad-gil",
   "name": "Elad Gil",
   "kind": "person",
+  "investorTypeIds": ["angel"],
+
   "portrait": "/portraits/elad.jpg",
   "tagline": "Solo angel writing early checks into the AI stack without a committee",
   "website": "https://eladgil.com/",

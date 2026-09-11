@@ -2,6 +2,8 @@
   "slug": "menlo-ventures",
   "name": "Menlo Ventures",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/menlo-mark.png",
   "tagline": "The 50-year-old firm that went all in on AI after betting the firm on Anthropic",
   "website": "https://menlovc.com/",

@@ -2,6 +2,8 @@
   "slug": "aix-ventures",
   "name": "AIX Ventures",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/aixVentures-mark.png",
   "tagline": "The AI-focused fund built for and by the industry’s best",
   "website": "https://www.aixventures.com/",

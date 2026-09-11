@@ -2,6 +2,8 @@
   "slug": "miracleplus",
   "name": "MiraclePlus",
   "kind": "accelerator",
+  "investorTypeIds": ["accelerator"],
+
   "mark": "/logos/mp-miracleplus.png",
   "tagline": "China's YC-style accelerator, buying frontier technology at pre-seed prices",
   "website": "https://www.miracleplus.com/",

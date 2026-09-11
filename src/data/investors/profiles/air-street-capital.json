@@ -2,6 +2,8 @@
   "slug": "air-street-capital",
   "name": "Air Street Capital",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/airStreetCapital-mark.png",
   "tagline": "Venture capital for AI-first companies",
   "website": "https://airstreet.com/",

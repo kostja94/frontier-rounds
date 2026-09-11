@@ -1,6 +1,9 @@
 {
   "slug": "shunwei-capital",
   "name": "Shunwei Capital",
+  "kind": "firm",
+  "investorTypeIds": ["vc","cvc"],
+
   "mark": "/logos/shunwei-mark.png",
   "tagline": "Xiaomi-affiliated venture firm betting on embodied intelligence and AI infrastructure",
   "website": "https://www.shunwei.com/",

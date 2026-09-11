@@ -2,6 +2,8 @@
   "slug": "llama-ventures",
   "name": "Llama Ventures",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/llama-mark.png",
   "lockup": "/logos/llama-lockup.png",
   "tagline": "Founder-built early-stage fund backing AI-native companies across the full intelligence stack",

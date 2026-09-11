@@ -1,6 +1,9 @@
 {
   "slug": "lollapalooza-capital",
   "name": "Lollapalooza Capital",
+  "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/lollapalooza-mark.png",
   "lockup": "/logos/lollapalooza-capital.png",
   "tagline": "Research-driven venture capital backing frontier AI founders",

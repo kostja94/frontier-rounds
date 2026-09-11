@@ -23,6 +23,8 @@ export const investorProfileSchema = z.object({
   slug: z.string(),
   name: z.string(),
   kind: z.enum(["firm", "person", "accelerator"]).optional(),
+  /** 关联 investorTypes.json 的 id(可多值,如 angel + family-office) */
+  investorTypeIds: z.array(z.string()).default([]),
   portrait: z.string().optional(),
   localName: z.string().optional(),
   mark: z.string().optional(),

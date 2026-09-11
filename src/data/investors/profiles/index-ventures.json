@@ -2,6 +2,8 @@
   "slug": "index-ventures",
   "name": "Index Ventures",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/indexventures-mark.png",
   "tagline": "The Geneva-born transatlantic firm that bankrolled Europe's AI champions from the first cheque",
   "website": "https://www.indexventures.com/",

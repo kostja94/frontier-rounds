@@ -2,6 +2,8 @@
   "slug": "general-catalyst",
   "name": "General Catalyst",
   "kind": "firm",
+  "investorTypeIds": ["vc"],
+
   "mark": "/logos/generalcatalyst-mark.png",
   "tagline": "The health-care-born generalist that turned AI into a thesis of its own",
   "website": "https://www.generalcatalyst.com/",
