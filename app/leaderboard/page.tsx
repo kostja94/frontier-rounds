@@ -83,7 +83,7 @@ export default function LeaderboardPage() {
         <section className="border-b-2 border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
             <h1 className="max-w-4xl font-display text-4xl leading-[0.95] tracking-tight text-ink md:text-6xl">
-              The AI companies that raised the most, ranked.
+              The AI Companies That Raised the Most, Ranked
             </h1>
             <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
               A running tally of the best-funded artificial-intelligence startups and labs worldwide,
