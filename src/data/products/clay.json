@@ -22,7 +22,7 @@
   "rounds": [
     {
       "date": "2017-06-01",
-      "label": "Pre-seed",
+      "label": "Pre-Seed",
       "leads": ["BoxGroup"],
       "participants": [],
       "note": "Backing from NYC-based BoxGroup (David Tisch) at the company's founding.",
@@ -58,7 +58,7 @@
     },
     {
       "date": "2025-01-01",
-      "label": "Series B extension",
+      "label": "Series B Extension",
       "amountUsd": 40000000,
       "valuationUsd": 1250000000,
       "leads": ["Meritech Capital"],
@@ -68,7 +68,7 @@
     },
     {
       "date": "2025-05-01",
-      "label": "Employee tender",
+      "label": "Employee Tender",
       "amountUsd": 20000000,
       "valuationUsd": 1500000000,
       "leads": ["Sequoia Capital"],
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-01-28",
-      "label": "Employee tender",
+      "label": "Employee Tender",
       "amountUsd": 55000000,
       "valuationUsd": 5000000000,
       "leads": ["DST Global"],
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-08-31",
-      "label": "New round",
+      "label": "New Round",
       "valuationUsd": 7000000000,
       "leads": ["Wellington Management"],
       "participants": [],

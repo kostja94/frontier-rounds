@@ -60,7 +60,7 @@
     },
     {
       "date": "2025-06-23",
-      "label": "Growth round",
+      "label": "Growth Round",
       "amountUsd": 300000000,
       "valuationUsd": 5000000000,
       "leads": ["Kleiner Perkins", "Coatue"],
@@ -80,7 +80,7 @@
     },
     {
       "date": "2026-09-09",
-      "label": "New round",
+      "label": "New Round",
       "amountUsd": 550000000,
       "valuationUsd": 15600000000,
       "leads": ["Lightspeed Venture Partners", "Diffusion"],

@@ -50,7 +50,7 @@
     },
     {
       "date": "2025-03-28",
-      "label": "X Corp acquisition",
+      "label": "X Corp Acquisition",
       "leads": [],
       "participants": [],
       "note": "xAI acquired X Corp in an all-stock deal, valuing xAI at US$80B and X at US$33B — merging the AI lab with the social platform for data and distribution.",
@@ -58,7 +58,7 @@
     },
     {
       "date": "2025-07-01",
-      "label": "Debt & equity package",
+      "label": "Debt & Equity Package",
       "amountUsd": 10000000000,
       "leads": ["Morgan Stanley"],
       "participants": [],
@@ -87,7 +87,7 @@
     },
     {
       "date": "2026-02-02",
-      "label": "SpaceX acquisition",
+      "label": "SpaceX Acquisition",
       "leads": [],
       "participants": [],
       "note": "SpaceX acquired xAI in an all-stock transaction valuing xAI at US$250B (SpaceX at ~US$1T); xAI investors received 0.1433 SpaceX shares per xAI share. After SpaceX's June 2026 IPO the combined company was valued at roughly US$1.75T.",

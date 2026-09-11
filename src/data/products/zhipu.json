@@ -52,7 +52,7 @@
     },
     {
       "date": "2025-05-01",
-      "label": "Pre-IPO round",
+      "label": "Pre-IPO Round",
       "amountUsd": 278000000,
       "valuationUsd": 3400000000,
       "leads": ["Local government funds (multiple)"],
@@ -72,7 +72,7 @@
     },
     {
       "date": "2026-07-09",
-      "label": "Post-IPO placement",
+      "label": "Post-IPO Placement",
       "amountUsd": 4000000000,
       "valuationUsd": 64000000000,
       "leads": [],

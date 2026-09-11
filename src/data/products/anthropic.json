@@ -41,7 +41,7 @@
     },
     {
       "date": "2023-02-01",
-      "label": "Google strategic",
+      "label": "Google Strategic",
       "amountUsd": 300000000,
       "leads": ["Google"],
       "participants": [],
@@ -60,7 +60,7 @@
     },
     {
       "date": "2023-09-25",
-      "label": "Amazon strategic I",
+      "label": "Amazon Strategic I",
       "amountUsd": 1250000000,
       "leads": ["Amazon"],
       "participants": [],
@@ -69,7 +69,7 @@
     },
     {
       "date": "2023-10-27",
-      "label": "Google strategic II",
+      "label": "Google Strategic II",
       "amountUsd": 500000000,
       "leads": ["Google"],
       "participants": [],
@@ -88,7 +88,7 @@
     },
     {
       "date": "2024-03-27",
-      "label": "Amazon strategic II",
+      "label": "Amazon Strategic II",
       "amountUsd": 2750000000,
       "leads": ["Amazon"],
       "participants": [],
@@ -97,7 +97,7 @@
     },
     {
       "date": "2024-11-22",
-      "label": "Amazon strategic III",
+      "label": "Amazon Strategic III",
       "amountUsd": 4000000000,
       "leads": ["Amazon"],
       "participants": [],
