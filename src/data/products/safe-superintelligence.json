@@ -53,19 +53,19 @@
   ],
   "sections": [
     {
-      "heading": "The most valuable nothing in AI",
+      "heading": "The Most Valuable Nothing in AI",
       "body": "SSI's funding history is a pure bet on people and mission: ~US$8B raised with no product, no revenue and (at the last equity round) about twenty employees. The valuation — US$5B at three months old, US$32B at ten months — prices Sutskever's track record (GPT-era OpenAI) and the credibility of a lab with no commercial distractions."
     },
     {
-      "heading": "A deliberate anti-product structure",
+      "heading": "A Deliberate Anti-product Structure",
       "body": "SSI's charter rejects product cycles and management overhead by design: one mission (safe superintelligence), one team, research insulated from commercial pressure. That structure is precisely what lets investors value it on mission rather than milestones — and what makes each round a referendum on Sutskever himself."
     },
     {
-      "heading": "Leadership turbulence without a product hit",
+      "heading": "Leadership Turbulence Without a Product Hit",
       "body": "In July 2025 co-founder and CEO Daniel Gross departed (amid reports Meta tried to acquire the whole company), with Sutskever stepping into the CEO role and Levy becoming president. The transition occurred without any product or revenue event — the company's value stayed pinned to its founding team's reputation."
     },
     {
-      "heading": "Compute as the real currency",
+      "heading": "Compute as the Real Currency",
       "body": "Like every frontier lab, SSI's capital is really compute: the 2024 round funded capacity and talent, Alphabet/Nvidia joined the 2025 round while Google Cloud supplied TPUs, and the 2026 Nvidia deal (Vera Rubin supply + US$5B) scaled compute by an order of magnitude. Each round trades equity for the hardware needed to eventually train a superintelligent system."
     }
   ]

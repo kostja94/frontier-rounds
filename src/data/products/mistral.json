@@ -73,23 +73,23 @@
   ],
   "sections": [
     {
-      "heading": "From Meta and DeepMind to Europe's AI champion",
+      "heading": "From Meta and DeepMind to Europe's AI Champion",
       "body": "The three founders — Arthur Mensch, Guillaume Lample and Timothée Lacroix — left senior research roles at Google DeepMind and Meta AI to start Mistral in May 2023, and raised a €105M seed within a month. A €385M Series A from a16z followed in December 2023, on the same day Mistral shipped Mixtral 8x7B and opened its commercial platform. By mid-2024 the company had passed €1B total raised. Reuters and Bloomberg now describe Mistral as Europe's only credible rival to OpenAI and Anthropic, even though it remains dwarfed by them: OpenAI (~$852B) and Anthropic (~$965B) are each valued roughly 35–40× higher and are both preparing public listings."
     },
     {
-      "heading": "Open-weight models and the sovereign AI stack",
+      "heading": "Open-weight Models and the Sovereign AI Stack",
       "body": "Mistral's pitch has shifted from 'the most powerful model' to control: open-weight models that organizations can customize, run in their own infrastructure and audit — the layer Mistral calls sovereign AI. It claims to be the only AI company building the full stack (open-weight models, infrastructure and the compute they run on, and production products) while ensuring customers are never locked into a single vendor's roadmap. Customers across 20 countries include Airbus, ASML and HSBC. The approach has won Europe's regulated industries — finance, manufacturing, defense, energy — where data residency and on-premises deployment outweigh raw benchmark leadership."
     },
     {
-      "heading": "Industrial champions as strategic backers",
+      "heading": "Industrial Champions as Strategic Backers",
       "body": "Mistral's cap table is unusual for an AI lab: instead of hyperscalers, its lead investors are advanced-manufacturing giants. ASML led the €1.7B Series C and became the largest shareholder; Samsung Electronics led the record €3B Series D. In both cases the investment came with a production partnership — ASML integrating Mistral's models into its chipmaking ecosystem, Samsung deploying Mistral Large on-premises across its Device Solutions division for defect detection, equipment optimization and yield stabilization. The pattern gives Mistral both capital and industrial proof-points while giving chipmakers a stake in an AI champion that buys their hardware — Samsung's HBM and memory demand grows as Mistral builds toward 1GW of European compute."
     },
     {
-      "heading": "The compute-landlord pivot",
+      "heading": "The Compute-landlord Pivot",
       "body": "Since 2026 Mistral has been turning itself into a vertically integrated infrastructure business, not just a model lab. CEO Arthur Mensch told CNBC that long term Mistral aims to 'fully rely on capacity that we are building ourselves,' with owned compute growing ~100% over five years. Building blocks include a €722M/$830M debt facility for a 44MW data centre south of Paris (operational Q2 2026), a 23MW Swedish site with EcoDataCenter and a 10MW site at Les Ulis, with targets of ~200MW by end-2027 and up to 1GW in Europe by 2030. Multi-year, non-cancellable 'European Compute Units' sold to anchor customers such as ASML, Amadeus, Capgemini, Caisse des Dépôts and CMA CGM pre-finance construction. The July 2026 Microsoft deal flipped the 2024 relationship: Microsoft now buys capacity from Mistral's European data centres and distributes Mistral models through Azure Local and Foundry."
     },
     {
-      "heading": "Market, competition and the road ahead",
+      "heading": "Market, Competition and the Road Ahead",
       "body": "Mistral competes for Europe's sovereign-AI budgets against Cohere (Canada, ~$7B valuation), while US labs chase the same regulated customers through Azure/AWS EU-region offerings, and capable Chinese open-weight models keep compressing the model layer's pricing. Critics argue Mistral's 'sovereignty' is data-residency and compliance, not supply-chain independence — its GPUs come from Nvidia (also a shareholder) and much open-weight distribution runs through US-owned platforms. Whether the >€21B valuation holds will turn on converting the ~1GW compute buildout into contracted infrastructure revenue while keeping model quality close enough to the frontier for enterprise buyers."
     }
   ]

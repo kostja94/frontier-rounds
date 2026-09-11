@@ -35,28 +35,28 @@
       "value": "Two batches a year"
     }
   ],
-  "thesisHeading": "How Y Combinator underwrites AI",
+  "thesisHeading": "How Y Combinator Underwrites AI",
   "thesis": [
     {
-      "heading": "Volume over conviction",
+      "heading": "Volume Over Conviction",
       "body": "YC does not try to pick the one model company that wins. It writes the same cheque into hundreds of teams per year, accepts a high failure rate, and relies on batch scale plus follow-on rights to capture outliers — the opposite of the concentrated frontier bets made by growth funds."
     },
     {
-      "heading": "Application layer, not the model layer",
+      "heading": "Application Layer, Not the Model Layer",
       "body": "Frontier training runs are far outside a $500K cheque. The portfolio clusters instead around products built on top of someone else's model: voice agents, coding tools, vertical copilots, and enterprise search where a small team can reach revenue inside a batch."
     },
     {
-      "heading": "Developer tooling as a repeat pattern",
+      "heading": "Developer Tooling as a Repeat Pattern",
       "body": "Speech, evaluation, memory and fine-tuning infrastructure recur batch after batch — Deepgram, AssemblyAI, Vellum, OpenPipe and Mem0 all sell picks and shovels to other AI builders, a category YC has funded for a decade."
     },
     {
-      "heading": "Standard terms as the real product",
+      "heading": "Standard Terms as the Real Product",
       "body": "The uniform deal and Demo Day remove price negotiation from the earliest stage. For founders the value is access to 1,000+ investors on a fixed date; for YC it is the ability to originate at scale without competing on valuation."
     }
   ],
   "portfolioGroups": [
     {
-      "heading": "AI portfolio",
+      "heading": "AI Portfolio",
       "blurb": "A selection of YC-backed AI companies, from autonomy and data labelling to the voice, memory and evaluation tooling layers.",
       "companies": [
         {
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "heading": "Selected non-AI portfolio",
+      "heading": "Selected Non-AI Portfolio",
       "blurb": "The pre-AI outcomes that made the batch model credible — not exhaustive, but the alumni most often cited by founders applying today.",
       "companies": [
         {

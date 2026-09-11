@@ -147,23 +147,23 @@
   ],
   "sections": [
     {
-      "heading": "Built on an OpenAI split",
+      "heading": "Built on an OpenAI Split",
       "body": "Dario and Daniela Amodei left OpenAI in 2021 with a group of researchers over disagreements on safety and commercialization, founding Anthropic around the principle of 'Constitutional AI' — models steered by principles rather than pure RLHF. The founding team's credibility produced a US$124M Series A within two months and a US$580M Series B led by FTX's Alameda Research the following year, a stake the FTX estate later sold at auction."
     },
     {
-      "heading": "Two hyperscalers, not one",
+      "heading": "Two Hyperscalers, Not One",
       "body": "Unlike most frontier labs, Anthropic holds strategic commitments from both Google (~US$43B cumulative by 2026, with a US$10B immediate tranche announced April 2026) and Amazon (US$8B), pairing Google Cloud TPUs and Amazon Trainium/Inferentia compute with massive cloud credits. The dual structure keeps leverage over any single cloud provider and lets Anthropic auction compute across suppliers."
     },
     {
-      "heading": "The fifteen-month valuation ladder",
+      "heading": "The Fifteen-month Valuation Ladder",
       "body": "The defining fact of Anthropic's financing history is its pace: US$61.5B (March 2025) → US$183B (September 2025) → US$380B (February 2026) → US$965B (May 2026), a ~16x expansion in fifteen months. Each round roughly doubled or tripled the previous post-money, and Series H's US$965B briefly surpassed OpenAI (US$852B) and SpaceX to make Anthropic the most valuable private company in the world."
     },
     {
-      "heading": "Revenue to back the valuation",
+      "heading": "Revenue to Back the Valuation",
       "body": "By May 2026 Anthropic reported ~US$47B annualized revenue with 500+ customers each spending over US$1M a year — enterprise penetration (Claude in law, finance, healthcare and code) rather than consumer scale is the revenue engine behind the round sizes."
     },
     {
-      "heading": "The IPO staging ground",
+      "heading": "The IPO Staging Ground",
       "body": "Anthropic confidentially filed its S-1 in June 2026 at a US$965B valuation. The Series H syndicate — growth funds plus Samsung/SK Hynix/Micron — positions the company for a public debut that would test whether the most valuable private company on earth can hold its multiple in public markets."
     }
   ]

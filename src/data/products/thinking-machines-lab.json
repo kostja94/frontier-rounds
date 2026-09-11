@@ -32,11 +32,11 @@
   ],
   "sections": [
     {
-      "heading": "OpenAI's CTO goes her own way",
+      "heading": "OpenAI's CTO Goes Her Own Way",
       "body": "Mira Murati left OpenAI in late 2024 after more than six years, rising from VP of Applied AI to CTO, and founded Thinking Machines Lab in February 2025. She recruited John Schulman, an OpenAI co-founder who had briefly moved to Anthropic, as chief scientist; Barret Zoph (OpenAI VP of research) as CTO; plus Lilian Weng, Luke Metz and Andrew Tulloch. Launch coverage described a deliberate alternative to closed labs: systems built around natural collaboration with people, with research shared openly."
     },
     {
-      "heading": "The largest seed round in history",
+      "heading": "The Largest Seed Round in History",
       "body": "In July 2025, just five months after founding and with no public product, Thinking Machines closed a US$2B seed led by Andreessen Horowitz at a US$12B post-money valuation — the largest first round ever recorded and about 4× any previous seed. NVIDIA, AMD, Cisco, ServiceNow, Accel and Jane Street joined; Albania's government invested ~US$10M, requiring a budget amendment. Investors were betting on team pedigree and an OpenAI-shaped roadmap rather than shipped software. A planned follow-on at a US$50B valuation collapsed in January 2026 amid leadership turmoil — the NYT reported co-founders pressing for a sale or merger before departing — and valuation expectations reset toward ~US$12B."
     },
     {
@@ -44,7 +44,7 @@
       "body": "The lab exited research mode in stages: Tinker, an agentic product line, arrived in late 2025, and in July 2026 the company released Inkling, an open-weight frontier model family (975B-parameter and 41B variants), positioning Thinking Machines among the few labs shipping open weights at scale. Product momentum matters because the failed US$50B round left the company reliant on operational revenue and a fresh negotiation at a lower step-up."
     },
     {
-      "heading": "The road back to the cap table",
+      "heading": "The Road Back to the Cap Table",
       "body": "By January 2026 the NYT reported deep internal conflict: co-founders unhappy with direction and release pace, talks with Meta and Anthropic explored, and a wave of departures including CTO Barret Zoph (later replaced by Soumith Chintala). As of September 2026 the lab is reported negotiating a US$5–6B round at a ≥US$40B pre-money valuation with Accel expected to lead and NVIDIA considering ~US$2.5B — not yet closed. The outcome will test whether the market still prices OpenAI-exodus pedigree at frontier-lab multiples."
     }
   ]

@@ -39,19 +39,19 @@
   ],
   "sections": [
     {
-      "heading": "The godmother of AI and spatial intelligence",
+      "heading": "The Godmother of AI and Spatial Intelligence",
       "body": "Fei-Fei Li built ImageNet, the benchmark that helped seed modern deep learning, then led AI/ML at Google Cloud and co-directed Stanford's Institute for Human-Centered AI. She frames 'spatial intelligence' — the ability to perceive, reason about and act within 3D space — as AI's next frontier, as fundamental to intelligence as language. Her November 2025 manifesto, 'From Words to Worlds,' argued that today's LLMs lack understanding of the physically, geometrically and dynamically complex world, and that world models are 'the defining challenge of the next decade.'"
     },
     {
-      "heading": "From research lab to product company",
+      "heading": "From Research Lab to Product Company",
       "body": "World Labs' first product, Marble, shipped on 12 November 2025 after a September beta, letting anyone generate persistent, high-fidelity 3D worlds from text, images, video or coarse 3D layouts — exportable for tools like Unreal and Unity across freemium tiers. A programmable World API followed on 21 January 2026, signalling the shift from demo to developer platform. In July 2026 World Labs acquired SceniX and published early real-to-sim-to-real results — policies trained entirely in simulation transferred across robot platforms and ran for hours on hardware. On 1 September 2026 it unveiled Atlas, an 'omni' world model pretrained from scratch for generation, reconstruction and simulation, entering early access with select partners."
     },
     {
-      "heading": "The world-model race",
+      "heading": "The World-model Race",
       "body": "World Labs competes with Google DeepMind's Genie, NVIDIA's Cosmos platform and startups such as Decart and Odyssey — with Marble differentiated by generating persistent, downloadable 3D environments rather than on-the-fly video. Two of its largest rivals' backers, NVIDIA and AMD, are also World Labs investors, reflecting the sector's dual partner-and-competitor dynamic. Yann LeCun's AMI Labs raised concurrently at a ~US$3.5B valuation, underscoring surging appetite for physical/spatial AI. The valuation logic from ~US$1B to a reported ~US$5B in ~17 months rests on syndicate confidence and product momentum — Marble's GA, World API adoption and the robotics push — rather than disclosed revenue."
     },
     {
-      "heading": "A shifting investor base",
+      "heading": "A Shifting Investor Base",
       "body": "The 2024 seed assembled a signature academic-Silicon-Valley syndicate: VC co-leads a16z, NEA and Radical Ventures, corporate VCs (NVentures, AMD, Intel, Adobe, Databricks) and a who's-who of individual angels. The February 2026 round marked a structural shift toward strategic and institutional capital with direct commercial stakes in 3D and physical AI: Autodesk anchored with US$200M and an advisory seat, NVIDIA and AMD doubled down, and Fidelity brought large asset-manager money. The arc — from star-founder angel enthusiasm to mission-critical industry co-investment — tracks World Labs' own evolution from research lab to commercial platform vendor with a robotics roadmap."
     }
   ]

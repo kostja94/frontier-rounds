@@ -94,7 +94,7 @@ export default async function InvestorTypePage({ params }: Props) {
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-              AI relevance
+              AI Relevance
             </h2>
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-foreground">
               {type.aiRelevance}
@@ -116,7 +116,7 @@ export default async function InvestorTypePage({ params }: Props) {
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-              Investors in the atlas
+              Investors in the Atlas
             </h2>
             {profiles.length > 0 ? (
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">

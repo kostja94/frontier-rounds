@@ -81,23 +81,23 @@
   ],
   "sections": [
     {
-      "heading": "From IOI gold medals to Devin's launch",
+      "heading": "From IOI Gold Medals to Devin's Launch",
       "body": "The three co-founders — competitive-programming champions with ten IOI gold medals between them — launched Devin in March 2024 as 'the first AI software engineer,' an agent that plans, codes, debugs and deploys end to end inside its own IDE, shell and browser. The launch post carried a US$21M Founders Fund-led round and a who's-who of angels (the Collisons, Elad Gil, Sarah Guo), and within weeks a ~US$175M Series A at ~US$2B made it one of the fastest unicorns in AI history."
     },
     {
-      "heading": "The revenue ramp that defies AI-coding skeptics",
+      "heading": "The Revenue Ramp That Defies AI-coding Skeptics",
       "body": "Devin's disclosed run-rate went from US$1M (September 2024) to US$73M (June 2025) — 73x in nine months. The July 2025 Windsurf acquisition added another ~US$82M ARR and an AI-native IDE; by the Series D (May 2026) company-wide run-rate hit US$492M, and by the Series E (September 2026) it neared US$900M. Cognition is reportedly targeting US$4–5B annualized revenue by end-2026, though it still operates at a loss with compute and server leasing estimated near US$800M a year."
     },
     {
-      "heading": "Windsurf, and the parallel Google deal",
+      "heading": "Windsurf, and the Parallel Google Deal",
       "body": "Cognition's July 2025 acquisition of the Windsurf IDE (formerly Codeium) was the deal that folded a rival coding tool's enterprise base into Devin — while, about a week earlier, Google executed a separate ~US$2.4B 'reverse-acquihire' taking Windsurf's CEO and ~40 senior R&D staff to Google DeepMind. Cognition got the product, IP, ~US$82M ARR and ~200 employees; Google got the founding leadership. Two more acqui-hires followed in July 2026 (TierZero, then The Interaction Company's Poke)."
     },
     {
-      "heading": "Enterprise proof points as the moat",
+      "heading": "Enterprise Proof Points as the Moat",
       "body": "Cognition's named customers span the most demanding organizations: Mercedes-Benz (whose pilot cut a COBOL modernization from eight months to eight days), NASA JPL, Goldman Sachs, Citi, the U.S. Army and Navy, Dell, Palantir, Santander, Itaú. FedRAMP High In-Process status and a DOE Genesis Mission MOU underscore the federal/regulated wedge — the harder-to-replicate layer that distinguishes Devin from consumer coding tools."
     },
     {
-      "heading": "A valuation priced as infrastructure",
+      "heading": "A Valuation Priced as Infrastructure",
       "body": "The Series E's US$48B against ~US$900M run-rate implies a ~53x multiple — the territory where investors price category dominance, not incremental growth. The round's lead is the subplot: a16z, a major Cursor backer that profited from its SpaceX sale, led a round in Cursor's direct competitor, signaling that AI coding is seen as far from winner-take-all and that autonomous agents have crossed from productivity tool to infrastructure layer."
     }
   ]

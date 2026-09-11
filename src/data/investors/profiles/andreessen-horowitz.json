@@ -39,28 +39,28 @@
       "value": "25+ notable companies"
     }
   ],
-  "thesisHeading": "How a16z is playing the AI cycle",
+  "thesisHeading": "How a16z Is Playing the AI Cycle",
   "thesis": [
     {
-      "heading": "Own every layer, not one bet",
+      "heading": "Own Every Layer, Not One Bet",
       "body": "a16z deliberately funds the full stack in parallel: frontier and open-weight labs, GPU and inference infrastructure, vector and data tooling, and the application layer sitting on top. The firm's stated view is that value accrues at multiple layers at once during a platform shift, so concentration in a single tier is the real risk."
     },
     {
-      "heading": "Applications are where the margin is",
+      "heading": "Applications Are Where the Margin Is",
       "body": "Its research argues that consumer and vertical AI apps compound faster than model providers because distribution and workflow lock-in are defensible. That thesis funds Cursor, Harvey, Abridge, Sierra, Decagon and ElevenLabs — teams selling into a specific profession rather than selling tokens."
     },
     {
-      "heading": "Open weights and creative tools",
+      "heading": "Open Weights and Creative Tools",
       "body": "The firm has been an unusually loud backer of open models and generative media, funding Black Forest Labs, Luma, Ideogram, Civitai and World Labs on the argument that open ecosystems and creator tooling expand the market rather than commoditise it."
     },
     {
-      "heading": "American Dynamism and embodied AI",
+      "heading": "American Dynamism and Embodied AI",
       "body": "Through its American Dynamism fund a16z pushes AI into defence, robotics and physical industry — Figure, Skild AI, Anduril and Waymo-adjacent autonomy — treating national-interest hardware as a distinct AI category with its own capital and policy requirements."
     }
   ],
   "portfolioGroups": [
     {
-      "heading": "AI portfolio",
+      "heading": "AI Portfolio",
       "blurb": "Disclosed a16z positions across foundation models, AI infrastructure, developer tooling, generative media, vertical applications and embodied AI.",
       "companies": [
         {

@@ -35,28 +35,28 @@
       "value": "AI-native products and infrastructure"
     }
   ],
-  "thesisHeading": "How NFDG approaches AI investing",
+  "thesisHeading": "How NFDG Approaches AI Investing",
   "thesis": [
     {
-      "heading": "Two people, one decision",
+      "heading": "Two People, One Decision",
       "body": "NFDG operated as a partnership of two operators rather than a fund with an investment process. Founders got a decision from the people who would actually help them, usually within a week."
     },
     {
-      "heading": "Product taste over market maps",
+      "heading": "Product Taste Over Market Maps",
       "body": "The pattern across ElevenLabs, Suno and Cursor is the same: a product good enough that users adopt it before any enterprise sales motion exists."
     },
     {
-      "heading": "Developer tooling as home turf",
+      "heading": "Developer Tooling as Home Turf",
       "body": "Having shipped Copilot at GitHub, Friedman moved early on AI coding tools and on the inference and infrastructure layer they depend on."
     },
     {
-      "heading": "Access to research labs",
+      "heading": "Access to Research Labs",
       "body": "The pair's credibility with researchers — and Gross's role as co-founder of Safe Superintelligence — gave them access to frontier labs that were not raising broadly."
     }
   ],
   "portfolioGroups": [
     {
-      "heading": "AI portfolio",
+      "heading": "AI Portfolio",
       "blurb": "Disclosed NFDG investments across generative media, AI coding tools, search and frontier research labs.",
       "companies": [
         {
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "heading": "Operating background",
+      "heading": "Operating Background",
       "blurb": "Not investments — the companies he built and ran, which explain the access and the developer-tooling focus.",
       "companies": [
         {

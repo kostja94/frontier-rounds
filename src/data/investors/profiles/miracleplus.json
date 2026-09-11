@@ -35,28 +35,28 @@
       "value": "612 startups across 10 batches"
     }
   ],
-  "thesisHeading": "How MiraclePlus underwrites AI",
+  "thesisHeading": "How MiraclePlus Underwrites AI",
   "thesis": [
     {
-      "heading": "Frontier technology at the earliest price",
+      "heading": "Frontier Technology at the Earliest Price",
       "body": "The firm states that over 99% of its investments sit in frontier innovation fields, and it deliberately funds projects other investors consider too early or too technical — buying deep-tech risk at a fixed pre-seed valuation rather than competing in priced rounds."
     },
     {
-      "heading": "Product-market fit in three months",
+      "heading": "Product-market Fit in Three Months",
       "body": "The programme's stated objective is to get a company ready to face investors within three months. Partners including Lu Qi run weekly one-on-one office hours — around 100 hours per project on average — focused on the single constraint blocking traction."
     },
     {
-      "heading": "Robotics and embodied intelligence",
+      "heading": "Robotics and Embodied Intelligence",
       "body": "The most concentrated cluster in the portfolio: mobile robots, tactile sensing, actuators and simulation data. It reflects a view that China's manufacturing base gives embodied AI a cost and iteration advantage no software-only market can match."
     },
     {
-      "heading": "Compute and agents as the second axis",
+      "heading": "Compute and Agents as the Second Axis",
       "body": "Alongside hardware, the firm backs the inference and agent layer — SiliconFlow for model serving, HPC-AI Tech for distributed training, and consumer agent products such as Fellou and Macaron built by alumni founders."
     }
   ],
   "portfolioGroups": [
     {
-      "heading": "AI portfolio",
+      "heading": "AI Portfolio",
       "blurb": "MiraclePlus-backed AI companies highlighted by the firm, spanning model infrastructure, embodied intelligence and agent products.",
       "companies": [
         {

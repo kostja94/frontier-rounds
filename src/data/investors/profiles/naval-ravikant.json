@@ -35,28 +35,28 @@
       "value": "Personal capital plus AngelList syndicates"
     }
   ],
-  "thesisHeading": "How Naval Ravikant deploys capital",
+  "thesisHeading": "How Naval Ravikant Deploys Capital",
   "thesis": [
     {
-      "heading": "Platform over portfolio",
+      "heading": "Platform Over Portfolio",
       "body": "His largest contribution to AI financing is structural. AngelList syndicates, rolling funds and SPVs route retail and operator capital into early AI rounds that traditional funds would price out of reach."
     },
     {
-      "heading": "Volume at the earliest stage",
+      "heading": "Volume at the Earliest Stage",
       "body": "Small cheques written very early and very often, on the view that a handful of extreme outcomes carry the entire book. Ownership discipline matters less to him than access."
     },
     {
-      "heading": "Judge the founder, not the model",
+      "heading": "Judge the Founder, Not the Model",
       "body": "His public writing treats specific knowledge, leverage and accountability in the founder as the durable signal — a stance that transfers across technology cycles rather than being tuned to this one."
     },
     {
-      "heading": "Attribution caveat",
+      "heading": "Attribution Caveat",
       "body": "Syndicate deals structured on AngelList are often misreported as his personal positions. The AI entries below are limited to companies where his own involvement is documented."
     }
   ],
   "portfolioGroups": [
     {
-      "heading": "AI and AI-adjacent portfolio",
+      "heading": "AI and AI-adjacent Portfolio",
       "blurb": "Documented positions where AI is now central to the product. Companies reached only through AngelList syndicates are deliberately excluded.",
       "companies": [
         {
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "heading": "Selected earlier bets",
+      "heading": "Selected Earlier Bets",
       "blurb": "The angel track record, concentrated in marketplaces and networks between 2007 and 2018, that made AngelList credible.",
       "companies": [
         {

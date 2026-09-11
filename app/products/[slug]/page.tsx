@@ -220,7 +220,7 @@ export default async function ProductProfilePage({ params }: Props) {
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-                Funding timeline
+                Funding Timeline
               </h2>
               <p className="max-w-sm text-sm leading-snug text-muted-foreground">
                 Every disclosed equity round for {profile.name}, newest to oldest, with lead and
@@ -247,7 +247,7 @@ export default async function ProductProfilePage({ params }: Props) {
           <section className="border-b border-ink">
             <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
               <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-                The story behind the numbers
+                The Story Behind the Numbers
               </h2>
               <div className="mt-8 grid gap-px border border-ink bg-rule md:grid-cols-2">
                 {profile.sections.map((section) => (

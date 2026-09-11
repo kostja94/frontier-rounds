@@ -130,7 +130,7 @@ export default async function InvestorProfilePage({ params }: Props) {
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-              {profile.thesisHeading ?? `How ${profile.name} invests in AI`}
+              {profile.thesisHeading ?? `How ${profile.name} Invests in AI`}
             </h2>
 
             <div
@@ -246,7 +246,7 @@ export default async function InvestorProfilePage({ params }: Props) {
         <section className="border-b border-ink">
           <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
             <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-              Related rounds
+              Related Rounds
             </h2>
 
             {relatedRounds.length > 0 ? (

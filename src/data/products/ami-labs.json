@@ -30,19 +30,19 @@
   ],
   "sections": [
     {
-      "heading": "LeCun and the JEPA bet",
+      "heading": "LeCun and the JEPA Bet",
       "body": "After 12 years at Meta — five as founding FAIR director, seven as chief AI scientist — LeCun left to industrialize his 'Advanced Machine Intelligence' research program. The core wager is JEPA: instead of predicting the next token or pixel, systems learn abstract representations of real-world sensor data and predict in representation space, ignoring the noise generative models are forced to reproduce. AMI wants AI that 'understands the real world, has persistent memory, can reason and plan, and stays controllable and safe' — a direct rebuke to what LeCun calls the industry's language-first monoculture."
     },
     {
-      "heading": "A scientific-credibility valuation",
+      "heading": "A Scientific-credibility Valuation",
       "body": "At US$1.03B on a US$3.5B pre-money, investors paid primarily for scientific credibility and long-term option value: a company of roughly a dozen people, no product, and a research agenda measured in years. Structurally AMI differs from Thinking Machines Lab's US$2B single-lead seed: it assembled five co-leads spanning US and European VC plus a coalition of strategics and star angels — reading more like a coalition of patrons than a conventional round. The strategics were arguably the message: NVIDIA signals infrastructure, Toyota Ventures and Samsung point to industrial and device applications, Temasek mirrors the Singapore hub."
     },
     {
-      "heading": "Team and multi-hub structure",
+      "heading": "Team and Multi-hub Structure",
       "body": "AMI operated from day one across Paris (HQ), New York, Montreal and Singapore — deliberately built around where its leaders live: LeCun teaches at NYU, CSO Saining Xie came from Google DeepMind, and Singapore serves both talent and future Asian industrial clients. The founding roster is a Meta/FAIR diaspora: CEO Alexandre LeBrun (Nabla, Wit.ai), COO Laurent Solly (Meta VP Europe), CRIO Pascale Fung. LeCun remains a NYU professor, and Paris was welcomed by President Macron — positioning AMI within Europe's sovereign-AI narrative as an explicitly 'neither American nor Chinese' frontier lab."
     },
     {
-      "heading": "Roadmap, proof, and risk",
+      "heading": "Roadmap, Proof, and Risk",
       "body": "LeBrun is candid that AMI is 'not your typical applied AI startup' — commercial applications could take years, with early industrial targets in robotics, manufacturing and process control (partners scouted in South Korea mid-2026). The first rigorous public output came in May 2026, when LeCun and co-authors posted a formal proof that LeJEPA recovers a world's true latent variables (verified in Lean 4). Independent benchmarks of early JEPA preprints still show fragility under visual distractors — underscoring that the framework must close a large gap between theory and reliable real-world deployment before the next financing round tests the thesis."
     }
   ]

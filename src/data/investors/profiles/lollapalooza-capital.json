@@ -38,15 +38,15 @@
   ],
   "thesis": [
     {
-      "heading": "The name",
+      "heading": "The Name",
       "body": "Taken from Charlie Munger's \"Lollapalooza Effect\" — the idea that several reinforcing forces acting together produce non-linear, exceptional outcomes rather than an additive one."
     },
     {
-      "heading": "Investment approach",
+      "heading": "Investment Approach",
       "body": "Concentrated research and patient capital. The firm blends one-on-one founder partnership with a public market lens, holding a small number of high-conviction positions instead of spraying across a category."
     },
     {
-      "heading": "What it brings",
+      "heading": "What It Brings",
       "body": "Operator empathy from building a company at scale, market perspective across the Chinese and global consumer internet, and long-horizon judgment on where compute, models, and hardware converge."
     }
   ],
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "heading": "Adjacent and legacy",
+      "heading": "Adjacent and Legacy",
       "blurb": "Portfolio and partner companies in hardware, internet, and software that predate or sit alongside the AI mandate.",
       "companies": [
         {
