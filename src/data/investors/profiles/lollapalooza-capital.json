@@ -2,7 +2,7 @@
   "slug": "lollapalooza-capital",
   "name": "Lollapalooza Capital",
   "kind": "firm",
-  "investorTypeIds": ["vc"],
+  "investorTypeIds": ["vc", "family-office"],
 
   "mark": "/logos/lollapalooza-mark.png",
   "lockup": "/logos/lollapalooza-capital.png",

@@ -38,9 +38,9 @@
       "typicalStage": "Seed to Series B",
       "typicalCheckSize": "$1M — $50M",
       "examples": [
+        "Lollapalooza Capital (Wang Huiwen family office)",
         "Bezos Expeditions",
-        " Iconiq Capital",
-        "Soros Fund Management family offices"
+        "Iconiq Capital"
       ],
       "aiRelevance": "Flexible, long-term capital that can participate in hot AI rounds without LP reporting constraints."
     },
@@ -95,8 +95,8 @@
       "typicalStage": "Growth to Pre-IPO / Buyout",
       "typicalCheckSize": "$50M — $1B+",
       "examples": [
-        "Blackstone",
-        "KKR",
+        "Blackstone (CoreWeave financing)",
+        "KKR (Helix Digital Infrastructure)",
         "Thoma Bravo",
         "Vista Equity Partners"
       ],
@@ -155,9 +155,9 @@
       "typicalStage": "Indirect (LP in VC funds)",
       "typicalCheckSize": "Fund-level commitments",
       "examples": [
-        "Draper Fund of Funds",
-        "Public pension fund LP arms",
-        "University endowment LP programs"
+        "Aldea Ventures (AI deep-tech FOF)",
+        "AAF Management (Axis Fund)",
+        "Draper Fund of Funds"
       ],
       "aiRelevance": "Indirectly increases AI allocation by backing specialist AI-focused VC managers."
     },
@@ -169,8 +169,8 @@
       "typicalStage": "Indirect (LP), occasionally co-invest",
       "typicalCheckSize": "Fund commitments and direct co-invests",
       "examples": [
-        "Yale Endowment",
-        "Stanford Endowment",
+        "University of Michigan (OpenAI)",
+        "Stanford University (AI VC anchor LP)",
         "MIT Investment Management Company"
       ],
       "aiRelevance": "Patient, mission-aligned capital that can support AI research spinouts and deep-tech funds."
@@ -183,8 +183,8 @@
       "typicalStage": "Growth to Pre-IPO",
       "typicalCheckSize": "$10M — $500M",
       "examples": [
-        "CPP Investments",
-        "Ontario Teachers' Pension Plan",
+        "CPP Investments (Anthropic, Cohere)",
+        "Ontario Teachers' Pension Plan (Anthropic)",
         "Allianz"
       ],
       "aiRelevance": "Increasingly participating in AI growth rounds as the asset class matures and generates revenue."
@@ -212,9 +212,9 @@
       "typicalStage": "Series A to Series C",
       "typicalCheckSize": "$1M — $50M",
       "examples": [
-        "Cloud providers co-investing with portfolio startups",
-        "Chip vendors",
-        "Enterprise customers"
+        "Nvidia",
+        "Amazon",
+        "Microsoft"
       ],
       "aiRelevance": "Common in AI infrastructure, where compute credits, distribution, and co-development are as valuable as cash."
     },
@@ -226,10 +226,9 @@
       "typicalStage": "Pre-seed to Seed",
       "typicalCheckSize": "$100 — $100K per backer",
       "examples": [
-        "Kickstarter",
-        "Wefunder",
-        "Republic",
-        "Product Hunt"
+        "Republic (Prospero.ai, PoliTech AI)",
+        "Wefunder (Curiouser.AI, Higher Order Co.)",
+        "Kickstarter"
       ],
       "aiRelevance": "Useful for consumer AI tools and AI creator platforms that can build a community of early adopters."
     },
@@ -241,8 +240,8 @@
       "typicalStage": "Seed to Series B",
       "typicalCheckSize": "$1M — $50M",
       "examples": [
-        "IFC (World Bank)",
-        "European Investment Bank",
+        "IFC (KERA Health, Senegal)",
+        "European Investment Bank (Seedstars Africa)",
         "CDC Group"
       ],
       "aiRelevance": "Emerging source for AI applied to climate, health, education, and financial inclusion in developing markets."
