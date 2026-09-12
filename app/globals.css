@@ -72,6 +72,28 @@
   /* 容器宽度 token */
   --container-main: 72rem;
   --container-prose: 48rem;
+
+  /* 间距语义档(section 垂直节奏)—— 4px 动态 scale 上的命名档 */
+  --section-y: 3.5rem;    /* hero/主要 section,桌面 py-14 */
+  --section-y-md: 3rem;   /* 次要 section,桌面 py-12 */
+  --section-y-sm: 2.5rem; /* 紧凑 section,py-10 */
+
+  /* 动效 duration(语义档) */
+  --duration-fast: 150ms;
+  --duration-medium: 300ms;
+  --duration-slow: 600ms;
+
+  /* 动效 easing(语义档)—— 进入 ease-out、离开 ease-in、通用 ease-in-out */
+  --ease-enter: cubic-bezier(0, 0, 0.2, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* 阴影(纸墨 editorial flat)—— 覆盖 Tailwind 默认,极轻中性 ink 色 */
+  --shadow-sm: 0 1px 2px oklch(0.16 0 0 / 0.05);
+  --shadow-md: 0 2px 6px oklch(0.16 0 0 / 0.07);
+  --shadow-lg: 0 6px 16px oklch(0.16 0 0 / 0.09);
+  --shadow-xl: 0 12px 32px oklch(0.16 0 0 / 0.13);
+  --shadow-2xl: 0 20px 48px oklch(0.16 0 0 / 0.16);
 }
 
 :root {
@@ -171,7 +193,14 @@
 }
 
 @utility animate-fade-up {
-  animation: fade-up 0.6s ease-out both;
+  animation: fade-up var(--duration-slow) var(--ease-enter) both;
+}
+
+/* 减少动态效果:关闭非必要入场动画(WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+  }
 }
 
 /* Latest-rounds ticker 无缝横向滚动(WeeklyTicker) */
@@ -240,7 +269,7 @@
     @apply text-[11px] uppercase tracking-[0.24em] text-accent;
   }
 
-  /* 页面容器 —— 收敛 mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14 */
+  /* 页面容器 —— 三档 section 垂直节奏(间距语义见 @theme --section-y-*) */
   .page-shell {
     @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14;
   }
