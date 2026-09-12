@@ -6,8 +6,7 @@
   "tagline": "Fei-Fei Li's spatial-intelligence company turning words into worlds",
   "website": "https://www.worldlabs.ai/",
   "websiteLabel": "worldlabs.ai",
-  "shortSummary": "World Labs is Fei-Fei Li's spatial-intelligence company building 'large world models' that perceive, generate and interact with 3D space. It exited stealth with a US$230M seed, raised a US$1B round anchored by Autodesk in February 2026, and unveiled the Atlas 'omni' world model in September 2026.",
-  "summary": "World Labs is the San Francisco-based spatial intelligence company founded in early 2024 by Fei-Fei Li — the 'godmother of AI,' creator of ImageNet and co-director of Stanford HAI — with Justin Johnson, Ben Mildenhall and Christoph Lassner. Its mission is to build 'large world models' that perceive, generate and interact with 3D space, which Li argues is as fundamental to intelligence as language. World Labs exited stealth on 13 September 2024 with US$230M in seed funding (two 2024 tranches reported to value it above US$1B) — one of the largest AI first rounds at the time, co-led by a16z, NEA and Radical Ventures. After shipping Marble (its 3D-world generation product, Nov 2025) and a World API (Jan 2026), it raised a US$1B round in February 2026 anchored by a US$200M Autodesk strategic investment, with NVIDIA and AMD among the backers — the reported ~US$5B valuation was never confirmed. In July 2026 it acquired SceniX to enter robotics simulation, and in September 2026 unveiled Atlas, an 'omni' world model.",
+  "shortSummary": "World Labs is Fei-Fei Li's spatial-intelligence company building 'large world models' that perceive, generate and interact with 3D space. It has unveiled the Atlas 'omni' world model.",
   "stats": [
     {
       "label": "Founded",
@@ -27,22 +26,38 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "2024 (reported April)" },
-    { "label": "Headquarters", "value": "San Francisco, California" },
-    { "label": "Founders", "value": "Fei-Fei Li (CEO); Justin Johnson; Ben Mildenhall; Christoph Lassner" },
-    { "label": "Sector", "value": "Spatial intelligence / large world models / 3D generation (physical AI from 2026)" },
-    { "label": "Products", "value": "Marble (Nov 2025); World API (Jan 2026); Spark; Atlas (Sep 2026); SceniX (acquired Jul 2026)" },
-    { "label": "Team", "value": "~20 at launch; ~60–70 by mid-2026 (third-party estimates)" },
-    { "label": "Total raised", "value": "~US$1.23B across two disclosed rounds" },
-    { "label": "Latest valuation", "value": "~US$5B (reported, unconfirmed — Feb 2026)" }
+    {
+      "label": "Founders",
+      "value": "Fei-Fei Li (CEO); Justin Johnson; Ben Mildenhall; Christoph Lassner"
+    },
+    {
+      "label": "Sector",
+      "value": "Spatial intelligence / large world models / 3D generation (physical AI from 2026)"
+    },
+    {
+      "label": "Products",
+      "value": "Marble (Nov 2025); World API (Jan 2026); Spark; Atlas (Sep 2026); SceniX (acquired Jul 2026)"
+    }
   ],
   "rounds": [
     {
       "date": "2024-09-13",
       "label": "Seed",
       "amountUsd": 230000000,
-      "leads": ["Andreessen Horowitz", "NEA", "Radical Ventures"],
-      "participants": ["NVentures (NVIDIA)", "AMD Ventures", "Intel Capital", "Adobe Ventures", "Databricks Ventures", "Marc Benioff", "Ashton Kutcher"],
+      "leads": [
+        "Andreessen Horowitz",
+        "NEA",
+        "Radical Ventures"
+      ],
+      "participants": [
+        "NVentures (NVIDIA)",
+        "AMD Ventures",
+        "Intel Capital",
+        "Adobe Ventures",
+        "Databricks Ventures",
+        "Marc Benioff",
+        "Ashton Kutcher"
+      ],
       "note": "World Labs' US$230M was not a single cheque but the combined total of two 2024 seed tranches, announced together when the company exited stealth. A first stealth tranche (~Apr 2024) was reported at a ~US$200M valuation with a16z and Radical Ventures; a second (~mid-2024) was led by NEA at a reported valuation above US$1B. The company declined to disclose its valuation. Additional angels (Geoffrey Hinton, Jeff Dean, Eric Schmidt, Reid Hoffman) and Sanabil / Temasek reported across secondary sources.",
       "sourceUrl": "https://techcrunch.com/2024/09/13/fei-fei-lis-world-labs-comes-out-of-stealth-with-230m-in-funding/"
     },
@@ -51,7 +66,14 @@
       "label": "Growth Round",
       "amountUsd": 1000000000,
       "leads": [],
-      "participants": ["Autodesk", "AMD", "NVIDIA", "Emerson Collective", "Fidelity Management & Research Company", "Sea"],
+      "participants": [
+        "Autodesk",
+        "AMD",
+        "NVIDIA",
+        "Emerson Collective",
+        "Fidelity Management & Research Company",
+        "Sea"
+      ],
       "note": "Doubled the January negotiation figure (Bloomberg reported talks at ~US$5B seeking up to ~US$500M); the company never confirmed a valuation. Autodesk's US$200M strategic investment — the design-software giant's largest startup investment, per its own announcement — anchored the round and came with a strategic-advisor role plus a research collaboration to bring world models into professional 3D workflows. a16z also participated per Bloomberg.",
       "sourceUrl": "https://www.worldlabs.ai/blog/funding-2026"
     }

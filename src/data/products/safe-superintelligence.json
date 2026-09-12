@@ -6,8 +6,7 @@
   "tagline": "The 'straight-shot' safety lab that raised US$8B before shipping a product",
   "website": "https://ssi.inc/",
   "websiteLabel": "ssi.inc",
-  "shortSummary": "Safe Superintelligence Inc. is Ilya Sutskever's Israeli-American lab pursuing superintelligence with no products and no commercial roadmap. Despite shipping nothing, it raised ~US$8B at a ~US$32B valuation, including a US$5B Nvidia strategic investment in July 2026.",
-  "summary": "Safe Superintelligence Inc. (SSI) is an Israeli-American AI company founded in June 2024 by Ilya Sutskever (OpenAI's former chief scientist), Daniel Gross (former head of Apple's AI efforts) and Daniel Levy, operating from Palo Alto and Tel Aviv. It calls itself the world's 'first straight-shot SSI lab' — no products, no commercial roadmap, only the goal of safely building superintelligence, insulated from short-term commercial pressure. Despite shipping nothing, it raised US$1B at a US$5B valuation (September 2024), US$2B at US$32B (April 2025, led by Greenoaks with Alphabet and Nvidia joining) and a US$5B Nvidia strategic investment (July 2026) that scaled its compute 'by an order of magnitude' — roughly US$8B cumulative at a ~US$32B valuation with no revenue. Sutskever took over as CEO when co-founder Daniel Gross left in July 2025; Daniel Levy became president.",
+  "shortSummary": "Safe Superintelligence Inc. is Ilya Sutskever's Israeli-American lab pursuing superintelligence with no products and no commercial roadmap.",
   "stats": [
     {
       "label": "Founded",
@@ -31,16 +30,18 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "June 2024" },
-    { "label": "Headquarters", "value": "Palo Alto, California + Tel Aviv, Israel" },
-    { "label": "Founders", "value": "Ilya Sutskever (CEO); Daniel Gross (departed Jul 2025); Daniel Levy (President)" },
-    { "label": "Sector", "value": "Safe superintelligence research (pre-product, pre-revenue)" },
-    { "label": "Mission", "value": "'World's first straight-shot SSI lab'" },
-    { "label": "Total raised", "value": "~US$8B across three rounds" },
-    { "label": "Largest round", "value": "US$5B (Nvidia strategic, Jul 2026)" },
-    { "label": "Latest valuation", "value": "~US$32B (Apr 2025 round; Nvidia round at similar mark)" },
-    { "label": "Employees", "value": "~10 at founding (2024); ~20 at US$32B round" },
-    { "label": "Revenue", "value": "None (as of 2026)" }
+    {
+      "label": "Founders",
+      "value": "Ilya Sutskever (CEO); Daniel Gross (departed Jul 2025); Daniel Levy (President)"
+    },
+    {
+      "label": "Sector",
+      "value": "Safe superintelligence research (pre-product, pre-revenue)"
+    },
+    {
+      "label": "Mission",
+      "value": "'World's first straight-shot SSI lab'"
+    }
   ],
   "rounds": [
     {
@@ -48,8 +49,14 @@
       "label": "Seed",
       "amountUsd": 1000000000,
       "valuationUsd": 5000000000,
-      "leads": ["Sequoia Capital", "Andreessen Horowitz"],
-      "participants": ["DST Global", "SV Angel"],
+      "leads": [
+        "Sequoia Capital",
+        "Andreessen Horowitz"
+      ],
+      "participants": [
+        "DST Global",
+        "SV Angel"
+      ],
       "note": "Three-month-old SSI raised US$1B at a reported US$5B valuation — a staggering mark for a pre-product, ~10-person startup.",
       "sourceUrl": "https://www.reuters.com/technology/artificial-intelligence/openai-co-founder-sutskevers-new-safety-focused-ai-startup-ssi-raises-1-billion-2024-09-04/"
     },
@@ -58,8 +65,16 @@
       "label": "Round 2",
       "amountUsd": 2000000000,
       "valuationUsd": 32000000000,
-      "leads": ["Greenoaks"],
-      "participants": ["Andreessen Horowitz", "Lightspeed", "DST Global", "Alphabet", "Nvidia"],
+      "leads": [
+        "Greenoaks"
+      ],
+      "participants": [
+        "Andreessen Horowitz",
+        "Lightspeed",
+        "DST Global",
+        "Alphabet",
+        "Nvidia"
+      ],
       "note": "Led by Greenoaks (~US$500M) with a16z, Lightspeed and DST; Alphabet and Nvidia also backed the company, and Google Cloud became a major infrastructure provider. ~6x the September 2024 valuation in seven months, still pre-product.",
       "sourceUrl": "https://www.calcalistech.com/ctechnews/article/hjfywdtajl"
     },
@@ -68,7 +83,9 @@
       "label": "Nvidia Strategic",
       "amountUsd": 5000000000,
       "valuationUsd": 32000000000,
-      "leads": ["Nvidia"],
+      "leads": [
+        "Nvidia"
+      ],
       "participants": [],
       "note": "SSI and Nvidia announced a strategic partnership expanding SSI's compute 'by an order of magnitude,' including a planned US$5B Nvidia investment (with a Vera Rubin supply component).",
       "sourceUrl": "https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc."

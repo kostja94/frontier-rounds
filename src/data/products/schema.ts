@@ -28,7 +28,6 @@ export const productProfileSchema = z.object({
   website: z.string(),
   websiteLabel: z.string(),
   shortSummary: z.string(),
-  summary: z.string(),
   // 卡片快照（短值 stat，对齐 investor facts 语义）；facts 为长句详情下沉渲染
   stats: z.array(z.object({ label: z.string(), value: z.string() })),
   facts: z.array(z.object({ label: z.string(), value: z.string() })),

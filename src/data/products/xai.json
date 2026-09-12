@@ -6,8 +6,7 @@
   "tagline": "Elon Musk's frontier lab — from Colossus to a SpaceX merger at US$250B in under three years",
   "website": "https://x.ai/",
   "websiteLabel": "x.ai",
-  "shortSummary": "xAI is Elon Musk's frontier lab behind the Grok model family and the Colossus supercomputer, founded in 2023. It ran the fastest financing arc in the frontier-lab race — from a US$135M seed to a US$20B Series E at US$230B — before SpaceX acquired it for US$250B in February 2026.",
-  "summary": "xAI is the artificial-intelligence company founded by Elon Musk in March 2023 (incorporated in Nevada with 11 AI researchers) to 'understand the true nature of the universe,' building the Grok model family and the Colossus supercomputer — one of the world's largest AI training clusters at over 1M H100-equivalent GPUs. Its financing arc was the fastest in the frontier-lab race: ~US$135M seed (December 2023), US$6B Series B at US$24B (May 2024), US$6B Series C at US$50B (December 2024), an all-stock acquisition of X Corp in March 2025 (xAI valued at US$80B, X at US$33B), a US$10B debt-and-equity package (July 2025), a reported US$10B Series D at US$200B (September 2025), and a US$20B Series E at US$230B (January 2026) — before SpaceX acquired xAI for US$250B in an all-stock deal on 2 February 2026, making it a wholly owned subsidiary.",
+  "shortSummary": "xAI is Elon Musk's frontier lab behind the Grok model family and the Colossus supercomputer, founded in 2023.",
   "stats": [
     {
       "label": "Founded",
@@ -31,15 +30,22 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "March 2023 (Nevada)" },
-    { "label": "Headquarters", "value": "Palo Alto / San Francisco Bay Area, California" },
-    { "label": "Founders", "value": "Elon Musk + 11 AI researchers (incl. Igor Babuschkin, departed)" },
-    { "label": "Sector", "value": "Frontier foundation models + AI infrastructure (Grok; Colossus)" },
-    { "label": "Key product", "value": "Grok assistant; Colossus training cluster (1M+ H100-equivalents)" },
-    { "label": "Total raised", "value": "~US$37B on site leaderboard (excl. reported Series D); disclosed rounds incl. Series D sum higher" },
-    { "label": "Largest round", "value": "US$20B Series E @ US$230B (Jan 2026)" },
-    { "label": "Valuation arc", "value": "US$5B (2023) → US$24B → US$50B (2024) → US$80B (X deal 2025) → US$230B (Jan 2026)" },
-    { "label": "Outcome", "value": "Acquired by SpaceX for US$250B all-stock (Feb 2026); combined ~US$1.75T after SpaceX IPO (Jun 2026)" }
+    {
+      "label": "Founders",
+      "value": "Elon Musk + 11 AI researchers (incl. Igor Babuschkin, departed)"
+    },
+    {
+      "label": "Sector",
+      "value": "Frontier foundation models + AI infrastructure (Grok; Colossus)"
+    },
+    {
+      "label": "Key product",
+      "value": "Grok assistant; Colossus training cluster (1M+ H100-equivalents)"
+    },
+    {
+      "label": "Outcome",
+      "value": "Acquired by SpaceX for US$250B all-stock (Feb 2026); combined ~US$1.75T after SpaceX IPO (Jun 2026)"
+    }
   ],
   "rounds": [
     {
@@ -56,8 +62,18 @@
       "label": "Series B",
       "amountUsd": 6000000000,
       "valuationUsd": 24000000000,
-      "leads": ["Andreessen Horowitz", "Sequoia Capital"],
-      "participants": ["Lightspeed", "Valor Equity Partners", "Fidelity", "Qatar Investment Authority", "Nvidia", "AMD"],
+      "leads": [
+        "Andreessen Horowitz",
+        "Sequoia Capital"
+      ],
+      "participants": [
+        "Lightspeed",
+        "Valor Equity Partners",
+        "Fidelity",
+        "Qatar Investment Authority",
+        "Nvidia",
+        "AMD"
+      ],
       "note": "A strategic syndicate of tier-one VCs plus sovereign wealth.",
       "sourceUrl": "https://x.ai/"
     },
@@ -66,8 +82,16 @@
       "label": "Series C",
       "amountUsd": 6000000000,
       "valuationUsd": 50000000000,
-      "leads": ["MGX", "Kingdom Holding", "Valor Equity Partners"],
-      "participants": ["Fidelity", "BlackRock", "Sequoia Capital"],
+      "leads": [
+        "MGX",
+        "Kingdom Holding",
+        "Valor Equity Partners"
+      ],
+      "participants": [
+        "Fidelity",
+        "BlackRock",
+        "Sequoia Capital"
+      ],
       "note": "Doubled the valuation to US$50B in seven months.",
       "sourceUrl": "https://x.ai/"
     },
@@ -83,7 +107,9 @@
       "date": "2025-07-01",
       "label": "Debt & Equity Package",
       "amountUsd": 10000000000,
-      "leads": ["Morgan Stanley"],
+      "leads": [
+        "Morgan Stanley"
+      ],
       "participants": [],
       "note": "US$5B debt arranged by Morgan Stanley plus ~US$5B strategic equity for the Colossus compute buildout, following a US$300M secondary at US$113B earlier in 2025.",
       "sourceUrl": "https://sacra.com/c/xai/"
@@ -93,8 +119,13 @@
       "label": "Series D",
       "amountUsd": 10000000000,
       "valuationUsd": 200000000000,
-      "leads": ["Valor Capital", "Kingdom Holding"],
-      "participants": ["Qatar Investment Authority"],
+      "leads": [
+        "Valor Capital",
+        "Kingdom Holding"
+      ],
+      "participants": [
+        "Qatar Investment Authority"
+      ],
       "note": "Reported by CNBC/Bloomberg at a US$200B valuation with Valor, QIA and Kingdom Holding among named participants (Musk publicly disputed the report at the time; the close was nevertheless corroborated by multiple outlets). Labeled Reported because xAI did not announce it on its own news feed under that name.",
       "sourceUrl": "https://mungomash.com/orgs/xai/financials/"
     },
@@ -103,8 +134,20 @@
       "label": "Series E",
       "amountUsd": 20000000000,
       "valuationUsd": 230000000000,
-      "leads": ["Valor Equity Partners", "Nvidia"],
-      "participants": ["Fidelity", "Qatar Investment Authority", "MGX", "Cisco", "StepStone", "Baron Capital", "Tesla", "HUMAIN"],
+      "leads": [
+        "Valor Equity Partners",
+        "Nvidia"
+      ],
+      "participants": [
+        "Fidelity",
+        "Qatar Investment Authority",
+        "MGX",
+        "Cisco",
+        "StepStone",
+        "Baron Capital",
+        "Tesla",
+        "HUMAIN"
+      ],
       "note": "Upsized from a US$15B target. Nvidia and Cisco joined as strategic investors; Tesla committed ~US$2B subject to regulatory approval; Saudi HUMAIN invested US$3B.",
       "sourceUrl": "https://mungomash.com/orgs/xai/financials/"
     },

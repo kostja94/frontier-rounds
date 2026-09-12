@@ -6,8 +6,7 @@
   "tagline": "David Silver's London lab building a 'superlearner' that learns from experience, not human data",
   "website": "https://www.ineffable.ai/",
   "websiteLabel": "ineffable.ai",
-  "shortSummary": "Ineffable Intelligence is David Silver's London frontier lab pursuing a deliberately non-LLM 'superlearner' that learns from experience rather than human data. It exited stealth in April 2026 with a US$1.1B seed at ≈US$5.1B — the largest seed in European history — led by Sequoia and Lightspeed, with no product or revenue yet.",
-  "summary": "Ineffable Intelligence is a London-based frontier AI lab founded by David Silver, the former head of reinforcement learning at Google DeepMind and principal architect of the AlphaGo / AlphaZero / MuZero line. Registered in November 2025 (Silver became a director and formally left DeepMind in January 2026), the company exited stealth on 27 April 2026 with a US$1.1B (≈€937M) seed round at a ≈US$5.1B post-money valuation — the largest seed round in European history — led by Sequoia Capital and Lightspeed, with NVIDIA and Google inside the cap table. The lab is pursuing a deliberately non-LLM thesis: a 'superlearner' that learns continuously from the consequences of its own actions in simulated worlds rather than from human data — the research program Silver outlined with Richard Sutton in their 2025 essay 'Welcome to the Era of Experience.' It has no product, model or revenue as of September 2026; public progress so far consists of compute partnerships with NVIDIA and Google Cloud and the elevation of six senior hires to co-founder in September 2026.",
+  "shortSummary": "Ineffable Intelligence is David Silver's London frontier lab pursuing a deliberately non-LLM 'superlearner' that learns from experience rather than human data, with no product or revenue yet.",
   "stats": [
     {
       "label": "Founded",
@@ -27,15 +26,22 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "Registered Nov 2025; Silver joined as director Jan 2026 (exited stealth Apr 2026)" },
-    { "label": "Headquarters", "value": "London, United Kingdom" },
-    { "label": "Founder / CEO", "value": "David Silver (ex-DeepMind RL lead; UCL professor)" },
-    { "label": "Co-founders", "value": "Chris Apps; Wojciech Czarnecki; Lasse Espeholt; Junhyuk Oh; Alexandre Laterre; Heather Gorham (elevated Sep 2026)" },
-    { "label": "Sector", "value": "Frontier AI research — experience-based learning / superintelligence ('superlearner')" },
-    { "label": "Thesis", "value": "No pre-training on human data; RL from an agent's own experience in simulated worlds" },
-    { "label": "Team", "value": "~10–20 employees across five countries (LinkedIn, Sep 2026)" },
-    { "label": "Total raised", "value": "~US$1.1B (one disclosed seed round)" },
-    { "label": "Latest valuation", "value": "≈US$5.1B post-money (Seed, Apr 2026)" }
+    {
+      "label": "Founder / CEO",
+      "value": "David Silver (ex-DeepMind RL lead; UCL professor)"
+    },
+    {
+      "label": "Co-founders",
+      "value": "Chris Apps; Wojciech Czarnecki; Lasse Espeholt; Junhyuk Oh; Alexandre Laterre; Heather Gorham (elevated Sep 2026)"
+    },
+    {
+      "label": "Sector",
+      "value": "Frontier AI research — experience-based learning / superintelligence ('superlearner')"
+    },
+    {
+      "label": "Thesis",
+      "value": "No pre-training on human data; RL from an agent's own experience in simulated worlds"
+    }
   ],
   "rounds": [
     {
@@ -43,8 +49,23 @@
       "label": "Seed",
       "amountUsd": 1100000000,
       "valuationUsd": 5100000000,
-      "leads": ["Sequoia Capital", "Lightspeed Venture Partners"],
-      "participants": ["NVIDIA", "Google", "DST Global", "Index Ventures", "Flying Fish Partners", "EQT Ventures", "Evantic Capital", "Wellcome Trust", "BOND Capital", "British Business Bank", "UK Sovereign AI Fund"],
+      "leads": [
+        "Sequoia Capital",
+        "Lightspeed Venture Partners"
+      ],
+      "participants": [
+        "NVIDIA",
+        "Google",
+        "DST Global",
+        "Index Ventures",
+        "Flying Fish Partners",
+        "EQT Ventures",
+        "Evantic Capital",
+        "Wellcome Trust",
+        "BOND Capital",
+        "British Business Bank",
+        "UK Sovereign AI Fund"
+      ],
       "note": "Europe's largest seed financing on record, per the company. The round closed in two tranches — an earlier ~US$11M first tranche at a ~US$55M pre-money valuation (per filing data reported by Forbes), followed by the ~US$1.1B tranche at a ~US$4B pre / ≈US$5.1B post — but is officially presented as a single US$1.1B seed. NVIDIA's venture arm contributed at least US$250M; the UK government co-invested via the British Business Bank (US$20M direct) and the Sovereign AI Fund.",
       "sourceUrl": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html"
     }

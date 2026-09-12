@@ -6,8 +6,7 @@
   "tagline": "The lab that started the modern AI boom, now the most heavily funded private company in history",
   "website": "https://openai.com/",
   "websiteLabel": "openai.com",
-  "shortSummary": "OpenAI is the lab behind ChatGPT, GPT and Sora, and the most heavily funded private company in history. Its funding arc runs from a US$1B Microsoft partnership to a record US$122B close at an US$852B valuation in March 2026, with ~US$2B in monthly revenue and 900M+ weekly ChatGPT users.",
-  "summary": "OpenAI is the San Francisco research-and-deployment lab behind ChatGPT, GPT and Sora, founded in December 2015 as a nonprofit and restructured around a capped-profit subsidiary in 2019. Its funding arc defines the AI era: a US$1B Microsoft partnership in 2019, a US$10B Microsoft commitment at a ~US$29B valuation in January 2023, a US$6.6B round at US$157B in October 2024, a US$40B round at US$300B in March 2025 (then the largest private tech deal ever), and a record US$122B close at an US$852B post-money valuation in March 2026 — anchored by Amazon (up to US$50B), Nvidia (US$30B) and SoftBank (US$30B). OpenAI generates about US$2B in monthly revenue (2026), serves 900M+ weekly ChatGPT users, and is preparing a public listing. Cumulative funding is roughly US$142B on Frontier Rounds' conservative disclosed basis; third-party trackers that include credit facilities and rumored rounds put the figure at US$180–197B.",
+  "shortSummary": "OpenAI is the lab behind ChatGPT, GPT and Sora, and the most heavily funded private company in history.",
   "stats": [
     {
       "label": "Founded",
@@ -31,16 +30,22 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "December 2015 (nonprofit); capped-profit LP 2019; PBC October 2025" },
-    { "label": "Headquarters", "value": "San Francisco, California" },
-    { "label": "Founders", "value": "Sam Altman, Elon Musk (departed), Greg Brockman, Ilya Sutskever (departed), Wojciech Zaremba, John Schulman et al." },
-    { "label": "Sector", "value": "Frontier foundation models + products (ChatGPT, GPT, Sora)" },
-    { "label": "Flagship products", "value": "ChatGPT (900M+ weekly users); GPT model family; Sora" },
-    { "label": "Revenue", "value": "~US$2B/month (2026); US$41.3B annualized FY2026 (reported)" },
-    { "label": "Total raised", "value": "~US$180B across disclosed rounds (site leaderboard snapshot: US$142B conservative)" },
-    { "label": "Latest valuation", "value": "US$852B post-money (US$122B round, Mar 2026)" },
-    { "label": "Largest round", "value": "US$122B (Mar 2026) — largest private round in history" },
-    { "label": "Status", "value": "Preparing IPO (confidential filing expected 2026)" }
+    {
+      "label": "Founders",
+      "value": "Sam Altman, Elon Musk (departed), Greg Brockman, Ilya Sutskever (departed), Wojciech Zaremba, John Schulman et al."
+    },
+    {
+      "label": "Sector",
+      "value": "Frontier foundation models + products (ChatGPT, GPT, Sora)"
+    },
+    {
+      "label": "Flagship products",
+      "value": "ChatGPT (900M+ weekly users); GPT model family; Sora"
+    },
+    {
+      "label": "Status",
+      "value": "Preparing IPO (confidential filing expected 2026)"
+    }
   ],
   "rounds": [
     {
@@ -48,7 +53,16 @@
       "label": "Founding Pledges",
       "amountUsd": 130000000,
       "leads": [],
-      "participants": ["Sam Altman", "Greg Brockman", "Elon Musk", "Reid Hoffman", "Peter Thiel", "AWS", "Infosys", "Y Combinator"],
+      "participants": [
+        "Sam Altman",
+        "Greg Brockman",
+        "Elon Musk",
+        "Reid Hoffman",
+        "Peter Thiel",
+        "AWS",
+        "Infosys",
+        "Y Combinator"
+      ],
       "note": "Initial ~US$130M actually received of a US$1B pledge from founders and backers; no formal priced round.",
       "sourceUrl": "https://www.clay.com/dossier/openai-funding"
     },
@@ -56,7 +70,9 @@
       "date": "2019-07-22",
       "label": "Microsoft Partnership",
       "amountUsd": 1000000000,
-      "leads": ["Microsoft"],
+      "leads": [
+        "Microsoft"
+      ],
       "participants": [],
       "note": "Microsoft's initial US$1B investment paired with an exclusive Azure compute partnership — widely credited with kicking off the contemporary AI boom.",
       "sourceUrl": "https://en.wikipedia.org/wiki/OpenAI"
@@ -66,7 +82,9 @@
       "label": "Microsoft Extended Commitment",
       "amountUsd": 10000000000,
       "valuationUsd": 29000000000,
-      "leads": ["Microsoft"],
+      "leads": [
+        "Microsoft"
+      ],
       "participants": [],
       "note": "Landmark multi-year US$10B Microsoft commitment, largely for Azure compute, at a reported ~US$29B valuation — double OpenAI's 2021 mark.",
       "sourceUrl": "https://www.clay.com/dossier/openai-funding"
@@ -76,8 +94,16 @@
       "label": "Secondary",
       "amountUsd": 300000000,
       "valuationUsd": 28000000000,
-      "leads": ["Thrive Capital"],
-      "participants": ["Sequoia Capital", "Andreessen Horowitz", "Tiger Global", "Founders Fund", "K2 Global"],
+      "leads": [
+        "Thrive Capital"
+      ],
+      "participants": [
+        "Sequoia Capital",
+        "Andreessen Horowitz",
+        "Tiger Global",
+        "Founders Fund",
+        "K2 Global"
+      ],
       "note": "Employee tender priced around US$27–29B.",
       "sourceUrl": "https://tracxn.com/d/companies/openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg/funding-and-investors"
     },
@@ -86,8 +112,18 @@
       "label": "Series E",
       "amountUsd": 6600000000,
       "valuationUsd": 157000000000,
-      "leads": ["Thrive Capital"],
-      "participants": ["Microsoft", "Nvidia", "SoftBank", "Khosla Ventures", "Altimeter Capital", "Fidelity", "MGX"],
+      "leads": [
+        "Thrive Capital"
+      ],
+      "participants": [
+        "Microsoft",
+        "Nvidia",
+        "SoftBank",
+        "Khosla Ventures",
+        "Altimeter Capital",
+        "Fidelity",
+        "MGX"
+      ],
       "note": "Thrive led with ~US$1.2B plus an option to add US$1B on hitting revenue targets.",
       "sourceUrl": "https://www.clay.com/dossier/openai-funding"
     },
@@ -96,8 +132,20 @@
       "label": "Series F",
       "amountUsd": 40000000000,
       "valuationUsd": 300000000000,
-      "leads": ["SoftBank"],
-      "participants": ["Microsoft", "Coatue", "Altimeter Capital", "Thrive Capital", "Dragoneer", "MGX", "Blackstone", "TPG", "T. Rowe Price"],
+      "leads": [
+        "SoftBank"
+      ],
+      "participants": [
+        "Microsoft",
+        "Coatue",
+        "Altimeter Capital",
+        "Thrive Capital",
+        "Dragoneer",
+        "MGX",
+        "Blackstone",
+        "TPG",
+        "T. Rowe Price"
+      ],
       "note": "Led by SoftBank, at the time the highest-value private technology deal in history.",
       "sourceUrl": "https://en.wikipedia.org/wiki/OpenAI"
     },
@@ -106,8 +154,30 @@
       "label": "Record Round",
       "amountUsd": 122000000000,
       "valuationUsd": 852000000000,
-      "leads": ["SoftBank", "Andreessen Horowitz", "D. E. Shaw Ventures", "MGX", "TPG", "T. Rowe Price"],
-      "participants": ["Amazon", "Nvidia", "Microsoft", "Altimeter", "BlackRock", "Blackstone", "Coatue", "D1 Capital", "Dragoneer", "Fidelity", "Sequoia", "Temasek", "Thrive Capital", "UC Investments"],
+      "leads": [
+        "SoftBank",
+        "Andreessen Horowitz",
+        "D. E. Shaw Ventures",
+        "MGX",
+        "TPG",
+        "T. Rowe Price"
+      ],
+      "participants": [
+        "Amazon",
+        "Nvidia",
+        "Microsoft",
+        "Altimeter",
+        "BlackRock",
+        "Blackstone",
+        "Coatue",
+        "D1 Capital",
+        "Dragoneer",
+        "Fidelity",
+        "Sequoia",
+        "Temasek",
+        "Thrive Capital",
+        "UC Investments"
+      ],
       "note": "The largest private funding round in history, upsized from ~US$110B. Amazon committed up to US$50B (US$35B conditional on IPO/AGI milestones), Nvidia US$30B, SoftBank US$30B. First round to raise US$3B+ from individual investors via bank channels.",
       "sourceUrl": "https://openai.com/index/accelerating-the-next-phase-ai/"
     }

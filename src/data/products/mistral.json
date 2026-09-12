@@ -6,8 +6,7 @@
   "tagline": "Sovereign, open-weight AI for organizations that need control over data, models and compute",
   "website": "https://mistral.ai/",
   "websiteLabel": "mistral.ai",
-  "shortSummary": "Mistral AI is the Paris lab building open-weight frontier models and, increasingly, the European compute they run on. Founded in 2023 by DeepMind and Meta alumni, it raised a record €3B Series D led by Samsung at a €21B+ valuation in September 2026 — the largest equity raise ever by a European tech company.",
-  "summary": "Mistral AI is a Paris-based AI lab building open-weight frontier models, a full-stack enterprise platform and, increasingly, the European compute capacity they run on. Founded in May 2023 by Arthur Mensch, Guillaume Lample and Timothée Lacroix — alumni of Google DeepMind and Meta AI — it came out of stealth a month later with a €105M seed round led by Lightspeed, then the largest seed ever raised in Europe. Mistral went on to raise a €385M Series A led by Andreessen Horowitz (December 2023), a €600M Series B led by General Catalyst (June 2024, including a €132M debt component), a €1.7B Series C led by ASML at an €11.7B valuation (September 2025) and a record €3B Series D led by Samsung Electronics at a valuation above €21B (September 2026) — the largest equity fundraising ever completed by a European technology company. The company now operates across 20 countries, supports 125+ global enterprises (Airbus, ASML, HSBC among them), and is Europe's second-most-valuable private tech group after Revolut.",
+  "shortSummary": "Mistral AI is the Paris lab building open-weight frontier models and, increasingly, the European compute they run on, founded in 2023 by DeepMind and Meta alumni.",
   "stats": [
     {
       "label": "Founded",
@@ -31,16 +30,22 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "May 2023" },
-    { "label": "Headquarters", "value": "Paris, France" },
-    { "label": "Founders", "value": "Arthur Mensch (CEO); Guillaume Lample; Timothée Lacroix" },
-    { "label": "Sector", "value": "Open-weight foundation models + sovereign AI platform (models, infrastructure, compute)" },
-    { "label": "Product launched", "value": "Mixtral 8x7B + platform beta (Dec 2023); Le Chat assistant; enterprise API / on-premises" },
-    { "label": "Customers", "value": "125+ enterprises across 20 countries (Airbus, ASML, HSBC, BNP Paribas, CMA CGM)" },
-    { "label": "ARR (2026)", "value": "Tracking to exceed $1B in 2026 (CEO guidance, Sep 2026)" },
-    { "label": "Total raised", "value": "~€5.8B across five equity rounds (≈US$6.6B at per-round rates; incl. €132M debt inside Series B)" },
-    { "label": "Latest valuation", "value": ">€21B (Series D, Sep 2026) — 2nd most valuable private tech co. in Europe" },
-    { "label": "Position", "value": "Largest equity fundraise ever by a European private tech company" }
+    {
+      "label": "Founders",
+      "value": "Arthur Mensch (CEO); Guillaume Lample; Timothée Lacroix"
+    },
+    {
+      "label": "Sector",
+      "value": "Open-weight foundation models + sovereign AI platform (models, infrastructure, compute)"
+    },
+    {
+      "label": "Product launched",
+      "value": "Mixtral 8x7B + platform beta (Dec 2023); Le Chat assistant; enterprise API / on-premises"
+    },
+    {
+      "label": "Position",
+      "value": "Largest equity fundraise ever by a European private tech company"
+    }
   ],
   "rounds": [
     {
@@ -48,8 +53,23 @@
       "label": "Seed",
       "amountUsd": 113000000,
       "valuationUsd": 260000000,
-      "leads": ["Lightspeed"],
-      "participants": ["Redpoint", "Index Ventures", "Xavier Niel", "JCDecaux Holding", "Rodolphe Saadé", "Motier Ventures", "La Famiglia", "Headline", "Exor Ventures", "Sofina", "First Minute Capital", "LocalGlobe"],
+      "leads": [
+        "Lightspeed"
+      ],
+      "participants": [
+        "Redpoint",
+        "Index Ventures",
+        "Xavier Niel",
+        "JCDecaux Holding",
+        "Rodolphe Saadé",
+        "Motier Ventures",
+        "La Famiglia",
+        "Headline",
+        "Exor Ventures",
+        "Sofina",
+        "First Minute Capital",
+        "LocalGlobe"
+      ],
       "note": "Raised one month after founding — at the time the largest seed round ever in Europe (€105M ≈ US$113M at a €240M valuation); used largely to rent compute to train Mistral's first models. Bpifrance and former Google CEO Eric Schmidt were also shareholders, per TechCrunch.",
       "sourceUrl": "https://techcrunch.com/2023/06/13/frances-mistral-ai-blows-in-with-a-113m-seed-round-at-a-260m-valuation-to-take-on-openai/"
     },
@@ -58,8 +78,19 @@
       "label": "Series A",
       "amountUsd": 415000000,
       "valuationUsd": 2000000000,
-      "leads": ["Andreessen Horowitz"],
-      "participants": ["Lightspeed", "Salesforce", "BNP Paribas", "CMA CGM", "General Catalyst", "Elad Gil", "Conviction", "Motier Ventures"],
+      "leads": [
+        "Andreessen Horowitz"
+      ],
+      "participants": [
+        "Lightspeed",
+        "Salesforce",
+        "BNP Paribas",
+        "CMA CGM",
+        "General Catalyst",
+        "Elad Gil",
+        "Conviction",
+        "Motier Ventures"
+      ],
       "note": "Closed seven months after founding and valued the ~22-person company at roughly $2B (€385M ≈ US$415M). Announced the same day Mistral released Mixtral 8x7B and opened beta access to its first platform services.",
       "sourceUrl": "https://techcrunch.com/2023/12/11/mistral-ai-a-paris-based-openai-rival-closed-its-415-million-funding-round/"
     },
@@ -68,8 +99,31 @@
       "label": "Series B",
       "amountUsd": 645000000,
       "valuationUsd": 6200000000,
-      "leads": ["General Catalyst"],
-      "participants": ["Lightspeed", "Andreessen Horowitz", "Nvidia", "Samsung Venture Investment Corporation", "Salesforce Ventures", "Belfius", "Bertelsmann Investments", "BNP Paribas", "Bpifrance", "Cisco", "Eurazeo", "Headline", "Hanwha Asset Management", "IBM", "Korelya Capital", "Latitude", "Millennium New Horizons", "Sanabil Investments", "ServiceNow", "SV Angel"],
+      "leads": [
+        "General Catalyst"
+      ],
+      "participants": [
+        "Lightspeed",
+        "Andreessen Horowitz",
+        "Nvidia",
+        "Samsung Venture Investment Corporation",
+        "Salesforce Ventures",
+        "Belfius",
+        "Bertelsmann Investments",
+        "BNP Paribas",
+        "Bpifrance",
+        "Cisco",
+        "Eurazeo",
+        "Headline",
+        "Hanwha Asset Management",
+        "IBM",
+        "Korelya Capital",
+        "Latitude",
+        "Millennium New Horizons",
+        "Sanabil Investments",
+        "ServiceNow",
+        "SV Angel"
+      ],
       "note": "Round was €468M equity + €132M debt (€600M ≈ US$645M at a €5.8B valuation), led by existing investor General Catalyst; raised total funding past €1B. Notably, Samsung participated for the first time through its venture arm Samsung Venture Investment Corporation — a precursor to the corporate relationship that culminated in the Series D. Microsoft, which had invested €15M in convertible bonds in February 2024, did not take part in this round.",
       "sourceUrl": "https://techcrunch.com/2024/06/11/paris-based-ai-startup-mistral-ai-raises-640-million/"
     },
@@ -78,8 +132,20 @@
       "label": "Series C",
       "amountUsd": 1990000000,
       "valuationUsd": 13800000000,
-      "leads": ["ASML"],
-      "participants": ["DST Global", "Andreessen Horowitz", "Bpifrance", "General Catalyst", "Index Ventures", "Lightspeed", "NVIDIA", "Salesforce Ventures", "Samsung Venture Investment"],
+      "leads": [
+        "ASML"
+      ],
+      "participants": [
+        "DST Global",
+        "Andreessen Horowitz",
+        "Bpifrance",
+        "General Catalyst",
+        "Index Ventures",
+        "Lightspeed",
+        "NVIDIA",
+        "Salesforce Ventures",
+        "Samsung Venture Investment"
+      ],
       "note": "Led by ASML, which invested €1.3B (≈US$1.5B) and became Mistral's largest shareholder with an ~11% stake on a fully diluted basis; ASML's CFO joined a strategic committee rather than taking a board seat. Announced alongside a long-term strategic partnership to apply Mistral's AI inside ASML's manufacturing ecosystem. Roughly doubled Mistral's valuation to €11.7B (≈US$13.8B), making it Europe's most valuable AI startup at the time.",
       "sourceUrl": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
     },
@@ -88,8 +154,33 @@
       "label": "Series D",
       "amountUsd": 3500000000,
       "valuationUsd": 24000000000,
-      "leads": ["Samsung Electronics", "Scaleup Europe Fund (EQT)", "PSG Equity"],
-      "participants": ["Advent", "BlackRock (funds & accounts)", "Grand Duchy of Luxembourg", "a16z", "ASML", "Belfius", "BNP Paribas CIB", "Bpifrance", "Carmignac", "DST Global", "Eurazeo", "General Catalyst", "Headline", "Hillspire", "Index Ventures", "Korelya Capital", "Lightspeed", "NVIDIA", "Phoenix Court's Solar fund", "Salesforce Ventures"],
+      "leads": [
+        "Samsung Electronics",
+        "Scaleup Europe Fund (EQT)",
+        "PSG Equity"
+      ],
+      "participants": [
+        "Advent",
+        "BlackRock (funds & accounts)",
+        "Grand Duchy of Luxembourg",
+        "a16z",
+        "ASML",
+        "Belfius",
+        "BNP Paribas CIB",
+        "Bpifrance",
+        "Carmignac",
+        "DST Global",
+        "Eurazeo",
+        "General Catalyst",
+        "Headline",
+        "Hillspire",
+        "Index Ventures",
+        "Korelya Capital",
+        "Lightspeed",
+        "NVIDIA",
+        "Phoenix Court's Solar fund",
+        "Salesforce Ventures"
+      ],
       "note": "Europe's largest-ever equity fundraising by a private technology company (€3B ≈ US$3.5B at a valuation above €21B ≈ US$24B), three years after launch. Samsung Electronics led with an estimated ~€1B commitment (undisclosed) and announced the same day a strategic partnership to integrate Mistral Large into its semiconductor operations on-premises. Co-leads Scaleup Europe Fund — the EU-backed ~€5B vehicle managed by EQT — and existing investor PSG Equity. Microsoft — which signed a multibillion-euro infrastructure deal with Mistral in July 2026 — did not participate.",
       "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
     }

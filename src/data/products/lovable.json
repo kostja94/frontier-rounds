@@ -6,8 +6,7 @@
   "tagline": "The natural-language platform that turns ideas into running software",
   "website": "https://lovable.dev/",
   "websiteLabel": "lovable.dev",
-  "shortSummary": "Lovable is the Stockholm natural-language development platform that lets anyone build software by describing it — the category known as vibe coding. It passed US$100M annualized revenue within eight months of launch and raised a US$400M Series C at US$13.3B in August 2026, co-led by Menlo Ventures and EQT.",
-  "summary": "Lovable is a Stockholm-based natural-language development platform that lets anyone build production-grade web apps and software by describing them in plain language — a category known as vibe coding. Founded in 2023 by former CERN physicist Anton Osika and Fabian Hedin, it launched publicly in November 2024 and passed $100M annualized revenue within eight months, a pace its founders say beat OpenAI, Cursor and Wiz. Lovable raised a $200M Series A led by Accel in July 2025 (Europe's largest-ever Series A at the time), a $330M Series B co-led by CapitalG and Menlo Ventures in December 2025, and a $400M Series C co-led by Menlo Ventures and EQT's Scaleup Europe Fund in August 2026 at a $13.3B valuation. Nearly two-thirds of Fortune 500 companies now have employees using the platform — up from about half six months earlier — with customers including Adidas, Nvidia, Deutsche Telekom, Zendesk and Handshake.",
+  "shortSummary": "Lovable is the Stockholm natural-language development platform that lets anyone build production-grade software by describing it — the category known as vibe coding.",
   "stats": [
     {
       "label": "Founded",
@@ -31,17 +30,18 @@
     }
   ],
   "facts": [
-    { "label": "Founded", "value": "2023" },
-    { "label": "Headquarters", "value": "Stockholm, Sweden" },
-    { "label": "Founders", "value": "Anton Osika; Fabian Hedin" },
-    { "label": "Sector", "value": "Natural-language app development (vibe coding)" },
-    { "label": "Product launched", "value": "November 2024" },
-    { "label": "ARR (Feb 2026)", "value": "$400M annualized; ~$20M enterprise revenue (per Forbes)" },
-    { "label": "ARR (mid-2026)", "value": "~$500M in June, tracking toward $600M by August" },
-    { "label": "Fortune 500 penetration", "value": "~2/3 have employees using Lovable (was ~1/2 six months earlier)" },
-    { "label": "Total raised", "value": "~$953M across five rounds" },
-    { "label": "Latest valuation", "value": "$13.3B (Series C, Aug 2026)" },
-    { "label": "Scale", "value": "60M+ projects hosted; 900M monthly visits" }
+    {
+      "label": "Founders",
+      "value": "Anton Osika; Fabian Hedin"
+    },
+    {
+      "label": "Sector",
+      "value": "Natural-language app development (vibe coding)"
+    },
+    {
+      "label": "Product launched",
+      "value": "November 2024"
+    }
   ],
   "rounds": [
     {
@@ -57,7 +57,9 @@
       "date": "2025-02-25",
       "label": "Seed (Pre-Series A)",
       "amountUsd": 15000000,
-      "leads": ["Creandum"],
+      "leads": [
+        "Creandum"
+      ],
       "participants": [],
       "note": "Creandum led the $15M round; at the time Lovable reported ~$17M ARR and 30,000 paying customers.",
       "sourceUrl": "https://techcrunch.com/2025/07/17/lovable-becomes-a-unicorn-with-200m-series-a-just-8-months-after-launch/"
@@ -67,8 +69,16 @@
       "label": "Series A",
       "amountUsd": 200000000,
       "valuationUsd": 1800000000,
-      "leads": ["Accel"],
-      "participants": ["20VC", "byFounders", "Creandum", "Hummingbird", "Visionaries Club"],
+      "leads": [
+        "Accel"
+      ],
+      "participants": [
+        "20VC",
+        "byFounders",
+        "Creandum",
+        "Hummingbird",
+        "Visionaries Club"
+      ],
       "note": "Europe's largest-ever Series A at the time; made Lovable a unicorn just eight months after launch.",
       "sourceUrl": "https://techcrunch.com/2025/07/17/lovable-becomes-a-unicorn-with-200m-series-a-just-8-months-after-launch/"
     },
@@ -77,8 +87,25 @@
       "label": "Series B",
       "amountUsd": 330000000,
       "valuationUsd": 6600000000,
-      "leads": ["CapitalG", "Menlo Ventures (Anthology)"],
-      "participants": ["NVentures", "Salesforce Ventures", "Databricks Ventures", "T.Capital", "Atlassian Ventures", "HubSpot Ventures", "Khosla Ventures", "DST Global", "EQT Growth", "Kinship Ventures", "Accel", "Creandum", "Evantic"],
+      "leads": [
+        "CapitalG",
+        "Menlo Ventures (Anthology)"
+      ],
+      "participants": [
+        "NVentures",
+        "Salesforce Ventures",
+        "Databricks Ventures",
+        "T.Capital",
+        "Atlassian Ventures",
+        "HubSpot Ventures",
+        "Khosla Ventures",
+        "DST Global",
+        "EQT Growth",
+        "Kinship Ventures",
+        "Accel",
+        "Creandum",
+        "Evantic"
+      ],
       "note": "Tripled valuation to $6.6B in roughly five months; strategic participation from Nvidia, Salesforce, Databricks, Deutsche Telekom, Atlassian and HubSpot venture arms.",
       "sourceUrl": "https://lovable.dev/blog/series-b"
     },
@@ -87,8 +114,26 @@
       "label": "Series C",
       "amountUsd": 400000000,
       "valuationUsd": 13300000000,
-      "leads": ["Menlo Ventures", "Scaleup Europe Fund (EQT)"],
-      "participants": ["Balderton Capital", "Carmignac", "Kaszek Ventures", "LTS Growth", "Tencent", "World Innovation Lab", "Regent", "Accel", "Antler", "CapitalG", "DST Global", "Evantic Capital", "HubSpot Ventures", "Salesforce Ventures"],
+      "leads": [
+        "Menlo Ventures",
+        "Scaleup Europe Fund (EQT)"
+      ],
+      "participants": [
+        "Balderton Capital",
+        "Carmignac",
+        "Kaszek Ventures",
+        "LTS Growth",
+        "Tencent",
+        "World Innovation Lab",
+        "Regent",
+        "Accel",
+        "Antler",
+        "CapitalG",
+        "DST Global",
+        "Evantic Capital",
+        "HubSpot Ventures",
+        "Salesforce Ventures"
+      ],
       "note": "New investors from Europe, Latin America, Asia and the US; existing backers Accel, Antler, CapitalG, DST Global, Evantic, HubSpot and Salesforce rejoined.",
       "sourceUrl": "https://lovable.dev/blog/series-c"
     }

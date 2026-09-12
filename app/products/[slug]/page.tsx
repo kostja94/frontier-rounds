@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const totalRaised = profile.rounds.reduce((sum, r) => sum + (r.amountUsd ?? 0), 0);
   return {
     title: `${profile.name} — Funding Timeline & Profile`,
-    description: `${profile.name}: ${profile.tagline}. Funding timeline across ${profile.rounds.length} rounds totaling ${formatUsdCompact(totalRaised)} — ${profile.facts.find((f) => f.label === "Latest valuation")?.value ?? ""}.`,
+    description: `${profile.name}: ${profile.shortSummary}.`,
     alternates: { canonical: `/products/${profile.slug}` },
     openGraph: {
       type: "profile",
@@ -209,18 +209,6 @@ export default async function ProductProfilePage({ params }: Props) {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Overview */}
-        <section className="border-b border-ink">
-          <div className="page-shell-md">
-            <h2 className="display-lg text-ink">
-              Overview
-            </h2>
-            <p className="mt-5 max-w-prose text-base leading-relaxed text-foreground">
-              {profile.summary}
-            </p>
           </div>
         </section>
 
