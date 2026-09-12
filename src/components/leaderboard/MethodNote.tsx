@@ -16,7 +16,7 @@ export function MethodNote() {
 
   return (
     <section className="border-b border-ink">
-      <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+      <div className="page-shell-md">
         <h2 className="display-md text-ink">
           Methodology & FAQ
         </h2>
@@ -24,7 +24,7 @@ export function MethodNote() {
           {items.map((item) => (
             <div key={item.q} className="py-5">
               <dt className="font-display text-xl tracking-tight text-ink">{item.q}</dt>
-              <dd className="mt-2 max-w-3xl text-sm leading-relaxed text-foreground">
+              <dd className="mt-2 max-w-prose text-sm leading-relaxed text-foreground">
                 {item.a}
               </dd>
             </div>

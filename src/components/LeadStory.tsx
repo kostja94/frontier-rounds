@@ -3,7 +3,7 @@ import { formatDate, formatUsd, type FundingRound } from "@/data/fundingRounds";
 export function LeadStory({ round }: { round: FundingRound }) {
   return (
     <section className="animate-fade-up border-b border-ink">
-      <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+      <div className="page-shell">
         <p className="eyebrow-accent">
           Latest big round — {formatDate(round.date)}
         </p>

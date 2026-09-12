@@ -20,7 +20,7 @@ export function SiteHeader({ breadcrumb = [] }: { breadcrumb?: Crumb[] }) {
       </div>
       {breadcrumb.length > 0 && (
         <nav aria-label="Breadcrumb" className="border-t border-rule">
-          <div className="mx-auto flex max-w-6xl items-center gap-2 px-5 py-2 text-[11px] uppercase tracking-[0.14em] text-muted-foreground md:px-10">
+          <div className="mx-auto flex max-w-6xl items-center gap-2 px-5 py-2 text-[11px] uppercase tracking-label text-muted-foreground md:px-10">
             <Link href="/" className="text-ink transition-colors hover:text-accent">
               Home
             </Link>

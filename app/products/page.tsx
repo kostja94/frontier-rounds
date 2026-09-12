@@ -20,7 +20,7 @@ export default function ProductsPage() {
 
       <main className="animate-fade-up">
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+          <div className="page-shell">
             <p className="eyebrow-accent">Reference</p>
             <h2 className="mt-4 display-xl text-ink">
               Product Histories
@@ -30,7 +30,7 @@ export default function ProductsPage() {
               each page walks through a company&apos;s rounds one by one — amounts, valuations, leads
               and participants — plus the narrative that connects them.
             </p>
-            <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-xs uppercase tracking-[0.14em] text-muted-foreground">
+            <dl className="meta-list">
               <div className="flex gap-2">
                 <dt>Profiles</dt>
                 <dd className="text-ink">{productProfiles.length}</dd>
@@ -46,7 +46,7 @@ export default function ProductsPage() {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-10">
+          <div className="page-shell-sm">
             <p className="eyebrow">Profiles</p>
             <ul className="mt-4 grid gap-3 sm:grid-cols-2">
               {productProfiles.map((profile) => {
@@ -73,7 +73,7 @@ export default function ProductsPage() {
                         {profile.tagline}
                       </span>
                       {latest && (
-                        <span className="mt-2 block text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                        <span className="mt-2 block text-[11px] uppercase tracking-label text-muted-foreground">
                           {latest.label} · {latest.amountUsd ? formatUsdCompact(latest.amountUsd) : "—"} ·{" "}
                           {formatRoundDate(latest.date)} · {formatUsdCompact(totalRaised)} total
                         </span>

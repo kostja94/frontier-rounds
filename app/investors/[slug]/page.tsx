@@ -55,14 +55,14 @@ export default async function InvestorProfilePage({ params }: Props) {
 
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
-          <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-12 md:px-10 md:py-14">
+          <div className="page-shell grid gap-8 md:grid-cols-12">
             <div className="md:col-span-7">
               <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
                 <h1 className="display-xl text-ink">
                   {profile.name}
                 </h1>
                 {profile.localName && (
-                  <span className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
+                  <span className="text-sm uppercase tracking-brand text-muted-foreground">
                     {profile.localName}
                   </span>
                 )}
@@ -128,7 +128,7 @@ export default async function InvestorProfilePage({ params }: Props) {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <h2 className="display-lg text-ink">
               {profile.thesisHeading ?? `How ${profile.name} Invests in AI`}
             </h2>
@@ -150,11 +150,11 @@ export default async function InvestorProfilePage({ params }: Props) {
 
         {profile.longSummary && (
           <section className="border-b border-ink">
-            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+            <div className="page-shell-md">
               <h2 className="display-lg text-ink">
                 In depth
               </h2>
-              <p className="mt-5 max-w-3xl text-base leading-relaxed text-foreground">
+              <p className="mt-5 max-w-prose text-base leading-relaxed text-foreground">
                 {profile.longSummary}
               </p>
             </div>
@@ -163,7 +163,7 @@ export default async function InvestorProfilePage({ params }: Props) {
 
         {profile.portfolioGroups.map((group) => (
           <section key={group.heading} className="border-b border-ink">
-            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+            <div className="page-shell-md">
               <div className="flex flex-wrap items-end justify-between gap-3">
                 <div>
                   <h3 className="display-lg text-ink">
@@ -244,7 +244,7 @@ export default async function InvestorProfilePage({ params }: Props) {
                           {company.name}
                         </span>
                       )}
-                      <span className="text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                      <span className="text-[11px] uppercase tracking-label text-muted-foreground">
                         {company.sector}
                       </span>
                     </div>
@@ -257,7 +257,7 @@ export default async function InvestorProfilePage({ params }: Props) {
         ))}
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <h2 className="display-lg text-ink">
               Related Rounds
             </h2>

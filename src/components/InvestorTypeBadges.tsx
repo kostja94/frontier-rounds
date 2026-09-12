@@ -23,7 +23,7 @@ export function InvestorTypeBadges({
       {abbreviations.map((abbr) => (
         <span
           key={abbr}
-          className="border border-ink bg-ink px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.14em] text-background"
+          className="badge"
         >
           {abbr}
         </span>

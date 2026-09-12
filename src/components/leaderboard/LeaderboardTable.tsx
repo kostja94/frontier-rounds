@@ -29,7 +29,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
 
   return (
     <section className="border-b border-ink">
-      <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+      <div className="page-shell-md">
         <div className="flex flex-col gap-4 border-b-2 border-ink pb-4 sm:flex-row sm:items-end sm:justify-between">
           <h2 className="display-md text-ink">
             Leaderboard
@@ -39,7 +39,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
               <button
                 key={v}
                 onClick={() => setView(v)}
-                className={`px-3 py-1.5 text-xs uppercase tracking-[0.14em] transition-colors ${
+                className={`px-3 py-1.5 text-xs uppercase tracking-label transition-colors ${
                   view === v
                     ? "bg-ink text-primary-foreground"
                     : "bg-background text-foreground hover:bg-rule/60"
@@ -123,7 +123,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
                 </td>
                 <td className="py-3.5">
                   <span
-                    className={`inline-block border px-1.5 py-0.5 text-[10px] uppercase tracking-[0.12em] ${
+                    className={`badge-outline ${
                       tierClasses[entry.tier]
                     }`}
                   >
@@ -171,7 +171,7 @@ export function LeaderboardTable({ entries }: { entries: FundingLeaderboardEntry
                 Leads: {entry.leads.map((l) => (l.slug ? `[${l.name}]` : l.name)).join(", ")}
               </p>
               <span
-                className={`mt-2 inline-block border px-1.5 py-0.5 text-[10px] uppercase tracking-[0.12em] ${
+                className={`mt-2 badge-outline ${
                   tierClasses[entry.tier]
                 }`}
               >

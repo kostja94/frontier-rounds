@@ -33,11 +33,11 @@ export default function HomePage() {
           </>
         ) : (
           <section className="border-b-2 border-ink">
-            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+            <div className="page-shell">
               <p className="eyebrow">
                 Frontier Rounds — funding tracker
               </p>
-              <h1 className="mt-4 max-w-3xl display-xl text-ink">
+              <h1 className="mt-4 max-w-prose display-xl text-ink">
                 The Money Behind Frontier AI, One Round at a Time
               </h1>
               <p className="mt-5 max-w-xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">

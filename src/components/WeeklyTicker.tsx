@@ -30,7 +30,7 @@ export function WeeklyTicker({ rounds }: { rounds: FundingRound[] }) {
         <span className="whitespace-nowrap text-sm font-medium tracking-tight text-background group-hover:text-inherit">
           {round.company}
         </span>
-        <span className="whitespace-nowrap border border-background/40 px-1.5 py-px text-[10px] uppercase tracking-[0.14em] text-background/80">
+        <span className="whitespace-nowrap border border-background/40 px-1.5 py-px text-[10px] uppercase tracking-label text-background/80">
           {round.round}
         </span>
         <span className="whitespace-nowrap text-sm tabular-nums text-background/90">
@@ -51,7 +51,7 @@ export function WeeklyTicker({ rounds }: { rounds: FundingRound[] }) {
       <div className="mx-auto flex max-w-6xl items-stretch md:px-10">
         {/* 固定节标 */}
         <div className="flex shrink-0 items-center border-r border-background/20 px-5 py-3 md:px-6">
-          <p className="whitespace-nowrap text-[11px] font-medium uppercase tracking-[0.2em] text-background">
+          <p className="whitespace-nowrap text-[11px] font-medium uppercase tracking-brand text-background">
             Latest rounds
           </p>
         </div>

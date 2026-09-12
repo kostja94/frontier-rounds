@@ -16,7 +16,7 @@ export function CriteriaGrid() {
 
   return (
     <section className="border-b border-ink">
-      <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+      <div className="page-shell-md">
         <h2 className="display-md text-ink">
           Inclusion Criteria
         </h2>

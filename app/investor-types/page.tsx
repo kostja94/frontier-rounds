@@ -21,7 +21,7 @@ export default function InvestorTypesPage() {
       <SiteHeader breadcrumb={[{ label: "Investor Types" }]} />
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+          <div className="page-shell">
             <p className="eyebrow-accent">Reference</p>
             <h1 className="mt-4 display-xl text-ink">
               Investor Types
@@ -31,7 +31,7 @@ export default function InvestorTypesPage() {
               from pre-seed angels and accelerators to sovereign funds and private equity. Each type
               links to the firms and individuals in the atlas that represent it.
             </p>
-            <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-xs uppercase tracking-[0.14em] text-muted-foreground">
+            <dl className="meta-list">
               <div className="flex gap-2">
                 <dt>Categories</dt>
                 <dd className="text-ink">{types.length}</dd>
@@ -47,7 +47,7 @@ export default function InvestorTypesPage() {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <ul className="grid gap-px border border-ink bg-rule sm:grid-cols-2 lg:grid-cols-3">
               {types.map((t) => (
                 <li key={t.id} className="bg-background">
@@ -56,10 +56,10 @@ export default function InvestorTypesPage() {
                     className="group flex h-full flex-col p-5 transition-colors hover:bg-rule/40"
                   >
                     <div className="flex items-center justify-between gap-3">
-                      <span className="border border-ink bg-ink px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.14em] text-background">
+                      <span className="badge">
                         {t.abbreviation}
                       </span>
-                      <span className="text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                      <span className="text-[11px] uppercase tracking-label text-muted-foreground">
                         {t.profileCount} {t.profileCount === 1 ? "investor" : "investors"}
                       </span>
                     </div>

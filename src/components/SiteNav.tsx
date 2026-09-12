@@ -18,7 +18,7 @@ export function SiteNav() {
 
   return (
     <nav aria-label="Primary">
-      <ul className="flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+      <ul className="flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-label text-muted-foreground">
         {NAV_ITEMS.map((item) => (
           <li key={item.href}>
             <Link

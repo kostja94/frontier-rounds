@@ -56,9 +56,9 @@ export default async function InvestorTypePage({ params }: Props) {
       />
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+          <div className="page-shell">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-              <span className="border border-ink bg-ink px-3 py-1 text-sm font-medium uppercase tracking-[0.14em] text-background">
+              <span className="border border-ink bg-ink px-3 py-1 text-sm font-medium uppercase tracking-label text-background">
                 {type.abbreviation}
               </span>
               <h1 className="display-xl text-ink">
@@ -92,7 +92,7 @@ export default async function InvestorTypePage({ params }: Props) {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <h2 className="display-lg text-ink">
               AI Relevance
             </h2>
@@ -114,7 +114,7 @@ export default async function InvestorTypePage({ params }: Props) {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <h2 className="display-lg text-ink">
               Investors in the Atlas
             </h2>

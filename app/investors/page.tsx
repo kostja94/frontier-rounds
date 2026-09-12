@@ -27,7 +27,7 @@ export default function InvestorsPage() {
 
       <main className="animate-fade-up">
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+          <div className="page-shell">
             <p className="eyebrow-accent">Reference</p>
             <h2 className="mt-4 display-xl text-ink">
               Investor Atlas
@@ -36,7 +36,7 @@ export default function InvestorsPage() {
               A field guide to the capital sources that finance artificial intelligence companies —
               from pre-seed angels and accelerators to sovereign funds and private equity.
             </p>
-            <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-xs uppercase tracking-[0.14em] text-muted-foreground">
+            <dl className="meta-list">
               <div className="flex gap-2">
                 <dt>Categories</dt>
                 <dd className="text-ink">{investorSummary.totalCategories}</dd>
@@ -54,7 +54,7 @@ export default function InvestorsPage() {
         </section>
 
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-10">
+          <div className="page-shell-sm">
             {[
               { label: "Firm profiles", items: firmProfiles },
               { label: "Accelerators & incubators", items: acceleratorProfiles },

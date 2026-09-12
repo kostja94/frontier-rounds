@@ -81,7 +81,7 @@ export default function LeaderboardPage() {
 
       <main className="animate-fade-up">
         <section className="border-b-2 border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+          <div className="page-shell">
             <h1 className="max-w-4xl display-xl text-ink">
               The AI Companies That Raised the Most, Ranked
             </h1>

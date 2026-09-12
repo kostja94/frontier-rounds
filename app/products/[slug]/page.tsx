@@ -82,7 +82,7 @@ function RoundCard({ round, isLatest }: { round: CompanyRound; isLatest: boolean
               </span>
             )}
             {isLatest && (
-              <span className="bg-ink px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.16em] text-background">
+              <span className="bg-ink px-2 py-0.5 text-[10px] font-medium uppercase tracking-eyebrow text-background">
                 Latest
               </span>
             )}
@@ -108,7 +108,7 @@ function RoundCard({ round, isLatest }: { round: CompanyRound; isLatest: boolean
           </div>
 
           {round.note && (
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-foreground">{round.note}</p>
+            <p className="mt-4 max-w-prose text-sm leading-relaxed text-foreground">{round.note}</p>
           )}
           {round.sourceUrl && (
             <p className="mt-3">
@@ -147,7 +147,7 @@ export default async function ProductProfilePage({ params }: Props) {
       <main className="animate-fade-up">
         {/* Hero + 快照面板 */}
         <section className="border-b-2 border-ink">
-          <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-12 md:px-10 md:py-14">
+          <div className="page-shell grid gap-8 md:grid-cols-12">
             <div className="md:col-span-6">
               <div className="flex items-center gap-3">
                 {profile.logo && (
@@ -157,7 +157,7 @@ export default async function ProductProfilePage({ params }: Props) {
                     className="h-8 w-auto object-contain"
                   />
                 )}
-                <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                <span className="text-[11px] uppercase tracking-brand text-muted-foreground">
                   Funding timeline
                 </span>
               </div>
@@ -217,7 +217,7 @@ export default async function ProductProfilePage({ params }: Props) {
 
         {/* 融资时间线 */}
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <h2 className="display-lg text-ink">
                 Funding Timeline
@@ -245,7 +245,7 @@ export default async function ProductProfilePage({ params }: Props) {
         {/* 叙事章节 */}
         {profile.sections.length > 0 && (
           <section className="border-b border-ink">
-            <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+            <div className="page-shell-md">
               <h2 className="display-lg text-ink">
                 The Story Behind the Numbers
               </h2>
@@ -265,7 +265,7 @@ export default async function ProductProfilePage({ params }: Props) {
 
         {/* 交叉链接 */}
         <section className="border-b border-ink">
-          <div className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12">
+          <div className="page-shell-md">
             <h2 className="display-lg text-ink">
               More in the Atlas
             </h2>

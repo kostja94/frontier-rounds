@@ -2,7 +2,7 @@ import { formatDate, formatUsd, type FundingRound } from "@/data/fundingRounds";
 
 export function FundingTable({ rounds }: { rounds: FundingRound[] }) {
   return (
-    <section className="mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14">
+    <section className="page-shell">
       <div className="flex items-baseline justify-between border-b-2 border-ink pb-3">
         <h2 className="display-md text-ink">
           Latest Funding Rounds
@@ -52,7 +52,7 @@ export function FundingTable({ rounds }: { rounds: FundingRound[] }) {
               <span className="font-medium text-ink">{r.company}</span>
               <span className="tabular-nums text-ink">{formatUsd(r.amountUsd)}</span>
             </div>
-            <p className="mt-1 text-xs uppercase tracking-[0.14em] text-accent">{r.round}</p>
+            <p className="mt-1 text-xs uppercase tracking-label text-accent">{r.round}</p>
             <p className="mt-1.5 text-xs text-muted-foreground">
               {formatDate(r.date)} · {r.country} · {r.sector}
             </p>
