@@ -27,6 +27,7 @@ export const productProfileSchema = z.object({
   tagline: z.string(),
   website: z.string(),
   websiteLabel: z.string(),
+  shortSummary: z.string(),
   summary: z.string(),
   facts: z.array(z.object({ label: z.string(), value: z.string() })),
   rounds: z.array(companyRoundSchema),

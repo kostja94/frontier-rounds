@@ -164,11 +164,8 @@ export default async function ProductProfilePage({ params }: Props) {
               <h1 className="mt-4 text-5xl leading-[0.95] text-ink md:text-7xl">
                 {profile.name}
               </h1>
-              <p className="mt-4 max-w-xl text-lg leading-snug text-foreground">
-                {profile.tagline}
-              </p>
               <p className="mt-5 max-w-2xl border-l-2 border-rule pl-4 text-base leading-relaxed text-foreground">
-                {profile.summary}
+                {profile.shortSummary}
               </p>
             </div>
 
@@ -212,6 +209,18 @@ export default async function ProductProfilePage({ params }: Props) {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Overview */}
+        <section className="border-b border-ink">
+          <div className="page-shell-md">
+            <h2 className="display-lg text-ink">
+              Overview
+            </h2>
+            <p className="mt-5 max-w-prose text-base leading-relaxed text-foreground">
+              {profile.summary}
+            </p>
           </div>
         </section>
 

@@ -6,6 +6,7 @@
   "tagline": "The data infrastructure layer of the AI boom — until Meta bought 49% of it",
   "website": "https://scale.ai/",
   "websiteLabel": "scale.ai",
+  "shortSummary": "Scale AI is the San Francisco data infrastructure company behind the AI boom's labeling and evaluation layer, founded in 2016 by Alexandr Wang and Lucy Guo. It rode to a US$13.8B Series F, then took a ~US$14.3B Meta investment for a ~49% stake in June 2025 — a deal that triggered customer flight from Google, OpenAI and Microsoft.",
   "summary": "Scale AI is the San Francisco-based AI data infrastructure company that provides data labeling, model evaluation and software for enterprises, governments and AI labs, founded in 2016 by Alexandr Wang and Lucy Guo (Y Combinator). It rode the AI boom from a US$120K seed to a US$13.8B Series F (May 2024) — then took a defining ~US$14.3B investment from Meta in June 2025 for a ~49% non-voting stake at a ~US$29B valuation, with founder-CEO Alexandr Wang leaving to lead Meta's superintelligence division (remaining on Scale's board) and Jason Droege installed as interim CEO. Cumulative disclosed funding is ~US$15.9B across 8 rounds (Accel led Series A and F; Index is a five-round holder). The Meta deal triggered customer flight — Google, OpenAI and Microsoft cut or reduced ties.",
   "facts": [
     { "label": "Founded", "value": "2016" },

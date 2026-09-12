@@ -6,6 +6,7 @@
   "tagline": "The natural-language platform that turns ideas into running software",
   "website": "https://lovable.dev/",
   "websiteLabel": "lovable.dev",
+  "shortSummary": "Lovable is the Stockholm natural-language development platform that lets anyone build software by describing it — the category known as vibe coding. It passed US$100M annualized revenue within eight months of launch and raised a US$400M Series C at US$13.3B in August 2026, co-led by Menlo Ventures and EQT.",
   "summary": "Lovable is a Stockholm-based natural-language development platform that lets anyone build production-grade web apps and software by describing them in plain language — a category known as vibe coding. Founded in 2023 by former CERN physicist Anton Osika and Fabian Hedin, it launched publicly in November 2024 and passed $100M annualized revenue within eight months, a pace its founders say beat OpenAI, Cursor and Wiz. Lovable raised a $200M Series A led by Accel in July 2025 (Europe's largest-ever Series A at the time), a $330M Series B co-led by CapitalG and Menlo Ventures in December 2025, and a $400M Series C co-led by Menlo Ventures and EQT's Scaleup Europe Fund in August 2026 at a $13.3B valuation. Nearly two-thirds of Fortune 500 companies now have employees using the platform — up from about half six months earlier — with customers including Adidas, Nvidia, Deutsche Telekom, Zendesk and Handshake.",
   "facts": [
     { "label": "Founded", "value": "2023" },

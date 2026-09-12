@@ -6,6 +6,7 @@
   "tagline": "Elon Musk's frontier lab — from Colossus to a SpaceX merger at US$250B in under three years",
   "website": "https://x.ai/",
   "websiteLabel": "x.ai",
+  "shortSummary": "xAI is Elon Musk's frontier lab behind the Grok model family and the Colossus supercomputer, founded in 2023. It ran the fastest financing arc in the frontier-lab race — from a US$135M seed to a US$20B Series E at US$230B — before SpaceX acquired it for US$250B in February 2026.",
   "summary": "xAI is the artificial-intelligence company founded by Elon Musk in March 2023 (incorporated in Nevada with 11 AI researchers) to 'understand the true nature of the universe,' building the Grok model family and the Colossus supercomputer — one of the world's largest AI training clusters at over 1M H100-equivalent GPUs. Its financing arc was the fastest in the frontier-lab race: ~US$135M seed (December 2023), US$6B Series B at US$24B (May 2024), US$6B Series C at US$50B (December 2024), an all-stock acquisition of X Corp in March 2025 (xAI valued at US$80B, X at US$33B), a US$10B debt-and-equity package (July 2025), a reported US$10B Series D at US$200B (September 2025), and a US$20B Series E at US$230B (January 2026) — before SpaceX acquired xAI for US$250B in an all-stock deal on 2 February 2026, making it a wholly owned subsidiary.",
   "facts": [
     { "label": "Founded", "value": "March 2023 (Nevada)" },
