@@ -7,7 +7,7 @@
   "website": "https://www.anthropic.com/",
   "websiteLabel": "anthropic.com",
   "shortSummary": "Anthropic is the San Francisco frontier lab behind the Claude model family, founded in 2021 by Dario Amodei and colleagues who left OpenAI over safety. It pairs a safety mission with the most aggressive capital accumulation in private-market history.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2021"
@@ -16,20 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco, CA"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$965B (Series H)"
-    },
-    {
-      "label": "ARR",
-      "value": "~US$47B annualized"
-    },
-    {
-      "label": "Status",
-      "value": "S-1 filed Jun 2026"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Dario Amodei (CEO); Daniela Amodei (President)"
@@ -48,7 +34,15 @@
     },
     {
       "label": "Status",
-      "value": "Confidential S-1 filed June 2026"
+      "value": "S-1 filed Jun 2026"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$965B (Series H)"
+    },
+    {
+      "label": "ARR",
+      "value": "~US$47B annualized"
     }
   ],
   "rounds": [

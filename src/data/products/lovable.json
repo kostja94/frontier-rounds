@@ -7,7 +7,7 @@
   "website": "https://lovable.dev/",
   "websiteLabel": "lovable.dev",
   "shortSummary": "Lovable is the Stockholm natural-language development platform that lets anyone build production-grade software by describing it — the category known as vibe coding.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2023"
@@ -15,6 +15,18 @@
     {
       "label": "Headquarters",
       "value": "Stockholm, Sweden"
+    },
+    {
+      "label": "Founders",
+      "value": "Anton Osika; Fabian Hedin"
+    },
+    {
+      "label": "Sector",
+      "value": "Natural-language app development (vibe coding)"
+    },
+    {
+      "label": "Product launched",
+      "value": "November 2024"
     },
     {
       "label": "Latest valuation",
@@ -27,20 +39,6 @@
     {
       "label": "Scale",
       "value": "60M+ projects; 900M monthly visits"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Founders",
-      "value": "Anton Osika; Fabian Hedin"
-    },
-    {
-      "label": "Sector",
-      "value": "Natural-language app development (vibe coding)"
-    },
-    {
-      "label": "Product launched",
-      "value": "November 2024"
     }
   ],
   "rounds": [

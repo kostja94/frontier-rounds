@@ -180,9 +180,9 @@ export default async function ProductProfilePage({ params }: Props) {
                     />
                   </div>
                 )}
-                <dl className="grid grid-cols-2 divide-x divide-y divide-rule">
+                <dl className="grid grid-cols-2 divide-x divide-y divide-rule md:grid-cols-3">
                   {[
-                    ...profile.stats,
+                    ...profile.facts,
                     { label: "Rounds recorded", value: String(profile.rounds.length) },
                     {
                       label: "Total raised",
@@ -209,25 +209,6 @@ export default async function ProductProfilePage({ params }: Props) {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Company profile（facts 详情下沉） */}
-        <section className="border-b border-ink">
-          <div className="page-shell-md">
-            <h2 className="display-lg text-ink">
-              Company Profile
-            </h2>
-            <dl className="mt-8 grid gap-px border border-ink bg-rule md:grid-cols-2">
-              {profile.facts.map((fact) => (
-                <div key={fact.label} className="bg-background px-6 py-5 md:px-7 md:py-6">
-                  <dt className="eyebrow">
-                    {fact.label}
-                  </dt>
-                  <dd className="mt-2 text-sm leading-relaxed text-ink">{fact.value}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
         </section>
 

@@ -7,7 +7,7 @@
   "website": "https://z.ai/",
   "websiteLabel": "z.ai / zhipuai.cn",
   "shortSummary": "Zhipu AI is the Beijing lab behind the GLM foundation-model family, spun out of Tsinghua and the world's first publicly listed large-model company.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2019"
@@ -15,24 +15,6 @@
     {
       "label": "Headquarters",
       "value": "Beijing, China"
-    },
-    {
-      "label": "Latest valuation",
-      "value": "~US$64B (reported)"
-    },
-    {
-      "label": "Status",
-      "value": "Listed 2513.HK"
-    },
-    {
-      "label": "Largest round",
-      "value": "US$4B placement"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Origin",
-      "value": "Tsinghua / Beijing Academy of AI (智源) ecosystem"
     },
     {
       "label": "Sector",
@@ -43,12 +25,24 @@
       "value": "GLM models; ChatGLM / Zhipu Qingyan; Z.ai; enterprise platform"
     },
     {
+      "label": "Origin",
+      "value": "Tsinghua / Beijing Academy of AI (智源) ecosystem"
+    },
+    {
       "label": "IPO",
       "value": "HKEX 2513.HK, 2026-01-08, ~HK$4.35B raised (US$560M), ~HK$51B market cap"
     },
     {
       "label": "Status",
-      "value": "Listed 2513.HK; proposed A-share STAR listing (RMB 15B)"
+      "value": "Listed 2513.HK"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$64B (reported)"
+    },
+    {
+      "label": "Largest round",
+      "value": "US$4B placement"
     }
   ],
   "rounds": [

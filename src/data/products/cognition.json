@@ -7,7 +7,7 @@
   "website": "https://cognition.com/",
   "websiteLabel": "cognition.com",
   "shortSummary": "Cognition is the San Francisco lab behind Devin, the first fully autonomous AI software engineer, founded in late 2023 by IOI-gold-medallist competitive programmers.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Late 2023"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$48B (Series E)"
-    },
-    {
-      "label": "Run-rate",
-      "value": "~US$900M (Sep 2026)"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Scott Wu (CEO); Steven Hao (CTO); Walden Yan (CPO) — IOI gold medallists"
@@ -37,6 +27,14 @@
     {
       "label": "Flagship products",
       "value": "Devin (autonomous agent); Windsurf IDE; Devin Desktop (2026)"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$48B (Series E)"
+    },
+    {
+      "label": "Run-rate",
+      "value": "~US$900M (Sep 2026)"
     }
   ],
   "rounds": [

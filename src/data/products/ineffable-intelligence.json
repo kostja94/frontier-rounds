@@ -7,7 +7,7 @@
   "website": "https://www.ineffable.ai/",
   "websiteLabel": "ineffable.ai",
   "shortSummary": "Ineffable Intelligence is David Silver's London frontier lab pursuing a deliberately non-LLM 'superlearner' that learns from experience rather than human data, with no product or revenue yet.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Nov 2025"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "London, UK"
     },
-    {
-      "label": "Latest valuation",
-      "value": "≈US$5.1B post-money"
-    },
-    {
-      "label": "Team",
-      "value": "~10–20 employees"
-    }
-  ],
-  "facts": [
     {
       "label": "Founder / CEO",
       "value": "David Silver (ex-DeepMind RL lead; UCL professor)"
@@ -41,6 +31,14 @@
     {
       "label": "Thesis",
       "value": "No pre-training on human data; RL from an agent's own experience in simulated worlds"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "≈US$5.1B post-money"
+    },
+    {
+      "label": "Team",
+      "value": "~10–20 employees"
     }
   ],
   "rounds": [

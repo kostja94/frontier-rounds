@@ -7,7 +7,7 @@
   "website": "https://thinkingmachines.ai/",
   "websiteLabel": "thinkingmachines.ai",
   "shortSummary": "Thinking Machines Lab is Mira Murati's San Francisco lab for 'collaborative general intelligence,' founded in 2025 after she stepped down as OpenAI's CTO. It has shipped the Inkling open-weight model family.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Feb 2025"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco, CA"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$12B (Seed)"
-    },
-    {
-      "label": "Team",
-      "value": "~100 employees (2026)"
-    }
-  ],
-  "facts": [
     {
       "label": "Founder / CEO",
       "value": "Mira Murati (former OpenAI CTO)"
@@ -41,6 +31,14 @@
     {
       "label": "Products",
       "value": "Tinker (agent platform, 2025); Inkling & Inkling-Small (open-weight LLMs, Jul 2026)"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$12B (Seed)"
+    },
+    {
+      "label": "Team",
+      "value": "~100 employees (2026)"
     }
   ],
   "rounds": [

@@ -7,7 +7,7 @@
   "website": "https://amilabs.xyz/",
   "websiteLabel": "amilabs.xyz",
   "shortSummary": "Advanced Machine Intelligence Labs is Yann LeCun's world-model company, founded after he left Meta's chief AI scientist role in late 2025. It builds on his JEPA framework instead of language-first models, on scientific credibility alone, with no product shipped.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Nov 2025"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "Paris (NY, Montreal, Singapore)"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$3.5B pre-money"
-    },
-    {
-      "label": "Team",
-      "value": "~12 at announcement"
-    }
-  ],
-  "facts": [
     {
       "label": "Founder / Chairman",
       "value": "Yann LeCun (Turing Award 2018; ex-Meta Chief AI Scientist)"
@@ -37,6 +27,14 @@
     {
       "label": "Sector",
       "value": "World models / JEPA / embodied & physical AI research"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$3.5B pre-money"
+    },
+    {
+      "label": "Team",
+      "value": "~12 at announcement"
     }
   ],
   "rounds": [

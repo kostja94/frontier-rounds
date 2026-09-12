@@ -7,7 +7,7 @@
   "website": "https://ssi.inc/",
   "websiteLabel": "ssi.inc",
   "shortSummary": "Safe Superintelligence Inc. is Ilya Sutskever's Israeli-American lab pursuing superintelligence with no products and no commercial roadmap.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Jun 2024"
@@ -15,6 +15,18 @@
     {
       "label": "Headquarters",
       "value": "Palo Alto + Tel Aviv"
+    },
+    {
+      "label": "Founders",
+      "value": "Ilya Sutskever (CEO); Daniel Gross (departed Jul 2025); Daniel Levy (President)"
+    },
+    {
+      "label": "Sector",
+      "value": "Safe superintelligence research (pre-product, pre-revenue)"
+    },
+    {
+      "label": "Mission",
+      "value": "'World's first straight-shot SSI lab'"
     },
     {
       "label": "Latest valuation",
@@ -27,20 +39,6 @@
     {
       "label": "Largest round",
       "value": "US$5B (Nvidia)"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Founders",
-      "value": "Ilya Sutskever (CEO); Daniel Gross (departed Jul 2025); Daniel Levy (President)"
-    },
-    {
-      "label": "Sector",
-      "value": "Safe superintelligence research (pre-product, pre-revenue)"
-    },
-    {
-      "label": "Mission",
-      "value": "'World's first straight-shot SSI lab'"
     }
   ],
   "rounds": [

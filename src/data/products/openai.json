@@ -7,7 +7,7 @@
   "website": "https://openai.com/",
   "websiteLabel": "openai.com",
   "shortSummary": "OpenAI is the lab behind ChatGPT, GPT and Sora, and the most heavily funded private company in history.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Dec 2015"
@@ -16,20 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco, CA"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$852B (Mar 2026)"
-    },
-    {
-      "label": "Revenue",
-      "value": "~US$2B/month"
-    },
-    {
-      "label": "Status",
-      "value": "Preparing IPO"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Sam Altman, Elon Musk (departed), Greg Brockman, Ilya Sutskever (departed), Wojciech Zaremba, John Schulman et al."
@@ -44,7 +30,15 @@
     },
     {
       "label": "Status",
-      "value": "Preparing IPO (confidential filing expected 2026)"
+      "value": "Preparing IPO"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$852B (Mar 2026)"
+    },
+    {
+      "label": "Revenue",
+      "value": "~US$2B/month"
     }
   ],
   "rounds": [

@@ -28,8 +28,7 @@ export const productProfileSchema = z.object({
   website: z.string(),
   websiteLabel: z.string(),
   shortSummary: z.string(),
-  // 卡片快照（短值 stat，对齐 investor facts 语义）；facts 为长句详情下沉渲染
-  stats: z.array(z.object({ label: z.string(), value: z.string() })),
+  // 单一 Company Profile 卡：坐标 + 关键数字 + 定性，对齐 investor facts 语义
   facts: z.array(z.object({ label: z.string(), value: z.string() })),
   rounds: z.array(companyRoundSchema),
   // 叙述性章节：公司故事/产品/增长/竞争/风险等，页面正文与 md 转录共用

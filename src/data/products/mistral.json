@@ -7,7 +7,7 @@
   "website": "https://mistral.ai/",
   "websiteLabel": "mistral.ai",
   "shortSummary": "Mistral AI is the Paris lab building open-weight frontier models and, increasingly, the European compute they run on, founded in 2023 by DeepMind and Meta alumni.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "May 2023"
@@ -16,20 +16,6 @@
       "label": "Headquarters",
       "value": "Paris, France"
     },
-    {
-      "label": "Latest valuation",
-      "value": ">€21B (Series D)"
-    },
-    {
-      "label": "ARR",
-      "value": "Tracking to >$1B (2026)"
-    },
-    {
-      "label": "Customers",
-      "value": "125+ enterprises"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Arthur Mensch (CEO); Guillaume Lample; Timothée Lacroix"
@@ -45,6 +31,18 @@
     {
       "label": "Position",
       "value": "Largest equity fundraise ever by a European private tech company"
+    },
+    {
+      "label": "Latest valuation",
+      "value": ">€21B (Series D)"
+    },
+    {
+      "label": "Customers",
+      "value": "125+ enterprises"
+    },
+    {
+      "label": "ARR",
+      "value": "Tracking to >$1B (2026)"
     }
   ],
   "rounds": [

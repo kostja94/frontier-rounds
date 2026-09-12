@@ -7,7 +7,7 @@
   "website": "https://www.worldlabs.ai/",
   "websiteLabel": "worldlabs.ai",
   "shortSummary": "World Labs is Fei-Fei Li's spatial-intelligence company building 'large world models' that perceive, generate and interact with 3D space. It has unveiled the Atlas 'omni' world model.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2024"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco, CA"
     },
-    {
-      "label": "Latest valuation",
-      "value": "~US$5B (reported)"
-    },
-    {
-      "label": "Team",
-      "value": "~60–70 (mid-2026)"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Fei-Fei Li (CEO); Justin Johnson; Ben Mildenhall; Christoph Lassner"
@@ -37,6 +27,14 @@
     {
       "label": "Products",
       "value": "Marble (Nov 2025); World API (Jan 2026); Spark; Atlas (Sep 2026); SceniX (acquired Jul 2026)"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$5B (reported)"
+    },
+    {
+      "label": "Team",
+      "value": "~60–70 (mid-2026)"
     }
   ],
   "rounds": [

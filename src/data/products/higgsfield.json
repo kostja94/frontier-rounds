@@ -7,7 +7,7 @@
   "website": "https://higgsfield.ai/",
   "websiteLabel": "higgsfield.ai",
   "shortSummary": "Higgsfield is the San Francisco AI video platform founded by Alex Mashrabov, Snap's former head of generative AI, building cinematic 'click-to-video' tools for the attention economy.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "October 2023"
@@ -15,6 +15,18 @@
     {
       "label": "Headquarters",
       "value": "San Francisco"
+    },
+    {
+      "label": "Founders",
+      "value": "Alex Mashrabov (CEO); Yerzat Dulat (CTO); Mahi de Silva (co-founder)"
+    },
+    {
+      "label": "Sector",
+      "value": "AI video & image generation (browser-based platform)"
+    },
+    {
+      "label": "Flagship products",
+      "value": "Diffuse (early app); Soul 2.0 (image); Keyframes (storyboards); Cinema Studio; Marketing Studio"
     },
     {
       "label": "Latest valuation",
@@ -27,20 +39,6 @@
     {
       "label": "Run-rate",
       "value": "US$700M annualized"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Founders",
-      "value": "Alex Mashrabov (CEO); Yerzat Dulat (CTO); Mahi de Silva (co-founder)"
-    },
-    {
-      "label": "Sector",
-      "value": "AI video & image generation (browser-based platform)"
-    },
-    {
-      "label": "Flagship products",
-      "value": "Diffuse (early app); Soul 2.0 (image); Keyframes (storyboards); Cinema Studio; Marketing Studio"
     }
   ],
   "rounds": [

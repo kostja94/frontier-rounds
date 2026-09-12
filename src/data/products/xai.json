@@ -7,7 +7,7 @@
   "website": "https://x.ai/",
   "websiteLabel": "x.ai",
   "shortSummary": "xAI is Elon Musk's frontier lab behind the Grok model family and the Colossus supercomputer, founded in 2023.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "Mar 2023"
@@ -16,20 +16,6 @@
       "label": "Headquarters",
       "value": "Palo Alto / SF Bay Area"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$230B (Series E)"
-    },
-    {
-      "label": "Outcome",
-      "value": "Acquired by SpaceX (US$250B)"
-    },
-    {
-      "label": "Largest round",
-      "value": "US$20B Series E"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Elon Musk + 11 AI researchers (incl. Igor Babuschkin, departed)"
@@ -44,7 +30,15 @@
     },
     {
       "label": "Outcome",
-      "value": "Acquired by SpaceX for US$250B all-stock (Feb 2026); combined ~US$1.75T after SpaceX IPO (Jun 2026)"
+      "value": "Acquired by SpaceX (US$250B)"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$230B (Series E)"
+    },
+    {
+      "label": "Largest round",
+      "value": "US$20B Series E"
     }
   ],
   "rounds": [

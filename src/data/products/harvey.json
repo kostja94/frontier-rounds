@@ -7,7 +7,7 @@
   "website": "https://www.harvey.ai/",
   "websiteLabel": "harvey.ai",
   "shortSummary": "Harvey is the San Francisco AI platform for legal and professional services, founded in 2022 and now the most valuable and best-funded company in legal AI. It trains its own open-weight legal models.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2022"
@@ -16,16 +16,6 @@
       "label": "Headquarters",
       "value": "San Francisco, CA"
     },
-    {
-      "label": "Latest valuation",
-      "value": "~US$15.6B"
-    },
-    {
-      "label": "Customers",
-      "value": "80% of top US law firms"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Winston Weinberg (ex-O'Melveny & Myers); Gabriel Pereyra (ex-DeepMind / Google Brain / Meta AI)"
@@ -41,6 +31,14 @@
     {
       "label": "Status",
       "value": "Private; four acquisitions in 2026 incl. Guardrails AI"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$15.6B"
+    },
+    {
+      "label": "Customers",
+      "value": "80% of top US law firms"
     }
   ],
   "rounds": [

@@ -7,7 +7,7 @@
   "website": "https://scale.ai/",
   "websiteLabel": "scale.ai",
   "shortSummary": "Scale AI is the San Francisco data infrastructure company behind the AI boom's labeling and evaluation layer, founded in 2016 by Alexandr Wang and Lucy Guo.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2016"
@@ -15,6 +15,18 @@
     {
       "label": "Headquarters",
       "value": "San Francisco, CA"
+    },
+    {
+      "label": "Founders",
+      "value": "Alexandr Wang; Lucy Guo"
+    },
+    {
+      "label": "Sector",
+      "value": "AI data infrastructure (labeling, model evaluation, software)"
+    },
+    {
+      "label": "Status",
+      "value": "Independent (Meta has no voting control); CEO Jason Droege (interim)"
     },
     {
       "label": "Latest valuation",
@@ -27,20 +39,6 @@
     {
       "label": "Meta stake",
       "value": "~49% non-voting"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Founders",
-      "value": "Alexandr Wang; Lucy Guo"
-    },
-    {
-      "label": "Sector",
-      "value": "AI data infrastructure (labeling, model evaluation, software)"
-    },
-    {
-      "label": "Status",
-      "value": "Independent (Meta has no voting control); CEO Jason Droege (interim)"
     }
   ],
   "rounds": [

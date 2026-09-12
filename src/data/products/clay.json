@@ -7,7 +7,7 @@
   "website": "https://www.clay.com/",
   "websiteLabel": "clay.com",
   "shortSummary": "Clay is the New York AI platform for sales and marketing teams that created the 'GTM engineering' category, combining prospect data, AI research agents and automated growth workflows.",
-  "stats": [
+  "facts": [
     {
       "label": "Founded",
       "value": "2017"
@@ -16,20 +16,6 @@
       "label": "Headquarters",
       "value": "New York, NY"
     },
-    {
-      "label": "Latest valuation",
-      "value": "US$7B pre-money (reported)"
-    },
-    {
-      "label": "ARR",
-      "value": "~US$100M (Dec 2025)"
-    },
-    {
-      "label": "Customers",
-      "value": "10,000+"
-    }
-  ],
-  "facts": [
     {
       "label": "Founders",
       "value": "Kareem Amin (CEO); Nicolae Rusan; Varun Anand (COO, joined 2021)"
@@ -41,6 +27,18 @@
     {
       "label": "Product",
       "value": "Claygent AI agents, Sculptor workflow builder, 150+ premium data sources, CRM enrichment"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$7B pre-money (reported)"
+    },
+    {
+      "label": "Customers",
+      "value": "10,000+"
+    },
+    {
+      "label": "ARR",
+      "value": "~US$100M (Dec 2025)"
     }
   ],
   "rounds": [
