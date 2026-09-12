@@ -8,6 +8,28 @@
   "websiteLabel": "higgsfield.ai",
   "shortSummary": "Higgsfield is the San Francisco AI video platform founded by Alex Mashrabov, Snap's former head of generative AI. It went from an US$8M seed to a US$400M Series B at US$5.4B led by DST Global in under three years, reaching US$700M annualized revenue and 30M+ users as Kazakhstan's first unicorn.",
   "summary": "Higgsfield is the San Francisco-based AI video and image generation platform founded in October 2023 by Alex Mashrabov — Snap's former Head of Generative AI, who earlier co-founded AI Factory (acquired by Snap for US$166M in 2020) — alongside CTO Yerzat Dulat and co-founder Mahi de Silva. It launched a browser-based 'click-to-video' platform in March 2025 and became Kazakhstan's first unicorn just five months later. It raised an US$8M Menlo Ventures-led seed (April 2024), a US$50M Series A led by GFT Ventures (September 2025, ~US$1B), an US$80M Series A extension with Accel and AI Capital Partners (January 2026, US$1.3B), and — announced 17 August 2026 — a US$400M Series B led by DST Global at a US$5.4B valuation, more than quadrupling its January price in eight months. By the Series B the company reported US$700M in annualized revenue and 30 million users across 200 countries, driven by agentic products that automate multi-scene production.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "October 2023"
+    },
+    {
+      "label": "Headquarters",
+      "value": "San Francisco"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$5.4B (Series B)"
+    },
+    {
+      "label": "Users",
+      "value": "30M+ across 200 countries"
+    },
+    {
+      "label": "Run-rate",
+      "value": "US$700M annualized"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "October 2023 (San Francisco)" },
     { "label": "Headquarters", "value": "San Francisco" },

@@ -184,6 +184,7 @@ const productSchema = z.object({
   websiteLabel: z.string(),
   shortSummary: z.string().min(1),
   summary: z.string().min(10),
+  stats: z.array(z.object({ label: z.string().min(1), value: z.string().min(1) })).min(1),
   facts: z.array(z.object({ label: z.string(), value: z.string() })).min(1),
   rounds: z
     .array(

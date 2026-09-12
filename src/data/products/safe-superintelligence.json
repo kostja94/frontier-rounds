@@ -8,6 +8,28 @@
   "websiteLabel": "ssi.inc",
   "shortSummary": "Safe Superintelligence Inc. is Ilya Sutskever's Israeli-American lab pursuing superintelligence with no products and no commercial roadmap. Despite shipping nothing, it raised ~US$8B at a ~US$32B valuation, including a US$5B Nvidia strategic investment in July 2026.",
   "summary": "Safe Superintelligence Inc. (SSI) is an Israeli-American AI company founded in June 2024 by Ilya Sutskever (OpenAI's former chief scientist), Daniel Gross (former head of Apple's AI efforts) and Daniel Levy, operating from Palo Alto and Tel Aviv. It calls itself the world's 'first straight-shot SSI lab' — no products, no commercial roadmap, only the goal of safely building superintelligence, insulated from short-term commercial pressure. Despite shipping nothing, it raised US$1B at a US$5B valuation (September 2024), US$2B at US$32B (April 2025, led by Greenoaks with Alphabet and Nvidia joining) and a US$5B Nvidia strategic investment (July 2026) that scaled its compute 'by an order of magnitude' — roughly US$8B cumulative at a ~US$32B valuation with no revenue. Sutskever took over as CEO when co-founder Daniel Gross left in July 2025; Daniel Levy became president.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "Jun 2024"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Palo Alto + Tel Aviv"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$32B"
+    },
+    {
+      "label": "Revenue",
+      "value": "None (pre-revenue)"
+    },
+    {
+      "label": "Largest round",
+      "value": "US$5B (Nvidia)"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "June 2024" },
     { "label": "Headquarters", "value": "Palo Alto, California + Tel Aviv, Israel" },

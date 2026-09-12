@@ -8,6 +8,24 @@
   "websiteLabel": "ineffable.ai",
   "shortSummary": "Ineffable Intelligence is David Silver's London frontier lab pursuing a deliberately non-LLM 'superlearner' that learns from experience rather than human data. It exited stealth in April 2026 with a US$1.1B seed at ≈US$5.1B — the largest seed in European history — led by Sequoia and Lightspeed, with no product or revenue yet.",
   "summary": "Ineffable Intelligence is a London-based frontier AI lab founded by David Silver, the former head of reinforcement learning at Google DeepMind and principal architect of the AlphaGo / AlphaZero / MuZero line. Registered in November 2025 (Silver became a director and formally left DeepMind in January 2026), the company exited stealth on 27 April 2026 with a US$1.1B (≈€937M) seed round at a ≈US$5.1B post-money valuation — the largest seed round in European history — led by Sequoia Capital and Lightspeed, with NVIDIA and Google inside the cap table. The lab is pursuing a deliberately non-LLM thesis: a 'superlearner' that learns continuously from the consequences of its own actions in simulated worlds rather than from human data — the research program Silver outlined with Richard Sutton in their 2025 essay 'Welcome to the Era of Experience.' It has no product, model or revenue as of September 2026; public progress so far consists of compute partnerships with NVIDIA and Google Cloud and the elevation of six senior hires to co-founder in September 2026.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "Nov 2025"
+    },
+    {
+      "label": "Headquarters",
+      "value": "London, UK"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "≈US$5.1B post-money"
+    },
+    {
+      "label": "Team",
+      "value": "~10–20 employees"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "Registered Nov 2025; Silver joined as director Jan 2026 (exited stealth Apr 2026)" },
     { "label": "Headquarters", "value": "London, United Kingdom" },

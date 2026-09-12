@@ -8,6 +8,24 @@
   "websiteLabel": "worldlabs.ai",
   "shortSummary": "World Labs is Fei-Fei Li's spatial-intelligence company building 'large world models' that perceive, generate and interact with 3D space. It exited stealth with a US$230M seed, raised a US$1B round anchored by Autodesk in February 2026, and unveiled the Atlas 'omni' world model in September 2026.",
   "summary": "World Labs is the San Francisco-based spatial intelligence company founded in early 2024 by Fei-Fei Li — the 'godmother of AI,' creator of ImageNet and co-director of Stanford HAI — with Justin Johnson, Ben Mildenhall and Christoph Lassner. Its mission is to build 'large world models' that perceive, generate and interact with 3D space, which Li argues is as fundamental to intelligence as language. World Labs exited stealth on 13 September 2024 with US$230M in seed funding (two 2024 tranches reported to value it above US$1B) — one of the largest AI first rounds at the time, co-led by a16z, NEA and Radical Ventures. After shipping Marble (its 3D-world generation product, Nov 2025) and a World API (Jan 2026), it raised a US$1B round in February 2026 anchored by a US$200M Autodesk strategic investment, with NVIDIA and AMD among the backers — the reported ~US$5B valuation was never confirmed. In July 2026 it acquired SceniX to enter robotics simulation, and in September 2026 unveiled Atlas, an 'omni' world model.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "2024"
+    },
+    {
+      "label": "Headquarters",
+      "value": "San Francisco, CA"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$5B (reported)"
+    },
+    {
+      "label": "Team",
+      "value": "~60–70 (mid-2026)"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "2024 (reported April)" },
     { "label": "Headquarters", "value": "San Francisco, California" },

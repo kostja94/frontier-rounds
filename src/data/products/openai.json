@@ -8,6 +8,28 @@
   "websiteLabel": "openai.com",
   "shortSummary": "OpenAI is the lab behind ChatGPT, GPT and Sora, and the most heavily funded private company in history. Its funding arc runs from a US$1B Microsoft partnership to a record US$122B close at an US$852B valuation in March 2026, with ~US$2B in monthly revenue and 900M+ weekly ChatGPT users.",
   "summary": "OpenAI is the San Francisco research-and-deployment lab behind ChatGPT, GPT and Sora, founded in December 2015 as a nonprofit and restructured around a capped-profit subsidiary in 2019. Its funding arc defines the AI era: a US$1B Microsoft partnership in 2019, a US$10B Microsoft commitment at a ~US$29B valuation in January 2023, a US$6.6B round at US$157B in October 2024, a US$40B round at US$300B in March 2025 (then the largest private tech deal ever), and a record US$122B close at an US$852B post-money valuation in March 2026 — anchored by Amazon (up to US$50B), Nvidia (US$30B) and SoftBank (US$30B). OpenAI generates about US$2B in monthly revenue (2026), serves 900M+ weekly ChatGPT users, and is preparing a public listing. Cumulative funding is roughly US$142B on Frontier Rounds' conservative disclosed basis; third-party trackers that include credit facilities and rumored rounds put the figure at US$180–197B.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "Dec 2015"
+    },
+    {
+      "label": "Headquarters",
+      "value": "San Francisco, CA"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "US$852B (Mar 2026)"
+    },
+    {
+      "label": "Revenue",
+      "value": "~US$2B/month"
+    },
+    {
+      "label": "Status",
+      "value": "Preparing IPO"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "December 2015 (nonprofit); capped-profit LP 2019; PBC October 2025" },
     { "label": "Headquarters", "value": "San Francisco, California" },

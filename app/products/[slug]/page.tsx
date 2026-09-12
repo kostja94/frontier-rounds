@@ -182,18 +182,18 @@ export default async function ProductProfilePage({ params }: Props) {
                 )}
                 <dl className="grid grid-cols-2 divide-x divide-y divide-rule">
                   {[
-                    ...profile.facts,
+                    ...profile.stats,
                     { label: "Rounds recorded", value: String(profile.rounds.length) },
                     {
                       label: "Total raised",
                       value: formatUsdCompact(totalRaised),
                     },
-                  ].map((fact) => (
-                    <div key={fact.label} className="px-5 py-4 md:px-6 md:py-5">
+                  ].map((stat) => (
+                    <div key={stat.label} className="px-5 py-4 md:px-6 md:py-5">
                       <dt className="eyebrow">
-                        {fact.label}
+                        {stat.label}
                       </dt>
-                      <dd className="mt-1.5 text-sm leading-snug text-ink">{fact.value}</dd>
+                      <dd className="mt-1.5 text-sm leading-snug text-ink">{stat.value}</dd>
                     </div>
                   ))}
                 </dl>
@@ -221,6 +221,25 @@ export default async function ProductProfilePage({ params }: Props) {
             <p className="mt-5 max-w-prose text-base leading-relaxed text-foreground">
               {profile.summary}
             </p>
+          </div>
+        </section>
+
+        {/* Company profile（facts 详情下沉） */}
+        <section className="border-b border-ink">
+          <div className="page-shell-md">
+            <h2 className="display-lg text-ink">
+              Company Profile
+            </h2>
+            <dl className="mt-8 grid gap-px border border-ink bg-rule md:grid-cols-2">
+              {profile.facts.map((fact) => (
+                <div key={fact.label} className="bg-background px-6 py-5 md:px-7 md:py-6">
+                  <dt className="eyebrow">
+                    {fact.label}
+                  </dt>
+                  <dd className="mt-2 text-sm leading-relaxed text-ink">{fact.value}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
         </section>
 

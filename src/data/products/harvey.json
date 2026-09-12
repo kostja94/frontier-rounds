@@ -8,6 +8,24 @@
   "websiteLabel": "harvey.ai",
   "shortSummary": "Harvey is the San Francisco AI platform for legal and professional services, founded in 2022 and now the most valuable and best-funded company in legal AI. It has raised more than US$1.5B — most recently a US$550M round at ~US$15.6B co-led by Lightspeed and Diffusion in September 2026 — and trains its own open-weight legal models.",
   "summary": "Harvey is the San Francisco-based AI platform for legal and professional services, founded in 2022 by former securities litigator Winston Weinberg and DeepMind/Google Brain alum Gabriel Pereyra. It built an AI 'copilot' for lawyers on top of frontier models, then began training its own legal-specific models — launching its first open-weight legal model, Harvey Tenet (built from Moonshot's Kimi K3 base), in 2026. Its funding arc tracks the legal-AI category: ~US$5M seed backed by OpenAI (2022), a US$21M Series A led by Sequoia (2023), US$80M at US$715M (late 2023), US$100M at US$1.5B led by GV (July 2024), a US$300M round at US$5B (mid-2025), US$200M at US$11B led by GIC/Sequoia/Kleiner Perkins (March 2026), and — announced 9 September 2026 — a US$550M round at ~US$15.6B co-led by Lightspeed and the new firm Diffusion, alongside the acquisition of AI-agent-security startup Guardrails AI (its fourth acquisition of the year). Harvey has now raised more than US$1.5B, making it the most valuable and best-funded company in legal AI.",
+  "stats": [
+    {
+      "label": "Founded",
+      "value": "2022"
+    },
+    {
+      "label": "Headquarters",
+      "value": "San Francisco, CA"
+    },
+    {
+      "label": "Latest valuation",
+      "value": "~US$15.6B"
+    },
+    {
+      "label": "Customers",
+      "value": "80% of top US law firms"
+    }
+  ],
   "facts": [
     { "label": "Founded", "value": "2022" },
     { "label": "Headquarters", "value": "San Francisco, California" },
