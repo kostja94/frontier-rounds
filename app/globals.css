@@ -88,15 +88,15 @@
   --container-main: 72rem;
   --container-prose: 48rem;
 
-  /* 间距语义档(section 垂直节奏)—— 4px 动态 scale 上的命名档 */
+  /* 间距语义档(section 垂直节奏)—— 单一来源 */
   --section-y: 3.5rem;    /* hero/主要 section,桌面 py-14 */
   --section-y-md: 3rem;   /* 次要 section,桌面 py-12 */
   --section-y-sm: 2.5rem; /* 紧凑 section,py-10 */
 
-  /* spacing 命名档 —— 生成 py-section / py-section-md / py-section-sm 工具类 */
-  --spacing-section: 3.5rem;
-  --spacing-section-md: 3rem;
-  --spacing-section-sm: 2.5rem;
+  /* spacing 命名档 —— 引用 --section-y 单一来源,生成 py-section / py-section-md / py-section-sm 工具类 */
+  --spacing-section: var(--section-y);
+  --spacing-section-md: var(--section-y-md);
+  --spacing-section-sm: var(--section-y-sm);
 
   /* 动效 duration(语义档) */
   --duration-fast: 150ms;
