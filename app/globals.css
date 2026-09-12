@@ -4,6 +4,21 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
+ * 动效档映射(motion 语义档 ↔ 数值档)说明:
+ * ─────────────────────────────────────────────
+ *   语义档(@theme 内定义)                     ≈  Tailwind 数值档
+ *   --duration-fast: 150ms                 ≈  duration-150
+ *   --duration-medium: 300ms               ≈  duration-300
+ *   --duration-slow: 600ms                 (无默认档,介于 duration-500/700)
+ *   --ease-enter: cubic-bezier(0,0,0.2,1)     ≈  ease-out(decelerate)
+ *   --ease-exit: cubic-bezier(0.4,0,1,1)      ≈  ease-in(accelerate)
+ *   --ease-standard: cubic-bezier(0.4,0,0.2,1) ≈  ease-in-out
+ *
+ * ui 组件(shadcn)内部仍用数值档(duration-200/300/500、ease-linear、ease-in-out),
+ * 语义档用于站点级动画(animate-fade-up 等)。两者等价对齐,互不改写。
+ */
+
+/*
  * Design system definition.
  *
  * The @theme inline block maps CSS custom properties to Tailwind utility
@@ -77,6 +92,11 @@
   --section-y: 3.5rem;    /* hero/主要 section,桌面 py-14 */
   --section-y-md: 3rem;   /* 次要 section,桌面 py-12 */
   --section-y-sm: 2.5rem; /* 紧凑 section,py-10 */
+
+  /* spacing 命名档 —— 生成 py-section / py-section-md / py-section-sm 工具类 */
+  --spacing-section: 3.5rem;
+  --spacing-section-md: 3rem;
+  --spacing-section-sm: 2.5rem;
 
   /* 动效 duration(语义档) */
   --duration-fast: 150ms;
@@ -271,17 +291,17 @@
 
   /* 页面容器 —— 三档 section 垂直节奏(间距语义见 @theme --section-y-*) */
   .page-shell {
-    @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-14;
+    @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-section;
   }
 
-  /* 页面容器(次要 section)—— 收敛 mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12 */
+  /* 页面容器(次要 section)—— 收敛 mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-section-md */
   .page-shell-md {
-    @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-12;
+    @apply mx-auto max-w-6xl px-5 py-10 md:px-10 md:py-section-md;
   }
 
-  /* 页面容器(紧凑)—— 收敛 mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-10 */
+  /* 页面容器(紧凑)—— 收敛 mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-section-sm */
   .page-shell-sm {
-    @apply mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-10;
+    @apply mx-auto max-w-6xl px-5 py-8 md:px-10 md:py-section-sm;
   }
 
   /* 反白徽标 —— 收敛 border border-ink bg-ink px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.14em] text-background */
