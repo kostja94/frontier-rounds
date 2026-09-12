@@ -29,7 +29,7 @@ npm run cf-typegen # 重新生成 cloudflare-env.d.ts
 ## 目录约定
 
 - `app/` — App Router 页面、metadata、sitemap/robots（页面壳）
-- `src/components/` — 业务组件（shadcn/ui 系在 `src/components/ui`）
+- `src/components/` — 业务组件（页面区块与通用 UI 片段；无 shadcn/ui 依赖）
 - `src/data/` — 内容数据（硬编码 TS；后续内容 CMS 化时从 data 抽离）
 - `src/lib/` — 工具与站点常量（`site.ts` 集中 SITE_URL/品牌文案）
 - `public/logos|portraits` — 图片资产（来自 Lovable 云回填，勿手动改名，引用路径以 data 内字符串为准）
