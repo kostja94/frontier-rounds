@@ -17,6 +17,7 @@ import worldLabs from "./world-labs.json";
 import harvey from "./harvey.json";
 import clay from "./clay.json";
 import cognition from "./cognition.json";
+import higgsfield from "./higgsfield.json";
 
 const rawProducts = [
   lovable,
@@ -34,6 +35,7 @@ const rawProducts = [
   harvey,
   clay,
   cognition,
+  higgsfield,
 ];
 
 export const productProfiles = rawProducts.map((p) => productProfileSchema.parse(p));

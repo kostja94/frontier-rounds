@@ -572,5 +572,35 @@
     "source": "Reuters",
     "sourceUrl": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
     "tier": "Disclosed"
+  },
+  {
+    "id": "higgsfield",
+    "name": "Higgsfield",
+    "logo": "/logos/higgsfield.png",
+    "country": "United States",
+    "sector": "AI Video Generation",
+    "totalRaisedUsd": 538000000,
+    "largestRoundUsd": 400000000,
+    "roundLabel": "Series B",
+    "date": "2026-08-17",
+    "valuation": 5400000000,
+    "leads": [
+      {
+        "name": "DST Global"
+      },
+      {
+        "name": "Menlo Ventures",
+        "slug": "menlo-ventures"
+      },
+      {
+        "name": "Accel"
+      },
+      {
+        "name": "GFT Ventures"
+      }
+    ],
+    "source": "PR Newswire",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html",
+    "tier": "Disclosed"
   }
 ]
